@@ -2,6 +2,8 @@ package com.example.quibio_detation
 
 import android.Manifest
 import android.content.pm.PackageManager
+import android.graphics.Bitmap
+import android.graphics.Matrix
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -22,6 +24,7 @@ import com.example.quibio_detation.data.LocalEquipmentInfoProvider
 import com.example.quibio_detation.data.OpenAIRepository
 import com.example.quibio_detation.databinding.ActivityMainBinding
 import com.example.quibio_detation.ml.ClassifierProvider
+import com.example.quibio_detation.ml.ObjectLocator
 import com.example.quibio_detation.util.Constants
 import com.example.quibio_detation.viewmodel.ChatUiState
 import com.example.quibio_detation.viewmodel.MainViewModel
@@ -55,10 +58,11 @@ class MainActivity : AppCompatActivity() {
         // El clasificador usa el modelo TFLite real si existe en assets/,
         // o el clasificador de prueba (Mock) si todavía no fue agregado.
         val classifier = ClassifierProvider.create(applicationContext)
+        val objectLocator = ObjectLocator()
         val repository = OpenAIRepository(LocalEquipmentInfoProvider(applicationContext))
         viewModel = ViewModelProvider(
             this,
-            MainViewModel.Factory(classifier, repository)
+            MainViewModel.Factory(classifier, objectLocator, repository)
         )[MainViewModel::class.java]
 
         cameraExecutor = Executors.newSingleThreadExecutor()
@@ -99,7 +103,17 @@ class MainActivity : AppCompatActivity() {
                             lastAnalysisTimestamp = now
                             try {
                                 val bitmap = imageProxy.toBitmap()
-                                viewModel.onFrameClassified(bitmap)
+                                // Se rota el bitmap para que quede "derecho" (igual a como se ve
+                                // en el preview); así la caja que devuelve ObjectLocator queda en
+                                // el mismo sistema de coordenadas que se dibuja en el overlay.
+                                val rotation = imageProxy.imageInfo.rotationDegrees
+                                val orientedBitmap = if (rotation != 0) {
+                                    val matrix = Matrix().apply { postRotate(rotation.toFloat()) }
+                                    Bitmap.createBitmap(bitmap, 0, 0, bitmap.width, bitmap.height, matrix, true)
+                                } else {
+                                    bitmap
+                                }
+                                viewModel.onFrameClassified(orientedBitmap)
                             } catch (e: Exception) {
                                 Log.e(TAG, "Error clasificando frame", e)
                             }
@@ -148,7 +162,13 @@ class MainActivity : AppCompatActivity() {
             )
 
             if (aboveThreshold) {
-                binding.overlayView.showDetection(result.label, result.confidence)
+                binding.overlayView.showDetection(
+                    result.box,
+                    result.imageWidth,
+                    result.imageHeight,
+                    result.label,
+                    result.confidence
+                )
             } else {
                 binding.overlayView.clear()
             }

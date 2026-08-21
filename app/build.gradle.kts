@@ -92,6 +92,9 @@ dependencies {
     // de TensorFlow, no del proyecto.
     implementation(libs.tensorflow.lite.support)
 
+    // ML Kit (localización + tracking de objetos en tiempo real, ver ObjectLocator.kt)
+    implementation(libs.mlkit.objectdetection)
+
     // Retrofit / OkHttp (llamadas HTTP a la API de OpenAI)
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
