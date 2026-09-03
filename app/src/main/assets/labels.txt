@@ -1,16 +1,19 @@
-0 Agitador_Orbital_DLAB
-1 Memmert_Unidad2
-2 Estufa_Memmert
-3 Autoclave
-4 Plancha_Agitacion_Cimarec
-5 Phmetro_Ohaus
-6 Horno_Secado_Biobase
-7 Incubadora
-8 Centrifuga_Ohaus_Frontier
-9 Balanza_Granataria_Ohaus
-10 Microscopio_Binocular
-11 Balanza_Analitica_Ohaus
-12 Camara_Extractora_Biobase
-13 Sistema_Rotaevaporacion
-14 Vortex_Mixer_LabNet
-15 Contador_Colonias_CC1
+Agitador_Orbital_DLAB
+Autoclave
+Balanza_Analitica_Ohaus
+Balanza_Granataria_Ohaus
+Camara_Extractora_Biobase
+Centrifuga_Ohaus_Frontier
+Contador_Colonias_CC1
+Destilador_agua
+Estufa_Memmert
+Horno_Secado_Biobase
+Incubadora
+Memmert_Unidad2
+Microscopio_Binocular
+Microscopio_camara
+Microscopio_estereo
+Phmetro_Ohaus
+Plancha_Agitacion_Cimarec
+Sistema_Rotaevaporacion
+Vortex_Mixer_LabNet

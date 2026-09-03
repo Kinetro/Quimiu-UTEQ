@@ -3,10 +3,16 @@ package com.example.quibio_detation
 import android.Manifest
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
+import android.graphics.Color
 import android.graphics.Matrix
 import android.os.Bundle
 import android.util.Log
+import android.view.Gravity
 import android.view.View
+import android.view.inputmethod.EditorInfo
+import android.widget.Button
+import android.widget.LinearLayout
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
@@ -23,10 +29,9 @@ import androidx.lifecycle.repeatOnLifecycle
 import com.example.quibio_detation.data.LocalEquipmentInfoProvider
 import com.example.quibio_detation.data.OpenAIRepository
 import com.example.quibio_detation.databinding.ActivityMainBinding
-import com.example.quibio_detation.ml.ClassifierProvider
-import com.example.quibio_detation.ml.ObjectLocator
+import com.example.quibio_detation.ml.DetectorProvider
 import com.example.quibio_detation.util.Constants
-import com.example.quibio_detation.viewmodel.ChatUiState
+import com.example.quibio_detation.viewmodel.ChatMessage
 import com.example.quibio_detation.viewmodel.MainViewModel
 import kotlinx.coroutines.launch
 import java.util.concurrent.ExecutorService
@@ -39,6 +44,10 @@ class MainActivity : AppCompatActivity() {
     private lateinit var cameraExecutor: ExecutorService
 
     private var lastAnalysisTimestamp = 0L
+
+    /** Últimas etiquetas usadas para armar los chips; evita reconstruirlos si no cambiaron. */
+    private var lastChipLabels: List<String> = emptyList()
+    private var renderedMessageCount = 0
 
     private val requestPermissionLauncher =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
@@ -55,14 +64,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // El clasificador usa el modelo TFLite real si existe en assets/,
-        // o el clasificador de prueba (Mock) si todavía no fue agregado.
-        val classifier = ClassifierProvider.create(applicationContext)
-        val objectLocator = ObjectLocator()
+        // El detector usa el modelo YOLO real si existe en assets/,
+        // o el detector de prueba (Mock) si todavía no fue agregado.
+        val detector = DetectorProvider.create(applicationContext)
         val repository = OpenAIRepository(LocalEquipmentInfoProvider(applicationContext))
         viewModel = ViewModelProvider(
             this,
-            MainViewModel.Factory(classifier, objectLocator, repository)
+            MainViewModel.Factory(detector, repository)
         )[MainViewModel::class.java]
 
         cameraExecutor = Executors.newSingleThreadExecutor()
@@ -71,8 +79,29 @@ class MainActivity : AppCompatActivity() {
             viewModel.askAboutDetectedEquipment()
         }
 
+        binding.overlayView.onDetectionTapped = { detection ->
+            viewModel.selectDetection(detection)
+        }
+
+        binding.btnSend.setOnClickListener { sendTypedQuestion() }
+        binding.etQuestion.setOnEditorActionListener { _, actionId, _ ->
+            if (actionId == EditorInfo.IME_ACTION_SEND) {
+                sendTypedQuestion()
+                true
+            } else {
+                false
+            }
+        }
+
         observeViewModel()
         requestCameraPermissionAndStart()
+    }
+
+    private fun sendTypedQuestion() {
+        val text = binding.etQuestion.text.toString()
+        if (text.isBlank()) return
+        viewModel.sendUserMessage(text)
+        binding.etQuestion.text?.clear()
     }
 
     private fun requestCameraPermissionAndStart() {
@@ -104,7 +133,7 @@ class MainActivity : AppCompatActivity() {
                             try {
                                 val bitmap = imageProxy.toBitmap()
                                 // Se rota el bitmap para que quede "derecho" (igual a como se ve
-                                // en el preview); así la caja que devuelve ObjectLocator queda en
+                                // en el preview); así las cajas que devuelve YoloDetector quedan en
                                 // el mismo sistema de coordenadas que se dibuja en el overlay.
                                 val rotation = imageProxy.imageInfo.rotationDegrees
                                 val orientedBitmap = if (rotation != 0) {
@@ -113,7 +142,7 @@ class MainActivity : AppCompatActivity() {
                                 } else {
                                     bitmap
                                 }
-                                viewModel.onFrameClassified(orientedBitmap)
+                                viewModel.onFrameAnalyzed(orientedBitmap)
                             } catch (e: Exception) {
                                 Log.e(TAG, "Error clasificando frame", e)
                             }
@@ -139,60 +168,119 @@ class MainActivity : AppCompatActivity() {
     private fun observeViewModel() {
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
-                launch { observeDetection() }
-                launch { observeChatState() }
+                launch { observeFrameDetections() }
+                launch { observeSelectedDetection() }
+                launch { observeChatMessages() }
+                launch { observeIsSending() }
             }
         }
     }
 
-    private suspend fun observeDetection() {
-        viewModel.detection.collect { result ->
-            if (result == null) {
+    /** Dibuja todas las cajas detectadas por YOLO y arma los chips (uno por equipo distinto) para elegir a cuál preguntar. */
+    private suspend fun observeFrameDetections() {
+        viewModel.frameDetections.collect { frame ->
+            val boxes = frame?.boxes.orEmpty()
+
+            if (boxes.isEmpty()) {
                 binding.overlayView.clear()
                 binding.tvDetectionInfo.text = getString(R.string.no_detection)
-                binding.btnAskEquipment.isEnabled = false
-                return@collect
-            }
-
-            val aboveThreshold = result.confidence >= Constants.CONFIDENCE_THRESHOLD
-            binding.tvDetectionInfo.text = getString(
-                R.string.detection_format,
-                result.label,
-                (result.confidence * 100).toInt()
-            )
-
-            if (aboveThreshold) {
-                binding.overlayView.showDetection(
-                    result.box,
-                    result.imageWidth,
-                    result.imageHeight,
-                    result.label,
-                    result.confidence
-                )
             } else {
-                binding.overlayView.clear()
+                binding.overlayView.showDetections(boxes, frame!!.imageWidth, frame.imageHeight)
+                binding.tvDetectionInfo.text = getString(R.string.detections_count_format, boxes.size)
             }
-            binding.btnAskEquipment.isEnabled = aboveThreshold
+
+            rebuildChipsIfNeeded(boxes.map { it.label }.distinct())
+            tintChips(viewModel.selectedDetection.value?.label)
         }
     }
 
-    private suspend fun observeChatState() {
-        viewModel.chatState.collect { state ->
-            when (state) {
-                is ChatUiState.Idle -> binding.progressBar.visibility = View.GONE
-                is ChatUiState.Loading -> {
-                    binding.progressBar.visibility = View.VISIBLE
-                    binding.tvAnswer.text = ""
-                }
-                is ChatUiState.Success -> {
-                    binding.progressBar.visibility = View.GONE
-                    binding.tvAnswer.text = state.answer
-                }
-                is ChatUiState.Error -> {
-                    binding.progressBar.visibility = View.GONE
-                    binding.tvAnswer.text = getString(R.string.error_format, state.message)
+    /** Resalta la caja/chip tocado y habilita el flujo de chat sobre ese equipo. */
+    private suspend fun observeSelectedDetection() {
+        viewModel.selectedDetection.collect { selected ->
+            binding.overlayView.setSelected(selected)
+            tintChips(selected?.label)
+
+            binding.btnAskEquipment.isEnabled = selected != null
+            binding.etQuestion.isEnabled = selected != null
+            binding.btnSend.isEnabled = selected != null
+
+            if (selected != null) {
+                binding.tvDetectionInfo.text = getString(
+                    R.string.detection_format,
+                    selected.label,
+                    (selected.confidence * 100).toInt()
+                )
+            }
+        }
+    }
+
+    private fun rebuildChipsIfNeeded(distinctLabels: List<String>) {
+        if (distinctLabels == lastChipLabels) return
+        lastChipLabels = distinctLabels
+
+        binding.equipmentChipsContainer.removeAllViews()
+        for (label in distinctLabels) {
+            val chip = Button(this).apply {
+                text = label
+                isAllCaps = false
+                tag = label
+                setOnClickListener {
+                    val detection = viewModel.frameDetections.value?.boxes?.firstOrNull { it.label == label }
+                    if (detection != null) viewModel.selectDetection(detection)
                 }
             }
+            binding.equipmentChipsContainer.addView(chip)
+        }
+    }
+
+    private fun tintChips(selectedLabel: String?) {
+        for (i in 0 until binding.equipmentChipsContainer.childCount) {
+            val chip = binding.equipmentChipsContainer.getChildAt(i)
+            val isSelected = chip.tag == selectedLabel
+            chip.setBackgroundColor(Color.parseColor(if (isSelected) "#FFC400" else "#E0E0E0"))
+        }
+    }
+
+    /** Historial del chat: solo agrega las burbujas nuevas (la lista es append-only salvo al cambiar de equipo). */
+    private suspend fun observeChatMessages() {
+        viewModel.chatMessages.collect { messages ->
+            if (messages.size < renderedMessageCount) {
+                // Se limpió el historial (cambio de equipo seleccionado).
+                binding.chatMessagesContainer.removeAllViews()
+                renderedMessageCount = 0
+            }
+            for (i in renderedMessageCount until messages.size) {
+                binding.chatMessagesContainer.addView(createMessageBubble(messages[i]))
+            }
+            renderedMessageCount = messages.size
+
+            binding.chatScrollView.post { binding.chatScrollView.fullScroll(View.FOCUS_DOWN) }
+        }
+    }
+
+    private fun createMessageBubble(message: ChatMessage): TextView {
+        return TextView(this).apply {
+            text = message.text
+            setPadding(24, 16, 24, 16)
+            setTextColor(if (message.isUser) Color.WHITE else Color.BLACK)
+            setBackgroundColor(Color.parseColor(if (message.isUser) "#2196F3" else "#EEEEEE"))
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply {
+                gravity = if (message.isUser) Gravity.END else Gravity.START
+                topMargin = 8
+                bottomMargin = 8
+                if (message.isUser) marginStart = 64 else marginEnd = 64
+            }
+        }
+    }
+
+    private suspend fun observeIsSending() {
+        viewModel.isSending.collect { sending ->
+            binding.progressBar.visibility = if (sending) View.VISIBLE else View.GONE
+            binding.btnSend.isEnabled = !sending && viewModel.selectedDetection.value != null
+            binding.btnAskEquipment.isEnabled = !sending && viewModel.selectedDetection.value != null
         }
     }
 

@@ -9,7 +9,11 @@ import com.google.gson.annotations.SerializedName
 data class ResponsesRequest(
     val model: String,
     val input: String,
-    val tools: List<Tool>? = null
+    val tools: List<Tool>? = null,
+    // Encadena esta pregunta a una respuesta anterior de OpenAI para mantener contexto
+    // de conversación (chat multi-turno) sin tener que reenviar todo el historial.
+    @SerializedName("previous_response_id")
+    val previousResponseId: String? = null
 )
 
 data class Tool(

@@ -83,7 +83,7 @@ dependencies {
     implementation(libs.camera.lifecycle)
     implementation(libs.camera.view)
 
-    // TensorFlow Lite (modelo de clasificación exportado desde Teachable Machine)
+    // TensorFlow Lite (modelo YOLO de detección exportado del entrenamiento propio, ver YoloDetector.kt)
     implementation(libs.tensorflow.lite)
     // NOTA: tensorflow-lite-support y tensorflow-lite-support-api declaran el mismo
     // namespace ("org.tensorflow.lite.support"), lo que choca con la validación estricta
@@ -91,9 +91,6 @@ dependencies {
     // (android.uniquePackageNames=false) porque es un problema conocido del artefacto
     // de TensorFlow, no del proyecto.
     implementation(libs.tensorflow.lite.support)
-
-    // ML Kit (localización + tracking de objetos en tiempo real, ver ObjectLocator.kt)
-    implementation(libs.mlkit.objectdetection)
 
     // Retrofit / OkHttp (llamadas HTTP a la API de OpenAI)
     implementation(libs.retrofit)

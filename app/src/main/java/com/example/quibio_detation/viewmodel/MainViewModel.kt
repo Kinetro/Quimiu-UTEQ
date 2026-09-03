@@ -1,107 +1,125 @@
 package com.example.quibio_detation.viewmodel
 
 import android.graphics.Bitmap
-import android.graphics.Rect
-import android.graphics.RectF
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.example.quibio_detation.data.OpenAIRepository
-import com.example.quibio_detation.ml.EquipmentClassifier
-import com.example.quibio_detation.ml.ObjectLocator
+import com.example.quibio_detation.ml.Detection
+import com.example.quibio_detation.ml.EquipmentDetector
 import com.example.quibio_detation.util.Constants
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import java.io.Closeable
 
-sealed class ChatUiState {
-    data object Idle : ChatUiState()
-    data object Loading : ChatUiState()
-    data class Success(val answer: String) : ChatUiState()
-    data class Error(val message: String) : ChatUiState()
-}
+data class ChatMessage(val isUser: Boolean, val text: String)
 
 /**
- * Detección de un frame: caja real del objeto (en coordenadas de [imageWidth]
- * x [imageHeight], el bitmap ya orientado que se analizó) + etiqueta y
- * confianza del clasificador TFLite sobre el recorte de esa caja.
+ * Todas las detecciones de un frame (el bitmap ya orientado que se analizó),
+ * en coordenadas de [imageWidth] x [imageHeight].
  */
-data class TrackedDetection(
-    val box: RectF,
+data class FrameDetections(
     val imageWidth: Int,
     val imageHeight: Int,
-    val label: String,
-    val confidence: Float
+    val boxes: List<Detection>
 )
 
 class MainViewModel(
-    private val classifier: EquipmentClassifier,
-    private val objectLocator: ObjectLocator,
+    private val detector: EquipmentDetector,
     private val repository: OpenAIRepository
 ) : ViewModel() {
 
-    private val _detection = MutableStateFlow<TrackedDetection?>(null)
-    val detection: StateFlow<TrackedDetection?> = _detection.asStateFlow()
+    private val _frameDetections = MutableStateFlow<FrameDetections?>(null)
+    val frameDetections: StateFlow<FrameDetections?> = _frameDetections.asStateFlow()
 
-    private val _chatState = MutableStateFlow<ChatUiState>(ChatUiState.Idle)
-    val chatState: StateFlow<ChatUiState> = _chatState.asStateFlow()
+    private val _selectedDetection = MutableStateFlow<Detection?>(null)
+    val selectedDetection: StateFlow<Detection?> = _selectedDetection.asStateFlow()
+
+    private val _chatMessages = MutableStateFlow<List<ChatMessage>>(emptyList())
+    val chatMessages: StateFlow<List<ChatMessage>> = _chatMessages.asStateFlow()
+
+    private val _isSending = MutableStateFlow(false)
+    val isSending: StateFlow<Boolean> = _isSending.asStateFlow()
+
+    /** Id de la última respuesta de OpenAI, para encadenar la próxima pregunta en la misma conversación. */
+    private var lastResponseId: String? = null
 
     /**
      * Se llama desde el analyzer de CameraX (ya corre en un hilo de fondo,
-     * ver MainActivity) con cada frame que se decide procesar. Primero ubica
-     * el objeto en el frame (ML Kit) y luego clasifica solo ese recorte.
+     * ver MainActivity) con cada frame que se decide procesar. El detector YOLO
+     * localiza y clasifica todos los objetos del frame en un solo paso.
      */
-    fun onFrameClassified(bitmap: Bitmap) {
-        val box = objectLocator.locate(bitmap)
-        if (box == null || box.width() <= 0 || box.height() <= 0) {
-            _detection.value = null
-            return
+    fun onFrameAnalyzed(bitmap: Bitmap) {
+        val detections = detector.detect(bitmap)
+            .filter { it.confidence >= Constants.CONFIDENCE_THRESHOLD }
+
+        _frameDetections.value = FrameDetections(bitmap.width, bitmap.height, detections)
+
+        // Si la detección seleccionada ya no aparece en este frame, se limpia la selección.
+        val current = _selectedDetection.value
+        if (current != null && detections.none { it.label == current.label }) {
+            _selectedDetection.value = null
         }
-
-        val safeBox = Rect(
-            box.left.coerceIn(0, bitmap.width - 1),
-            box.top.coerceIn(0, bitmap.height - 1),
-            box.right.coerceIn(box.left + 1, bitmap.width),
-            box.bottom.coerceIn(box.top + 1, bitmap.height)
-        )
-        val cropped = Bitmap.createBitmap(bitmap, safeBox.left, safeBox.top, safeBox.width(), safeBox.height())
-        val result = classifier.classify(cropped)
-
-        _detection.value = TrackedDetection(
-            box = RectF(safeBox),
-            imageWidth = bitmap.width,
-            imageHeight = bitmap.height,
-            label = result.label,
-            confidence = result.confidence
-        )
     }
 
+    /** Se llama al tocar una caja del overlay o un chip de la lista de equipos detectados. */
+    fun selectDetection(detection: Detection) {
+        if (_selectedDetection.value?.label != detection.label) {
+            // Cambiar de equipo empieza una conversación nueva.
+            _chatMessages.value = emptyList()
+            lastResponseId = null
+        }
+        _selectedDetection.value = detection
+    }
+
+    /** Botón de acceso rápido: pregunta fija "qué es y para qué sirve este equipo". */
     fun askAboutDetectedEquipment() {
-        val current = _detection.value ?: return
-        if (current.confidence < Constants.CONFIDENCE_THRESHOLD) return
+        val current = _selectedDetection.value ?: return
+        send(current.label, question = null)
+    }
+
+    /** Pregunta libre escrita por el usuario en el chat. */
+    fun sendUserMessage(text: String) {
+        val current = _selectedDetection.value ?: return
+        val trimmed = text.trim()
+        if (trimmed.isEmpty()) return
+        send(current.label, question = trimmed)
+    }
+
+    private fun send(equipmentLabel: String, question: String?) {
+        if (question != null) {
+            _chatMessages.value = _chatMessages.value + ChatMessage(isUser = true, text = question)
+        }
 
         viewModelScope.launch {
-            _chatState.value = ChatUiState.Loading
-            repository.askAboutEquipment(current.label)
-                .onSuccess { answer -> _chatState.value = ChatUiState.Success(answer) }
-                .onFailure { error -> _chatState.value = ChatUiState.Error(error.message ?: "Error desconocido") }
+            _isSending.value = true
+            repository.ask(equipmentLabel, question, lastResponseId)
+                .onSuccess { reply ->
+                    lastResponseId = reply.responseId
+                    _chatMessages.value = _chatMessages.value + ChatMessage(isUser = false, text = reply.text)
+                }
+                .onFailure { error ->
+                    _chatMessages.value = _chatMessages.value +
+                        ChatMessage(isUser = false, text = "Error: ${error.message ?: "desconocido"}")
+                }
+            _isSending.value = false
         }
     }
 
     override fun onCleared() {
         super.onCleared()
-        objectLocator.close()
+        (detector as? Closeable)?.close()
     }
 
     class Factory(
-        private val classifier: EquipmentClassifier,
-        private val objectLocator: ObjectLocator,
+        private val detector: EquipmentDetector,
         private val repository: OpenAIRepository
     ) : ViewModelProvider.Factory {
         @Suppress("UNCHECKED_CAST")
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
-            return MainViewModel(classifier, objectLocator, repository) as T
+            return MainViewModel(detector, repository) as T
         }
     }
 }

@@ -6,15 +6,19 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.RectF
 import android.util.AttributeSet
+import android.view.MotionEvent
 import android.view.View
+import com.example.quibio_detation.ml.Detection
 
 /**
- * Dibuja un recuadro estilo "detección" (similar a YOLO) siguiendo la caja
- * real del objeto localizado en el frame (ver ObjectLocator + MainViewModel),
- * junto con la etiqueta y el porcentaje de confianza del clasificador TFLite.
+ * Dibuja las cajas de detección (estilo YOLO) de todos los objetos localizados
+ * en el frame, con etiqueta + confianza, y permite seleccionar una tocándola:
+ * dispara [onDetectionTapped] con la detección bajo el punto tocado, que el
+ * caller (MainActivity) reenvía a MainViewModel.selectDetection para habilitar
+ * el flujo de "preguntar al chat RAG" sobre ese equipo puntual.
  *
- * [box] llega en coordenadas de píxeles del bitmap analizado ([imageWidth] x
- * [imageHeight]); acá se remapea al tamaño real de esta vista replicando el
+ * Las cajas llegan en coordenadas de píxeles del bitmap analizado ([imageWidth] x
+ * [imageHeight]); acá se remapean al tamaño real de esta vista replicando el
  * escalado FILL_CENTER que usa PreviewView por defecto (la imagen se agranda
  * para llenar la vista, recortando el sobrante, centrada).
  */
@@ -23,6 +27,8 @@ class DetectionOverlayView @JvmOverloads constructor(
     attrs: AttributeSet? = null
 ) : View(context, attrs) {
 
+    var onDetectionTapped: ((Detection) -> Unit)? = null
+
     private val boxPaint = Paint().apply {
         color = Color.parseColor("#00E676")
         style = Paint.Style.STROKE
@@ -30,8 +36,14 @@ class DetectionOverlayView @JvmOverloads constructor(
         isAntiAlias = true
     }
 
+    private val selectedBoxPaint = Paint().apply {
+        color = Color.parseColor("#FFC400")
+        style = Paint.Style.STROKE
+        strokeWidth = 8f
+        isAntiAlias = true
+    }
+
     private val textBackgroundPaint = Paint().apply {
-        color = Color.parseColor("#00E676")
         style = Paint.Style.FILL
         isAntiAlias = true
     }
@@ -43,51 +55,76 @@ class DetectionOverlayView @JvmOverloads constructor(
         isFakeBoldText = true
     }
 
-    private var box: RectF? = null
+    private var boxes: List<Detection> = emptyList()
     private var imageWidth = 0
     private var imageHeight = 0
-    private var label: String? = null
-    private var confidence: Float = 0f
-    private var visible = false
+    private var selected: Detection? = null
 
-    fun showDetection(box: RectF, imageWidth: Int, imageHeight: Int, label: String, confidence: Float) {
-        this.box = box
+    fun showDetections(boxes: List<Detection>, imageWidth: Int, imageHeight: Int) {
+        this.boxes = boxes
         this.imageWidth = imageWidth
         this.imageHeight = imageHeight
-        this.label = label
-        this.confidence = confidence
-        this.visible = true
+        if (boxes.none { it.label == selected?.label }) {
+            selected = null
+        }
+        invalidate()
+    }
+
+    /** Resalta con otro color la detección seleccionada (ver MainViewModel.selectedDetection). */
+    fun setSelected(detection: Detection?) {
+        selected = detection
         invalidate()
     }
 
     fun clear() {
-        visible = false
+        boxes = emptyList()
+        selected = null
         invalidate()
+    }
+
+    private fun imageToViewRect(box: RectF): RectF {
+        val scale = maxOf(width.toFloat() / imageWidth, height.toFloat() / imageHeight)
+        val offsetX = (width - imageWidth * scale) / 2f
+        val offsetY = (height - imageHeight * scale) / 2f
+        return RectF(
+            box.left * scale + offsetX,
+            box.top * scale + offsetY,
+            box.right * scale + offsetX,
+            box.bottom * scale + offsetY
+        )
+    }
+
+    override fun onTouchEvent(event: MotionEvent): Boolean {
+        when (event.action) {
+            MotionEvent.ACTION_DOWN -> return true
+            MotionEvent.ACTION_UP -> {
+                if (imageWidth > 0 && imageHeight > 0) {
+                    val tapped = boxes.firstOrNull { imageToViewRect(it.rect).contains(event.x, event.y) }
+                    if (tapped != null) onDetectionTapped?.invoke(tapped)
+                }
+                return true
+            }
+        }
+        return super.onTouchEvent(event)
     }
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        val currentBox = box
-        val currentLabel = label
-        if (!visible || currentBox == null || currentLabel == null || imageWidth == 0 || imageHeight == 0) return
+        if (boxes.isEmpty() || imageWidth == 0 || imageHeight == 0) return
 
-        val scale = maxOf(width.toFloat() / imageWidth, height.toFloat() / imageHeight)
-        val offsetX = (width - imageWidth * scale) / 2f
-        val offsetY = (height - imageHeight * scale) / 2f
+        for (detection in boxes) {
+            val viewBox = imageToViewRect(detection.rect)
+            val isSelected = detection.label == selected?.label
+            val paint = if (isSelected) selectedBoxPaint else boxPaint
+            canvas.drawRect(viewBox, paint)
 
-        val viewBox = RectF(
-            currentBox.left * scale + offsetX,
-            currentBox.top * scale + offsetY,
-            currentBox.right * scale + offsetX,
-            currentBox.bottom * scale + offsetY
-        )
-        canvas.drawRect(viewBox, boxPaint)
-
-        val text = "$currentLabel  ${(confidence * 100).toInt()}%"
-        val textWidth = textPaint.measureText(text)
-        val labelTop = (viewBox.top - 60f).coerceAtLeast(0f)
-        val labelBackground = RectF(viewBox.left, labelTop, viewBox.left + textWidth + 24f, labelTop + 60f)
-        canvas.drawRect(labelBackground, textBackgroundPaint)
-        canvas.drawText(text, viewBox.left + 12f, labelTop + 44f, textPaint)
+            val text = "${detection.label}  ${(detection.confidence * 100).toInt()}%"
+            val textWidth = textPaint.measureText(text)
+            val labelTop = (viewBox.top - 60f).coerceAtLeast(0f)
+            val labelBackground = RectF(viewBox.left, labelTop, viewBox.left + textWidth + 24f, labelTop + 60f)
+            textBackgroundPaint.color = paint.color
+            canvas.drawRect(labelBackground, textBackgroundPaint)
+            canvas.drawText(text, viewBox.left + 12f, labelTop + 44f, textPaint)
+        }
     }
 }
