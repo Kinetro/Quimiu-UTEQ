@@ -9,8 +9,9 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Gravity
 import android.view.View
+import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
-import android.widget.Button
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
@@ -22,6 +23,9 @@ import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
@@ -29,6 +33,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import com.example.quibio_detation.data.LocalEquipmentInfoProvider
 import com.example.quibio_detation.data.OpenAIRepository
 import com.example.quibio_detation.databinding.ActivityMainBinding
+import com.example.quibio_detation.databinding.ItemEquipmentChipBinding
 import com.example.quibio_detation.ml.DetectorProvider
 import com.example.quibio_detation.util.Constants
 import com.example.quibio_detation.viewmodel.ChatMessage
@@ -64,6 +69,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setupWindowInsets()
+
         // El detector usa el modelo YOLO real si existe en assets/,
         // o el detector de prueba (Mock) si todavía no fue agregado.
         val detector = DetectorProvider.create(applicationContext)
@@ -97,8 +104,36 @@ class MainActivity : AppCompatActivity() {
         requestCameraPermissionAndStart()
     }
 
+    /**
+     * Ajusta los márgenes superiores e inferiores para que el notch de la cámara, la barra
+     * de estado y la barra de navegación del sistema (botones ||| O < o gestos) no tapen
+     * la cabecera ni la barra de entrada de texto.
+     */
+    private fun setupWindowInsets() {
+        ViewCompat.setOnApplyWindowInsetsListener(binding.main) { _, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            val ime = insets.getInsets(WindowInsetsCompat.Type.ime())
+
+            // Desplaza la cabecera debajo de la barra de estado
+            binding.topBar.updateLayoutParams<ViewGroup.MarginLayoutParams> {
+                topMargin = systemBars.top + dpToPx(10)
+            }
+
+            // Eleva el panel inferior para no chocar con la barra de navegación o el teclado
+            val bottomPadding = maxOf(systemBars.bottom, ime.bottom)
+            binding.bottomPanel.setPadding(
+                binding.bottomPanel.paddingLeft,
+                binding.bottomPanel.paddingTop,
+                binding.bottomPanel.paddingRight,
+                bottomPadding + dpToPx(16)
+            )
+
+            insets
+        }
+    }
+
     private fun sendTypedQuestion() {
-        val text = binding.etQuestion.text.toString()
+        val text = binding.etQuestion.text?.toString().orEmpty()
         if (text.isBlank()) return
         viewModel.sendUserMessage(text)
         binding.etQuestion.text?.clear()
@@ -132,9 +167,6 @@ class MainActivity : AppCompatActivity() {
                             lastAnalysisTimestamp = now
                             try {
                                 val bitmap = imageProxy.toBitmap()
-                                // Se rota el bitmap para que quede "derecho" (igual a como se ve
-                                // en el preview); así las cajas que devuelve YoloDetector quedan en
-                                // el mismo sistema de coordenadas que se dibuja en el overlay.
                                 val rotation = imageProxy.imageInfo.rotationDegrees
                                 val orientedBitmap = if (rotation != 0) {
                                     val matrix = Matrix().apply { postRotate(rotation.toFloat()) }
@@ -176,7 +208,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    /** Dibuja todas las cajas detectadas por YOLO y arma los chips (uno por equipo distinto) para elegir a cuál preguntar. */
+    /** Dibuja todas las cajas detectadas por YOLO y arma los chips para elegir a cuál preguntar. */
     private suspend fun observeFrameDetections() {
         viewModel.frameDetections.collect { frame ->
             val boxes = frame?.boxes.orEmpty()
@@ -184,9 +216,17 @@ class MainActivity : AppCompatActivity() {
             if (boxes.isEmpty()) {
                 binding.overlayView.clear()
                 binding.tvDetectionInfo.text = getString(R.string.no_detection)
+                binding.tvDetectionCount.visibility = View.GONE
+                binding.tvScanningHelper.visibility = View.VISIBLE
             } else {
                 binding.overlayView.showDetections(boxes, frame!!.imageWidth, frame.imageHeight)
-                binding.tvDetectionInfo.text = getString(R.string.detections_count_format, boxes.size)
+                binding.tvDetectionCount.text = boxes.size.toString()
+                binding.tvDetectionCount.visibility = View.VISIBLE
+                binding.tvScanningHelper.visibility = View.GONE
+
+                if (viewModel.selectedDetection.value == null) {
+                    binding.tvDetectionInfo.text = getString(R.string.detected_subtitle)
+                }
             }
 
             rebuildChipsIfNeeded(boxes.map { it.label }.distinct())
@@ -200,16 +240,26 @@ class MainActivity : AppCompatActivity() {
             binding.overlayView.setSelected(selected)
             tintChips(selected?.label)
 
-            binding.btnAskEquipment.isEnabled = selected != null
-            binding.etQuestion.isEnabled = selected != null
-            binding.btnSend.isEnabled = selected != null
+            val isSelected = selected != null
+            binding.btnAskEquipment.isEnabled = isSelected
+            binding.btnAskEquipment.alpha = if (isSelected) 1.0f else 0.5f
+            binding.etQuestion.isEnabled = isSelected
+            binding.btnSend.isEnabled = isSelected
+            binding.btnSend.alpha = if (isSelected) 1.0f else 0.4f
 
             if (selected != null) {
                 binding.tvDetectionInfo.text = getString(
                     R.string.detection_format,
-                    selected.label,
+                    formatEquipmentLabel(selected.label),
                     (selected.confidence * 100).toInt()
                 )
+            } else {
+                val hasBoxes = !viewModel.frameDetections.value?.boxes.isNullOrEmpty()
+                binding.tvDetectionInfo.text = if (hasBoxes) {
+                    getString(R.string.detected_subtitle)
+                } else {
+                    getString(R.string.no_detection)
+                }
             }
         }
     }
@@ -219,59 +269,98 @@ class MainActivity : AppCompatActivity() {
         lastChipLabels = distinctLabels
 
         binding.equipmentChipsContainer.removeAllViews()
+        val currentBoxes = viewModel.frameDetections.value?.boxes.orEmpty()
+
         for (label in distinctLabels) {
-            val chip = Button(this).apply {
-                text = label
-                isAllCaps = false
-                tag = label
-                setOnClickListener {
-                    val detection = viewModel.frameDetections.value?.boxes?.firstOrNull { it.label == label }
-                    if (detection != null) viewModel.selectDetection(detection)
-                }
+            val detection = currentBoxes.firstOrNull { it.label == label }
+            val chipBinding = ItemEquipmentChipBinding.inflate(layoutInflater, binding.equipmentChipsContainer, false)
+            chipBinding.root.tag = label
+            chipBinding.tvChipLabel.text = formatEquipmentLabel(label)
+            chipBinding.tvChipConfidence.text = detection?.let { "${(it.confidence * 100).toInt()}%" } ?: ""
+
+            chipBinding.root.setOnClickListener {
+                val targetDetection = viewModel.frameDetections.value?.boxes?.firstOrNull { it.label == label }
+                if (targetDetection != null) viewModel.selectDetection(targetDetection)
             }
-            binding.equipmentChipsContainer.addView(chip)
+
+            binding.equipmentChipsContainer.addView(chipBinding.root)
         }
     }
 
     private fun tintChips(selectedLabel: String?) {
         for (i in 0 until binding.equipmentChipsContainer.childCount) {
-            val chip = binding.equipmentChipsContainer.getChildAt(i)
-            val isSelected = chip.tag == selectedLabel
-            chip.setBackgroundColor(Color.parseColor(if (isSelected) "#FFC400" else "#E0E0E0"))
+            val chipRoot = binding.equipmentChipsContainer.getChildAt(i)
+            val label = chipRoot.tag as? String ?: continue
+            val isSelected = label == selectedLabel
+
+            val ivIcon = chipRoot.findViewById<ImageView>(R.id.ivChipIcon)
+            val tvLabel = chipRoot.findViewById<TextView>(R.id.tvChipLabel)
+            val tvConf = chipRoot.findViewById<TextView>(R.id.tvChipConfidence)
+
+            if (isSelected) {
+                chipRoot.background = ContextCompat.getDrawable(this, R.drawable.bg_chip_selected)
+                tvLabel.setTextColor(Color.WHITE)
+                tvConf.setTextColor(Color.parseColor("#DBEAFE"))
+                ivIcon.setImageResource(R.drawable.ic_check)
+                ivIcon.setColorFilter(Color.WHITE)
+            } else {
+                chipRoot.background = ContextCompat.getDrawable(this, R.drawable.bg_chip_unselected)
+                tvLabel.setTextColor(ContextCompat.getColor(this, R.color.text_primary))
+                tvConf.setTextColor(ContextCompat.getColor(this, R.color.text_muted))
+                ivIcon.setImageResource(R.drawable.ic_science)
+                ivIcon.setColorFilter(ContextCompat.getColor(this, R.color.text_secondary))
+            }
         }
     }
 
-    /** Historial del chat: solo agrega las burbujas nuevas (la lista es append-only salvo al cambiar de equipo). */
+    /** Historial del chat: muestra las burbujas estilizadas o el estado vacío cuando no hay mensajes. */
     private suspend fun observeChatMessages() {
         viewModel.chatMessages.collect { messages ->
-            if (messages.size < renderedMessageCount) {
-                // Se limpió el historial (cambio de equipo seleccionado).
+            if (messages.isEmpty()) {
+                binding.llChatEmptyState.visibility = View.VISIBLE
+                binding.chatScrollView.visibility = View.GONE
                 binding.chatMessagesContainer.removeAllViews()
                 renderedMessageCount = 0
-            }
-            for (i in renderedMessageCount until messages.size) {
-                binding.chatMessagesContainer.addView(createMessageBubble(messages[i]))
-            }
-            renderedMessageCount = messages.size
+            } else {
+                binding.llChatEmptyState.visibility = View.GONE
+                binding.chatScrollView.visibility = View.VISIBLE
 
-            binding.chatScrollView.post { binding.chatScrollView.fullScroll(View.FOCUS_DOWN) }
+                if (messages.size < renderedMessageCount) {
+                    binding.chatMessagesContainer.removeAllViews()
+                    renderedMessageCount = 0
+                }
+                for (i in renderedMessageCount until messages.size) {
+                    binding.chatMessagesContainer.addView(createMessageBubble(messages[i]))
+                }
+                renderedMessageCount = messages.size
+
+                binding.chatScrollView.post { binding.chatScrollView.fullScroll(View.FOCUS_DOWN) }
+            }
         }
     }
 
-    private fun createMessageBubble(message: ChatMessage): TextView {
+    private fun createMessageBubble(message: ChatMessage): View {
         return TextView(this).apply {
             text = message.text
-            setPadding(24, 16, 24, 16)
-            setTextColor(if (message.isUser) Color.WHITE else Color.BLACK)
-            setBackgroundColor(Color.parseColor(if (message.isUser) "#2196F3" else "#EEEEEE"))
+            textSize = 13.5f
+            val padH = dpToPx(14)
+            val padV = dpToPx(10)
+            setPadding(padH, padV, padH, padV)
+            if (message.isUser) {
+                setTextColor(Color.WHITE)
+                background = ContextCompat.getDrawable(this@MainActivity, R.drawable.bg_chat_user)
+            } else {
+                setTextColor(ContextCompat.getColor(this@MainActivity, R.color.text_primary))
+                background = ContextCompat.getDrawable(this@MainActivity, R.drawable.bg_chat_assistant)
+            }
             layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             ).apply {
                 gravity = if (message.isUser) Gravity.END else Gravity.START
-                topMargin = 8
-                bottomMargin = 8
-                if (message.isUser) marginStart = 64 else marginEnd = 64
+                topMargin = dpToPx(4)
+                bottomMargin = dpToPx(4)
+                if (message.isUser) marginStart = dpToPx(40) else marginEnd = dpToPx(40)
             }
         }
     }
@@ -279,8 +368,38 @@ class MainActivity : AppCompatActivity() {
     private suspend fun observeIsSending() {
         viewModel.isSending.collect { sending ->
             binding.progressBar.visibility = if (sending) View.VISIBLE else View.GONE
-            binding.btnSend.isEnabled = !sending && viewModel.selectedDetection.value != null
-            binding.btnAskEquipment.isEnabled = !sending && viewModel.selectedDetection.value != null
+            val hasSelection = viewModel.selectedDetection.value != null
+            binding.btnSend.isEnabled = !sending && hasSelection
+            binding.btnSend.alpha = if (binding.btnSend.isEnabled) 1.0f else 0.4f
+            binding.btnAskEquipment.isEnabled = !sending && hasSelection
+            binding.btnAskEquipment.alpha = if (binding.btnAskEquipment.isEnabled) 1.0f else 0.5f
+        }
+    }
+
+    private fun dpToPx(dp: Int): Int = (dp * resources.displayMetrics.density).toInt()
+
+    private fun formatEquipmentLabel(rawLabel: String): String {
+        return when (rawLabel) {
+            "Memmert_Unidad2" -> "Memmert (U2)"
+            "Agitador_Orbital_DLAB" -> "Agitador Orbital DLAB"
+            "Balanza_Analitica_Ohaus" -> "Balanza Analítica"
+            "Balanza_Granataria_Ohaus" -> "Balanza Granataria"
+            "Camara_Extractora_Biobase" -> "Cámara Extractora"
+            "Centrifuga_Ohaus_Frontier" -> "Centrífuga Ohaus"
+            "Contador_Colonias_CC1" -> "Contador Colonias CC1"
+            "Destilador_agua" -> "Destilador de Agua"
+            "Estufa_Memmert" -> "Estufa Memmert"
+            "Horno_Secado_Biobase" -> "Horno Secado Biobase"
+            "Incubadora" -> "Incubadora"
+            "Microscopio_Binocular" -> "Microscopio Binocular"
+            "Microscopio_camara" -> "Microscopio Cámara"
+            "Microscopio_estereo" -> "Microscopio Estéreo"
+            "Phmetro_Ohaus" -> "pHmetro Ohaus"
+            "Plancha_Agitacion_Cimarec" -> "Plancha Agitación"
+            "Sistema_Rotaevaporacion" -> "Rotaevaporación"
+            "Vortex_Mixer_LabNet" -> "Vortex Mixer"
+            "Autoclave" -> "Autoclave"
+            else -> rawLabel.replace("_", " ")
         }
     }
 

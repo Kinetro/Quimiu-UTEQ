@@ -1,12 +1,19 @@
 <resources>
     <string name="app_name">Quibio-Detation</string>
-    <string name="no_detection">Sin detección</string>
-    <string name="detection_format">%1$s - %2$d%%</string>
-    <string name="detections_count_format">%d equipo(s) detectado(s) - toca uno para preguntar</string>
-    <string name="ask_about_equipment">Qué es este equipo</string>
+    <string name="app_subtitle">Laboratorio UTEQ • IA</string>
+    <string name="live_badge">● EN VIVO</string>
+    <string name="no_detection">Buscando equipos…</string>
+    <string name="no_equipment_hint">Apunta la cámara a un equipo del laboratorio</string>
+    <string name="detected_title">Equipos Detectados</string>
+    <string name="detected_subtitle">Toca un equipo para consultar con IA</string>
+    <string name="detection_format">%1$s • %2$d%%</string>
+    <string name="detections_count_format">%d detectado(s)</string>
+    <string name="ask_about_equipment">¿Qué es y cómo funciona?</string>
+    <string name="chat_empty_title">Asistente Inteligente</string>
+    <string name="chat_empty_desc">Selecciona un equipo arriba para consultar sus especificaciones, funciones y precauciones.</string>
     <string name="camera_permission_denied">Se necesita permiso de cámara para usar la app</string>
     <string name="error_format">Error: %1$s</string>
-    <string name="chat_hint">Preguntá algo sobre el equipo…</string>
+    <string name="chat_hint">Pregunta algo sobre el equipo…</string>
     <string name="send">Enviar</string>
-    <string name="select_equipment_prompt">Seleccioná un equipo para preguntar</string>
+    <string name="select_equipment_prompt">Selecciona un equipo para preguntar</string>
 </resources>

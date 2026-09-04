@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base Colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Brand (Biotech Indigo / Cobalt) -->
+    <color name="primary">#2563EB</color>
+    <color name="primary_dark">#1D4ED8</color>
+    <color name="primary_light">#DBEAFE</color>
+    <color name="primary_container">#EFF6FF</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Accent & Highlights -->
+    <color name="accent_emerald">#10B981</color>
+    <color name="accent_emerald_light">#D1FAE5</color>
+    <color name="accent_amber">#F59E0B</color>
+    <color name="accent_amber_light">#FEF3C7</color>
+    <color name="accent_cyan">#06B6D4</color>
+
+    <!-- Detection HUD -->
+    <color name="hud_box_default">#10B981</color>
+    <color name="hud_box_selected">#F59E0B</color>
+    <color name="hud_badge_bg">#DD0F172A</color>
+
+    <!-- Surfaces & Neutrals -->
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_muted">#F8FAFC</color>
+    <color name="surface_chip">#F1F5F9</color>
+    <color name="border_subtle">#E2E8F0</color>
+    <color name="drag_handle">#CBD5E1</color>
+
+    <!-- Text Typography -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="text_hint">#94A3B8</color>
+
+    <!-- Chat Bubbles -->
+    <color name="chat_bubble_user">#2563EB</color>
+    <color name="chat_bubble_ai">#F1F5F9</color>
+    <color name="chat_bubble_ai_border">#E2E8F0</color>
 </resources>
