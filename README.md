@@ -21,6 +21,10 @@ laboratorios de la UTEQ" — Tema: Laboratorio de Biotecnología.
 |---|---|
 | ![Escribiendo la pregunta](Foto%20evidencia/fotomostrandolapeticionoconsultaqueserealizara.png) | ![Cargando respuesta](Foto%20evidencia/fotodecargaesperandolarespuestadelaia.png) |
 
+**Resultado final** — respuesta de Gemini Cloud citando el dato correcto del manual (3,400 rpm):
+
+![Respuesta final de la IA](Foto%20evidencia/resultadofinal.png)
+
 ## Arquitectura
 
 ```
@@ -55,13 +59,17 @@ Phmetro_Ohaus, Plancha_Agitacion_Cimarec, Sistema_Rotaevaporacion, Vortex_Mixer_
 - `app/` — proyecto Android (Kotlin, CameraX, TensorFlow Lite, ML Kit GenAI).
 - `training/train_yolo_quibio.ipynb` — notebook de entrenamiento (Colab): descarga el dataset
   anotado desde Roboflow, entrena YOLO11n, valida (mAP50/mAP50-95) y exporta a `.tflite`.
-- `PROYECTO APPMOVIL.../` — fotografías originales del dataset, organizadas por carpeta de
-  clase (~740 imágenes). El etiquetado (bounding boxes) y el split 70/15/15
-  train/valid/test se hicieron en Roboflow (proyecto `azambranoy-uteq-edu-ec/qui-bio`); no
-  están versionados en este repo.
+- `training/weights/best.pt` — modelo original entrenado (YOLO11n, formato PyTorch).
+- `Qui-bio.v1i.yolov8/` — dataset exportado desde Roboflow (proyecto
+  `azambranoy-uteq-edu-ec/qui-bio`, licencia CC BY 4.0): 584 imágenes ya divididas en
+  `train/` (409), `valid/` (88) y `test/` (87) — split 70/15/15 —, cada una con su anotación de
+  cuadros delimitadores en formato YOLO (`labels/*.txt`) y `data.yaml` con las 19 clases.
+- `PROYECTO APPMOVIL.../` — fotografías originales sin anotar, organizadas por carpeta de clase
+  (~740 imágenes, 1.8 GB). Es la materia prima antes de anotar/dividir en Roboflow; **no está
+  versionada en este repo por su tamaño** (ver `.gitignore`) — se comparte aparte si se necesita.
 - `Documentos de aparatos de laboratorio/` — manuales/fichas técnicas en PDF, fuente de los
   `.txt` en `app/src/main/assets/docs_equipos/` usados por el RAG.
-- `Foto evidencia/` — capturas de pantalla de la app en uso (ver sección Demo).
+- `Foto evidencia/` — capturas de pantalla de la app en uso en un teléfono real (ver sección Demo).
 
 ## Cómo correr
 
@@ -73,12 +81,29 @@ Phmetro_Ohaus, Plancha_Agitacion_Cimarec, Sistema_Rotaevaporacion, Vortex_Mixer_
    automáticamente Gemini Cloud (requiere internet), y si tampoco hay conexión, cae a un modo
    de búsqueda por palabras clave sin IA.
 
-## Estado respecto al enunciado — pendientes conocidos
+## Entregables comunes
+
+| Entregable | Estado | Dónde está |
+|---|---|---|
+| Repositorio del proyecto Android | ✅ | Este repositorio. |
+| Conjunto de datos organizado y documentado | ✅ | `Qui-bio.v1i.yolov8/` (584 imágenes, split 70/15/15, con `README.dataset.txt`/`README.roboflow.txt`). |
+| Anotaciones con cuadros delimitadores | ✅ | `Qui-bio.v1i.yolov8/{train,valid,test}/labels/*.txt` (formato YOLO, una por imagen). |
+| Código o cuaderno de entrenamiento | ✅ | `training/train_yolo_quibio.ipynb`. |
+| Modelo original y modelo .tflite | ✅ | `training/weights/best.pt` (original) y `app/src/main/assets/yolo_model.tflite` (exportado). |
+| Aplicación Android instalable | ✅ | [APK instalable (Drive)](https://drive.google.com/drive/folders/1BYnTFkEswS9VTjbvgOUfY5oSenG9feNO?usp=sharing) — también se compila localmente con `./gradlew assembleDebug`. |
+| Evidencias de funcionamiento en un teléfono real | ✅ | `Foto evidencia/` (5 capturas, ver sección Demo). |
+| Video de demostración | ✅ | Enlace en la sección Demo. |
+
+Nota del enunciado: "Todos los proyectos mantienen exactamente la misma arquitectura y
+evaluación. Solamente cambian el laboratorio, las clases de equipos, las fotografías
+recolectadas y los manuales o guías incorporados al RAG" — este proyecto usa esa arquitectura
+común (cámara → YOLO → RAG) aplicada al Laboratorio de Biotecnología de la UTEQ, con sus 19
+clases de equipos y los manuales propios en `Documentos de aparatos de laboratorio/`.
+
+### Otros pendientes conocidos (no forman parte de los entregables comunes)
 
 - Los `.txt` de `docs_equipos/` cubren 11 de las 19 clases; el resto usa `info_equipos.json`
   como respaldo (ver `app/src/main/assets/docs_equipos/README.md` para el detalle de qué falta
   y por qué).
-- No se versiona el split 70/15/15 ni las anotaciones (bounding boxes) en este repo; viven en
-  el proyecto de Roboflow usado por el notebook de entrenamiento.
 - No hay resultados de evaluación (mAP) commiteados; el notebook los calcula en Colab pero hay
   que exportarlos manualmente como evidencia.
