@@ -4,7 +4,7 @@ import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.quibio_detation.data.OpenAIRepository
+import com.example.quibio_detation.data.EquipmentQaRepository
 import com.example.quibio_detation.ml.Detection
 import com.example.quibio_detation.ml.EquipmentDetector
 import com.example.quibio_detation.util.Constants
@@ -28,7 +28,7 @@ data class FrameDetections(
 
 class MainViewModel(
     private val detector: EquipmentDetector,
-    private val repository: OpenAIRepository
+    private val repository: EquipmentQaRepository
 ) : ViewModel() {
 
     private val _frameDetections = MutableStateFlow<FrameDetections?>(null)
@@ -43,8 +43,12 @@ class MainViewModel(
     private val _isSending = MutableStateFlow(false)
     val isSending: StateFlow<Boolean> = _isSending.asStateFlow()
 
-    /** Id de la última respuesta de OpenAI, para encadenar la próxima pregunta en la misma conversación. */
-    private var lastResponseId: String? = null
+    /**
+     * Progreso (0-100) de la descarga de Gemini Nano la primera vez que se usa en el
+     * dispositivo. null cuando no hay ninguna descarga en curso.
+     */
+    private val _downloadProgress = MutableStateFlow<Int?>(null)
+    val downloadProgress: StateFlow<Int?> = _downloadProgress.asStateFlow()
 
     /**
      * Se llama desde el analyzer de CameraX (ya corre en un hilo de fondo,
@@ -69,15 +73,8 @@ class MainViewModel(
         if (_selectedDetection.value?.label != detection.label) {
             // Cambiar de equipo empieza una conversación nueva.
             _chatMessages.value = emptyList()
-            lastResponseId = null
         }
         _selectedDetection.value = detection
-    }
-
-    /** Botón de acceso rápido: pregunta fija "qué es y para qué sirve este equipo". */
-    fun askAboutDetectedEquipment() {
-        val current = _selectedDetection.value ?: return
-        send(current.label, question = null)
     }
 
     /** Pregunta libre escrita por el usuario en el chat. */
@@ -88,22 +85,24 @@ class MainViewModel(
         send(current.label, question = trimmed)
     }
 
-    private fun send(equipmentLabel: String, question: String?) {
-        if (question != null) {
-            _chatMessages.value = _chatMessages.value + ChatMessage(isUser = true, text = question)
-        }
+    private fun send(equipmentLabel: String, question: String) {
+        _chatMessages.value = _chatMessages.value + ChatMessage(isUser = true, text = question)
 
         viewModelScope.launch {
             _isSending.value = true
-            repository.ask(equipmentLabel, question, lastResponseId)
+            repository.ask(
+                equipmentName = equipmentLabel,
+                question = question,
+                onDownloadProgress = { percent -> _downloadProgress.value = percent }
+            )
                 .onSuccess { reply ->
-                    lastResponseId = reply.responseId
                     _chatMessages.value = _chatMessages.value + ChatMessage(isUser = false, text = reply.text)
                 }
                 .onFailure { error ->
                     _chatMessages.value = _chatMessages.value +
                         ChatMessage(isUser = false, text = "Error: ${error.message ?: "desconocido"}")
                 }
+            _downloadProgress.value = null
             _isSending.value = false
         }
     }
@@ -115,7 +114,7 @@ class MainViewModel(
 
     class Factory(
         private val detector: EquipmentDetector,
-        private val repository: OpenAIRepository
+        private val repository: EquipmentQaRepository
     ) : ViewModelProvider.Factory {
         @Suppress("UNCHECKED_CAST")
         override fun <T : ViewModel> create(modelClass: Class<T>): T {

@@ -11,7 +11,4 @@ object Constants {
      * este valor.
      */
     const val ANALYSIS_INTERVAL_MS = 200L
-
-    /** TODO: ajustar al modelo disponible en la cuenta de OpenAI que se vaya a usar. */
-    const val OPENAI_MODEL = "gpt-4o-mini"
 }

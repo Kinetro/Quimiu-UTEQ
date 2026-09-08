@@ -1,0 +1,1444 @@
+PioneerTM Balances
+Instruction Manual
+Balanzas PioneerTM
+Manual de Instrucciones
+Balances PioneerTM
+Guide de l'utilisateur
+
+EN-1
+1. INTRODUCTION
+1.1 Safety Precautions
+Please follow these safety precautions: · Verify that the AC Adapter input voltage matches the local AC power supply. · Use the balance only in dry locations. · Do not operate the balance in hostile environments. · Do not drop loads on the platform. · Do not place the balance upside down on the platform or platform mounting cone. · Service should be performed only by authorized personnel.
+1.2 Controls
+
+PioneerTM
+
+No
+
+Button: O/T - On Off Yes Unit Menu No
+Print Cal
+
+Functions: Short Press: Long Press: Short press (Menu): Short Press: Long Press: Short press (Menu): Long press (Menu): Short Press: Long Press:
+
+2. INSTALLATION
+2.1 Package Contents
+0.1g and 0.01g Models Instruction Manual Power Adapter Balance Pan Pan Support Wind-Ring (InCal models only) Warranty Card
+
+Yes
+Turns balance on, sets display to zero Turns balance off Selects or accepts setting Steps through active units and modes Enters Menu Steps through available settings Exit menu or abort out of menu item Sends data Initiates Span Calibration
+0.001g and 0.0001g Models Instruction Manual Power Adapter Balance Pan Glass Doors and Panels Warranty Card
+
+PioneerTM
+2.2 Install Components
+0.1g and 0.01g Models
+
+1) Install Wind-Ring (InCal only)
+0.001g and 0.0001g Models
+
+2) Install Pan Support
+
+EN-2
+3) Install Pan
+
+1) Install Side Doors - Insert fully into Top Frame then down over retainer.
+
+2) Install Panels - Insert bottom edge in groove then press until locked.
+
+3) Install Top Door
+
+4) Install Pan
+
+EN-3
+
+PioneerTM
+
+2.3 Level Balance
+Level the balance on a firm, steady surface. Avoid locations with excessive air current, vibrations, heat sources or rapid temperature changes.
+
+2.4 Connect Power
+For use with CSA Certified (or equivalent approved) power source, which must have a
+limited circuit output.
+2.5 Initial Calibration
+Without InCal ­ Power on the balance by pressing 0/T. Press and hold Print/Cal until [CAL] is displayed. The display flashes the calibration mass needed. To select the alternate calibration weight press No. Put the calibration mass on the pan. The display flashes [BUSY], then [CLEAr Pan]. Remove the mass. When calibration is complete, [DONE] is displayed. InCal ­ Press and hold Print/Cal until [CAL] is displayed. The display flashes [BUSY], when calibration is complete, [DONE] is displayed. Note: Calibrations should be performed after a warm up time of 60 minutes.
+3. Operation
+Count, APW Optimization, Percentage or specific units of measure must be activated in the MODE or UNIT menus if they are not initially available.
+3.1 Weighing Mode
+Repeatedly press Unit until the desired unit icon is displayed. Press 0/T to zero the balance and then place objects to be weighed on the pan.
+3.2 Count Mode ­ Use the Count mode to count parts of uniform weight.
+To access Count Mode, press Unit until the display shows [Count]. Establish an Average Piece Weight (APW) ­ Each time a new type of part is to be counted, the nominal weight of one piece (APW) must be established using a small quantity of pieces. With [CLr.APwW] displayed, press No to use the previously saved APW, or press Yes to establish a new APW. The display indicates the number of pieces to be used to establish the new APW. If a different sample size is preferred, press No until the desired sample size is displayed (5, 10, 20, 50 or 100). Put the specified number of pieces on the pan. Press Yes to accept new APW or No to abort. Count ­ Place the quantity to be counted on the pan. APW Optimization ­ Since the weight of each piece varies slightly, APW Optimization may be used to increase the
+
+PioneerTM
+
+EN-4
+
+accuracy of the count. The balance automatically recalculates the Average Piece Weight when the number of parts on the pan is less than three times the original sample size. The display shows [APwW.OPT] each time the APW is
+optimized.
+
+3.3 Percent Mode ­ Use this mode to measure the weight of a sample as a percentage of a reference weight.
+To access the Percent Mode, press Unit until the display shows [PErCEnt]. Establish a new Reference Weight - With Clear reference [CLr.rEF] displayed, Press No to use the previously
+saved Reference Weight. Press Yes to establish a new Reference Weight. Put the reference sample on the pan
+and press Yes to accept or No to abort.
+Percent ­ Place the object(s) to be compared to the reference weight on the pan.
+
+3.4 Weigh Below Feature
+
+Remove Weigh Below Cover
+4. SETTINGS
+4.1 Menu Navigation
+
+Attach wire or string to Hook
+
+.CAL.
+
+.SETUP.
+
+.MODE.
+
+.UNIT.
+
+.PRINT.
+
+Suspend sample
+
+.END.
+
+.RS232.
+
+.LOC.
+
+InCal*
+
+AZSM
+
+COUNT
+
+GRAM
+
+OUT STA
+
+BAUD
+
+CAL
+
+SPAN
+
+FILTER
+
+APWOPT
+
+MILLIGRAM
+
+A. PRINT
+
+PARITY
+
+SETUP
+
+LINEAR**
+
+A.TARE
+
+PERCENT
+
+KILOGRAM
+
+CONTENT
+
+HAND.SH
+
+MODE
+
+CAL ADJ
+
+GRAD
+
+END.MOD
+
+OUNCE
+
+LINE FO
+
+END.R232
+
+UNIT
+
+END.CAL
+
+GBL RST
+
+POUND
+
+END.PRT
+
+PRINT
+
+END.SET
+* InCal models only ** Not available in InCal models
+
+NO YES
+
+NOT ALL UNITS SHOWN
+END.UNIT
+
+RS232 END.LOCK
+
+Enter Menu ­ When the balance is on, press and hold Unit/Menu until [mMENU] appears. Release the button and the Calibrate [.CAL.] menu will display. Menu Navigation ­ Select menus, menu items and settings through use of the Yes and No buttons. Solid arrows point to the content displayed when Yes is pressed, Dashed lines when No is pressed. Changing Settings ­ To select the displayed Setting, press Yes. To move to the next Setting, press No. Exit Menu ­ When [.END.] is displayed, press Yes to exit the menu function, or press No to return to the Cal menu.
+Note: Press and hold No at any time to exit quickly.
+
+EN-5
+
+PioneerTM
+
+4.2 Calibration Menu [.CAL.]
+InCal or Span calibration should be performed daily and when the room temperature changes. InCal [InCal] calibrates the balance using an internal mass. Span Calibration [SpaN] uses two weight values: zero and a weight between 50% and 100% of the capacity of the balance. Linearity calibration [LIN] uses three weight values zero, 50% of capacity and full capacity. Generally this calibration is not required unless testing shows that the linearity error exceeds the Linearity tolerance in the Specification table. (Not available in InCal models) Calibration Adjust [CAL Adj] allows adjustment to the result of the internal calibration by +/- 99 divisions. (InCal models only)
+4.3 Setup Menu [.setup.]
+Automatic Zero-Setting [azsmM] ­ Environmental changes can cause the display to drift. The Automatic ZeroSetting Mechanism (AZSM) is designed to keep the balance set at zero, despite these slight changes. (OFF, SET.5d, SET 1d, SET 2d, SET 5d) Filter [filter] ­ Use the low setting (SET LO) when environmental disturbances are not present. Use the medium setting (SET MED) for normal environments. Use the high setting (SET HI) when vibrations or air currents are present. Auto Tare [A-tare] ­ The initial item placed on the balance is assumed to be a container so it is zeroed out. The next item is then weighed. When the pan is cleared the balance resets, waiting for a container. (SET OFF, SET ON) Grad [Grad] ­ Select the readability displayed. Reducing the readability may be needed for approval. (SET 1d, SET [1]d, SET 10d) Global Reset [Gbl rst] ­ Resets all settings to factory default values. (RESET)
+4.4 Mode Menu [.mMode.]
+Count Mode [Count] - [SET ON or OFF] Average Piece Weight (APW) Optimization [aPwW.OPT] - (SET ON, SET OFF) Percent Mode [PerCent] - (SET ON, SET OFF)
+4.5 Unit Menu [.Unit.]
+The Unit menu is used to enable or disable a specific unit. (SET ON, SET OFF) The unit is indicated by a small character next to Unit in the display (g = grams). The default setting is Grams SET ON and all other units SET OFF. T-Units ­ When unit [t] displays; press Yes to show the T-Unit settings; SET OFF, SET TT (Taiwan Tael), SET TH (Hong Kong Tael), SET TS (Singapore Tael), SET TO (Tola) or SET TI (Tical). M-Units ­ When unit [m] is displayed, press Yes to show the M-Unit settings; SET OFF, SET MO (Momme) or SET ME (Mesghal). Custom Unit ­ Custom Unit (C) is used to create a unit of measure not provided with the balance. The Custom Unit is defined by a factor, a multiplier (E) and a least significant digit (LSD). The balance will use this to convert grams to a custom unit of measure. (Example: 1 gram = 0.257206 Avoirdupois Dram, using a 4100g x 0.01g balance) To create a custom unit, press Yes when unit [c] is displayed.
+Factor ­ The Factor (F) is a value from 0.1000000 to 1.999999. When the Factor is displayed, the first digit is flashing. Press Yes to accept its value and activate the next digit, or No to edit. When editing, press No until the desired value appears, then press Yes to accept. Repeat until all digits have been accepted. When the Factor flashes on the display, press Yes to accept or No to re-edit. (Example: F = 0.257206)
+Multiplier (E) ­ The settings are, [E 0] (Fx1), [E 1] (Fx10), [E 2] (Fx100), [E 3] (Fx1000), [E-3] (F/1000), [E-2] (F/100), and [E-1] (F/10). Press No to display the next setting, Yes to accept. (Example: E = 0).
+Note: The multiplier selections are limited when the capacity in grams is exceeded.
+
+PioneerTM
+
+EN-6
+
+LSD ­ The Least Significant Digit (LSD) is the number of displayed divisions (d) by which the weight is
+incremented. The values are 1d, 2d, 5d, 10d, 100d or 0.5d. Press No to go to the next setting, press Yes to accept.
+(Example LSD = 1d) Note: LSD options are limited if the readability in grams is exceeded. The example custom unit will display [0.26 C] when 1g is placed on the pan.
+4.6 Print Menu [.Print.]
+Output Stable [Out.Stab] ­ Data will only be sent when the Stable indicator is on. This setting works with manual
+button pressing or continuous and interval Auto Print. (SET ON, OFF) Auto Print [A.Print] ­ Data will be continuously sent when [Continu] is set. Interval [Inter] sends data every 1 to 3600 seconds. When Stable [Stable] will send data when the balance detects a new stable reading. This can be a weight value only [LOad] or it can also include a stable zero [L+zero]. [OFF] disables automatic printing. Content [CONteNt] ­ The content in the data transmission can be modified. Each of the following settings can be set on or off. Number Only [numMber] will only send the numeric result. Balance ID [Bal. ID] will add the Balance serial number for traceability purposes. Reference [refer] will add reference information relevant to the current mode. GLP [GLP] will send additional items to allow proper documentation of laboratory results. Line Format [LinE Fo] ­ Single line format [single] will put all the data in one line separating each output with a comma (,). Multi line format [mMulti] will put each data output on a new line. Multi +4 [mM-4LF] will add 4 line
+spaces between each output.
+
+^^^^^^^^^^^^^^^^^^^^^
+
+Multi Line Format with 4 line feeds
+
+Line Feed-2
+
+Line Feed-3
+
+Line Feed-4
+
+User ID: ..........................
+
+GLP (ON)
+
+Bal ID: 123456789
+
+Balance ID (ON)
+
+Proj ID: ........................
+
+GLP (ON)
+
+Time: ......:.......:.......
+
+GLP (ON)
+
+Date: ...../ ..... / .....
+
+GLP (ON)
+
+120.01 g
+
+Result
+
+^^^^^^^^^^^^^^^^^^^^^
+
+4.7 RS232 Menu [.rs232.]
+Baud [BAUD] ­ The RS232 baud rate can be set to 600, 1200, 2400, 4800, 9600 and 19200. Parity [Parity] ­ Parity can be sent to 7 bits-even parity [7 eveN], 7bits-odd parity [7 odd], 7bits-no parity [7 No] or 8bit-no parity [8 No].
+Handshake [Handsh] ­ Handshake can be set to off [Off], X on ­ X off [on-off], or hardware [HardwWr].
+
+4.8 Lock Menu [.LOC.]
+When a Lock Menu item is SET ON the indicated menu cannot be changed. [Loc Cal] ­ Calibration, [Loc SEt] ­ Setup, [Loc.mMod] ­ Mode, [Loc.Unit] ­ Unit, [Loc Prt] ­ Print, [Loc 232] ­ RS232.
+
+4.9 Sealing Access to the Balance Settings
+The Menu Lock switch prevents changes to the Lock Menu. The switch can be secured using paper seals, wire seals or plastic ties.
+
+Un-Locked
+
+Locked with Plastic Tie
+
+EN-7
+
+PioneerTM
+
+5.0 MAINTENANCE
+
+5.1 Troubleshooting
+
+Symptom
+Cannot turn on Poor accuracy
+Cannot calibrate
+Cannot access mode Cannot access unit Err 5 Err 7.0 Err 8.1 Err 8.2 Err 8.3 Err 8.4 Err 9.5 Err 9.8 Error 53 REF Err LOWREF
+
+Possible Cause
+
+Remedy
+
+No power to balance
+
+Verify connections and voltage.
+
+Improper calibration
+
+Perform calibration
+
+Unstable environment
+
+Move balance to suitable location
+
+Unstable environment
+
+Move the balance to suitable location
+
+Incorrect calibration masses
+
+Use correct calibration masses
+
+Mode not enabled
+
+Enter menu and enable mode
+
+Units not enabled
+
+Enter menu and enable units
+
+Average Piece Weight too small
+
+Add additional samples
+
+Time out
+
+Pan has load during power on
+
+Remove weight from pan and re-zero.
+
+Pan was removed prior to power on Install pan and re-zero.
+
+Weight on pan exceeds capacity
+
+Remove weight from the pan
+
+Pan was removed during weighing
+
+Re-install pan
+
+Factory calibration data corrupted
+
+Contact the authorized dealer
+
+Factory calibration data corrupted
+
+Perform calibration
+
+EEPROM Checksum error
+
+Contact the authorized dealer
+
+Reference Weight is too small
+
+Add additional samples
+
+Reference Weight is too low for accurate Add additional samples or continue to weigh
+
+parts counting or percent weighing. with less accurate results.
+
+5.2 Service Information
+If the troubleshooting section does not resolve or describe your problem, contact your authorized Ohaus service agent. Please visit our web site, www.ohaus.com to locate the Ohaus office nearest you.
+
+5.3 Accessories
+Security device Auxiliary Display Density Determination Kit Printer ­ Thermal Printer - Impact Cable Kit ­ Thermal Printer Cable Kit - Impact Printer Data collection Software
+
+76288-01 PAD7 Contact Ohaus Contact Ohaus Contact Ohaus Contact Ohaus Contact Ohaus SW12W
+
+(0.1mg and 1mg models only)
+
+PioneerTM
+
+6. TECHNICAL DATA
+
+Ambient conditions ­ The technical data is valid under the following ambient conditions: Ambient temperature: 10° C to 30° C Relative humidity: 15 % to 80 % at 31° C non-condensing, decreasing linearly to 50% at 40° C Height above sea level: Up to 2000 m Operability is assured at ambient temperatures between 5° C and 40° C Power ­ AC adapter, Balance power input 8-14.5 VAC, 50/60Hz 4VA or 8-20 VDC, 4W Protection ­ Protected against dust and water, Pollution degree: 2, Installation category: Class II
+
+6.1 Drawings
+
+0.01g and 0.1g Models
+
+EN-8
+
+0.0001g and 0.001g Models
+
+EN-9
+
+PioneerTM
+
+6.2 Specifications
+
+MODEL Capacity (g) Readability (g) Repeatability (sd) Linearity (g) Tare Range Stabilization Span cal mass (g)
+Lin. cal masses (g)
+Pan size (in / cm) Net Weight (lb/kg)
+
+PA64* PA114* PA214* PA213* PA413* PA512* PA2102* PA4102* PA4101*
+
+65 110 210
+
+210
+
+410
+
+510 2100 4100 4100
+
+0.0001
+
+0.001
+
+0.01
+
+0.1
+
+0.0001
+
+0.001
+
+0.01
+
+0.1
+
+± 0.0002 ± 0.0003
+
+± 0.002
+
+± 0.02
+
+± 0.1
+
+To capacity by subtraction
+
+3 seconds
+
+50 or 50 or 100 or 100 or 200 or 200 or 1000 or 2000 or 2000 or
+
+60 100 200
+
+200
+
+400
+
+500 2000 4000 4000
+
+25, 50, 100, 100, 200, 250, 1000, 2000, 2000,
+
+50 100 200
+
+200
+
+400
+
+500 2000 4000 4000
+
+3.5 / 9 dia.
+
+4.7 / 12 dia.
+
+7.1 / 18 dia.
+
+10.1 / 4.6 (*11.2 / 5.2)
+
+10 / 4.5 (*11.1 / 5.1)
+
+*C= Internal calibration
+
+6.3 Communication
+6.3.1 Commands The RS232 Interface allows a computer to control the balance as well as receiving data such as the displayed weight. The balance will return "ES" for invalid commands.
+
+Command Function IP Immediate Print of displayed weight. P Print displayed weight (uses Stable ON/OFF menu settings). CP Continuous Print. xP Interval Print x = Print Interval (1-3600 sec) T Same as pressing Zero Key. ON Turns balance ON. OFF Turns balance OFF. PSN Show Serial Number. PV Version: Print product name, software revision and LFT ON (if LFT is set ON). PU Print current mode/unit x# Set PC ref wt (x) in grams P# Print PC ref wt x% Set % ref wt (x) in grams P% Print % ref wt
+
+6.3.2 RS232 (DB9) Pin Connections Pin 2: Balance transmit line (TxD) Pin 3: Balance receive line (RxD) Pin 5: Ground signal (GND) Pin 7: Clear to send (hardware handshake) (CTS) Pin 8: Request to send (hardware handshake) (RTS)
+
+GND
+5 9
+
+RxD TxD
+1 6
+
+RTS
+
+CTS
+
+PioneerTM
+
+EN-10
+
+6.4 Compliance
+Compliance to the following standards is indicated by the corresponding mark on the product.
+
+Mark
+
+Standard
+
+This product conforms to the EMC Directive 2004/108/EC, the Low Voltage Directive 2006/95/EC and the Non-Automatic Weighing Directive 2009/23/EC. The complete Declaration of Conformity is available from Ohaus Corporation.
+
+AS/NZS4251.1; AS/NZS4252.1
+
+CAN/CSA-C22.2 No. 1010.1-92; UL Std. No. 3101-1
+
+FCC Note This equipment has been tested and found to comply with the limits for a Class A digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference when the equipment is operated in a commercial environment. This equipment generates, uses, and can radiate radio frequency energy and, if not installed and used in accordance with the instruction manual, may cause harmful interference to radio communications. Operation of this equipment in a residential area is likely to cause harmful interference in which case the user will be required to correct the interference at his own expense.
+Industry Canada Note This Class A digital apparatus complies with Canadian ICES-003.
+ISO 9001 Registration ISO 9001 Registration In 1994, Ohaus Corporation, USA, was awarded a certificate of registration to ISO 9001 by Bureau Veritus Quality International (BVQI), confirming that the Ohaus quality management system is compliant with the ISO 9001 standard's requirements. On June 21, 2012, Ohaus Corporation, USA, was re-registered to the ISO 9001:2008 standard.
+
+LIMITED WARRANTY
+Ohaus products are warranted against defects in materials and workmanship from the date of delivery through the duration of the warranty period. During the warranty period Ohaus will repair, or, at its option, replace any component(s) that proves to be defective at no charge, provided that the product is returned, freight prepaid, to Ohaus.
+This warranty does not apply if the product has been damaged by accident or misuse, exposed to radioactive or corrosive materials, has foreign material penetrating to the inside of the product, or as a result of service or modification by other than Ohaus. In lieu of a properly returned warranty registration card, the warranty period shall begin on the date of shipment to the authorized dealer. No other express or implied warranty is given by Ohaus Corporation. Ohaus Corporation shall not be liable for any consequential damages.
+As warranty legislation differs from state to state and country to country, please contact Ohaus or your local Ohaus dealer for further details.
+
+ES-1
+1. INTRODUCCIÓ N
+1.1 Precauciones de seguridad
+Siga estas precauciones de seguridad: Verifique que el voltaje del adaptador de corriente alterna coincida con la alimentació n elé ctrica local. Use la balanza só lo en lugares secos. No opere la balanza en ambientes adversos. No deje caer cargas sobre la plataforma de pesaje. · No coloque la balanza al revés sobre la plataforma o como de montaje para plataforma. El servicio debe proporcionarse solamente por personal autorizado.
+1.2 Controles
+
+PioneerTM
+
+Botó n: O/T - On Off Yes Unit Menu No
+Print Cal
+
+Funciones: Presió n corta: Presió n larga: Presió n corta (Menu): Presió n corta: Presió n larga: Presió n corta (Menu): Presió n larga (Menu): Presió n corta: Presió n larga:
+
+Enciende la balanza, pone la pantalla en cero Apaga la balanza Selecciona o acepta la configuració n Recorre las unidades y modos activos Ingresa al menú Recorre las configuraciones disponibles Sale del menú o cancela el elemento del menú Envía datos Inicia la calibració n de extensió n
+
+2. INSTALACIÓ N
+2.1 Contenido del paquete
+Modelos de 0.1g y 0.01g Manual de instrucciones Adaptador de corriente Balanza Plato de pesaje Soporte del plato de pesaje Anillo de viento (só lo en modelos InCal) Tarjeta de garantía
+
+Modelos de 0.001g y 0.0001g Manual de instrucciones Adaptador de corriente Balanza Plato de pesaje Puertas y paneles de vidrio Tarjeta de garantía
+
+PioneerTM
+
+ES-2
+
+2.2 Instalació n de componentes
+Modelos de 0.1g y 0.01g
+
+1) Instale el Anillo de viento (só lo en 2) Instale el soporte del plato de pesaje 3) Instale el plato de pesaje modelos InCal)
+Modelos de 0.001g y 0.0001g
+
+1) Instale las puertas laterales - Inserte completamente en el marco superior y despué s abajo sobre el sujetador.
+
+2) Instale los paneles anterior y posterior - Inserte el lado inferior en la ranura y presione hasta que se aseguren.
+
+3) Instale la puerta superior
+
+4) Instale el plato de pesaje
+
+ES-3
+
+PioneerTM
+
+2.3 Nivelació n de la balanza
+Nivele la balanza sobre una superficie firme y estable. Evite lugares con exceso de corrientes de aire, vibraciones, fuentes de calor y cambios rá pidos de temperatura.
+
+2.4 Alimentació n elé ctrica
+Debe usarse con una fuente de energía certificada por la CSA (o una aprobació n equivalente), la cual debe tener una salida
+limitada de circuito.
+2.5 Calibració n inicial
+Sin InCal - Encienda la bá scula presionando 0/T. Presione y mantenga Print/Cal hasta que aparezca [CAL]. La pantalla destella el peso de calibració n necesario. Para seleccionar un peso de calibració n alterno, presione No. Ponga el peso de calibració n en el plato de pesaje. La pantalla destella [BUSY], y enseguida [CLEAr Pan]. Retire el peso. Cuando termina la calibració n, aparece [DONE]. InCal - Presione y mantenga Print/Cal hasta que aparezca [CAL]. La pantalla destella [BUSY]. Cuando termina la calibració n, aparece [DONE]. Nota: Calibraciones debe realizarse despué s de un tiempo de calentamiento de 60 minutos.
+3. OPERACIÓ N
+Si Count (conteo), Percentage (porcentaje) o las unidades específicas de medida no está n disponibles en un principio, deben activarse en los menú s MODE o UNIT.
+3.1 Modo de pesaje
+Presione repetidamente Unit hasta que aparezca el icono deseado. Presione 0/T para poner la balanza en cero y entonces coloque los objetos para pesar en el plato de pesaje.
+3.2 Modo de conteo (Count) ­ Use el modo de conteo para contar piezas que tengan un peso uniforme.
+Para entrar en el modo de conteo, presione Unit hasta que la pantalla muestre [Count]. Establecer un peso de pieza promedio (APW) ­ Cada vez que se vaya a contar un tipo nuevo de pieza, se debe establecer el peso nominal de una pieza (APW) usando una cantidad pequeñ a de piezas. Con [CLr.APwW] en la pantalla, presione No para usar el APW guardado anteriormente, o presione Yes para establecer un nuevo APW. La pantalla indica el nú mero de piezas que se van a usar para establecer el nuevo APW. Si se prefiere un tamañ o de muestra diferente, presione No hasta que aparezca el tamañ o de muestra deseado (5, 10, 20, 50 ó 100). Coloque el nú mero de piezas especificadas sobre el plato de pesaje. Presione Yes para aceptar el nuevo APW o No para cancelarlo. Conteo ­ Coloque la cantidad que va a contar sobre el plato de pesaje.
+
+PioneerTM
+
+ES-4
+
+Optimizació n del APW ­ Puesto que el peso de cada pieza varía ligeramente, la optimizació n del APW puede usarse para aumentar la exactitud del conteo. La balanza recalcula automá ticamente el peso de pieza promedio cuando el nú mero de piezas sobre el plato es menor de tres veces el tamañ o de la muestra original. La pantalla muestra [APwW.OPT] cada vez que se optimiza el APW.
+3.3. Modo de porcentaje (Percent) ­ Use este mé todo para medir el peso de una muestra como porcentaje
+del peso de referencia. Para entrar en el modo de porcentaje, presione Unit hasta que la pantalla muestre [PErCEnt]. Establezca un nuevo peso de referencia ­ Con borrar referencia [CLr.rEF] en la pantalla, presione No para usar el peso de referencia guardado anteriormente. Presione Yes para establecer un nuevo peso de referencia. Coloque la muestra de referencia sobre el plato y presione Yes para aceptar o No para cancelar. Porcentaje ­ Coloque el objeto (u objetos) que va a comparar con el peso de referencia sobre el plato.
+3.4 Funció n de pesaje por debajo
+
+Retire la protecció n para pesaje por debajo
+
+Ate un alambre o cuerda en el gancho
+
+4. CONFIGURACIONES
+4.1 Menú de navegació n
+
+.CAL.
+
+.SETUP.
+
+.MODE.
+
+.UNITS.
+
+.PRINT.
+
+Suspenda la muestra
+
+.END.
+
+.RS232.
+
+.LOCK.
+
+InCal*
+
+AZSM
+
+COUNT
+
+MILLIGRAM
+
+OUT STA
+
+BAUD
+
+CAL
+
+SPAN
+
+FILTER
+
+APWOPT
+
+GRAM
+
+A. PRINT
+
+PARITY
+
+SETUP
+
+LINEAR**
+
+A.TARE
+
+PERCENT
+
+KILOGRAM
+
+CONTENT
+
+HAND.SH
+
+MODE
+
+CAL ADJ
+
+GRAD
+
+END.MOD
+
+OUNCE
+
+LINE FO
+
+END.R232
+
+UNITS
+
+END.CAL
+
+GBL RST
+
+* Sólo en modelos InCal ** Sólo en modelos de calibración externa
+
+END.SET
+
+POUND
+
+END.PRT
+
+NO SÍ
+
+NO SE MUESTRAN TODAS LAS UNIDADES
+END.UNIT
+
+PRINT RS232 END.LOCK
+
+Ingreso en el Menú ­ Cuando la balanza esté encendida, presione y mantenga Unit/Menu hasta que aparezca [mMENU]. Suelte el botó n y aparece el menú de calibració n [.CAL.]. Navegació n en el Menú ­ Seleccione menú s, elementos de menú y configuraciones mediante el uso de los botones Yes y No. Las flechas só lidas apuntan hacia el contenido mostrado cuando se presiona Yes, y las líneas punteadas cuando se presiona No. Cambio de Configuraciones ­ Para seleccionar la configuració n mostrada, presione Yes. Para ir a la siguiente configuració n, presione No.
+
+ES-5
+
+PioneerTM
+
+Salida del Menú ­ Cuando aparezca [.END.], presione Yes para salir de la funció n de menú , o presione No para regresar al menú de calibració n. Nota: Presione y mantenga No en cualquier momento para salir rá pidamente.
+
+4.2 Menú de calibració n [.CAL.]
+InCal o la calibració n de extensió n debe realizarse diariamente y cuando cambia la temperatura ambiente. InCal [InCal] calibra la balanza mediante un peso interno. La calibració n de extensió n [SpaN] usa dos valores de peso: cero y un peso entre el 50 y 100% de la capacidad de la balanza. La calibració n de linealidad [LIN] usa tres valores de peso, cero, 50% de la capacidad y la capacidad total. Generalmente esta calibració n no es requerida a menos que la prueba indique que el error de linealidad excede la tolerancia de linealidad de la tabla de especificaciones. (Só lo en modelos de calibració n externa.) Adjuste de calibració n (modelos InCal) [CAL Adj] El adjuste de calibratió n se puede utilizar para ajustar el resultado de la calibratió n interna por ± 99 divisiones.
+4.3 Menú de configuració n [.setup.]
+Configuració n de cero automá tico [azsmM] ­ Los cambios ambientales pueden hacer que la pantalla se desvíe. El diseñ o del mecanismo de configuració n de cero automá tico (AZSM) mantiene el ajuste de la balanza en cero a pesar de esos pequeñ os cambios. (SET 0, SET .5d, SET 1d, SET 2d, SET 3d) Filtro [filter] ­ Use la configuració n baja (SET LOW) cuando no haya perturbaciones ambientales. Use la configuració n media (SET MED) para ambientes normales. Use la configuració n alta (SET HI) cuando haya vibraciones y corrientes de aire. Tara automá tica [A-tare] ­ Se supone que el primer artículo que se coloca en la balanza es un recipiente, de manera que se pone en cero. El siguiente artículo se pesa. Cuando el plato queda libre, la balanza se restablece en espera de un recipiente. (SET OFF, SET ON) Graduació n [Grad] ­ Seleccione la capacidad de lectura mostrada. Puede ser necesario reducir la capacidad de lectura para aprobació n. (SET 1d, SET [1]d, SET 10d) Restauració n completa [Gbl rst] ­ Restablece todas las configuraciones a los valores predeterminados de fá brica. (NO, YES)
+
+4.4 Modo de menú [.mMode.]
+Modo de conteo [Count] ­ [SET ON, SET OFF] Optimizació n del peso de pieza promedio (APW) [aPwW.OPT] ­ (SET ON, SET OFF) Modo de porcentaje [PerCent] ­ (SET ON, SET OFF)
+
+4.5 Menú de unidades [.Unit.]
+El menú de unidades se utiliza para habilitar o inhabilitar una unidad de peso específica. (SET ON, SET OFF) La unidad es indicada mediante un cará cter pequeñ o junto a la unidad en la pantalla (g = gramos). La configuració n predeterminada es gramos con todas las demá s unidades inhabilitadas. Unidades T ­ Cuando aparezca la unidad [t]; presione Yes para mostrar las configuraciones de la unidad T; SET OFF, SET TT (tael de Taiwá n), SET TH (tael de Hong Kong), SET TS (tael de Singapur), SET TO (tola) o SET TI (tical). Unidades M ­ Cuando aparezca la unidad [m], presione Yes para mostrar las configuraciones de la unidad M; SET OFF, SET MO (momme) o SET ME (mesghal). Unidad personal del cliente ­ La unidad personal del cliente (c) se usa para crear una unidad de medida no proporcionada con la balanza. La unidad personal del cliente se define mediante un factor, un multiplicador (E) y por lo menos un dígito significativo (LSD). La balanza usará é sta para convertir gramos a una unidad de medida personal del cliente. Ejemplo: 1 g = 0.257206 Avoirdupois Dram, 4100g x 0.01g balanza) Para crear una unidad personal de cliente, presione Yes cuando aparezca la unidad [c].
+Factor ­ El factor (F) es un valor de 0.1000000 a 1.999999. Cuando aparezca el factor, el primer dígito está destellando. Presione Yes para aceptar su valor y activar el siguiente dígito, o No para modificarlo. Cuando modifique, presione No hasta que aparezca el valor deseado, y entonces presione Yes para aceptar. Repita hasta que haya aceptado todos los dígitos. Cuando el factor destelle en la pantalla, presione Yes para aceptarlo o No para modificarlo nuevamente. Ejemplo: F = 0.257206)
+
+PioneerTM
+
+ES-6
+
+E (multiplicador) ­ Las configuraciones son, [E 0] (Fx1), [E 1] (Fx10), [E 2] (Fx100), [E 3] (Fx1000), [E -3] (F/1000), [E -2] (F/100) y [E -1] (F/10). Presione No para mostrar la siguiente configuració n, o Yes para aceptar.
+Ejemplo: E = 0)
+LSD ­ El dígito menos significativo (LSD) es el nú mero de las divisiones mostradas (d) en razó n del cual se incrementa el peso. Los valores son 1d, 2d, 5d, 10d, 100d o 0.5d. Presione No para ir a la siguiente configuració n, o
+Yes para aceptar. (Ejemplo LSD = 1d) Nota: Las opciones del LSD pueden estar limitadas si la capacidad de lectura excede la capacidad de lectura en gramos. La unidad personal del cliente de ejemplo aparece [0.26 C] cuando se coloque 1g en el plato de pesaje.
+
+4.6 Menú de impresió n [.Print.]
+Salida estable [Out.Stab] ­ Los datos só lo se enviará n cuando el indicador de estable esté encendido. Esta
+configuració n funciona con la presió n manual del botó n o continua, e impresió n automá tica a intervalos. (SET ON,
+SET OFF) Impresió n automá tica [A.Print] ­ Los datos se enviará n continuamente cuando se haya seleccionado [Continu]. Intervalo [Inter] envía datos cada 1 a 3600 segundos. Cuando está en estable [Stable], se enviará n datos cuando la balanza detecte una nueva lectura estable. Esto puede ser só lo un valor de peso [LOad] o tambié n puede incluir un cero estable [L+zero]. [OFF] inhabilita la impresió n automá tica. Contenido [CONteNt] ­ El contenido en la transmisió n de datos puede modificarse. Cada una de las siguientes configuraciones puede activarse o desactivarse. Só lo nú mero [numMber] só lo enviará el resultado numé rico. Nombre de balanza [Bal. ID] agregará el nú mero de serie de la balanza con fines de rastreabilidad. Referencia [refer] agregará informació n de referencia correspondiente al modo actual. GLP [GLP] enviará elementos adicionales para
+permitir la documentació n apropiada de resultados de laboratorio. Formato de línea [LinE Fo] ­ Un formato de línea sencilla [single] colocará todos los datos en una línea separando cada salida con una coma ( , ). El formato multilínea [mMulti] colocará cada salida de datos en una nueva línea. Multi +4 [mM-4LF] agregará 4 espacios de línea entra cada salida.
+
+^^^^^^^^^^^^^^^^^^^^^
+User ID: ............................ Bal ID: 123456789 Proj ID: ........................... Time: ......:.......:....... Date: ...../ ..... / ..... 120.01 g ^^^^^^^^^^^^^^^^^^^^^
+
+Formato multilínea con 4 alimentaciones de línea Alimentació n de línea 2 Alimentació n de línea 3 Alimentació n de línea 4 Nombre de usuario: GLP (ON) Nombre de la balanza: ID de balanza (ON) Nombre de proyecto: GLP (ON) Hora: GLP (ON) Fecha: GLP (ON) Resultado
+
+4.7 Menú del RS232 [.rs232.]
+Baudios [BAUD] ­ La velocidad de baudios del RS232 puede establecerse en 600, 1200, 2400, 4800, 9600 y 19200. Paridad [Parity] ­ La paridad puede enviarse a una paridad de 7 bits par [7 eveN], paridad de 7bits impar [7 odd], sin paridad de 7bits [7 No] o sin paridad de 8 bits [8 No]. Comunicació n amiga [Handsh] ­ La comunicació n amiga puede configurarse desactivada [Off], X activada ­ X desactivada [on-off], o hardware [HardwWr].
+
+4.8 Menú de bloqueo [.LOC.]
+Cuando un elemento del menú de bloqueo está configurado en el menú indicado no puede cambiarse. [Loc Cal] ­ Calibració n, [Loc SEt] ­ Configuració n, [Loc.mMod] ­ Modo, [Loc.Unit] ­ Unidad, [Loc Prt] ­ Imprimir, [Loc 232] ­ RS232
+
+ES-7
+
+PioneerTM
+
+4.9 Sellado del acceso a las configuraciones de la balanza
+El interruptor de bloqueo del menú previene cambios al menú de bloqueo. El interruptor puede asegurarse con sellos de papel, sellos de alambre o cintas de plá stico.
+
+Desbloqueado
+
+Bloqueado con cinta de plá stico
+
+5.0 MANTENIMIENTO
+
+5.1 Identificació n y solució n de problemas
+
+Síntoma
+
+Causa posible
+
+Solució n
+
+No enciende
+
+No hay energía hacia la balanza
+
+Verifique las conexiones y el voltaje
+
+Falta de precisió n
+
+Calibració n incorrecta Ambiente inestable
+
+Calibre Cambie la balanza a un lugar apropiado
+
+No puede calibrarse Ambiente inestable Pesos de calibració n incorrectos
+
+Cambie la balanza a una ubicació n apropiada Use pesos de calibració n correctos
+
+No puede ingresar al Modo no habilitado modo
+
+Ingrese al menú y habilite el modo
+
+No puede ingresar en la Unidades no habilitadas unidad de medida
+
+Ingrese al menú y habilite las unidades
+
+Err 5
+
+Peso promedio de piezas demasiado Agregar muestras adicionales
+
+pequeñ o
+
+Err 7.0
+
+Tiempo agotado
+
+Err 8.1
+
+El plato fue cargado durante el encendido
+
+Retire el peso que está sobre el plato y vuelva a poner en cero.
+
+Err 8.2
+
+El plato fue retirado antes del encendido
+
+Instale el plato y vuelva a poner en cero
+
+Err 8.3 Err 8.4
+
+El peso sobre el plato excede la
+
+Retire el peso que está sobre el plato
+
+capacidad
+
+El plato fue retirado durante el pesaje Reinstale el plato
+
+Err 9.5
+
+Datos de calibració n de fá brica corrompidos
+
+Comuníquese con el distribuidor autorizado
+
+Err 9.8 Error 53
+
+Datos de calibració n de fá brica corrompidos Error de suma de control EEPROM
+
+Calibre Comuníquese con el distribuidor autorizado
+
+REF Err
+
+El peso de referencia es demasiado Agregar muestras adicionales pequeñ o
+
+LOWREF
+
+El peso de referencia es demasiado Agregue muestras adicionales o continú e pesando con pequeñ o para el conteo de piezas resultados menos precisos preciso o pesaje de porcentaje
+
+5.2 Informació n de servicio
+Si la secció n de identificació n y solució n de problemas no resuelve o describe su problema, comuníquese con su agente autorizado de servicio de Ohaus. Visite nuestra pá gina web www.ohaus.com para encontrar la oficina Ohaus má s cercana a usted.
+
+PioneerTM
+5.3 Accesorios
+Dispositivo de seguridad Pantalla auxiliar Paquete de determinació n de densidades Impresora ­ té rmica Impresora ­ matriz de puntos Cable - Impresora té rmica Cable - Impresora matriz de puntos Software de recopilació n de datos
+
+76288-01 PAD7 Contacte Ohaus Contacte Ohaus Contacte Ohaus Contacte Ohaus Contacte Ohaus SW12W
+
+ES-8
+(Só lo modelos de 0.1 mg y 1 mg)
+
+6. DATOS TÉ CNICOS
+
+Condiciones ambientales ­ Los datos té cnicos son vá lidos en las siguientes condiciones ambientales:
+
+Temperatura ambiente: 10° C a 30° C
+
+Humedad relativa: 15% a 80% a 31° C no condensante, disminuyendo linealmente al 50% a 40° C
+
+Altura sobre el nivel del mar: Hasta 2000 m
+
+La operabilidad se garantiza a temperaturas ambiente entre 5° C y 40° C
+
+Energía ­ Adaptador de corriente alterna, alimentació n elé ctrica de la balanza de 8-14.5 VCA, 50/60Hz 4 VA o 8-20
+
+VCC, 4 W
+
+Protecció n ­ Protegida contra polvo y agua
+
+Grado de contaminació n: 2
+
+Categoría de instalació n: Clase II
+
+6.1 Dibujos
+
+Modelos de 0.01g y 0.1g
+
+Modelos de 0.0001g y 0.001g
+
+ES-9
+
+PioneerTM
+
+6.2 Especificaciones
+*C= Modelos InCal
+
+MODELO
+
+PA64* PA114* PA214* PA153* PA313* PA512* PA1502* PA3102* PA4101*
+
+Capacidad (g)
+
+65 110
+
+210
+
+151 310 510 1510 3100 4100
+
+Capacidad de lectura (g)
+
+0.0001
+
+0.001
+
+0.01
+
+0.1
+
+Repetibilidad (g) 0.0001(desv. está ndar)
+
+0.001ds
+
+0.01(desv. está ndar)
+
+0.1ds
+
+Linealidad (g)
+
+± 0.0002 ± 0.0003
+
+± 0.002
+
+± 0.02
+
+± 0.2
+
+Rango de tara A la capacidad mediante sustracció n
+
+Estabilizació n 3 segundos
+
+Peso de calibració n de extensió n (g)
+
+50 or 60 50 or100
+
+100 or 200
+
+100 or 200 or 200 or 1000 or 150 300 500 1500
+
+2000 or 3000
+
+2000 or 4000
+
+Pesos de calibració n de linealidad (g)
+
+25, 50, 100, 100, 200, 250, 1000, 2000, 2000, 50 100 200 150 300 500 1500 3000 4000
+
+Diá metro del plato de pesaje
+
+3.5" / 9 cm
+
+4.7" / 12 cm 7.1" / 18 cm
+
+Peso neto
+
+10.1lb / 4.6kg (*11.2lb / 5.2kg)
+
+10lb/ 4.5kg (*11.1lb / 5.1kg
+
+6.3 Comunicació n 6.3.1 Señ ales
+La interfaz RS232 permite que una computadora controle la balanza y que reciba datos como el peso mostrado. La balanza regresará "ES" para señales inválidas.
+
+Señ al IP P CP xP T ON OFF PSN PV PU x# P x% P%
+
+Funció n Imprime inmediatamente el peso mostrado. Imprime el peso mostrado (usa la configuració n del menú estable activado/desactivado). Impresió n continua. Imprimir frecuencia x = Frecuencia de impresió n (1-3600 s) Igual que presionar la tecla cero. Enciende la balanza. Apaga la balanza. Muestra el nú mero de serie. Versió n: Imprime nombre del producto, nú mero de revisió n del software Imprime el modo/unidad actual Configura peso de referencia porcentual (x) en gramos. Imprime el peso de referencia porcentual Configura el peso de referencia porcentual (x) en gramos. Imprime el peso de referencia porcentual
+
+6.3.2 Conexiones de patillas de RS232 (DB9)
+Patilla 2: Línea de transmisió n de la balanza (TxD) Patilla 3: Línea de recepció n de la balanza (RxD) Patilla 5: Señ al de tierra (GND) Patilla 7: Permitir para enviar (comunicació n amiga de hardware) (CTS) Patilla 8: Solicitar para enviar (comunicació n amiga de hardware) (RTS)
+
+GND
+5 9
+
+RxD TxD
+1 6
+
+RTS
+
+CTS
+
+PioneerTM
+
+ES-10
+
+6.4 Conformidad
+
+La conformidad a los está ndares siguientes es indicada por la marca correspondiente en el producto.
+
+Marca
+
+Está ndar
+Este producto se conforma con la Directiva EMC 2004/108/CE, con la Directiva para Voltaje Bajo 2006/95/CE y con la Directiva para Instrumentos de Pesaje no Automá t cos 2009/23/CE. La Declaració n de Conformidad está disponible a travé s de Ohaus Corporation.
+
+AS/NZS4251.1; AS/NZS4252.1
+
+CAN/CSA-C22.2 No. 1010.1-92; UL Std. No. 3101-1
+
+Registro ISO 9001
+En 1994, Bureau Veritus Quality International (BVQI) le otorgó a Ohaus Corporation, EE.UU., un certificado de registro ISO 9001 el cual confirma que el sistema administrativo de calidad de Ohaus cumple con los requerimientos del está ndar ISO 9001. En junio 21 del 2012, Ohaus Corporation, EE.UU., fue registrada nuevamente al está ndar ISO 9001:2008.
+
+GARANTÍA LIMITADA
+Los productos de Ohaus está n garantizados contra defectos de materiales y fabricació n desde la fecha de entrega y durante el tiempo que dure la garantía. Durante el periodo de garantía Ohaus reparará , o, a su discreció n, reemplazará cualquier componente(s) que se compruebe que está defectuoso, sin costo alguno, con la condició n de que el producto sea devuelto, flete pagado, a Ohaus.
+Esta garantía no es vá lida si el producto ha sufrido dañ os por accidente o mal uso, expuesto a materiales radioactivos o corrosivos, presenta materiales extrañ os penetrando al interior del producto, o si ha sido objeto de modificaciones por parte de personas que no sean de Ohaus. En lugar de una tarjeta de registro de garantía devuelta debidamente, el periodo de garantía comenzará en la fecha de envío al distribuidor autorizado. Ohaus Corporation no otorga ninguna otra garantía expresa o implícita. Ohaus Corporation no se hace responsable de cualquier dañ o fortuito.
+Puesto que la legislació n sobre garantías difiere de un estado a otro así como de un país a otro, comuníquese con su distribuidor local de Ohaus para mayor informació n.
+
+FR-1
+
+PioneerTM
+
+1. INTRODUCTION
+1.1 Consignes de sé curité
+Priè re de respecter ces consignes de sé curité . · Vérifiez que la tension d'entrée de l'adaptateur CA correspond à l'alimentation CA locale. · N'utilisez la balance que dans des endroits secs. · N'utilisez pas la balance dans des environnements hostiles. · Ne faites pas tomber de charge sur la plate-forme. · Ne positionnez pas la balance à l'envers sur la plate-forme ou le cô ne de montage de la plate-forme. · Les réparations doivent être exécutées exclusivement par un personnel autorisé .
+1.2 Commandes
+
+Bouton : O/T - On Off Yes Unit Menu No
+Print Cal
+
+Fonctions : Appuyez rapidement : Appuyez longtemps : Appuyez rapidement (Menu) : Appuyez rapidement : Appuyez longtemps : Appuyez rapidement (Menu) : Appuyez longtemps (Menu) : Appuyez rapidement : Appuyez longtemps :
+
+Active la balance, règle l'affichage sur zéro. Dé sactive la balance Sé lectionne ou valide les paramè tres Passe par les unités et les modes actifs Active Menu Passe par les paramè tres disponibles Permet de quitter le menu ou d'annuler une option du menu
+Envoie des donné es Lance le calibrage de porté e
+
+2. INSTALLATION
+2.1 Contenu de l'emballage
+Modè les 0,1g et 0,01g Guide de l'utilisateur Adaptateur alimentation Balance Plate-forme Support de plate-forme Anneau de coupe-vent (modè le InCal uniquement) Carte de garantie
+
+Modè les 0,001g et 0,0001g Guide de l'utilisateur Adaptateur alimentation Balance Plate-forme Portes en verre et panneaux Carte de garantie
+
+PioneerTM
+
+FR-2
+
+2.2 Installation des composants
+Modè les 0,1g et 0,01g
+
+1) Installez le Anneau de coupe-vent 2) Installez le support de la plate-forme 3) Installez la plate-forme (modè le InCal uniquement)
+Modè les 0,001g et 0,0001g
+
+1) Installez les portes laté rales. Introduisez entiè rement dans le cadre supé rieur et faites glisser vers le bas par-dessus le dispositif de retenue.
+
+2) Installez les panneaux avant et arriè re ­ Introduisez le bord inférieur dans la rainure et appuyez jusqu'au blocage.
+
+3) Installez la porte supé rieure
+
+4) Installez la plate-forme
+
+FR-3
+
+PioneerTM
+
+2.3 Mise à niveau de la balance
+Mettez la balance à niveau sur une surface solide et stable. É vitez les emplacements avec courant d'air, vibrations, sources de chaleur excessifs ou changements de tempé rature brusques.
+
+2.4 Branchement
+Àutiliser uniquement avec un bloc d'alimentation agrééCSA (ou équivalent) qui doit être
+muni d'une sortie de circuit limitéet.
+2.5 Calibrage initial
+Sans InCal ­ Mettez la balance en marche en appuyant sur 0/T. Appuyez sur Print/Cal que vous maintenez enfoncé jusqu'à ce que le message [CAL] s'affiche. La masse de calibrage requise clignote à l'é cran. Pour sé lectionner le poids du calibrage alternatif, appuyez sur No. Placez la masse de calibrage sur la plate-forme. Le message [BUSY] clignote à l'écran puis [CLEAr Pan]. Enlevez la masse. Une fois le calibrage terminé , le message [DONE] s'affiche. InCal ­ Appuyez sur Print/Cal que vous maintenez enfoncé jusqu'à ce que le message [CAL] s'affiche. Le message [BUSY] clignote. Une fois le calibrage terminé , le message [DONE] s'affiche. Remarque : Effectuer les calibrages aprè s avoir laissé la balance se ré chauffer pendant 60 minutes.
+3. OPÉ RATION
+Les options Count (Comptage), Percentage (Pourcentage) ou les unité s de mesure spé cifiques doivent ê tre activé es dans les menus MODE ou UNIT si elles ne sont pas disponibles.
+3.1 Mode de pesé e
+Appuyez sur Unit plusieurs fois jusqu'à ce que l'icône de l'unité souhaitée s'affiche. Appuyez sur 0/T pour mettre à zé ro la balance et placez ensuite les objets à peser sur la plate-forme.
+3.2 Count Mode ­ Utilisez le mode de comptage pour compter les pièces d'un poids uniforme.
+Pour accéder au mode de comptage, appuyez sur Unit que vous maintenez enfoncé jusqu'à ce que l'option [Count].s'affiche. Establish an Average Piece Weight (APW) ­ Chaque fois qu'un nouveau type de pièce doit être compté, le poids nominal d'une pièce (poids moyen des pièces) doit être établi à l'aide d'une petite quantité de pièces. Lorsque le message [CLr.APwW] s'affiche, appuyez sur No pour utiliser l'APW enregistré précédemment ou sur Yes pour é tablir un nouvel APW. L'é cran indique le nombre de piè ces à utiliser pour é tablir le nouvel APW. Si vous pré fé rez une autre taille d'échantillon, appuyez sur No jusqu'à ce que la taille d'échantillon souhaitée (5, 10, 20, 50 ou 100) s'affiche. Placez le nombre indiqué de pièces sur la plate-forme. Appuyez sur Yes pour accepter le nouvel APW ou sur No pour annuler.
+
+PioneerTM
+
+FR-4
+
+Count ­ Placez la quantité à compter sur la plate-forme. APW Optimization ­ Dans la mesure où le poids de chacune des pièces varie légèrement, l'option APW Optimization peut ê tre utilisé e pour augmenter la pré cision du comptage. La balance recalcule automatiquement le poids moyen des piè ces lorsque le nombre de piè ces sur la plate-forme est moins que trois fois la taille de l'é chantillon d'origine. Le message [APwW.OPT] s'affiche chaque fois que APW est optimisé .
+3.3 Percent Mode ­ Activez ce mode pour mesurer le poids d'un é chantillon comme le pourcentage d'un poids de
+ré fé rence. Pour accéder au mode de pourcentage, appuyez sur Unit jusqu'à ce que l'option [PErCEnt] s'affiche. É tablir un nouveau poids de ré fé rence ­ Lorsque le message [CLr.rEF] s'affiche, appuyez sur No pour utiliser les poids de ré fé rence enregistré s pré cé demment. Appuyez sur Yes pour é tablir un nouveau poids de ré fé rence. Placez l'échantillon de référence sur la plate-forme et appuyez sur Yes pour accepter ou sur No pour annuler. Percent - Placez le ou les objets à comparer au poids de ré fé rence sur la plate-forme.
+3.4 Pesé e sous la balance
+
+Enlevez le couvercle pour la pesé e sous la balance
+
+Attachez le fil ou la chaîne au crochet Suspendez l'échantillon
+
+4. PARAMÉ TRAGE
+4.1 Navigation dans le menu
+
+.CAL.
+
+.SETUP.
+
+.MODE.
+
+.UNITS.
+
+.PRINT.
+
+.END.
+
+.RS232.
+
+.LOCK.
+
+InCal*
+
+AZSM
+
+COUNT
+
+MILLIGRAM
+
+OUT STA
+
+BAUD
+
+CAL
+
+SPAN
+
+FILTER
+
+APWOPT
+
+GRAM
+
+A. PRINT
+
+PARITY
+
+SETUP
+
+LINEAR**
+
+A.TARE
+
+PERCENT
+
+KILOGRAM
+
+CONTENT
+
+HAND.SH
+
+MODE
+
+CAL ADJ
+
+GRAD
+
+END.MOD
+
+OUNCE
+
+LINE FO
+
+END.R232
+
+UNITS
+
+END.CAL
+
+GBL RST
+
+END.SET
+* modèle InCal uniquement ** Non disponible dans les modèles InCal
+
+NO YES
+
+POUND
+
+END.UNIT
+
+END.PRT
+
+PRINT RS232 END.LOCK
+
+Activer le Menu ­ Lorsque la balance est activé e, appuyez sur Unit/Menu jusqu'à ce que [mMENU] s'affiche à l'écran. Relâ chez le bouton et le menu de calibrage [.CAL.] s'affiche. Navigation Dans le Menu ­ Sé lectionnez les menus, les options de menu et les ré glages via les boutons Yes et No. Les flè ches pleines pointent vers le contenu affiché lorsque vous appuyez sur Yes et les lignes pointillé es lorsque vous appuyez sur No. Changer le Paramé trage ­ Pour sé lectionner le paramè tre affiché , appuyez sur Yes. Pour passer au paramè tre suivant, appuyez sur No.
+
+FR-5
+
+PioneerTM
+
+Quitter le Menu ­ Lorsque le message [.EnD.] s'affiche, appuyez sur Yes pour quitter la fonction du menu ou sur No pour revenir au menu de calibrage. Remarque : Appuyez sur No que vous maintenez enfoncé chaque fois que vous voulez quitter rapidement.
+4.2 Menu de calibrage [.CAL.]
+Les fonctions InCal ou de calibrage de porté e doivent ê tre effectué es quotidiennement et lorsque la tempé rature ambiante change. La fonction InCal [InCal] permet d'étalonner la balance à l'aide d'une masse interne. La fonction de calibrage de porté e [SpaN] se sert de deux valeurs de poidsº: zé ro et un poids entre 50 et 100 % de la capacité de la balance. La fonction de calibrage de liné arité [LIN] se sert de trois valeurs de poids : zé ro, 50% de la capacité et la capacité totale. Ce calibrage n'est en principe pas nécessaire à moins que le test n'indique que l'erreur de liné arité dé passe la tolé rance de liné arité dans le tableau des spé cifications. (Non disponible dans les modè les InCal ) Ré glage de calibrage [CAL Adj] La fonction Calibration Adjust (Ré glage de calibrage) puet ê tre utilisé e pour ré gler le résultat d'un calibrage interne de ± 99 divisions. (modè les InCal)
+4.3 Menu de configuration [.setup.]
+Paramè tre automatique de zé ro [azsmM] ­ Les changements environnementaux peuvent entraîner des dé calages d'affichage. Le mé canisme de paramé trage à zé ro automatique (AZSM) est destiné à maintenir la balance dé finie sur zé ro en dé pit de ces lé gers changements. (SET 0, SET .5d, SET 1d, SET 2d, SET 3d) Filtre [filter] ­ Utilisez le paramètre bas (SET LOW) en l'absence de perturbations environnementales. Utilisez le paramè tre moyen (SET MED) pour des environnements normaux. Utilisez le paramè tre é levé (SET HI) en pré sence de vibrations ou de courants d'air. Tare automatique [A-tare] ­ L'article initial placé sur la balance est supposé être un conteneur et doit en conséquence être mis à zéro. Le poids de l'article suivant s'affiche ensuite. Une fois la plate-forme vidé e, la balance est ré initialisé e attendant un conteneur. (SET OFF, SET ON) Grad [Grad] ­ Sé lectionnez la pré cision affiché e. La ré duction de la pré cision peut requise pour approbation. (SET 1d, SET [1]d, SET10d) Ré initialisation globale [Gbl rst] ­ Cette option permet de restaurer les valeurs par dé faut. (NO, YES)
+4.4 Menu Mode [.mMode.]
+Mode de comptage [Count] ­ [SET ON, SET OFF] Optimisation du poids moyen des piè ces (APW) [aPwW.OPT] ­ (SET ON, SET OFF) Mode de pourcentage [PerCent] ­ [SET ON, SET OFF]
+4.5 Menu des unité s [.Unit.]
+Le menu des unités permet d'activer ou de désactiver une unité spécifique. (SET ON, SET OFF) L'unité est indiquée par un petit caractère adjacent à Unit sur l'écran (g = grams). Le paramètre Grams est activé par défaut et toutes les autres unité s sont dé sactivé es. T-Units ­ Lorsque l'unité [t] s'affiche; apppuyez sur Yes pour afficher les paramètres T-Unit ; SET OFF, SET TT (Taiwan Tael), SET TH (Hong Kong Tael), SET TS (Singapore Tael), SET TO (Tola) ou SET TI (Tical). M-Units ­ Lorsque l'unité [m] s'affiche, appuyez sur Yes pour afficher le paramètre M-Unit ; SET OFF, SET MO (Momme) ou SET ME (Mesghal). Unité personnalisé e ­ L'unité personnalisé e (c) permet de cré er une unité de mesure non fournie avec la balance. Vous personnalisez l'unité à l'aide d'un facteur de conversion, d'un multiplicateur (E) et d'un chiffre le moins significatif( LSD). La balance se sert de cette formule pour convertir les grammes en une unité de mesure personnalisé e. (Exemple: 1 g = 0.257206 Avoirdupois Dram, 4100g x 0.01g balance) Pour créer une unité personnalisée, appuyez sur Yes lorsque le message Unit [c] s'affiche.
+Facteur ­ Le facteur (F) est une valeur comprise entre 0,1000000 et 1,999999. Lorsque le facteur s'affiche, le premier chiffre clignote. Appuyez sur Yes pour accepter sa valeur et activer le chiffre suivant ou sur No pour modifier. Lors de modification, appuyez sur No jusqu'à ce que la valeur souhaitée s'affiche et appuyez ensuite sur Yes pour accepter. Continuez ainsi jusqu'à ce que tous les chiffres aient été acceptés. Lorsque le facteur clignote à l'écran, appuyez sur Yes pour accepter ou sur No pour effectuer une nouvelle modification. (Exemple: F = 0,257206)
+
+PioneerTM
+
+FR-6
+
+E (multiplicateur) ­ Les paramè tres sont, [E 0] (Fx1), [E 1] (Fx10), [E 2] (Fx100), [E 3] (Fx1000), [E -3] (F/1000), [E -2] (F/100) et [E -1] (F/10). Appuyez sur No pour afficher le paramè tre suivant, Yes pour accepter.
+(Exemple: E = 0)
+LSD ­ Le chiffre le moins significatif (LSD) repré sente le nombre de divisions affiché es (d) selon lequel le poids est incré menté . Les valeurs sont 1d, 2d, 5d, 10d, 100d ou 0.5d. Appuyez sur No pour afficher le paramè tre suivant,
+appuyez sur Yes pour accepter. (Exemple de LSD = 1d) Remarque : Les options LSD peuvent ê tre limité es si la précision d'affichage dépasse la précision en grammes. L'unité personnalisée de l'exemple s'affiche [0.26 C] lorsque 1g est placé sur la plate-forme.
+
+4.6 Menu d'impression [.Print.]
+Sortie stable [Out.Stab] ­ Les donné es ne seront envoyé es que lorsque l'indicateur Stable est activé . Pour activer ce
+paramètre, il faut appuyer avec le bouton manuel ou avec l'option d'impression automatique en continu ou par intervalle.
+(SET OFF, SET ON) Impression automatique [A.Print] ­ Les donné es seront envoyé es en continu lorsque l'option [Continu] est dé finie. L'option [Inter] envoie des données toutes les 1 à 3600 secondes. Lorsque l'option [Stable] est activé e, les donné es
+sont envoyé es chaque fois que la balance dé tecte une nouvelle lecture stable. Cela peut ê tre une valeur de poids uniquement [LOad] ou elle peut é galement inclure un zé ro stable [L+zero]. [OFF] permet de désactiver l'impression
+automatique. Contenu [CONteNt] ­ Le contenu dans la transmission des donné es peut ê tre modifié . Vous pouvez activer ou dé sactiver les paramè tres suivants. Chiffre uniquement [numMber] envoie un ré sultat numé rique uniquement. ID balance [Bal. ID] ajoute le numé ro de sé rie de la balance aux fins de traç abilité . La ré fé rence [refer] ajoute des informations de ré fé rence pertinentes au mode actuel. GLP [GLP] envoie des articles supplé mentaires pour permettre
+une documentation correcte des ré sultats de laboratoire. Format de ligne [LinE Fo] ­ Le format de ligne unique [single] place les donné es sur une ligne sé parant chacune des sorties par une virgule (,). Le format de ligne multiple [mMulti] place chaque sortie des donné es sur une nouvelle ligne. Multi +4 [mM-4LF] ajoute quatre (4) espaces de ligne entre les sorties.
+
+^^^^^^^^^^^^^^^^^^^^^
+User ID: ............................ Bal ID: 123456789 Proj ID: ........................... Time: ......:.......:....... Date: ...../ ..... / ..... 120.01 g ^^^^^^^^^^^^^^^^^^^^^
+
+Format de ligne multiple avec 4 pré sentations de ligne Pré sentation de ligne-2 Pré sentation de ligne-3 Pré sentation de ligne-4 GLP (activé ) ID balance (activé ) GLP (activé ) GLP (activé ) GLP (activé ) Ré sultat
+
+4.7 Menu RS232 [.rs232.]
+Baud [BAUD] ­ Le dé bit en baud de RS232 peut ê tre dé fini sur 600, 1200, 2400, 4800, 9600 et 19200. Parité [Parity] ­ La parité peut ê tre envoyé e à une parité paire à 7 bits [7 eveN], 7bits-parité impaire [7 odd], 7bitssans parité [7 No] ou 8bit-pas de parité [8 No]. É tablissement de liaison [Handsh] ­ Cette option peut ê tre dé sactivé e [Off], X activé e ­ X dé sactivé e [on-off], ou maté riel [HardwWr].
+
+4.8 Menu de verrouillage [.LOC.]
+Lorsqu'une option du menu de verrouillage est activée, le menu indiqué n'est plus modifiable. [Loc Cal] - Calibrage, [Loc SEt] - Configuration, [Loc.mMod] - Mode, [Loc.Unit] - Unité , [Loc Prt] - Imprimer, [Loc 232] - RS232
+
+FR-7
+
+PioneerTM
+
+4.9 Protection des paramètres de la balance par apposition d'un sceau
+Le commutateur de verrouillage de menu permet d'empêcher tout changement à un menu verrouillé . Le commutateur peut être sécurisé à l'aide de sceaux en papier, à fil ou à l'aide d'attaches en plastique.
+
+Déverrouillé
+
+Verrouillé avec attache en plastique
+
+5.0 MAINTENANCE
+5.1 Dé pannage
+
+Symptô me
+
+Cause possible
+
+Solution
+
+Mise sous tension La balance n'est pas alimentée
+
+Vé rifier la connexion et la tension.
+
+impossible
+
+Pré cision de qualité Calibrage incorrect
+
+Effectuer le calibrage
+
+mé diocre
+
+Environnement instable
+
+Dé placer la balance vers un emplacement
+
+approprié
+
+Impossible de calibrer Environnement instable
+
+Déplacer la balance vers l'emplacement
+
+approprié
+
+Poids de calibrage incorrect.
+
+Utiliser le poids de calibrage approprié
+
+Impossible d'accéder Mode non activé
+
+Activer le menu, puis le mode
+
+au mode
+
+Impossible d'accéder Unité s non activé es
+
+Activer le menu, puis les unité s
+
+à l'unité
+
+Err 5
+
+Poids moyen des piè ces trop petit.
+
+Ajouter d'autres échantillons
+
+Err 7.0
+
+Dé lais dé passé s
+
+Err 8.1
+
+Une charge est sur la plate-forme pendant la Enlever le poids de la plate-forme et remettre
+
+mise sous tension
+
+la balance à zé ro.
+
+Err 8.2
+
+La plate-forme a é té enlevé e avant la mise Installer la plate-forme et remettre la balance à
+
+en marche
+
+zé ro.
+
+Err 8.3
+
+Le poids sur la plate-forme dé passe la
+
+Enlever le poids de la plate-forme
+
+capacité
+
+Err 8.4
+
+La plate-forme a é té enlevé e pendant un Ré installer la plate-forme
+
+pesage
+
+Err 9.5
+
+Donné es de calibrage par dé faut corrompues Contacter le revendeur agré é
+
+Err 9.8
+
+Donné es de calibrage par dé faut corrompues Effectuer le calibrage
+
+Err 53
+
+Erreur de somme de contrô le EEPROM
+
+Contacter le revendeur agré é
+
+REF Err
+
+Poids de ré fé rence trop petit
+
+Ajouter d'autres échantillons
+
+LOWREF
+
+Le poids de ré fé rence est trop petit pour un Ajouter d'autres échantillons ou continuez à
+
+comptage pré cis des piè ces ou un pesage en peser en risquant de compromettre la pré cision
+
+pourcentage
+
+des ré sultats.
+
+5.2 Informations sur le service
+Si la section de dé pannage ne vous aide pas à ré soudre votre problè me ou ne le dé crit pas, contactez un technicien agré é Ohaus. Visitez le site Web à l'adresse suivante: www.ohaus.com pour localiser le bureau Ohaus le plus prè s de chez vous.
+
+PioneerTM
+5.3 Accessoires
+Dispositif de sé curité Affichage auxiliaire Kit dé termination de densité Imprimante - thermique Imprimante - impact Câ ble ­ Imprimante thermique Câ ble ­ Imprimante impact Logiciel de recueil des donné es
+
+FR-8
+76288-01 PAD7 80850045 (uniquement pour modè les 0,1mg et 1mg) Contacter Ohaus Contacter Ohaus Contacter Ohaus Contacter Ohaus SW12W
+
+6. DONNÉ ES TECHNIQUES
+Conditions ambiantes ­ Les donné es techniques sont valides dans les conditions ambiantes suivantes : Tempé rature ambiante : entre 10 et 30 ° C Humidité relative : 15 à 80% à 31° C sans condensation, ré duction liné aire jusqu'à 50% à 40° C Hauteur au-dessus du niveau de la mer : Jusqu'à 2 000 m L'exploitation est garantie à des tempé ratures ambiantes entre 5 et 40 C Alimentation ­ Adaptateur CA, entrée d'alimentation de la balance 8-14,5VCA, 50/60Hz 4VA ou 8-20VCC, 4W Protection - Proté gé contre la poussiè re et l'eau Degré s de pollution : 2 Caté gorie d'installation : Classe II
+
+6.1 Sché mas
+
+Modè les 0,01g et 0,1g
+
+Modè les 0,0001g et 0,001g
+
+FR-9
+
+PioneerTM
+
+6.2 Spé cifications
+MODÈ LE Capacité (g) Précision d'affichage Reproductibilité (g) Liné arité (g) Plage de tare Stabilisation Masse calibrage porté e (g)
+Masses cal. lin.(g)
+Diamè tre plate-forme Poids net
+
+* C = Modè les InCal
+
+PA64* PA114* PA214* PA213* PA413* PA512* PA2102* PA4102* PA4101*
+
+65 110 210 210 410 510 2100 4100 4100
+
+0,0001g
+
+0,001g
+
+0,01g
+
+0,1g
+
+0.0001(é cart type)
+
+0,001(et)
+
+0,01(é cart type)
+
+0,1(et)
+
+± 0,0002 ± 0,0003
+
+± 0,002
+
+± 0,02
+
+± 0,2
+
+50 ou 60
+
+50 ou 100
+
+À la capacité par soustraction 3 secondes
+100 ou 100 ou 200 ou 200 ou 200 200 400 500
+
+1000 ou 2000
+
+2000 ou 4000
+
+25, 50, 100, 100, 50 100 200 200
+
+250, 200, 1000, 400 500 2000
+
+2000, 4000
+
+3,5 po / 9 cm
+
+4,7 po / 12 cm
+
+7, 1 po / 18 cm
+
+10,1 lb / 4,6 kg
+
+10 lb/ 4,5 kg
+
+6.3 Communication
+6.3.1 Commandes L'interface RS232 permet à un ordinateur de contrôler la balance ainsi que de recevoir des donné es telles que le poids affiché . La balance affiche ES pour les commandes non valides.
+
+Commande Fonction IP Impression immé diate du poids affiché . P Impression du poids affiché (se sert du paramè tre activation/dé sactivation stabilité ). CP Impression continue. xP Impression par intervalle x = Intervalle d'impression (1 à 3600 secondes) T Revient à appuyer sur la touche Zé ro. ON Active la balance. OFF Dé sactive la balance. PSN Affichage du numé ro de sé rie. PV Version : impression du nom du produit, version logicielle PU Impression mode/unité actuels x# Dé finit le poids de ré fé rence de comptage des piè ces (x) en grammes. P# Impression du poids de ré fé rence de comptage des piè ces x% Dé finit le poids de ré fé rence en pourcentage (x) en grammes. P% Impression du poids de ré fé rence en pourcentage
+
+Broche 2: Ligne transmission de balance (TxD) Broche 3: Ligne ré ception de balance (RxD) Broche 5 Signal de masse (GND) Broche 7: Envoi possible (é tablissement de liaison maté rielle) (CTS) Broche 8: Demande d'envoi (établissement de liaison matérielle) (RTS)
+
+GND
+5 9
+
+RxD TxD
+1 6
+
+RTS
+
+CTS
+
+PioneerTM
+
+FR-10
+
+6.4 Conformité
+La conformité aux normes suivantes est indiqué e par la marque correspondante sur le produit.
+
+Marque
+
+Norme
+Ce produit est conforme à la directive EMC 2004/108/CE, à la directive de basse tension 2006/95/CE et à la directive sur les instruments de pesage à fonctionnement non automatique 2009/23/CE. Vous pouvez obtenir une dé claration complè te de la conformité auprè s de Ohaus Corporation.
+
+AS/NZS4251.1; AS/NZS4252.1
+
+CAN/CSA-C22.2 No. 1010.1-92; UL Std. No. 3101-1
+
+Remarque d'Industrie Canada Cet appareil numé rique de la classe A est conforme à la norme NMB-003 du Canada.
+Enregistrement ISO 9001 En 1994, le Bureau Veritus Quality International (BVQI) a octroyé la certification d'enregistrement ISO 9001 à Ohaus Corporation, É tats-Unis d'Amérique, confirmant que le système de gestion de la qualité Ohaus était conforme aux conditions normalisées de l'ISO 9001. Le 21 juin 2012, Ohaus Corporation, É tats-Unis d'Amérique, a été ré-enregistré e à la norme ISO 9001:2008.
+
+GARANTIE LIMITÉ E
+Ohaus garantit que ses produits sont exempts de dé fauts maté riels et de fabrication à compter de la date de livraison pendant toute la duré e de la garantie. Selon les termes de cette garantie, Ohaus s'engage, sans frais de votre part, à ré parer ou, selon son choix, remplacer toutes les piè ces dé terminé es dé fectueuses, sous ré serve que le produit soit retourné, frais payés d'avance, à Ohaus.
+Cette garantie n'entre pas en vigueur si le produit a subi des dommages suite à un accident ou une utilisation erroné e, a été exposé à des matériaux radioactifs ou corrosifs, contient des matériaux étrangers ayant pénétré à l'intérieur ou suite à un service ou une modification apporté e par des techniciens autres que ceux d'Ohaus. En l'absence d'une carte d'enregistrement de garantie dûment remplie, la période de garantie commence à la date de l'expédition au revendeur agréé. Aucune autre garantie expresse ou implicite n'est offerte par Ohaus Corporation. En aucun cas, Ohaus Corporation ne peut ê tre tenu responsable des dommages indirects.
+Dans la mesure où les lois régissant les garanties varient d'un État à l'autre et d'un pays à l'autre, veuillez contacter Ohaus ou votre repré sentant local agré é Ohaus pour de plus amples informations.
+
+Ohaus Corporation 7 Campus Drive Suite 310 Parsippany, NJ 07054 USA Tel: +1 (973) 377-9000 Fax: +1 (973) 944-7177
+With offices worldwide / Con oficinas alrededor del mundo / Avec des bureaux dans le monde entier / Weltweite Geshä ftsstellen / Con uffici in tutto il mondo.
+www.ohaus.com
+*80251619*
+PN 80251619 E © 2013 Ohaus Corporation, all rights reserved / todos los derechos reservados / tous droits reserves.
+Printed in China / Impreso en la China / Imprimé en Chine
+

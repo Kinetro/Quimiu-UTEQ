@@ -1,0 +1,3530 @@
+STARTER 3100
+Bench pH Meter
+Instruction Manual
+
+Manual de instrucciones
+del pHmetro de mesa
+STARTER 3100
+
+STARTER 3100
+PH-mètre de laboratoire
+Manuel d’instructions
+
+STARTER 3100
+Medidor de pH de Bancada
+Manual de Instruções
+                           TABLE OF CONTENTS
+1 INTRODUCTION ...................................................................1
+
+   1.1 Definition of Signal Warnings and Symbols ...................................... 1
+   1.2 Safety Precautions ............................................................................ 2
+   1.3 Display and controls .......................................................................... 3
+
+2 INSTALLATION .....................................................................5
+
+   2.1 Package contents.............................................................................. 5
+   2.2 Installing the stand-alone electrode holder ....................................... 6
+   2.3 Installing the power adapter .............................................................. 6
+   2.4 Connect the pH electrodes................................................................ 7
+   2.5 Meter stand for adjusting view angle................................................. 7
+   2.6 Attached quick guide ......................................................................... 7
+
+3 SETUP...................................................................................8
+
+   3.1 Set temperature unit and MTC value ................................................ 8
+   3.2 Selecting a predefined buffer group .................................................. 8
+
+4 STARTER 3100 OPERATION ...............................................9
+
+   4.1 Calibration ......................................................................................... 9
+      4.1.1 Buffer group................................................................................... 9
+      4.1.2 Performing 1-point calibration ..................................................... 10
+      4.1.3 Performing 2-point calibration ......................................................11
+
+   4.2 Sample measurement ..................................................................... 12
+      4.2.1 pH measurement......................................................................... 12
+      4.2.2 mV measurement ........................................................................ 12
+
+   4.3 Temperature measurement ............................................................. 12
+   4.4 Using the memory ........................................................................... 12
+
+      4.4.1 Storing a reading ......................................................................... 12
+      4.4.2 Recalling from memory ............................................................... 12
+      4.4.3 Clearing the memory ................................................................... 13
+   4.5 Printing ............................................................................................ 13
+
+5 MAINTENANCE ..................................................................15
+
+   5.1 Error message................................................................................. 15
+   5.2 Meter maintenance.......................................................................... 15
+   5.3 Electrode maintenance ................................................................... 16
+   5.4 Self-diagnosis.................................................................................. 16
+   5.5 Recover factory settings.................................................................. 16
+
+6 TECHNICAL DATA..............................................................17
+
+   6.1 Specifications .................................................................................. 17
+   6.2 Compliance ..................................................................................... 18
+
+7 BUFFER GROUP ................................................................19
+STARTER 3100 Bench pH Meter                                                EN-1
+
+1 INTRODUCTION
+
+     Thank you for choosing OHAUS.
+Please read the manual completely before using the STARTER 3100 bench pH meter to ensure
+proper setup, operation and maintenance.
+
+STARTER 3100 has an excellent performance/price ratio and is designed with many useful features
+including a stand-alone electrode holder and a beeper for error alert. Other accessories such as
+pH electrodes and buffer solutions are also available.
+
+STARTER 3100 offers many practical features and functions such as:
+ Large backlit LCD with Quick Guide attached under the meter to assist with user operation
+ Stand-alone electrode holder for maximum flexibility
+ Electrode condition icon automatically showing you the health of your pH electrode
+ RS232 port and memory to store up to 99 measurements
+
+1.1 Definition of Signal Warnings and Symbols
+
+Safety notes are marked with signal words and warning symbols. These show safety issues and
+warnings. Ignoring the safety notes may lead to personal injury, damage to the instrument,
+malfunctions and false results.
+
+Signal Words
+
+WARNING                      For a hazardous situation with medium risk, possibly resulting in
+                             injuries or death if not avoided.
+
+CAUTION                      For a hazardous situation with low risk, resulting in damage to the
+                             device or the property or in loss of data, or injuries if not avoided.
+
+Attention                    For important information about the product.
+
+Note                         For useful information about the product
+
+Warning Symbols
+
+           General hazard
+
+           Explosion hazard
+
+           Corrosive hazard
+
+          Alternating current
+
+          Direct current
+EN-2  STARTER 3100 Bench pH Meter
+
+1.2 Safety Precautions
+
+CAUTION: Read all safety warnings before installing, making connections, or servicing this
+equipment. Failure to comply with these warnings could result in personal injury and/or property
+damage. Retain all instructions for future reference.
+
+ Verify that the input voltage range printed on the data label and the plug type matches the
+     local AC power to be used.
+
+ Make sure that the power cord does not pose a potential obstacle or tripping hazard.
+ Use the equipment only in dry locations.
+ Dry off any liquid spills immediately. The instrument is not watertight.
+ When using chemicals and solvents, comply with the instructions of the chemical producer
+
+     and the general lab safety rules.
+ Use only approved accessories and peripherals.
+ Operate the equipment only under ambient conditions specified in these instructions.
+ Disconnect the equipment from the power supply when cleaning.
+ Do not operate the equipment in hazardous or unstable environments.
+ Service should only be performed by authorized personnel.
+STARTER 3100 Bench pH Meter                                                       EN-3
+                                                                        6
+1.3 Display and controls
+
+Displays                           2     3       45
+
+          1
+
+                   1               2     3 45
+
+                7                     8                       9
+
+1 Electrode condition                      Slope: 90-95%              Slope: less than 90%
+
+            Slope: more than 95%      or offset: ±(15-35) mV     or offset: ±(35-60) mV
+      and offset: ± (0-15) mV         Electrode condition is     Electrode condition is not
+      Electrode condition is good     acceptable                 good or needs cleaning
+
+2 Endpoint stability icon          ; Auto endpoint icon
+
+3 Measurement icon - ; means measurement or calibration is running when blinks
+
+4 Calibration icon - ; means calibration in progress when display
+
+5 Setup icon -  ; instrument is in the setup mode, can set temperature(MTC), buffer group
+      etc.
+
+6 pH/mV reading or slope in calibration process
+
+7 Calibration point / Buffer group /Memory number / Error index
+
+8 Auto temperature compensation - ATC ; Manual temperature compensation - MTC
+
+9 Temperature during measurement or offset (mV) in calibration process
+EN-4                                          STARTER 3100 Bench pH Meter
+
+Controls              Press & release                    Press & hold
+                                                         for 3 seconds
+              Button
+
+                      - Start or finish measurement      - Turn auto endpoint on / off
+                      - Confirm setting, store entered               ,
+
+                       value
+
+                      - Start calibration                - Recall the latest calibration
+                                                          data : slope and offset
+
+                      - Meter turn on                    - Meter turn off
+                      - Exit and return to measurement
+
+                       screen
+
+                      - Store current reading to memory  - Recall stored data
+                      - Increase value during setting    - Print current memory data
+                      - Scroll up through the memory
+
+                      - Switch between pH and mV         - Enter setup mode
+                      - Decrease value during setting
+                      - Scroll down through the memory
+
+                      - Start self-diagnosis
+
+                                                         Turn on/turn off the backlight
+                                                         of the LCD
+STARTER 3100 Bench pH Meter                                                         EN-5
+
+2 INSTALLATION
+
+Carefully unpack the box.
+
+2.1 Package contents
+
+The model ST3100-B (basic package) has the following items:
+
+ST3100-B                                  Units
+STARTER 3100                              1
+Stand-alone electrode holder              1 set
+In use cover                              1
+12V Power supply                          1 set
+
+In addition to ST3100-B content, the ST3100-F package also includes the following:
+
+pH Buffer Powder Set (4.01, 7.00, 10.01)  1 set
+ST310 3-in-1 refillable pH electrode      1
+
+In addition to ST3100-B content, the ST3100-H package also includes the following:
+
+pH Buffer Powder Set (4.01, 7.00, 10.01)  1 set
+ST320 3-in-1 gel pH electrode             1
+
+Each pH buffer powder should be dissolved in 250ml pure water or deionized water in a
+volumetric flask.
+
+Additional electrodes available include the following:
+
+Model   Description                                          P/N
+                                                             83033965
+ST310   3-in-1 plastic refillable pH Electrode               83033966
+                                                             83033967
+ST210   2-in-1 plastic refillable pH Electrode               83033968
+                                                             30038555
+ST320   3-in-1 plastic gel pH Electrode(no need to fill)     30038553
+
+ST230   2-in 1 glass muddy sample pH Electrode               83033970
+STORP1  Gel plastic ORP electrode
+
+STORP2  Refillable glass ORP electrode
+
+STTEMP30 Temperature Electrode
+EN-6                                         STARTER 3100 Bench pH Meter
+
+Buffers and Accessories:                                           83033971
+  Buffer powder set (4.01; 7.00; 10.00)                            30100424
+  Buffer pH1.68 250ml                                              30100425
+  Buffer pH4.01 250ml                                              30100427
+  Buffer pH7.00 250ml                                              30100429
+  Buffer pH10.01 250ml                                             30100430
+  Buffer pH12.45 250ml                                             30058733
+  Electrode holder stand alone (3100/3100C)                        30058734
+  In use cover
+
+2.2 Installing the stand-alone electrode holder
+
+      Install the electrode arm on the base,
+
+      After adjusting the tension knob to some extent, you can move the upper arm up and down.
+      When the pH electrode is installed on the arm, the storage bottle of pH electrode fits into the
+      base hole.
+
+2.3 Installing the power adapter
+
+Insert the right adapter clip into the power adapter slot. The Ohaus balance power supply is also
+12V which could also be used for the pH meter.
+STARTER 3100 Bench pH Meter  EN-7
+
+2.4 Connect the pH electrodes
+
+There are 3 sockets for electrode. “pH” socket (BNC); “TEMP.” Socket (Cinch) and “REF” Socket
+(2mm banana).
+
+For ST310 electrode connect to the BNC and Cinch socket. For 2-in-1 pH electrode (e.g. ST210)
+you only need to connect the BNC.
+
+REF socket is for separate reference electrode. (e.g.STREF1)
+
+2.5 Meter stand for adjusting view angle
+
+One unique design of the STARTER 3100 is the meter stand, which can be used to adjust the view
+angle of the display in case of working on high table.
+
+2.6 Attached quick guide
+
+Another unique design of the STARTER 3100 is the attached quick guide, the quick guide is
+attached into the bottom housing of the meter.
+EN-8                                                STARTER 3100 Bench pH Meter
+
+3 SETUP
+
+3.1 Set temperature unit and MTC value
+
+Please note:
+If a temperature electrode is used, Automatic Temperature Compensation (ATC) and the sample
+temperature are displayed on the screen. You may then choose to skip MTC setup (below).
+
+If the meter does not detect a temperature electrode or one is not used, the meter automatically
+switches to Manual Temperature Compensation (MTC) mode and MTC appears on the screen.
+MTC can be set as follows:
+
+ Power the meter on by pressing               .
+
+ Press and hold              until the setup icon  appears on the display and the current
+
+    temperature unit blinks (°C or °F).
+
+ Press        or             to switch between °C and °F.
+
+ Press            to confirm your selection.
+Then
+
+ Continue with MTC temperature setting by using            or  to adjust temperature
+
+    compensation accordingly
+
+ Press            to confirm the setting
+
+ Press            to return to the measurement screen.
+
+The default MTC temperature value setting is 25°C (77°F).
+Note: °C = 5/9 (°F - 32)
+
+3.2 Selecting a predefined buffer group
+
+After confirming the MTC compensation temperature value, make the buffer group selection. Use
+
+    or         to select a buffer group among 3 buffer groups (4.1.1). Press            to
+
+confirm the setting or press             to leave to return to the measurement screen.
+
+The default buffer group is b1.
+
+b1       1.68      4.01          7.00    10.01
+STARTER 3100 Bench pH Meter                                              EN-9
+
+4 STARTER 3100 OPERATION
+
+Standard procedure of pH measurement is as follows:
+      a) pH electrode preparation
+      b) buffer preparation and pH electrode calibration
+      c) sample preparation
+      d) pH measurement
+      e) Record measurement results or print
+      f) Rinse the pH electrode and properly store
+
+pH electrode preparation: pH electrode should be rinsed with pure water before and after using.
+Check if the electrode is physically damaged. (Be careful with the glass bulb)
+The pH electrode should be stored in the storage bottle; the solution in the bottle is 3M KCl
+solution. After placing the pH electrode into the sample or buffer solution, user should stir several
+seconds then wait 30 to 60 seconds for the signal to stabilize, and then press the button to
+operate (Calibration or measurement).
+
+    WARNING Do not operate the equipment in hazardous environments. The
+    equipment is not explosion protected.
+
+    WARNING When using chemicals and solvents, comply with the instructions of the
+    chemical producer and the general lab safety rules.
+
+4.1 Calibration
+
+4.1.1 Buffer group
+
+STARTER 3100 can perform 1-, 2- or 3- point calibrations.
+There are 3 buffer groups in the meter, you can select the buffer group you prefer (see 4.3),
+default buffer is b1 US standards; the buffer value will be automatically recognized during
+calibration. The 3 predefined buffer groups are (at 25°C):
+
+b1  1.68 4.01 7.00 10.01
+
+b2  2.00 4.01 7.00 9.21 11.00
+
+b3  1.68 4.00 6.86 9.18 12.46
+
+STARTER 3100 automatically corrects for the temperature dependence of the buffer pH values
+given in the following table - buffer group b1.
+This means, if the buffer solutions’ temperature is 15°C, the calibration value you will get should
+be pH1.67 (buffer 1.68), pH4.00 (buffer 4.01), pH7.04(buffer 7.00) and pH10.12 (buffer 10.01).
+EN-10                                              STARTER 3100 Bench pH Meter
+
+5 °C   1.67 4.01 7.09 10.25
+10 °C  1.67 4.00 7.06 10.18
+15 °C  1.67 4.00 7.04 10.12
+20 °C  1.68 4.00 7.02 10.06
+25 °C  1.68 4.01 7.00 10.01
+30 °C  1.68 4.01 6.99 9.97
+35 °C  1.69 4.02 6.98 9.93
+40 °C  1.69 4.03 6.97 9.89
+45 °C  1.70 4.05 6.97 9.86
+50 °C  1.71 4.06 6.96 9.83
+
+Calibration: pH electrodes need to be calibrated with pH standard buffer solution before a proper
+pH measurement can be made. Calibration is to display the right pH value when meter receive
+the mV value signal from the pH electrode.
+
+             Slope: the linear coefficient between mV and pH according to theoretical value (e.g. -
+             59.16mV/pH @ 25 °C which means 100% slope);
+             Offset: the mV value when pH value is 7.00. (Theoretical value is 0 mV);
+
+4.1.2 Performing 1-point calibration
+
+When performing calibration, Ohaus recommends using Auto End Point Mode. After powering
+
+the meter on, be sure the top of the screen shows  to ensure the meter is in Auto End point
+
+Mode.
+
+Auto or Manual End point Mode:
+
+       o Press and hold         to change the End Point Mode.
+
+       o When in Manual Mode, to manually reach a pH measurement or calibration value,
+
+       you need to press button-                   when reading is stable and displays :
+
+       then the sample reading or calibration value freezes,   blinks 3 times and
+
+       freezes on the display.
+
+       o When in Auto End Point Mode, the meter determines when the reading is stable
+
+       then displays and locks the reading or calibration value automatically, the reading
+
+       freezes and blinks 3 times then disappears;            blinks 3 times and freezes
+
+       on the display.
+
+Note: With the 1-point calibration only the offset is adjusted. If the sensor was previously
+calibrated with multi-point calibration the previously stored slope will remain. Otherwise theoretical
+100% slope (-59.16 mV / pH) will be used.
+STARTER 3100 Bench pH Meter                                                          EN-11
+
+When STARTER 3100 is in pH measurement mode (see 4.2); place the pH electrode in a
+calibration buffer, stir 5 seconds, wait for 30 seconds, then:
+
+ Press                “Cal 1” displays on the bottom left of the screen and “Cal ” is blinking.
+
+and appear on the top of the screen, is blinking during calibration.
+
+ The meter reaches endpoint automatically according to the preselected auto-endpoint
+
+mode, the calibration point pH value (e.g. 7.00) with the temperature display on the screen.
+
+The 1-point calibration is finished; There are now 3 options (OHAUS recommends conducting at
+least a 2 point calibration);
+
+1. Press               to do the 2-point calibration.
+
+2. Press               to store the 1-point calibration and exit, the offset and the slope are
+
+shown on the display for 3 seconds then return to the measurement screen.
+
+3. Press               to reject the calibration, return to the measurement screen.
+
+4.1.3 Performing 2-point calibration
+
+ Perform 1-point calibration as described above.
+ Rinse the pH electrode with pure water and wipe off with tissue.
+
+ Place the electrode in the next calibration buffer, stir and wait, then press      , “Cal 2”
+
+displays on the bottom left of the screen and “Cal ” is blinking. On the top of the screen
+
+and appear, is blinking during calibration.
+
+ The meter reaches endpoint according to the endpoint mode, the calibration point pH value
+
+(e.g. 4.01) with the temperature display on the screen.
+
+The 2-point calibration is finished. There are 3 options:
+
+1. Press               to do the 3-point calibration.
+
+2. Press               to store the 2-point calibration and exit, the offset and slope are
+
+shown on the display for 3 seconds then return to the measurement screen.
+
+3. Press               to reject the calibration, return to the measurement screen.
+
+Note: To perform a 3 point calibration, follow the instructions for performing a 2 point calibration
+
+using a third buffer.
+EN-12                          STARTER 3100 Bench pH Meter
+
+4.2 Sample measurement
+
+4.2.1 pH measurement
+
+ Place the pH electrode in the sample. Stir for 5 seconds; wait for 30 seconds.
+
+ Press           to start the pH measurement, appears on the display. is blinking during
+
+measurement.
+
+ When meter reaches endpoint, the pH value with the temperature display on the screen.
+
+4.2.2 mV measurement
+
+ Press         to switch between pH measurement mode and mV measurement mode.
+
+ Follow the same procedure as for pH measurement to perform mV measurement.
+
+4.3 Temperature measurement
+
+For better accuracy, we recommend to use either a built-in or a separate temperature electrode.
+ If a temperature electrode is used, ATC and the sample temperature are displayed.
+ If the meter does not detect a temperature electrode, it automatically switches to the manual
+
+      temperature compensation mode and MTC appears. MTC temperature should be set.
+
+Note: STARTER 3100 accepts NTC 30 kΩ temperature sensor. ATC (Auto Temperature
+Compensation) or MTC (Manual Temperature Compensation), the Temperature Compensation
+only corrects for the change in the output of the electrode, not for the change in the actual solution.
+This means the meter corrects the signal(mV) from the electrode to get a more accurate pH value
+according to the real temperature.
+
+4.4 Using the memory
+
+4.4.1 Storing a reading
+
+The STARTER 3100 can store up to 99 endpoint results.
+
+ Press button    when the measurement reaches endpoint. M01 indicates that one result
+
+has been stored.
+
+If you press    when M99 is displayed, FUL displays to indicate the memory is full. To store
+
+further data you will have to clear the memory. (See 4.4.3)
+
+4.4.2 Recalling from memory
+
+ Press and hold  to recall the stored values from memory when the current
+
+measurement reaches endpoint.
+STARTER 3100 Bench pH Meter                                                                EN-13
+
+ Press button         or             to scroll through the stored results. R01 to R99 indicates which
+
+   result is being displayed.
+
+ Press            to exit.
+
+4.4.3 Clearing the memory
+
+ Pressing         or          to scroll through the stored results until “MRCL” appears.
+
+ Press            , CLr blinks;
+
+There are now 2 options:
+
+ Press            to confirm the deletion of all the stored data.
+
+ Press            to return to the measurement mode without deleting the memory.
+
+4.5 Printing
+
+If the printer is connected to the STARTER 3100(e.g. SF-F40A, green light means connection
+success; printer baud rate 9600bps; 8 data bit; none parity bit; 1 stop bit), a print-out is
+automatically generated after each end pointed measurement or calibration.
+The format for the print-out following a pH measurement is:
+End Point, Value, Temp., ATC/MTC
+Auto EP, 4.01pH, 25.0 °C, MTC
+
+The details for the second line are:
+
+Auto EP, 4.01pH, 25.0 °C , MTC
+
+|        |      |          |---- Manual Temperature Compensation
+
+|        |      |---------------- Temperature value and unit ºC
+
+|        |------------------------- pH value
+
+|---------------------------------------- Auto End Point
+
+The format for the print-out following a mV measurement is:
+End Point, Value, Temp., ATC/MTC
+Manual EP, 182mV, 23.2 °C, ATC
+
+The print-out in case of an error message is:
+End Point, Value, Temp., ATC/MTC
+Error3
+
+The print-out for a 2-point calibration is:
+Buffer1: 4.01pH
+mV1: 178mV
+Temp.1: 25.0 °C
+Buffer2: 7.00pH
+mV2: 3mV
+Temp.2: 25.0 °C
+EN-14                                           STARTER 3100 Bench pH Meter
+
+Slope: 99%
+Offset: 5mV
+ATC/MTC: MTC
+
+The print-out for a 3-point calibration is:
+Buffer1: 4.01pH
+mV1: 178mV
+Temp.1: 25.0 °C
+Buffer2: 7.00pH
+mV2: 0mV
+Temp.2: 25.0 °C
+Buffer3: 9.21pH
+mV3: -130mV
+Temp.3: 25.0 °C
+Slope: 100%
+Offset: 0mV
+ATC/MTC: ATC
+
+Printing from memory: When scrolling through the memory you can print the entry that is currently
+
+viewed by pressing and holding (3 seconds) the  . The printout format is as follows:
+Recall 01:
+End Point, Value, Temp., ATC/MTC
+Manual EP, 4.01pH, 35.6 °C, ATC
+STARTER 3100 Bench pH Meter                                                              EN-15
+
+5 MAINTENANCE
+
+5.1 Error message                      Reset to factory settings
+
+  Error 0 Memory access error
+
+Error 1  Self-diagnosis failed         Repeat the self-diagnosis procedure and make
+Error 2  Measured values out of range  sure that you finish pressing all five keys within
+                                       two minutes.
+
+                                       Check if the electrode is properly connected and
+                                       placed in the sample solution.
+
+Error 3  Measured buffer temperature Keep the pH buffer temperature within the range
+
+         out of range (<5 or >40 °C)   for calibration
+
+Error 4  Offset out of range           Make sure the pH buffer is correct and fresh;
+         offset > 60mV or < - 60 mV    Clean or replace the pH electrode.
+
+Error 5 Slope out of range             Make sure the buffer is correct and fresh; Clean
+                                       or replace the pH electrode.
+
+Error 6  Meter cannot recognize the    Make sure the buffer is correct and fresh; check if
+         buffer                        the buffer has not been used more than once.
+
+Error 9  The current data set has      An endpoint reading can only be stored once.
+         already been stored once      Perform a new measurement to store.
+
+Error 10 The sample temperature out    Check the sample temperature, the temperature
+                of range               sensor.
+
+If an error happens, the meter will also beep 3 times to alert.
+For further technical support please contact Ohaus. (US please contact 1-800-672-7722).
+
+5.2 Meter maintenance
+
+Never unscrew the two halves of the housing!
+The STARTER 3100 series instruments do not require any maintenance other than occasional wipe
+with a damp cloth and the replacement of depleted batteries.
+The housing is made of acrylonitrile butadiene styrene (ABS). This material is attacked by some
+organic solvents, such as toluene, xylene and methyl ethyl ketone (MEK). Any spillage should be
+immediately wiped off.
+EN-16                                    STARTER 3100 Bench pH Meter
+
+5.3 Electrode maintenance
+
+Make sure the electrode is filled with electrolyte solution. Always store the electrode according to
+the electrode instruction manuals and do not allow it to dry out.
+
+If the electrode response becomes sluggish or the slope is not acceptable, try the following:
+      o Soak the electrode in 0.1M HCl for at least 8 hours.
+      o For fat or oil contaminant, degrease the membrane with cotton wool soaked in either
+             acetone or a soap solution.
+
+After electrode treatment, a new calibration should be performed. If the electrode slope is still not
+acceptable, the electrode might need to be replaced.
+
+5.4 Self-diagnosis
+
+ When the meter is on, press and hold    and                          simultaneously until the
+
+meter displays the full screen. Each icon blinks one after the other.
+
+This way you may check whether all icons are correctly shown. The next step is to check that the
+
+keys are functioning correctly. This requires user interaction.
+
+When b blinks, five icons are displayed.
+ Press the five keys in any order. Each time you press a key an icon disappears from the
+
+      screen, continue to press the other keys until all the icons have disappeared.
+
+When the self-diagnosis has been completed successfully, PAS appears. If self-diagnosis fails,
+error message Err 1 appears.
+
+Note: You have to finish pressing all five keys within 2 minutes, otherwise Err 1 appears and you
+will have to repeat the procedure.
+
+5.5 Recover factory settings
+
+ When the meter is off, press and hold   &                      &     together for 3
+
+seconds, the screen displays    and blinks, this means “Reset”. There are 2 options:
+
+ Press     to reset factory settings (MTC, slope and offset, etc.), display
+
+       then restart the meter.
+
+ Or press  to quit the setting, display                         then turn off the meter.
+STARTER 3100 Bench pH Meter                                           EN-17
+
+6 TECHNICAL DATA
+
+6.1 Specifications
+
+Ambient conditions
+ Indoor use only
+ Altitude: Up to 2000 m
+ Specified Temperature range: 5 °C to 40 °C
+ Humidity: maximum relative humidity 80 % for temperatures up to 30 °C decreasing linearly to
+
+     50% relative humidity at 40 °C
+ Mains supply voltage fluctuations: up to ±10% of the nominal voltage
+ Installation category II
+ Pollution degree: 2
+ Operability is assured at ambient temperatures between 5 °C to 40 °C
+
+Model                     ST3100
+Measuring range
+                          -2.00…16.00 pH
+Resolution                –1999…1999 mV
+                          -5 °C…110 °C
+Error limits
+                          0.01 pH
+Calibration               1 mV
+Memory                    0.1 °C
+Power supply
+Size/weight               ± 0.01 pH
+                          ± 1 mV
+                          ± 0.5 °C
+
+                          3 points
+                          3 predefined buffer groups
+
+                          99 measurements
+                          The last calibration data
+
+                          AC Adapter Input: 100-240V ~ X.XA 50/60 Hz
+                          AC Adapter Output: 12V  X.XA
+                          220 W x 175 D x 78 H mm / 0.75 kg
+
+Display                   Liquid crystal with backlight
+Input                     BNC, impedance > 10e+12 Ω
+                          Cinch, NTC 30 kΩ
+Reference input           2mm banana socket
+Temperature-compensation  ATC & MTC
+Housing                   ABS
+EN-18           STARTER 3100 Bench pH Meter
+6.2 Compliance
+
+               This product conforms to the EMC Directive 2004/108/EC and the Low Voltage
+               Directive 2006/95/EC. The Declaration of Conformity is available online at
+               europe.ohaus.com/europe/en/home/support/compliance.aspx.
+
+               In conformance with the European Directive 2002/96/EC on Waste Electrical
+               and Electronic Equipment (WEEE) this device may not be disposed of in
+               domestic waste. This also applies to countries outside the EU, per their specific
+               requirements. Please dispose of this product in accordance with local
+               regulations at the collecting point specified for electrical and electronic
+               equipment. If you have any questions, please contact the responsible authority
+               or the distributor from which you purchased this device. Should this device be
+               passed on to other parties (for private or professional use), the content of this
+               regulation must also be related. Disposal instructions in Europe are available
+               online at europe.ohaus.com/europe/en/home/support/weee.aspx. Thank you for
+               your contribution to environmental protection.
+
+FCC Note: This equipment has been tested and found to comply with the limits for a Class
+A digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide
+reasonable protection against harmful interference when the equipment is operated in a
+commercial environment. This equipment generates, uses, and can radiate radio frequency
+energy and, if not installed and used in accordance with the instruction manual, may cause
+harmful interference to radio communications. Operation of this equipment in a residential
+area is likely to cause harmful interference in which case the user will be required to correct
+the interference at his own expense.
+
+ISO 9001 Registration
+In 1994, OHAUS Corporation, USA, was awarded a certificate of registration to ISO 9001 by
+Bureau Veritus Quality International (BVQI), confirming that the OHAUS quality
+management system is compliant with the ISO 9001 standards requirements. On June 21,
+2012, OHAUS Corporation, USA, was re-registered to the ISO 9001:2008 standard.
+STARTER 3100 Bench pH Meter                       EN-19
+
+7 BUFFER GROUP
+
+STARTER 3100 automatically correct for the temperature dependence of the buffer group pH value
+given in the following tables (b2, b3), you can find b1. (see 3.1.1)
+
+Buffer group b2 Europe standard
+
+Temp °C pH2.00 pH4.01 pH7.00     pH9.21  pH11.00
+                                 9.45    11.72
+5   2.02 4.01 7.09               9.38    11.54
+                                 9.32    11.36
+10  2.01 4.00 7.06               9.26    11.18
+                                 9.21    11.00
+15  2.00 4.00 7.04               9.16    10.82
+                                 9.11    10.64
+20  2.00 4.00 7.02               9.06    10.46
+                                 9.03    10.28
+25  2.00 4.01 7.00               8.99    10.10
+
+30  1.99 4.01 6.99
+
+35  1.99 4.02 6.98
+
+40  1.98 4.03 6.97
+
+45  1.98 4.04 6.97
+
+50  1.98 4.06 6.97
+
+Buffer group b3 JJG119
+
+Temp °C pH1.68 pH4.00   pH6.86   pH9.18  pH12.46
+                        6.95     9.39    13.21
+5   1.67 4.00           6.92     9.33    13.01
+                        6.90     9.28    12.82
+10  1.67 4.00           6.88     9.23    12.64
+                        6.86     9.18    12.46
+15  1.67 4.00           6.85     9.14    12.29
+                        6.84     9.11    12.13
+20  1.68 4.00           6.84     9.07    11.98
+                        6.83     9.04    11.83
+25  1.68 4.00           6.83     9.02    11.70
+
+30  1.68 4.01
+
+35  1.69 4.02
+
+40  1.69 4.03
+
+45  1.70 4.04
+
+50  1.71 4.06
+EN-20  STARTER 3100 Bench pH Meter
+
+                                     LIMITED WARRANTY
+
+Ohaus products are warranted against defects in materials and workmanship from the date of
+delivery through the duration of the warranty period. During the warranty period Ohaus will repair,
+or, at its option, replace any component(s) that proves to be defective at no charge, provided that
+the product is returned, freight prepaid, to Ohaus.
+This warranty does not apply if the product has been damaged by accident or misuse, exposed to
+radioactive or corrosive materials, has foreign material penetrating to the inside of the product, or
+as a result of service or modification by other than Ohaus. In lieu of a properly returned warranty
+registration card, the warranty period shall begin on the date of shipment to the authorized dealer.
+No other express or implied warranty is given by Ohaus Corporation. Ohaus Corporation shall not
+be liable for any consequential damages.
+As warranty legislation differs from state to state and country to country, please contact Ohaus or
+your local Ohaus dealer for further details.
+                                       Índice
+1 Introducción .........................................................................1
+
+   1.1 Definición de palabras de advertencia y símbolos de advertencia ........1
+   1.2 Precauciones de seguridad .......................................................................2
+   1.3 Pantalla y controles ....................................................................................3
+
+2 Instalación ............................................................................5
+
+   2.1 Contenido del paquete ...............................................................................5
+   2.2 Instalación del soporte para electrodo autónomo ...................................6
+   2.3 Instalación del adaptador de corriente .....................................................6
+   2.4 Conexión de los electrodos pH .................................................................7
+   2.5 Soporte para el pHmetro para ajustar el ángulo de visión ......................7
+   2.6 Guía rápida incluida....................................................................................8
+
+3 Ajuste....................................................................................8
+
+   3.1 Ajustar la unidad de temperatura ..............................................................8
+   3.2 Ajustar la compensación de la temperatura manual ...............................8
+   3.3 Seleccionar un grupo predefinido de tampones ......................................8
+
+4 Funcionamiento del STARTER 3100 ..................................9
+
+   4.1 Calibración ..................................................................................................9
+
+      4.1.1 Grupo de tampones....................................................................... 9
+      4.1.2 Cómo realizar la calibración de un punto.................................... 10
+      4.1.3 Cómo realizar la calibración de dos puntos .................................11
+
+   4.2 Medición de la muestra ............................................................................11
+
+      4.2.1 Medición del pH............................................................................11
+      4.2.2 Medición de mV........................................................................... 12
+
+   4.3 Medición de la temperatura......................................................................12
+   4.4 Uso de la memoria ....................................................................................12
+
+      4.4.1 Almacenar una lectura ................................................................ 12
+      4.4.2 Recuperar desde la memoria ...................................................... 12
+      4.4.3 Borrar el contenido de la memoria .............................................. 12
+
+   4.5 Imprimir .....................................................................................................13
+
+5 Mantenimiento ...................................................................14
+
+   5.1 Mensajes de error .....................................................................................14
+   5.2 Mantenimiento del pHmetro.....................................................................14
+   5.3 Mantenimiento del electrodo ...................................................................14
+   5.4 Autodiagnóstico........................................................................................15
+   5.5 Recuperar los valores de fábrica.............................................................15
+
+6 Datos técnicos ...................................................................16
+
+   6.1 Especificaciones.......................................................................................16
+
+7 Conformidad ......................................................................17
+8 Grupo de tampones ...........................................................18
+STARTER 3100                                                             ES-1
+
+1 Introducción
+
+     Gracias por elegir un producto OHAUS.
+Para evitar el funcionamiento incorrecto, lea el manual completamente antes de utilizar el
+pHmetro de mesa STARTER 3100.
+
+Los STARTER 3100 tienen una excelente relación calidad/precio y están diseñados con muchas
+funciones útiles incluyendo un soporte para electrodo autónomo, una alarma para notificar un
+error. También están disponibles en OHAUS otros accesorios como varios electrodos pH para
+diferentes aplicaciones, y soluciones de tampón.
+
+En estos pHmetros encontrará funcionalidades muy útiles. Algunas de las muchas funciones son:
+
+ Gran pantalla LCD retroiluminada con guía rápida incluida para ayudar al usuario a trabajar
+
+      con comodidad
+ Punto final automático y manual que puede ayudar a los usuarios a fijar los valores de
+
+      lectura estables
+ 3 grupos de tampones predefinidos (EE.UU, UE y JJG) que cumplen con los diferentes
+
+      requisitos
+ RS232 puede conectar una impresora, memoria de 99 datos con los últimos datos de
+
+      calibración
+
+1.1 Definición de palabras de advertencia y símbolos de advertencia
+
+Las indicaciones de seguridad están marcadas con palabras de advertencia y símbolos de
+advertencia. Muestran cuestiones y advertencias de seguridad. Hacer caso omiso de las
+indicaciones de seguridad puede provocar lesiones personales, daños en el equipo, fallos de
+funcionamiento y resultados falsos.
+
+Palabras de advertencia
+
+ADVERTENCIA              Para una situación de peligro con riesgo medio, que podría
+                         ocasionar lesiones o la muerte si no se evita.
+
+PRECAUCIÓN               Para una situación de peligro con riesgo alto, que podría dañar el
+                         dispositivo o la propiedad o la pérdida de datos, o lesiones si no se
+                         evita.
+
+Atención                 Para información importante sobre el producto.
+
+Nota                     Para información útil sobre el producto
+ ES-2                    STARTER 3100
+
+Símbolos de advertencia
+
+   Peligro general
+
+   Peligro de explosión
+
+   Peligro de corrosión
+
+  Corriente alterna
+
+  Corriente continua
+
+1.2 Precauciones de seguridad
+
+PRECAUCIÓN: Lea todas las advertencias de seguridad antes de la instalación, conexión o
+reparación del equipo. No cumplir con estas advertencias podría causar daños corporales y/o
+daños en la propiedad. Guarde las instrucciones para futuras consultas.
+
+ Compruebe que el rango de tensión de entrada impreso en la etiqueta de datos y el tipo de
+     enchufe coincidan con la alimentación por CA utilizada.
+
+ Asegúrese de que el cable de corriente no represente un posible obstáculo o peligro de
+     tropiezo.
+
+ Utilice el equipo solo en ambientes secos.
+ Seque inmediatamente cualquier líquido derramado. El instrumento no es hermético.
+ Cumpla las instrucciones del fabricante de productos químicos y las normas de seguridad
+
+     generales de laboratorio cuando utilice productos químicos y disolventes.
+ Utilice solo los accesorios y periféricos aprobados.
+ Utilice el equipo solo en las condiciones ambientales especificadas en estas instrucciones.
+ Desconecte el equipo de la fuente de alimentación cuando lo esté limpiando.
+ No utilice el equipo en entornos peligrosos o inestables.
+ El mantenimiento debe realizarse solamente por personal autorizado.
+STARTER 3100                                                                   ES-3
+
+1.3 Pantalla y controles
+
+Pantallas
+
+              1                       2     3 45
+
+           6
+
+                               7         8  9
+
+1 Condición del electrodo                      Pendiente: 90-95 %             Pendiente: menos del 90 %
+
+             Pendiente: más del 95 %     o compensación: ±(15-35) mV    o compensación: ±(35-60) mV
+       y compensación: ±(0-15) mV        La condición del electrodo es  La condición del electrodo no es
+       La condición del electrodo es     aceptable                      buena y necesita limpieza
+       buena
+
+2 Icono de estabilidad del punto final      , icono de punto final automático
+
+3 Icono de medición - , cuando parpadea, indica que la medición o la calibración se está
+      ejecutando
+
+4 Icono de calibración -  , cuando se muestra en la pantalla indica que la calibración está
+      en curso
+
+5 Icono de ajuste - ; el instrumento está en modo ajuste, puede ajustar la temperatura
+      (MTC), el grupo de tampones, etc.
+
+6 Lectura de pH/mV o la pendiente en el proceso de calibración
+
+7 Punto de calibración / grupo de tampones /Número de memoria / Índice de error
+
+8 Compensación automática de la temperatura - ATC, compensación manual de la
+      temperatura - MTC
+
+9 Temperatura durante la medición o la compensación (mV) en el proceso de calibración
+ ES-4                                                    STARTER 3100
+
+Controles             Pulsar y soltar                     Pulsar y mantener
+                                                         durante 3 segundos
+               Botón
+
+                      - Iniciar o finalizar la medición  - Encender/apagar punto final
+                      - Confirmar ajuste, almacenar un    automático
+
+                       valor entero                                  ,
+
+                      - Iniciar calibración              - Recuperar los últimos datos
+                                                          de calibración: pendiente,
+                      - Encender el pHmetro               compensación
+                      Salir y volver a la pantalla de
+                                                         - Apagar el pHmetro
+                       medición
+                                                         Recuperar datos almacenados
+                      - Almacenar en memoria lecturas    - Imprimir datos de memoria
+                       actuales
+                                                          actuales
+                      - Aumentar el valor durante la
+                       configuración                     - Acceder al modo ajuste
+
+                      - Desplazarse hacia arriba por la
+                       memoria
+
+                      - Cambiar entre pH y mV
+                      - Disminuir el valor durante la
+
+                       configuración
+                      - Desplazarse hacia abajo por la
+
+                       memoria
+
+                      - Iniciar autodiagnóstico
+
+                                                         Encender/Apagar la
+                                                         retroiluminación de la LCD
+STARTER 3100                                                         ES-5
+
+2 Instalación
+
+Desempaquete cuidadosamente la caja.
+
+2.1 Contenido del paquete
+
+El modelo ST3100-B (paquete básico) tiene los siguientes artículos:
+
+ST3100-B                           Unidades
+STARTER 3100                       1
+Soporte para electrodo autónomo    1 juego
+Cubierta en uso                    1
+Fuente de alimentación de 12 V     1 juego
+
+Además del contenido del ST3100-B, el paquete de ST3100-F también incluye lo siguiente:
+
+Juego de polvo para tampón de pH (4,01, 7,00, 10,01)  1 juego
+Electrodo de pH rellenable 3 en 1 ST310               1
+
+Además del contenido del ST3100-B, el paquete de ST3100-H también incluye lo siguiente:
+
+Juego de polvo para tampón de pH (4,01, 7,00, 10,01)  1 juego
+Electrodo de pH gel 3 en 1 ST320                      1
+
+Se debe disolver calda tampón de pH para polvo en 250 ml de agua pura o desionizada en un
+matraz volumétrico. También puede solicitar el frasco con solución de tampón en Ohaus.
+
+Ahora hay disponibles más electrodos que incluyen lo siguiente:
+
+Modelo  Descripción                                                  P/N
+                                                                     83033965
+ST310   Electrodo de plástico para pH rellenable 3 en 1              83033966
+
+ST210   Electrodo de plástico para pH rellenable 2 en 1              83033967
+ST320   Electrodo de plástico para pH, con gel, 3 en 1 (no es        83033968
+        necesario rellenarlo)                                        30038555
+                                                                     30038553
+ST230   Electrodo de vidrio para pH, muestras de lodo. 2 en 1        83033970
+STORP1  Electrodo de plástico ORP, con gel
+
+STORP2 Electrodo de vidrio ORP, rellenable
+
+STTEMP30 Electrodo de temperatura
+ ES-6                                             STARTER 3100
+
+Tampones y accesorios:                                     83033971
+  Juego de tampón para polvo (4,01; 7,00; 10,00)           30100424
+  Tampón con pH 1,68, 250 ml                               30100425
+  Tampón con pH 4,01, 250 ml                               30100427
+  Tampón con pH 7,00, 250 ml                               30100429
+  Tampón con pH 10,01, 250 ml                              30100430
+  Tampón con pH 12,45, 250 ml                              30058733
+  Soporte para electrodo autónomo (3100/3100C)             30058734
+  Cubierta en uso
+
+2.2 Instalación del soporte para electrodo autónomo
+
+      Coloque el brazo del electrodo a la base,
+
+      Después de ajustar hasta cierto punto el mando de tensión, puede mover hacia arriba y
+      hacia abajo la parte superior del brazo directamente. Al colocar el electrodo del pH en el
+      brazo y realizar la calibración o medición, se puede colocar el frasco de almacenamiento del
+      electrodo de pH en el hueco de la base.
+
+2.3 Instalación del adaptador de corriente
+
+Inserte el clip adaptador correcto en la ranura del adaptador de corriente. La fuente de alimentación de
+la balanza Ohaus es también de 12 V que puede utilizarse también para el pHmetro.
+STARTER 3100  ES-7
+
+2.4 Conexión de los electrodos pH
+
+Existen 3 enchufes por electrodo: el enchufe "pH" (BNC), “TEMP”, el enchufe (Cinch) y el enchufe
+“REF” (banana de 2 mm).
+
+Para el electrodo ST310 debe conectar el enchufe BNC y Cinch. Para el electrodo de pH 2 en 1
+(p. ej. ST210) solo necesita conectar BNC.
+
+El enchufe REF es para el electrodo separado de referencia. (p. ej. STREF01)
+
+2.5 Soporte para el pHmetro para ajustar el ángulo de visión
+
+Un diseño único del STARTER 3100 es el soporte para el pHmetro, que puede utilizarse para
+ajustar el ángulo de visión de la pantalla en caso de trabajar en mesas de laboratorio altas.
+ ES-8                                                                    STARTER 3100
+2.6 Guía rápida incluida
+
+Otro diseño único del STARTER 3100 es la guía rápida incluida. La guía rápida se incluye en el
+interior de la parte inferior de la carcasa del pHmetro, puede sacarla con los dedos.
+
+3 Ajuste
+
+3.1 Ajustar la unidad de temperatura
+
+Tenga en cuenta:
+Si se utiliza un electrodo de temperatura, compensación automática de temperatura (ATC) y la
+temperatura de la muestra se muestran en la pantalla. A continuación, puede optar por omitir la
+configuración MTC (abajo).
+Si el medidor no detecta un electrodo de temperatura o no se utiliza, el medidor cambia
+automáticamente al modo de compensación de temperatura manual (MTC) y MTC aparece en la
+pantalla.
+MTC se puede ajustar de la siguiente manera:
+
+ Poder del medidor pulsando Exit (Salir).
+ Mantenga pulsado el botón Mode/Setup (Modo/Ajuste) hasta que aparezca el icono en
+
+      la pantalla y el estándar actual parpadee.
+
+ Pulse los botones Up (Arriba) o Down (Abajo) para cambiar entre °C y °F.
+ Pulse el botón Read (Leer) para confirmar su selección.
+
+Después
+ Continúe con la configuración de la temperatura MTC o
+ Pulse el botón Read (Leer) para confirmar su selección.
+
+ Pulse el botón Exit (Salir) volver a la pantalla de medición.
+
+3.2 Ajustar la compensación de la temperatura manual
+
+Después de confirmar la unidad de la temperatura, se mostrará en la pantalla el valor de la
+temperatura MTC (Compensación de la temperatura manual). Después utilice los botones up
+(arriba) o down (abajo) para aumentar o disminuir el valor de la temperatura de su muestra.
+Pulse el botón Read (Leer) para confirmar el ajuste o pulse el botón Exit (Salir) para volver a la
+pantalla de medición.
+
+El ajuste del valor de la temperatura MTC por defecto es 25 °C (77 °F).
+Nota: °C = 5/9 (°F -32)
+
+3.3 Seleccionar un grupo predefinido de tampones
+
+Después de confirmar el valor de la temperatura MTC de compensación, va hasta la selección del
+grupo de tampones. Utilice los botones Up (Arriba) o Down (Abajo) para seleccionar un grupo de
+tampones entre los 4 grupos de tampones (3.1.1). Pulse el botón Read (Leer) para confirmar el
+ajuste o pulse el botón Exit (Salir) para volver a la pantalla de medición.
+
+El grupo de tampones por defecto es b1.
+
+b1  1,68  4,01  7,00                     10,01
+ STARTER 3100                      ES-9
+
+4 Funcionamiento del STARTER 3100
+
+El procedimiento de la medición del pH es el siguiente, los puntos más importantes son el
+electrodo de pH, aclarado, calibración y almacenamiento. Después de colocar el electrodo en la
+solución, primero debemos mezclarlo y después realizar la operación.
+
+      a) Preparar el electrodo de pH
+      b) Preparar el tampón y la calibración del electrodo de pH
+      c) Preparar la muestra
+      d) Medir el pH
+      e) Registrar o imprimir del resultado de la medición
+      f) Enjuagar y almacenar el electrodo de pH
+Preparación del electrodo de pH: el electrodo de pH debe enjuagarse con agua pura antes y
+después de su uso. Compruebe si el electrodo está físicamente dañado (tenga cuidado con la
+pera de vidrio)
+El electrodo de pH debe almacenarse en el frasco de almacenamiento, la solución del frasco es
+una solución de KCl 3M. Después de colocar el electrodo de pH en la solución de la muestra o
+del tampón, el usuario debe mezclar durante varios segundos, después esperar de 30 a 60
+segundos para que la señal se estabilice, y después pulsar el botón para comenzar a trabajar
+(calibración o medición).
+
+    ADVERTENCIA No use el equipo en ambientes peligrosos. El equipo no está
+    protegido contra explosiones.
+
+    ADVERTENCIA Cumpla las instrucciones del fabricante de productos químicos y las
+    normas de seguridad generales de laboratorio cuando utilice productos químicos y
+    disolventes.
+
+4.1 Calibración
+
+4.1.1 Grupo de tampones
+
+El STARTER 3100 puede realizar calibraciones de 1-, 2- o 3- puntos.
+En el pHmetro hay 3 grupos de tampones, puede seleccionar el grupo de tampones que prefiera
+(consulte 4.3), el grupo de tampones por defecto es el estándar EE.UU b1 y durante la
+calibración se reconocerá automáticamente el valor del tampón. Los 3 grupos predefinidos de
+tampones son (a 25 °C):
+
+b1  1,68 4,01 7,00 10,01
+
+b2  2,00 4,01 7,00 9,21 11,00
+
+b3  1,68 4,00 6,86 9,18 12,46
+
+El STARTER 3100 corrige automáticamente la dependencia de la temperatura de los valores de
+pH del tampón que figuran en la siguiente tabla, grupo del tampón b1.
+Esto quiere decir, que si la temperatura de la solución del tampón es de 15 °C, el valor de la
+calibración que obtendrá debería ser pH 1,67 (tampón 1,68), pH 4,00 (tampón 4,01), pH 7,04
+(tampón 7,00) y pH 10,12 (tampón 10,01).
+ES-10                                                            STARTER 3100
+
+5 °C    1,67 4,01 7,09 10,25
+10 °C   1,67 4,00 7,06 10,18
+15 °C   1,67 4,00 7,04 10,12
+20 °C   1,68 4,00 7,02 10,06
+25 °C   1,68 4,01 7,00 10,01
+30 °C   1,68 4,01 6,99 9,97
+35 °C   1,69 4,02 6,98 9,93
+40 °C   1,69 4,03 6,97 9,89
+45 °C   1,70 4,05 6,97 9,86
+50 °C   1,71 4,06 6,96 9,83
+
+Calibración: Es necesario calibrar el electrodo de pH con la solución de tampón estándar de pH
+antes de realizar una medición de pH adecuada. La calibración sirve para mostrar el valor de pH
+correcto cuando el pHmetro recibe la señal del valor mV del electrodo de pH.
+
+             Pendiente: el coeficiente lineal entre mV y pH según el valor teórico (p.ej. -59,16 mV/pH
+             @ 25 °C lo que indica una pendiente del 100 %);
+             Compensación: el valor de mV cuando el valor del pH es 7,00. (El valor teórico es 0
+             mV);
+
+4.1.2 Cómo realizar la calibración de un punto
+
+Al realizar la calibración, Ohaus recomienda utilizar el modo de punto Colgar automáticamente.
+
+Después de encender el medidor, asegúrese de que la parte superior de la pantalla muestra
+
+para asegurar que el medidor está en modo de punto auto End.
+
+Modo de punto final: Hay dos modos de punto final, punto final automático y punto final
+
+manual. Al mantener pulsado el botón Read (Leer), puede cambiar entre los modos de punto
+
+final.
+
+        o Para llevar al punto final manualmente una medición o calibración, tiene que
+
+        pulsar el botón Read (Leer): La lectura de la muestra queda fija, el icono de
+
+        estabilidad del punto final  parpadeará 3 veces y se quedará fijo en la pantalla.
+
+        El pHmetro no puede alcanzar automáticamente el punto final.
+
+        o Cuando se encuentre en el modo de punto final automático, el pHmetro decide si
+
+        la lectura es estable y después llega automáticamente al punto final, la lectura
+
+        queda fija y parpadeará 3 veces y después desaparecerá, los iconos de punto
+
+        final automático  parpadearán 3 veces y quedarán fijos en la pantalla.
+
+        o Criterio de estabilidad: La señal de la entrada del sensor puede no variar en más
+
+        de 0,1 mV en 6 segundos.
+
+Nota: con la calibración de un punto solo se ajusta la compensación. Si el sensor se calibró
+
+previamente con calibración multipunto, se mantendrá la pendiente memorizada previamente. Si
+
+no, se utilizarála pendiente del 100% teórica (-59,16 mV / pH).
+STARTER 3100  ES-11
+
+Cuando el STARTER 3100 se encuentre en modo medición del pH (consulte 3.2), coloque el
+electrodo de pH en un tampón de calibración, mezcle durante 5 segundos, espere 30 segundos y
+después:
+
+ Pulse el botón Cal. (Calibración), se mostrará “Cal 1” en la parte inferior izquierda de la
+
+      pantalla y “Cal ” parpadeará. y aparecerán en la parte superior de la pantalla,
+      parpadeará durante la calibración.
+ El pHmetro alcanzará el punto final según el modo de punto final, se mostrará en la
+      pantalla el valor del pH del punto de calibración (p. ej. 7,00) junto con la temperatura.
+Ha finalizado la calibración de 1 punto, ahora existen 3 opciones para realizar a continuación:
+ Pulse el botón Cal (Calibración) para realizar la calibración de 2 puntos.
+ Pulse el botón Read (Leer) para almacenar la calibración de 1 punto y salir, durante 3
+      segundos se mostrarán en la pantalla la compensación y la pendiente y después volverá
+      a la pantalla de medición.
+ Pulse el botón Exit (Salir) para rechazar la calibración, vuelva a la pantalla de medición.
+
+4.1.3 Cómo realizar la calibración de dos puntos
+
+ Realizar la calibración de un punto como se describe anteriormente.
+
+ Enjuagar el electrodo de pH con agua pura y secar con un pañuelo de papel.
+
+ Colocar el electrodo en el siguiente tampón de la calibración, mezclar y esperar, después
+
+      pulsar el botón Cal (Calibración), aparecerá “Cal 2” y “Cal ”parpadeará. En la parte superior
+
+     de la pantalla aparecerá y , durante la calibración parpadeará .
+
+ El pHmetro alcanzará el punto final según el modo de punto final, se mostrará en la
+      pantalla el valor del pH del punto de calibración (p. ej. 4,01) junto con la temperatura.
+
+Ha finalizado la calibración de dos puntos, ahora existen tres opciones para realizar a
+continuación:
+ Pulse el botón Cal (Calibración) para realizar la calibración de tres puntos.
+ Pulse el botón Read (Leer) para almacenar la calibración de dos puntos y salir, durante tres
+
+      segundos se mostrarán en la pantalla la compensación y la pendiente y después volverá
+      a la pantalla de medición.
+ Pulse el botón Exit (Salir) para rechazar la calibración, vuelva a la pantalla de medición.
+Nota: se recomienda el uso de un electrodo de temperatura o un electrodo con un sensor de
+temperatura integrado (electrodo de pH 3 en 1). Si utiliza el modo MTC, debe introducir el valor
+de temperatura correcto y mantener todas las soluciones de los tampones y de las muestras a la
+temperatura establecida. (consulte 4.2)
+
+4.2 Medición de la muestra
+
+4.2.1 Medición del pH
+ Coloque el electrodo de pH en la muestra. Enjuague durante cinco segundos, espere 30
+
+      segundos.
+
+ Pulse el botón Read (Leer) para comenzar la medición del pH. aparecerá en la pantalla .
+
+      Durante la medición parpadeará.
+ Cuando el pHmetro alcance el punto final, se mostrará en la pantalla el valor del pH junto
+
+      con la temperatura.
+ES-12  STARTER 3100
+
+4.2.2 Medición de mV
+
+ Pulse el botón Mode (Modo) para cambiar entre el modo de medición del pH y el modo
+      de medición de mV.
+
+ Siga el mismo procedimiento de medición del pH para realizar una medición de mV.
+
+4.3 Medición de la temperatura
+
+Para mayor precisión, recomendamos el uso de un electrodo de temperatura integrado o
+independiente.
+
+ Si se utiliza un electrodo de temperatura, se mostrarán en la pantalla la ATC y la
+
+      temperatura de la muestra.
+
+ Si el pH metro no detecta un electrodo de temperatura, cambiará automáticamente al modo
+
+      de compensación de temperatura manual y aparecerá MTC. Debe fijarse la temperatura
+      MTC.
+Nota: el STARTER 3100 acepta el sensor de temperatura NTC 30 kΩ. ATC (compensación
+automática de la temperatura) o MTC (compensación manual de la temperatura), la
+compensación de la temperatura solo se corrige por el cambio de la salida del electrodo, no por el
+cambio en la solución actual. Esto quiere decir que el pHmetro corrige la señal (mV) de los
+electrodos pH para obtener una mayor exactitud del valor del pH según la temperatura real.
+
+4.4 Uso de la memoria
+
+4.4.1 Almacenar una lectura
+
+El STARTER 3100 puede almacenar hasta 99 resultados de punto final.
+
+ Pulse el botón Store (Almacenar) cuando la medición haya llegado al punto final. M01
+
+      indica que se ha almacenado un resultado.
+Si pulsa el botón Store (Almacenar) cuando se muestre M99, se mostrará FUL (Lleno) para
+indicar que no hay más espacio libre en la memoria. Para almacenar más datos deberá borrar el
+contenido de la memoria. (consulte 3.4.3).
+
+4.4.2 Recuperar desde la memoria
+
+ Cuando las mediciones lleguen al punto final, mantenga pulsado el botón Recall (Recuperar)
+      para recuperar los valores de la memoria almacenados.
+
+ Pulse los botones up (arriba) o down (abajo) para desplazarse por los resultados
+
+      almacenados. De R01 a R99 indica qué resultado se está visualizando.
+ Pulse el botón Exit (Salir) para salir.
+
+4.4.3 Borrar el contenido de la memoria
+
+ Pulse los botones up (arriba) o down (abajo) para desplazarse por los resultados
+
+      almacenados hasta que aparezca “MRCL” (Borrar memoria).
+
+ Pulse el botón Read (Leer), CLr (Borrar) parpadeará.
+
+Ahora tenemos dos opciones:
+ Pulsar el botón Read (Leer) para confirmar la eliminación de todos los datos almacenados.
+ Pulsar el botón Exit (Salir) para volver al modo de medición sin eliminar la memoria.
+   STARTER 3100                                                   ES-13
+
+4.5 Imprimir
+
+Si una impresora está conectada al STARTER 3100 (p.ej. SF-F40A, la luz verde indica que la
+conexión se ha realizado con éxito, la tasa de baudios de la impresora es de 9600 bps, 8 bits de
+datos, sin bit de paridad, 1 bit de parada), se generará automáticamente una impresión después
+de que cada medición o calibración alcance el punto final.
+El formato para la impresión después de una medición de pH es:
+Punto final, valor, Temp., ATC/MTC
+EP automático, 4,01 pH, 25,0 °C, MTC
+
+Los detalles para la segunda línea son:
+
+EP automático, 4,01 pH, 25,0 °C, MTC
+
+|  |  |          |---- compensación manual de la temperatura
+
+|  |  |----------------Valor de la temperatura y unidad °C
+
+|  |------------------------- valor del pH
+
+|---------------------------------------- Punto final automático
+
+El formato para la impresión después de una medición de mV es:
+Punto final, valor, Temp., ATC/MTC
+EP manual, 182 mV, 23,2 °C , ATC
+
+La impresión en caso de un mensaje de error es:
+Punto final, valor, Temp., ATC/MTC
+Error3
+
+La impresión para una calibración de 2 puntos con éxito es:
+Tampón1: 4,01 pH
+mV1: 178 mV
+Temp.1: 25,0 °C
+Tampón2: 7,00 pH
+mV2: 3 mV
+Temp.2: 25,0 °C
+Pendiente: 99 %
+Compensación: 5 mV
+ATC/MTC: MTC
+
+La impresión para una calibración de 3 puntos con éxito es:
+Tampón1: 4,01 pH
+mV1: 178 mV
+Temp.1: 25,0 °C
+Tampón2: 7,00 pH
+mV2: 0 mV
+Temp.2: 25,0 °C
+Tampón3: 9,21 pH
+mV3: -130 mV
+Temp.3: 25,0 °C
+Pendiente: 100%
+Compensación: 0 mV
+ATC/MTC: ATC
+
+Imprimir desde la memoria. Al desplazarse por la memoria puede imprimir la entrada que se está
+visualizando manteniendo pulsado el botón Store (Almacenar) durante 3 segundos. El formato de
+impresión es el siguiente:
+Recuperar 01:
+Punto final, valor, Temp., ATC/MTC
+EP automático, 4,01 pH, 35 °C, ATC
+ES-14                                                                  STARTER 3100
+
+5 Mantenimiento
+
+5.1 Mensajes de error
+
+  Error 0 Error de acceso a la memoria Restablezca a los valores de fábrica
+
+Error 1  Fallo del autodiagnóstico      Repita el procedimiento del autodiagnóstico y
+Error 2                                 asegúrese de que finaliza pulsando las cinco
+         Valores de medición fuera del  teclas en el espacio de dos minutos.
+         intervalo
+                                        Compruebe que el electrodo está correctamente
+                                        conectado y colocado en la solución de muestra.
+
+Error 3  Temperatura de medición del    Mantenga la temperatura del tampón del pH en el
+Error 4  tampón fuera del intervalo     intervalo de calibración
+Error 5  (<5 o >40 °C)
+         Compensación fuera del         Asegúrese de que el tampón pH es el correcto y
+         intervalo                      es reciente. Limpie o reemplace el electrodo de
+         Compensación > 60 mV o < -     pH.
+         60 mV
+         Pendiente fuera del intervalo  Asegúrese de que el tampón es el correcto y es
+                                        reciente. Limpie o reemplace el electrodo de pH.
+
+Error 6 El pHmetro no reconoce el       Asegúrese de que el tampón es correcto y es
+
+         tampón                         reciente, compruebe que el tampón no se ha
+
+                                        utilizado más de una vez.
+
+Error 9 El conjunto de datos actuales Una lectura de punto final solo puede
+
+         ya se ha almacenado una        almacenarse una vez. Realice una nueva
+
+         vez                            medición para almacenar.
+
+Error 10 La temperatura de muestra Compruebe la temperatura de muestra, el sensor
+
+         se encuentra fuera del         de temperatura
+
+         intervalo
+
+Además, si ocurre un error, el pHmetro sonará tres veces para avisar.
+
+Para cualquier otro problema, póngase en contacto con el representante de ventas de Ohaus.
+
+5.2 Mantenimiento del pHmetro
+
+¡No desatornille nunca las dos mitades de la carcasa!
+Los equipos de la serie STARTER 3100 no necesitan ningún otro mantenimiento que una
+limpieza ocasional con un paño húmedo y el reemplazo de pilas gastadas.
+La carcasa está fabricada en ABS (acrilonitrilo-butadieno-estireno). Este material es sensible a
+algunos disolventes orgánicos como tolueno, xileno y metiletilcetona (MEK). Debe limpiarse
+inmediatamente cualquier derrame.
+
+5.3 Mantenimiento del electrodo
+
+Asegúrese de que el electrodo esté lleno de solución electrolítica. Almacene siempre el electrodo
+según indique el manual de instrucciones del electrodo y no permita que se seque.
+STARTER 3100                                                                  ES-15
+
+Si se ralentiza la respuesta del electrodo o la pendiente no es suficientemente buena, intente:
+      o Sumergir el electrodo en 0,1 M HCI durante más de 8 horas.
+      o Para los contaminantes de grasas y aceites, desengrase la membrana con un algodón
+             empapado en acetona o una solución de jabón.
+
+Después del tratamiento del electrodo, debe realizarse una nueva calibración. Si la pendiente del
+electrodo sigue sin ser correcta, puede necesitar cambiar el electrodo.
+
+5.4 Autodiagnóstico
+ Cuando el pHmetro esté encendido, mantenga pulsado el botón Read (Leer) y el botón Cal
+
+      (Calibración) simultáneamente hasta que el pHmetro muestre la pantalla completa. Los
+      iconos parpadearán uno tras otro.
+De esta manera podrá comprobar si se muestran correctamente todos los iconos. El siguiente
+paso es el de comprobar que las teclas funcionan correctamente. Para esto es necesaria la
+interacción del usuario.
+
+Cuando b parpadee, se mostrarán cinco iconos.
+
+ Pulse las cinco teclas en cualquier orden. Cada vez que pulse una tecla, desaparecerá un
+
+      icono de la pantalla, continúe pulsando las demás teclas hasta que hayan desaparecido
+
+      todos los iconos.
+
+Cuando haya finalizado el autodiagnóstico con éxito, aparecerá PAS (Superado). Si el
+autodiagnóstico falla, aparecerá el mensaje de error Err 1 (Error 1).
+
+Nota: Debe finalizar pulsando las cinco teclas en el espacio de 2 minutos, de otra forma
+apareceráel mensaje Err 1 (Error 1) y deberárepetir el procedimiento.
+
+5.5 Recuperar los valores de fábrica
+
+ Cuando el pHmetro esté apagado, mantenga pulsados a la vez durante 3 segundos los
+
+botones Read (Leer), Cal (Calibración) y Exit (Salir), la pantalla mostrará   y
+
+parpadeará, lo que indicaráque está"reiniciando". Tendremos entonces dos opciones:
+ Pulsar el botón Read (Leer) para restablecer los valores de fábrica (MTC, pendiente,
+
+compensación, etc.), se mostrará  después reinicie el pHmetro.
+
+ O pulsar el botón Exit (Salir) para salir de la configuración, se mostrará  después
+      apague el pHmetro.
+ES-16                                                              STARTER 3100
+
+6 Datos técnicos
+
+6.1 Especificaciones
+
+Condiciones ambientales
+ Solo para uso en interiores
+
+ Altitud: Hasta 2000 m
+ Intervalo de temperatura especificado: 5 °C a 40 °C
+ Humedad: humedad máxima relativa del 80 % para temperaturas de hasta 30 °C reducción
+
+     de linealidad hasta una humedad relativa del 50 % a 40 °C
+
+ Fluctuaciones en el voltaje de la alimentación eléctrica: hasta ±10% del voltaje nominal
+
+ Categoría de instalación II
+
+ Grado de polución: 2
+
+ El funcionamiento se asegura a temperaturas ambientales de entre 5 °C a 40 °C
+
+Modelo                       ST3100
+Intervalo de medición
+                             -2,00…16,00 pH
+Resolución                   –1999…1999 mV
+                             -5 °C…110 °C
+Límites de error
+                             0,01 pH
+Calibración                  1 mV
+Memoria                      0,1 °C
+Suministro de corriente
+Tamaño/peso                  ± 0,01 pH
+                             ± 1 mV
+                             ± 0,5 °C
+
+                             3 puntos
+                             3 grupos predefinidos de tampones
+
+                             99 mediciones
+                             El último dato de calibración
+
+                             Entrada para adaptador de CA: 100-240 V ~ X.XA 50/60
+                             Hz
+                             Salida para adaptador de CA: 12 V  X.XA
+                             220 (An) x 175 (Pr) x 78 (Al) (mm) / 0,75 Kg
+
+Pantalla                     Cristal líquido con retroiluminación
+Entrada                      BNC, impedancia > 10e+12 Ω
+                             Cinch, NTC 30 kΩ
+Entrada de referencia        Enchufe tipo banana de 2 mm
+Compensación de temperatura  ATC y MTC
+Carcasa                      ABS
+STARTER 3100   ES-17
+
+7 Conformidad
+
+               Este producto cumple con la directiva EMC 2004/108/CE y con la directiva de
+               baja tensión 2006/95/CE. La declaración de conformidad está disponible a
+               través de Internet en europe.ohaus.com/europe/en/home/support/weee.aspx.
+
+               En cumplimiento con la Directiva europea 2002/96/CE sobre residuos de
+               aparatos eléctricos y electrónicos (WEEE), este dispositivo no se puede
+               eliminar como residuo doméstico. También se aplica en países fuera de la UE,
+               según sus requisitos específicos. Elimine este producto según las normativas
+               locales en el punto de recolección especificado para equipos eléctricos y
+               electrónicos. Si tiene alguna pregunta, póngase en contacto con la autoridad
+               responsable o el distribuidor del que adquirió este dispositivo. En caso de que
+               este dispositivo se entregará a un tercero (para uso privado o profesional), se
+               debe hacer referencia al contenido de esta regulación. Las instrucciones de
+               eliminación para Europa están disponibles a través de Internet en
+               europe.ohaus.com/europe/en/home/support/weee.aspx. Gracias por su
+               contribución a la protección del medioambiente.
+
+Nota sobre la FCC: Este equipo ha sido sometido a pruebas y ha demostrado cumplir con
+los límites para dispositivos digitales de clase A, según la Parte 15 de las normas de la FCC.
+Estos límites están diseñados para proporcionar una protección razonable frente a
+interferencias perjudiciales cuando se utiliza el equipo en un entorno comercial. Este equipo
+genera, utiliza y puede emitir energía de radiofrecuencia y, si no se instala y utiliza según
+las instrucciones del manual puede provocar interferencias perjudiciales a las
+comunicaciones por radio. La utilización de este equipo en un área residencial puede
+provocar interferencias perjudiciales. En este caso, el usuario deberá corregir la
+interferencia por su cuenta.
+
+Registro en la ISO 9001
+En 1994, OHAUS Corporation, EEUU, recibió el certificado de registro en la ISO 9001 del
+Bureau Veritus Quality International (BVQI), confirmando que el sistema de gestión de
+calidad de OHAUS cumple con los requisitos de la norma ISO 9001. El 21 de junio de 2012,
+OHAUS Corporation, EEUU, se registró nuevamente en la norma ISO 9001:2008.
+ES-18                                               STARTER 3100
+
+8 Grupo de tampones
+
+El STARTER 3100 corrige automáticamente la dependencia de la temperatura del valor de pH del
+grupo del tampón que se facilita en las siguientes tablas (b2, b3), puede encontrar b1 (consulte
+3.1.1)
+
+Grupo de tampón b2 Estándar europeo
+
+Temp °C pH 2,00 pH 4,01 pH 7,00 pH 9,21   pH 11,00
+                                          11,72
+5      2,02  4,01          7,09  9,45     11,54
+                                          11,36
+10     2,01  4,00          7,06  9,38     11,18
+                                          11,00
+15     2,00  4,00          7,04  9,32     10,82
+                                          10,64
+20     2,00  4,00          7,02  9,26     10,46
+                                          10,28
+25     2,00  4,01          7,00  9,21     10,10
+
+30     1,99  4,01          6,99  9,16
+
+35     1,99  4,02          6,98  9,11
+
+40     1,98  4,03          6,97  9,06
+
+45     1,98  4,04          6,97  9,03
+
+50     1,98  4,06          6,97  8,99
+
+Grupo de tampón b3 JJG119
+
+Temp °C pH 1,68 pH 4,00 pH 6,86  pH 9,18  pH 12,46
+                                 9,39     13,21
+5      1,67 4,00 6,95            9,33     13,01
+                                 9,28     12,82
+10     1,67 4,00 6,92            9,23     12,64
+                                 9,18     12,46
+15     1,67 4,00 6,90            9,14     12,29
+                                 9,11     12,13
+20     1,68 4,00 6,88            9,07     11,98
+                                 9,04     11,83
+25     1,68 4,00 6,86            9,02     11,70
+
+30     1,68 4,01 6,85
+
+35     1,69 4,02 6,84
+
+40     1,69 4,03 6,84
+
+45     1,70 4,04 6,83
+
+50     1,71 4,06 6,83
+STARTER 3100  ES-19
+
+                                                  GARANTÍA LIMITADA
+Los productos de Ohaus están en garantía por defectos en los materiales o de construcción
+desde la fecha de entrega hasta la duración del periodo de la garantía. Durante el periodo de
+validez de la garantía, Ohaus reparará o, según su criterio, sustituirá cualquier componente que
+sea defectuoso sin cargo adicional siempre que el producto se entregue, con flete pago, a Ohaus.
+
+Esta garantía no aplica si el producto ha recibido daños por accidentes o mal uso, ha sido
+expuesto a materiales radioactivos o corrosivos, ha recibido materiales extraños en su interior o
+como resultado del servicio o modificación por un tercero que no sea Ohaus. En lugar de una
+tarjeta de registro de garantía debidamente devuelta, el periodo de la garantía se iniciará en la
+fecha de envío al distribuidor autorizado. Ohaus Corporation no entrega otro tipo de garantía
+expresa o implícita. Ohaus Corporation no es responsable de daños indirectos.
+
+Puesto que la legislación sobre garantías difiere de un estado a otro y de un país a otro, póngase
+en contacto con Ohaus o con su distribuidor local de Ohaus para obtener más información.
+                              Table des matières
+1 Introduction..........................................................................1
+
+   1.1 Définition des symboles et des indicateurs d'avertissements... 1
+   1.2 Précautions de sécurité.................................................................. 2
+   1.3 Contrôles et affichage .................................................................... 3
+
+2 Installation............................................................................5
+
+   2.1 Contenu de l’emballage .................................................................. 5
+   2.2 Installation du porte-électrode autonome .................................... 6
+   2.3 Installation de l'adaptateur d'alimentation.................................... 6
+   2.4 Connexion des électrodes de pH .................................................. 7
+   2.5 Support de réglage de l'angle de vue de l'appareil de mesure .. 7
+   2.6 Guide rapide attaché....................................................................... 7
+
+3 Configuration .......................................................................8
+
+   3.1 Définition de l'unité de température .............................................. 8
+   3.2 Définition de la compensation manuelle de la température ....... 8
+   3.3 Sélection d'un groupe de tampons prédéfinis ............................. 8
+
+4 Fonctionnement du STARTER 3100 ...................................9
+
+   4.1 Étalonnage ....................................................................................... 9
+      4.1.1 Groupe de tampons....................................................................... 9
+      4.1.2 Réalisation d'un étalonnage à 1 point ......................................... 10
+      4.1.3 Réalisation d'un étalonnage à2 points ........................................11
+
+   4.2 Mesure d'un échantillon ............................................................... 11
+      4.2.1 Mesure du pH...............................................................................11
+      4.2.2 Mesure mV .................................................................................. 12
+
+   4.3 Mesure de température................................................................. 12
+   4.4 Utilisation de la mémoire.............................................................. 12
+
+      4.4.1 Stockage d'une mesure............................................................... 12
+      4.4.2 Rappel depuis la mémoire .......................................................... 12
+      4.4.3 Effacement de la mémoire .......................................................... 12
+   4.5 Impression ..................................................................................... 13
+
+5 Maintenance .......................................................................14
+
+   5.1 Message d’erreur........................................................................... 14
+   5.2 Maintenance de l'appareil de mesure.......................................... 14
+   5.3 Maintenance de l'électrode .......................................................... 14
+   5.4 Auto-diagnostic ............................................................................. 15
+   5.5 Récupération des paramètres usine ........................................... 15
+
+6 DONNÉES TECHNIQUES ..................................................16
+
+   6.1 Spécifications ................................................................................ 16
+
+7 Conformité..........................................................................17
+8 Groupe de tampons ...........................................................18
+STARTER 3100                                                        FR-1
+
+1 Introduction
+
+     Merci d'avoir choisi un produit OHAUS.
+Lire le manuel complètement avant d'utiliser le pH-mètre de laboratoire STARTER 3100 afin d'éviter
+une exploitation inadéquate.
+
+Le STARTER 3100 possède un rapport performances/prix excellent et est conçu avec de
+nombreuses fonctions utiles, notamment un support d'électrode autonome et un bipeur pour les
+alertes d'erreurs. D'autres accessoires comme de nombreuses électrodes de pH pour différentes
+applications, et des solutions tampons en bouteilles sont aussi disponibles.
+
+Vous trouverez de nombreuses fonctionnalités utiles sur ces appareils de mesure. En voici
+quelques-unes ici présentées :
+ Grand ACL à rétroéclairage avec un Guide rapide attaché facilite l'exploitation par l'utilisateur
+ Résultat final automatique/manuel qui peut aider les utilisateurs àfiger des mesures stables
+ 3 groupes de tampons prédéfinis (États-Unis, EU et JJG) sont conformes à différentes
+
+      spécifications
+ RS232 peut connecter une imprimante, 99 mémoires de données avec les dernières
+
+      données d'étalonnage
+
+1.1 Définition des symboles et des indicateurs d'avertissements
+
+Les remarques de sécurité sont marquées par des mots indicateurs et par des symboles
+d'avertissement. Elles présentent les problèmes et les avertissements de sécurité. Ne pas
+respecter les remarques de sécurité peut conduire à des accidents, à l'endommagement de
+l'instrument, à des dysfonctionnements et à des résultats erronés.
+
+Mots indicateurs
+
+AVERTISSEMENT     Pour une situation dangereuse avec un risque moyen pouvant être
+                  à l'origine d'un accident ou d'un décès, s'il n'est pas évité.
+
+PRÉCAUTIONS       Pour une situation dangereuse avec un faible risque pouvant être à
+                  l'origine de dommages au dispositif ou aux biens, à une perte des
+                  données, ou à un accident, s'il n'est pas évité.
+
+Attention         Pour des informations importantes sur ce produit
+
+Remarque          Pour des informations utiles sur le produit
+FR-2                           STARTER 3100
+
+Symboles d'avertissement
+
+   Danger !
+
+   Risque d'explosion
+
+   Danger, produits corrosifs
+
+  Tension alternative
+
+  Courant continu
+
+1.2 Précautions de sécurité
+
+ATTENTION : Lire tous les avertissements de sécurité avant d’effectuer l’installation, les
+connexions ou la maintenance de cet équipement. Si ces avertissements ne sont pas respectés,
+des accidents et/ou des dommages matériels peuvent en résulter. Conserver toutes les
+instructions pour référence ultérieure.
+
+ Vérifier que la plage de tension d'entrée imprimée sur l'étiquette des données et le type de
+     connecteur correspondent à l'alimentation CA locale à utiliser.
+
+ S'assurer que le cordon d'alimentation n’est pas un obstacle potentiel ou ne présente aucun
+     danger de chute.
+
+ Utiliser l'équipement seulement dans des lieux secs.
+ Sécher immédiatement tout déversement de liquide. L'instrument n'est pas étanche.
+ Avec des produits chimiques et des solvants, se conformer aux instructions du fabricant des
+
+     produits chimiques et aux règles générales de sécuritédu laboratoire.
+ Utiliser uniquement les accessoires et les périphériques approuvés.
+ Faire fonctionner l'équipement uniquement dans les conditions ambiantes spécifiées dans ces
+
+     instructions.
+ Déconnecter l'équipement de l'alimentation électrique pour le nettoyer.
+ Ne pas utiliser l'équipement dans des environnements dangereux ou instables.
+ La maintenance doit être exclusivement exécutée par un personnel autorisé.
+STARTER 3100                                                                       FR-3
+
+1.3 Contrôles et affichage
+
+Affichages
+
+               1                  2        3 45
+
+            6
+
+                               7        8  9
+
+1 Condition de l'électrode                Pente : 90-95 %            Pente : moins de 90 %
+
+            Pente : plus de 95 %     ou décalage : ±(15-35) mV  ou décalage : ±(35-60) mV
+      et décalage : ± (0-15) mV      Condition acceptable de    La condition de l'électrode
+      Bonne condition de             l'électrode                n'est pas bonne ou
+      l'électrode                                               nécessite un nettoyage
+
+2 Icône de stabilité du résultat final     ; icône du résultat final automatique
+
+3 Icône de mesure - ; signifie mesure ou étalonnage en cours lorsqu'elle clignote
+
+4 Icône d'étalonnage - ; signifie un étalonnage en cours lorsqu'elle clignote
+
+5 Icône de configuration - ; instrument en mode de configuration, possibilité de définir la
+      température(MTC), le groupe de tampons, etc.
+
+6 Lecture du pH/mV ou pente du processus d'étalonnage
+
+7 Point d'étalonnage / Groupe tampon /Numéro mémoire / Index d'erreur
+
+8 Compensation automatique de température : ATC ; compensation manuelle de température : MTC
+
+9 Température pendant la mesure ou décalage (mV) du processus d'étalonnage
+FR-4                                                     STARTER 3100
+
+Contrôles             Appuyer et relâcher                     Appuyer et maintenir
+                                                                 enfoncé
+              Bouton
+                                                         pendant 3 secondes
+
+                      - Démarrer ou terminer une         - Marche/arrêt du résultat final
+                       mesure                             automatique
+
+                      - Confirmation du réglage,                    ,
+                       stockage de la valeur entrée
+
+                      - Démarrage de l'étalonnage        - Rappel des dernières
+                                                          données d'étalonnage :
+                                                          pente et décalage
+
+                      - Appareil de mesure en marche     - Appareil de mesure à l'arrêt
+                      - Quitter et revenir à l'écran de
+
+                       mesure
+
+                      - Stockage de la mesure en cours   - Rappel des données
+                       vers la mémoire                    stockées
+
+                      - Augmentation de la valeur        - Impression des données
+                       pendant les réglages               mémoire en cours
+
+                      - Défilement vers le haut de la    - Entrer dans le mode de
+                       mémoire                            configuration
+
+                      - Commutation entre pH et mV
+                      - Diminution de la valeur pendant
+
+                       les réglages
+                      - Défilement vers le bas de la
+
+                       mémoire
+
+                      - Démarrage des auto-diagnostics
+
+                                                         Marche/arrêt du rétroéclairage
+                                                         de l'ACL
+STARTER 3100                                                                          FR-5
+
+2 Installation
+
+Déballer soigneusement la boîte.
+
+2.1 Contenu de l’emballage
+
+Le modèle ST3100-B (conditionnement de base) contient les articles suivants :
+
+ST3100-B                                      Unités
+STARTER 3100                                  1
+Porte-électrode autonome                      1 ensemble
+Couvercle en utilisation                      1
+Alimentation 12 volts                         1 ensemble
+
+En supplément au contenu du ST3100-B, le conditionnement du ST3100-F comprend aussi ce qui suit :
+
+Poudre pour tampon de pH (4,01, 7,00, 10,01)  1 ensemble
+Électrode de pH réutilisable ST310 3 en 1     1
+
+En supplément au contenu du ST3100-B, le conditionnement du ST3100-H comprend aussi ce qui suit :
+
+Poudre pour tampon de pH (4,01, 7,00, 10,01)  1 ensemble
+Électrode de pH gel ST320 3 en 1              1
+
+La poudre pour tampon de pH doit être dissoute dans 250 ml d'eau pure ou désionisée dans une
+fiole jaugée. Vous pouvez aussi commander auprès d'Ohaus des solutions de tampons en bouteille.
+
+Un plus grand nombre d'électrodes est désormais disponible et comprend ce qui suit :
+
+Modèle  Description                                                            P/N
+
+ST310   Électrode de pH réutilisable en plastique 3 en 1                       83033965
+
+ST210   Électrode de pH à remplissage en plastique 2 en 1                      83033966
+ST320
+        Électrode de pH sous forme de gel en plastique 3 en 1 (nul
+
+        besoin de remplissage)                                                 83033967
+
+ST230   Électrode de pH en verre pour échantillons troubles 2 en 1             83033968
+STORP1  Électrode ORP en plastique pour gel                                    30038555
+
+STORP2 Électrode réutilisable ORP en verre                                     30038553
+
+STTEMP30 Électrode de température                                              83033970
+FR-6                                                 STARTER 3100
+
+Pièces et accessoires :                                            83033971
+  Poudre pour tampon de pH (4,01 ; 7,00 ; 10,00)                   30100424
+  Tampon pH 1,68 250 ml                                            30100425
+  Tampon pH 4,01 250ml                                             30100427
+  Tampon pH 7,00 250ml                                             30100429
+  Tampon pH 10,01 250ml                                            30100430
+  Tampon pH 12,45 250ml                                            30058733
+  Porte-électrode autonome (3100/3100C)                            30058734
+  Couvercle en utilisation
+
+2.2 Installation du porte-électrode autonome
+
+      Installer le bras de l'électrode sur la base,
+
+      Après avoir réglé le bouton de tension jusqu'à un certain niveau, il est possible de déplacer
+      directement le bras supérieur vers le haut et vers le bas. En plaçant l'électrode de pH sur le
+      bras et en réalisant un étalonnage ou une mesure, il est possible de ranger la bouteille de
+      stockage de l'électrode de pH dans l'orifice de la base.
+
+2.3 Installation de l'adaptateur d'alimentation
+
+Insérer la pince d'adaptation adéquate dans la fente de l'adaptateur d'alimentation. L'alimentation
+des balances Ohaus est aussi de 12 V, elle peut donc être utilisée pour le pH-mètre.
+STARTER 3100  FR-7
+
+2.4 Connexion des électrodes de pH
+
+Il existe 3 supports d'électrodes : support pH (BNC), support Température (Cinch) et support REF
+(banane 2 mm).
+
+Pour le ST310, l'électrode doit être connectée aux supports BNC et Cinch. Pour l'électrode de pH
+2 en 1 (par exemple, ST210), seule la connexion BNC est nécessaire.
+
+Le support REF est destiné à l'électrode de référence séparée (par exemple, STREF01)
+
+2.5 Support de réglage de l'angle de vue de l'appareil de mesure
+
+La conception unique du STARTER 3100 concerne le support de l'appareil de mesure qui peut être
+utilisé pour régler l'angle d'affichage en cas de travail sur une table élevée.
+
+2.6 Guide rapide attaché
+
+Un autre concept unique du STARTER 3100 concerne le Guide rapide attaché; celui-ci est fixéen
+partie inférieure du boîtier de l'appareil de mesure et peut être extrait d'un seul doigt.
+FR-8                                            STARTER 3100
+
+3 Configuration
+
+3.1 Définition de l'unité de température
+
+Notez s'il vous plaît:
+Si une électrode de température est utilisé, compensation automatique de température (ATC) et la
+température de l'échantillon sont affichées sur l'écran. Vous pouvez alors choisir d'ignorer la
+configuration MTC (ci-dessous).
+Si le compteur ne détecte pas une électrode de température ou un n'est pas utilisé, l'appareil
+passe automatiquement à la compensation manuelle de la température de mode (MTC) et MTC
+apparaît sur l'écran.
+MTC peut être défini comme suit:
+ Allumez l'appareil en appuyant sur Quitter.
+ Maintenir appuyé le bouton Mode/Configuration jusqu'à ce que l'icône de configuration
+
+      apparaisse à l'écran et que l'unité de température en cours clignote.
+ Appuyer sur le bouton Vers le haut ou sur le bouton Vers le bas pour commuter entre °C et
+
+      °F.
+ Appuyer sur le bouton Lecture pour confirmer votre sélection.
+Ensuite
+ Continuer avec le réglage de la température MTC ou
+ Appuyer sur le bouton Lecture pour confirmer votre sélection.
+ Appuyer sur le bouton Quitter pour revenir àl'écran de mesure.
+
+3.2 Définition de la compensation manuelle de la température
+
+Après avoir confirmé l'unité de température, la MTC (compensation manuelle de température)
+apparaît sur l'affichage. Appuyer alors sur le bouton Vers le haut ou sur le bouton Vers le bas
+pour augmenter ou diminuer la valeur de la température de votre échantillon. Appuyez sur le
+bouton Lecture pour confirmer le réglage ou appuyer sur le bouton Quitter pour revenir à l'écran
+de mesure.
+
+Le réglage de la valeur de la température MTC par défaut est de 25 °C (77 °F).
+Remarque : °C = 5/9 (°F -32)
+
+3.3 Sélection d'un groupe de tampons prédéfinis
+
+Après avoir confirmé la valeur de la température de compensation MTC, il passe à la sélection du
+groupe de tampons. Appuyer sur le bouton Vers le haut ou sur le bouton Vers le bas pour
+sélectionner un groupe de tampons parmi quatre groupes (3.1.1). Appuyez sur le bouton Lecture
+pour confirmer le réglage ou appuyer sur le bouton Quitter pour quitter et revenir à l'écran de
+mesure.
+
+Le groupe de tampons par défaut est b1.
+
+b1  1,68  4,01   7,00                    10,01
+STARTER 3100                      FR-9
+
+4 Fonctionnement du STARTER 3100
+
+La procédure de mesure du pH est la suivante : les points clés sont les électrodes de pH, le
+rinçage, l'étalonnage et le stockage. Après avoir introduit l'électrode dans la solution, il est
+nécessaire de l'homogénéiser d'abord et ensuite de procéder à son utilisation.
+
+      a) Préparation de l'électrode de pH
+      b) préparation du tampon et étalonnage de l'électrode de pH
+      c) préparation de l'échantillon
+      d) Mesure du pH
+      e) Enregistrement ou impression du résultat des mesures
+      f) Rinçage de l'électrode de pH et stockage
+Préparation de l'électrode de pH : l'électrode de pH doit être rincée avec de l'eau pure avant et
+après l'utilisation. Vérifier si l'électrode est endommagée. (Prendre garde àl'ampoule en verre)
+L'électrode de pH doit être rangée dans une bouteille de stockage ; la solution dans la bouteille
+est une solution de KCl 3M. Après avoir plongé l'électrode de pH dans l'échantillon ou dans la
+solution tampon, l'utilisateur doit homogénéiser pendant plusieurs secondes et attendre ensuite
+30 à 60 secondes que le signal soit stable, et appuyer ensuite sur le bouton de fonctionnement
+(étalonnage ou mesure).
+
+               AVERTISSEMENT Ne pas utiliser l'équipement dans des environnements
+               dangereux. L'équipement n'est pas protégé contre les explosions.
+
+               AVERTISSEMENT Lors de l'utilisation de solvants et de produits chimiques, se
+               conformer aux instructions du fabricant des produits chimiques et aux règles
+               générales de sécurité d'un laboratoire.
+
+4.1 Étalonnage
+
+4.1.1 Groupe de tampons
+
+Le STARTER 3100 peut effectuer des étalonnages à 1, 2 ou 3 points.
+Il existe 3 groupes de tampons dans l'appareil de mesure, il est possible de sélectionner le groupe
+de tampons préférés (voir 4.3), le groupe de tampons par défaut est b1 (normalisé États-Unis),
+et la valeur du tampon sera automatiquement reconnue pendant l'étalonnage. Les 3 groupes de
+tampons prédéfinis sont à 25 °C) :
+
+b1  1,68 4,01 7,00 10,01
+
+b2  2,00 4,01 7,00 9.21 11,00
+
+b3  1,68 4,00 6,86 9,18 12,46
+
+Le STARTER 3100 corrige automatiquement la dépendance à la température des valeurs de pH
+du tampon qui sont données sur le tableau suivant : groupe de tampons b1.
+Ceci signifie que si la température des solutions de tampons est de 15 °C, la valeur d'étalonnage
+obtenue doit correspondre à pH 1,67 (tampon 1,68), pH 4,00 (tampon 4,01), pH 7,04 (tampon
+7,00) et à pH 10,12 (tampon 10,01).
+FR-10                                                                         STARTER 3100
+
+5 °C   1,67 4.01 7,09 10,25
+
+10 °C  1,67 4,00 7,06 10,18
+
+15°C   1,67 4,00 7,04 10,12
+
+20 °C  1,68 4,00 7,02 10,06
+
+25 °C  1,68 4,01 7,00 10,01
+
+30 °C  1,68 4,01 6,99 9,97
+35 °C  1,69 4,02 6,98 9,93
+40 °C  1,69 4,03 6,97 9,89
+
+45 °C  1,70 4,05 6,97 9,86
+
+50 °C  1,71 4,06 6,96 9,83
+
+Étalonnage: l'électrode de pH doit être étalonnée avec une solution tampon à pH standard avant
+d'effectuer une mesure correcte du pH. L'étalonnage doit afficher la valeur correcte du pH
+lorsque l'appareil de mesure reçoit un signal en mV provenant de l'électrode de pH.
+
+             Pente : le coefficient linéaire entre mV et pH conformément à la valeur théorique (par
+             exemple -59,16mV/pH à 25 °C ce qui signifie une pente à 100 %),
+             Décalage : la valeur en mV lorsque la valeur du pH est égale à 7,00. (La valeur
+             théorique est de 0 mV),
+
+4.1.2 Réalisation d'un étalonnage à 1 point
+
+Lors de l'étalonnage, Ohaus recommande d'utiliser le mode automatique de point final. Après
+
+avoir allumé l'appareil en marche, s'assurer que le haut de l'écran indique à s'assurer que le
+
+compteur est en mode point automatique End.
+
+Mode du résultat final : Deux modes de résultat final sont fournis : résultat final automatique et
+
+résultat final manuel. En maintenant appuyé le bouton Lecture, il est possible de commuter d'un
+
+mode à l'autre.
+
+       o Pour le résultat final manuel d'une mesure ou d'un étalonnage, il est nécessaire
+
+                 d'appuyer sur le bouton Lecture : la mesure de l'échantillon se fige, l'icône de
+
+                 stabilité du résultat final    clignote 3 fois et se fige à l'écran. L'appareil de
+
+                 mesure ne peut pas atteindre automatiquement le résultat final.
+
+       o En mode de résultat final automatique, l'appareil de mesure décide si la mesure
+
+                 est stable et assure alors automatiquement un résultat final, la mesure se fige et
+
+                 clignote 3 fois et disparaît ; les icônes de résultat final  clignotent 3 fois et se
+
+                 figent à l'écran.
+
+       o Critère de stabilité : le signal de l'entrée du capteur peut ne pas être modifié de
+
+                 plus de 0,1 mV en 6 secondes.
+
+Remarque : Avec l'étalonnage à point unique, seul le décalage est réglé. Si le capteur a été
+
+       antérieurement étalonné par étalonnage à points multiples, la pente précédemment
+
+       stockée restera. Dans le cas contraire, la pente théorique de 100 % (-59,16 mV/pH)
+
+       sera utilisée.
+STARTER 3100                                                                  FR-11
+
+Lorsque le STARTER 3100 est en mode de mesure du pH (voir 3.2), placer l'électrode de pH dans
+un tampon d'étalonnage, homogénéiser pendant 5 secondes, attendre 30 secondes, et
+
+ Appuyer sur le bouton Étalonnage, « Cal 1 » s'affiche en partie inférieure gauche de l'écran
+
+      et « Cal » clignote. et apparaissent en partie supérieure de l'écran, clignote pendant
+      l'étalonnage.
+ L'appareil de mesure atteint le résultat final conformément au mode du résultat final, la
+      valeur du pH du point d'étalonnage (p. ex., 7,00) avec un affichage des températures àl'écran.
+L'étalonnage à 1 point est terminé, 3 choix sont offerts pour la suite des choses :
+ Appuyer sur le bouton Étalonnage pour effectuer un étalonnage à 2 points.
+ Appuyer sur le bouton Lecture pour stocker l'étalonnage à 1 point et quitter, le décalage et
+      la pente sont présentés sur l'affichage pendant 3 secondes pour ensuite revenir à l'écran de
+      mesure.
+ Appuyer sur le bouton Quitter pour refuser l'étalonnage et revenir à l'écran de mesure.
+
+4.1.3 Réalisation d'un étalonnage à 2 points
+
+ Réaliser un étalonnage à 1 point conformément à la description ci-dessus.
+
+ Rincer l'électrode de pH avec de l'eau pure et essuyer l'eau avec un mouchoir en papier.
+
+ Placer l'électrode dans le tampon d'étalonnage suivant, homogénéiser et attendre, appuyer
+
+      ensuite sur le bouton Étalonnage, « Cal 2 » s'affiche en partie inférieure de l'écran et « Cal »
+
+clignote. En partie supérieure de l'écran  et apparaissent, clignote pendant
+
+l'étalonnage.
+
+ L'appareil de mesure atteint un résultat final conformément au mode du résultat final, la
+
+valeur du pH du point d'étalonnage (p. ex., 4,01) avec l'affichage de la température à l'écran.
+
+L'étalonnage à 2 points est terminé, 3 choix sont dorénavant à disposition :
+
+ Appuyer sur le bouton Étalonnage pour réaliser un étalonnage à 3 points.
+
+ Appuyer sur le bouton Lecture pour stocker l'étalonnage à 2 points et quitter, le décalage et
+
+la pente sont présentés sur l'affichage pendant 3 secondes pour ensuite revenir à l'écran de
+
+mesure.
+
+ Appuyer sur le bouton Quitter pour refuser l'étalonnage et revenir à l'écran de mesure.
+
+Remarque : L'utilisation d'une électrode de température ou d'une électrode avec un capteur de
+
+température intégré (électrode de pH 3 en 1) est recommandée. Si vous utilisez le mode MTC,
+
+vous devez entrer la valeur correcte de température et conserver tous les tampons et solutions
+
+d'échantillons à la température définie. (Voir la section 4.2)
+
+4.2 Mesure d'un échantillon
+
+4.2.1 Mesure du pH
+
+ Placer l'électrode de pH dans l'échantillon. Homogénéiser pendant 5 secondes ; attendre 30
+      secondes.
+
+ Appuyer sur le bouton Lecture pour commencer la mesure du pH, s’affiche à l'écran.
+      clignote pendant la mesure.
+
+ Lorsque l'appareil de mesure atteint le résultat final, la valeur du pH avec la température
+      s'affichent à l'écran.
+FR-12  STARTER 3100
+
+4.2.2 Mesure mV
+
+ Appuyer sur le bouton Mode pour commuter entre les modes de mesure du pH et de
+      mesure mV.
+
+ Appliquer la même procédure que pour la mesure du pH afin de réaliser une mesure mV.
+
+4.3 Mesure de température
+
+Pour une précision supérieure, il est recommandé d'utiliser une électrode de température intégrée
+ou séparée.
+ Si une électrode de température est utilisée, ATC et la température de l'échantillon sont
+
+      affichés.
+ Si l'appareil de mesure ne détecte pas d'électrode de température, il passe automatiquement
+
+      au mode manuel de compensation de température et MTC apparaît. La température MTC
+      doit être définie.
+Remarque : Le STARTER 3100 accepte le capteur de température NTC 30 kΩ. Avec l'ATC
+(compensation automatique de température) ou la MTC (compensation manuelle de température),
+la compensation de température ne corrige que les modifications en sortie de l'électrode et non
+pas celles de la solution en cours. Ceci signifie que l'appareil de mesure corrige le signal (mV)
+provenant des électrodes de pH afin d'obtenir une plus grande précision de la valeur du pH
+conformément à la température réelle.
+
+4.4 Utilisation de la mémoire
+
+4.4.1 Stockage d'une mesure
+
+Le STARTER 3100 peut stocker jusqu'à 99 résultats finaux.
+ Appuyer sur le bouton Stockage lorsque la mesure atteint un résultat final. M01 indique
+
+      qu'un résultat a été stocké.
+En appuyant sur le bouton Stockage lorsque M99 est affiché, FUL (plein) apparaît pour indiquer
+que la mémoire est pleine. Pour stocker d'autres données, vous devrez effacer la mémoire. (Voir
+la section 3.4.3)
+
+4.4.2 Rappel depuis la mémoire
+
+ Maintenir appuyé le bouton Rappel pour rappeler les valeurs stockées dans la mémoire
+      lorsque la mesure en cours atteint un résultat final.
+
+ Appuyer sur le bouton Vers le haut ou sur le bouton Vers le bas pour naviguer parmi les
+      résultats stockés. R01 à R99 indique quel résultat est en cours d'affichage.
+
+ Appuyer sur le bouton Quitter pour quitter.
+
+4.4.3 Effacement de la mémoire
+
+ Appuyer sur le bouton Vers le haut ou sur le bouton Vers le bas pour naviguer parmi les
+
+      résultats stockés jusqu'à ce que «MRCL» apparaisse.
+
+ Appuyer sur le bouton Lecture, CLr clignote,
+Deux choix se présentent alors :
+ Appuyer sur le bouton Lecture pour confirmer la suppression de toutes les données
+
+      stockées.
+ Appuyer sur le bouton Quitter pour revenir au mode de mesure sans effacer la mémoire.
+STARTER 3100                                                       FR-13
+
+4.5 Impression
+
+Si l'imprimante est connectée au STARTER 3100 (par exemple, SF-F40A, le témoin vert signifie
+la réussite de la connexion, le débit en baud de l'imprimante est de 9600 bps, 8 bits de données,
+aucun bit de parité, 1 bit d'arrêt), une copie papier est automatiquement générée après chaque
+mesure de résultat final ou d'étalonnage.
+Le format de la copie papier après une mesure de pH est le suivant :
+Résultat final, Valeur, Température, ATC/MTC
+Auto EP, pH 4,01, 25,0 °C, MTC
+
+Les détails de la deuxième ligne sont les suivants :
+
+Auto EP, pH 4,01, 25,0 °C, MTC
+
+|  | | |----Compensation manuelle de température
+
+|  | |---------------- Valeur de température et unité C
+
+|  |------------------------- Valeur du pH
+
+|---------------------------------------- Point de résultat final
+
+Le format de la copie papier après une mesure mV est le suivant :
+Résultat final, Valeur, Température, ATC/MTC
+EP manuel, 182 mV, 23,2 °C, ATC
+
+Le format de sortie imprimée en cas de message d'erreur est :
+Résultat final, Valeur, Température, ATC/MTC
+Erreur3
+
+La copie papier d'un étalonnage à 2 points est :
+Tampon1 : pH 4,01
+mV1 : 178 mV
+Temp.1 : 25,0 °C
+Tampon2 : pH 7,00
+mV2 : 3mV
+Temp.2 : 25,0 °C
+Pente : 99 %
+Décalage : 5mV
+ATC/MTC : MTC
+
+La copie papier d'un étalonnage à 3 points est :
+Tampon1 : pH 4,01
+mV1 : 178 mV
+Temp.1 : 25,0 °C
+Tampon2 : pH 7,00
+mV2 : 0mV
+Temp.2 : 25,0 °C
+Tampon3 : pH 9,21
+mV3 : -130 mV
+Temp.3 : 25,0 °C
+Pente : 100 %
+Décalage : 0mV
+ATC/MTC : ATC
+
+Impression depuis la mémoire En défilant dans la mémoire, il est possible d'imprimer l'entrée en
+cours d'examen en maintenant appuyé le bouton Stockage pendant 3 secondes. Le format de
+sortie imprimée est le suivant :
+Rappel 01 :
+Résultat final, Valeur, Température, ATC/MTC
+EP manuel, pH 4,01, 35,6 °C, ATC
+FR-14                                   STARTER 3100
+
+5 Maintenance
+
+5.1 Message d’erreur                    Réinitialisation aux valeurs usine
+
+  Erreur 0 Erreur d'accès mémoire
+
+Erreur 1  Échec de l'auto-diagnostic    Répéter la procédure d'auto-diagnostic et arrêter
+Erreur 2  Valeurs mesurées hors plage   d'appuyer sur les cinq touches dans les deux
+                                        minutes.
+
+                                        Vérifier si l'électrode est correctement connectée
+                                        et en place dans la solution échantillon.
+
+Erreur 3  Température mesurée du        Conserver la température du tampon de pH dans
+Erreur 4  tampon hors plage (<5 ou      la plage pour l'étalonnage
+Erreur 5  >40 °C)
+          Décalage hors plage           S'assurer que le tampon de pH est correct et
+          décalage > 60m V ou < - 60    récent. Nettoyer ou remplacer l'électrode de pH.
+          mV
+          Pente hors plage              S'assurer que le tampon est correct et récent.
+                                        Nettoyer ou remplacer l'électrode de pH.
+
+Erreur 6  L'appareil de mesure ne peut  S'assurer que le tampon est correct et récent.
+          pas reconnaître le tampon     Vérifier si le tampon n'a pas été utilisé plusieurs
+Erreur 9                                fois.
+          L'ensemble des données        Une mesure de résultat final ne peut être stockée
+Erreur    actuelles a déjà été stocké   qu'une seule fois. Réaliser une nouvelle mesure
+10        une fois                      pour le stockage.
+          Température de l'échantillon  Vérifier la température de l'échantillon, le capteur
+          hors limites                  de température.
+
+En cas d'erreur, l'appareil de mesure émettra aussi un bip 3 fois à titre d'alerte.
+Pour d'autres problèmes, contacter le représentant des ventes d'Ohaus.
+
+5.2 Maintenance de l'appareil de mesure
+
+Ne jamais dévisser les deux moitiés de l'enceinte !
+Les instruments de la série STARTER 3100 ne nécessitent aucune maintenance autre qu'un
+essuyage occasionnel avec un chiffon humide et le remplacement des batteries vides.
+L'enceinte est fabriquée en polystyrène-butadiène-acrylonitrile (ABS). Ce matériau est attaqué par
+certains solvants organiques comme le toluène, le xylène et l'éthyl méthyl cétone (MEK). Tout
+déversement doit être immédiatement asséché.
+
+5.3 Maintenance de l'électrode
+
+S'assurer que l'électrode est remplie d'une solution électrolytique. Toujours stocker l'électrode
+conformément au manuel d'instruction de l'électrode ; ne pas la laisser s'assécher.
+STARTER 3100                                                               FR-15
+
+Si la réponse de l'électrode devient lente ou si la pente n'est pas suffisamment bonne, essayer de :
+      o Tremper l'électrode dans de HCl 0,1M pendant plus de 8 heures.
+      o Pour des contaminants huileux ou gras, dégraisser la membrane avec de la laine de
+             coton trempée dans de l'acétone ou dans une solution savonneuse.
+
+Après avoir traité l'électrode, un nouvel étalonnage doit être réalisé. Si la pente de l'électrode n'est
+toujours pas bonne, l'électrode doit être remplacée.
+
+5.4 Auto-diagnostic
+
+ Lorsque l'appareil de mesure est en marche, appuyer et maintenir simultanément enfoncés
+      les boutons Lecture et Étalonnage jusqu'à ce que l'appareil de mesure affiche l'écran
+      complet. Chaque icône clignote l'une après l'autre.
+
+De cette manière, il est possible de vérifier si toutes les icônes sont correctement présentées.
+L'étape suivante consiste à vérifier que les touches fonctionnent correctement. Ceci nécessite
+l'interaction de l'utilisateur.
+
+Lorsque b clignote, cinq icônes sont affichées.
+ Appuyer sur les cinq touches dans n'importe quel ordre. Chaque fois que vous appuyez sur
+
+      une touche, une icône disparaît de l'écran ; continuer d'appuyer sur les autres touches
+      jusqu'à ce que toutes les icônes aient disparu.
+
+Lorsque l'auto-diagnostic est terminé avec succès, PAS apparaît. En cas d'échec de l'auto-
+diagnostic, le message d'erreur Err 1 apparaît.
+
+Remarque : Vous devez terminer d'appuyer sur les cinq touches dans les 2 minutes, sinon Err 1
+apparaît et vous devrez répéter la procédure.
+
+5.5 Récupération des paramètres usine
+
+ Lorsque l'appareil de mesure est à l'arrêt, maintenir simultanément appuyés les boutons
+
+Lecture, Étalonnage et Quitter pendant 3 secondes, l'écran affiche         et clignote,
+
+signifie « Réinitialisation ». Deux choix se présentent à l'utilisateur :
+ Appuyer sur le bouton Lecture pour une réinitialisation selon les paramètres usine
+
+(MTC, pente et décalage, etc.), affichage  redémarrer ensuite l'appareil de
+mesure.
+
+ Ou appuyer sur le bouton Quitter pour quitter le paramétrage, affichage  et mettre
+      ensuite l'appareil de mesure à l'arrêt.
+FR-16                                                   STARTER 3100
+
+6 DONNÉES TECHNIQUES
+
+6.1 Spécifications
+
+Conditions ambiantes
+ Utilisation en intérieur seulement
+ Altitude : Jusqu'à 2000 m
+ Plage de température spécifiée : 5 à 40 °C
+ Humidité : humidité relative maximum à 80 % avec des températures jusqu'à 30 °C diminuant
+
+     linéairement à 50 % d'humidité relative à 40 °C
+ Variations secteur jusqu'à ± 10 % de la tension nominale
+ Installation de catégorie II
+ Degré de pollution : 2
+ Fonctionnement assuré à température ambiante entre 5 et 40 °C
+
+Modèle                       ST3100
+Plage de mesure
+                             pH -2,00…16,00
+Résolution                   –1999…1999 mV
+                             -5 °C…110 °C
+Limites d'erreur
+                             pH 0,01
+Étalonnage                   1 mV
+Mémoire                      0,1 °C
+Alimentation
+Dimensions/poids             pH ± 0,01
+                             ± 1 mV
+                             ± 0,5 °C
+
+                             3 points
+                             3 groupes de tampons prédéfinis
+
+                             99 mesures
+                             Les dernières données d'étalonnage
+
+                             Entrée Adaptateur CA : 100-240V ~ X,XA 50/60 Hz
+                             Sortie Adaptateur CA : 12V  X,XA
+                             220 (L) x 175 (P) x 78 (H)/ 0,75 kg
+
+Affichage                    ACL avec rétroéclairage
+Entrée                       BNC, impédance > 10e+12 Ω
+                             Cinch, NTC 30 kΩ
+Entrée de référence          Prise fiche banane 2 mm
+Compensation de température  ATC et MTC
+Enceinte                     ABS
+STARTER 3100  FR-17
+
+7 Conformité
+
+               Ce produit est conforme à la directive EMC 2004/108/EC et à la directive de
+               basse tension 2006/95/EC. La Déclaration de conformité est disponible en ligne
+               sur europe.ohaus.com/europe/en/home/support/compliance.aspx.
+
+               Conformément à la directive européenne 2002/96/CE sur les déchets
+               d’équipements électriques et électroniques (WEEE), cet appareil ne doit pas
+               être mis au rebut comme des ordures ménagères. Ceci est également valable
+               pour les pays en dehors de l’UE, selon leurs impératifs spécifiques. Veuillez
+               mettre au rebut ce produit conformément à la réglementation locale au point de
+               collecte spécifiépour les équipements électriques et électroniques. En cas de
+               questions, veuillez contacter l’autorité responsable ou le distributeur auprès
+               duquel cet appareil a été acheté. Si cet appareil change de propriétaire (pour
+               des raisons personnelles ou professionnelles), cette consigne doit lui être
+               communiquée. Les instructions de mise au rebut en Europe sont disponibles en
+               ligne sur europe.ohaus.com/europe/en/home/support/weee.aspx. Nous vous
+               remercions de votre contribution à la protection de l’environnement.
+
+Remarque FCC : Cet équipement a été testé et déclaré conforme aux limites des appareils
+numériques de classe A, selon la Section 15 des règles du FCC (Commission fédérale des
+communications). Ces limites ont pour objectif de fournir une protection raisonnable contre
+des interférences dangereuses lorsque l'équipement est utilisé dans un environnement
+commercial. Cet équipement génère, utilise et peut rayonner des hautes fréquences et s'il
+n'est pas installé et utilisé conformément au guide de l'utilisateur, il peut générer des
+interférences préjudiciables aux communications radio. L'utilisation de cet équipement dans
+une zone résidentielle risque de générer des interférences préjudiciables, auquel cas
+l'utilisateur se verra dans l'obligation de rectifier la situation à ses frais.
+
+Enregistrement ISO 9001
+En 1994, le Bureau Veritus Quality International (BVQI) a octroyéla certification
+d'enregistrement ISO 9001 àOhaus Corporation, États-Unis d'Amérique, confirmant que le
+système de gestion de la qualité d'OHAUS était conforme aux spécifications normalisées de
+l'ISO 9001. Le 21 juin 2012, Ohaus Corporation, États-Unis d'Amérique, a été ré-enregistrée
+à la norme ISO 9001:2008.
+FR-18                                             STARTER 3100
+
+8 Groupe de tampons
+
+Le STARTER 3100 corrige automatiquement la dépendance àla température des valeurs de pH du groupe de
+tampons qui sont données sur les tableaux suivants : b2, b3, vous pouvez trouver b1 dans 3.1.1) .
+
+Groupe de tampons b2 Normes européennes
+
+Temp°C pH2,00 pH4,01 pH7,00 pH9,21       pH11,00
+                                         11,72
+5      2,02  4,01  7,09       9,45       11,54
+                                         11,36
+10     2,01  4,00  7,06       9,38       11,18
+                                         11,00
+15     2,00  4,00  7,04       9,32       10,82
+                                         10,64
+20     2,00  4,00  7,02       9,26       10,46
+                                         10,28
+25     2,00  4,01  7,00       9,21       10,10
+
+30     1,99  4,01  6,99       9,16
+
+35     1,99  4,02  6,98       9,11
+
+40     1,98  4,03  6,97       9,06
+
+45     1,98  4,04  6,97       9,03
+
+50     1,98  4,06  6,97       8,99
+
+Groupe de tampons b3 JJG119
+
+Temp °C pH1,68 pH4,00 pH6,86  pH9,18     pH12,46
+                              9,39       13,21
+5      1,67 4,00 6,95         9,33       13,01
+                              9,28       12,82
+10     1,67 4,00 6,92         9,23       12,64
+                              9,18       12,46
+15     1,67 4,00 6,90         9,14       12,29
+                              9,11       12,13
+20     1,68 4,00 6,88         9,07       11,98
+                              9,04       11,83
+25     1,68 4,00 6,86         9,02       11,70
+
+30     1,68 4,01 6,85
+
+35     1,69 4,02 6,84
+
+40     1,69 4,03 6,84
+
+45     1,70 4,04 6,83
+
+50     1,71 4,06 6,83
+STARTER 3100  FR-19
+
+                                                   GARANTIE LIMITÉE
+Ohaus garantit que ses produits sont exempts de défauts matériels et de fabrication à compter de
+la date de livraison pendant toute la durée de la garantie. Pendant la période de garantie, Ohaus
+réparera ou, à sa convenance, remplacera sans frais toutes les pièces déterminées défectueuses,
+sous réserve que le produit soit retourné, fret payé d'avance, à Ohaus.
+
+Cette garantie ne s'applique pas si le produit a subi des dommages suite à un accident ou un
+mésusage, a été exposé à des matériaux radioactifs ou corrosifs, contient des matériaux
+étrangers ayant pénétré à l'intérieur ou après une maintenance ou des modifications apportées
+par quiconque autre qu’Ohaus. En l’absence d’une carte d'enregistrement de garantie dûment
+remplie, la période de garantie commence à la date de l'expédition au revendeur agréé. Aucune
+autre garantie expresse ou implicite n'est offerte par Ohaus Corporation. En aucun cas, Ohaus
+Corporation ne peut être tenu responsable des dommages indirects.
+
+Dans la mesure où les lois régissant les garanties varient d'un État à un autre et d'un pays à un
+autre, veuillez contacter Ohaus ou votre représentant local agrééOhaus pour de plus amples
+informations.
+                                       Índice
+1 Introdução ............................................................................1
+
+   1.1 Definição de sinais e símbolos de aviso ...................................... 1
+   1.2 Precauções de segurança .............................................................. 2
+   1.3 Display e controles ......................................................................... 3
+
+2 Instalação .............................................................................5
+
+   2.1 Conteúdo da embalagem ............................................................... 5
+   2.2 Instalando o suporte de eletrodo independente .......................... 6
+   2.3 Instalando o adaptador de força.................................................... 6
+   2.4 Conecte os eletrodos de pH........................................................... 7
+   2.5 Suporte do medidor para ajuste do ângulo de visão .................. 7
+   2.6 Guia rápido incluso......................................................................... 7
+
+3 Configuração........................................................................8
+
+   3.1 Configurar a unidade de temperatura ........................................... 8
+   3.2 Configure a compensação manual de temperatura .................... 8
+   3.3 Selecionando um grupo predefinido de buffer ............................ 8
+
+4 Funcionamento do STARTER 3100 ....................................9
+
+   4.1 Calibração ........................................................................................ 9
+      4.1.1 Grupo de buffer ............................................................................. 9
+      4.1.2 Executando calibração de 1 ponto .............................................. 10
+      4.1.3 Executando calibração de 2 pontos .............................................11
+
+   4.2 Medição de amostra.......................................................................11
+      4.2.1 Medição de pH .............................................................................11
+      4.2.2 Medição de mV ............................................................................11
+
+   4.3 Medição de temperatura................................................................11
+   4.4 Utilizando a memória .................................................................... 12
+
+      4.4.1 Armazenando uma leitura ........................................................... 12
+      4.4.2 Acessando a memória ................................................................ 12
+      4.4.3 Apagando a memória .................................................................. 12
+   4.5 Impressão ...................................................................................... 13
+
+5 Manutenção........................................................................14
+
+   5.1 Mensagens de erro........................................................................ 14
+   5.2 Manutenção do medidor............................................................... 14
+   5.3 Manutenção do eletrodo............................................................... 14
+   5.4 Autodiagnóstico ............................................................................ 15
+   5.5 Recuperando as configurações de fábrica ................................ 15
+
+6 Especificações...................................................................16
+7 Grupo de buffers................................................................17
+STARTER 3100                                                                 PT-1
+
+1 Introdução
+
+     Grato por optar por um produto da OHAUS.
+Favor ler completamente o manual antes de utilizar o medidor de pH de bancada STARTER 3100
+para evitar funcionamento incorreto.
+
+O STARTER 3100 possui excelente relação preço/performance, sendo projetado com muitos
+recursos úteis, incluindo um suporte de eletrodo independente, um bepper para alerta de erro.
+Também oferecemos outros acessórios, por exemplo, eletrodo de pH para diferentes aplicações
+e soluções buffer.
+Vocêacharámuitas funcionalidades úteis nesses medidores. Algumas delas são:
+ LCD grande com iluminação com guia rápido incluso, de fácil operação pelo usuário
+ Ponto final automático/manual que pode auxiliar os usuários a congelar o valor de leitura
+
+      estável
+ Três grupos de buffer (US, EU e JJG) atendem a diferentes requisitos
+ O RS232 pode conectar uma impressora para impressão, 99 memórias de dados com os
+
+      dados da última calibração
+
+1.1 Definição de sinais e símbolos de aviso
+
+Notas de segurança são marcadas com palavras e símbolos de aviso. Estas mostram avisos e
+questões de segurança. Ignorar as notas de segurança pode levar a lesões pessoais, danos ao
+instrumento, avarias e resultados falsos.
+
+Palavras de sinais
+
+AVISO                 Para uma situação perigosa com risco médio, possivelmente
+                      resultando em ferimentos ou morte se não for evitada.
+
+CUIDADO               Para uma situação perigosa com baixo risco, resultando em danos
+                      ao aparelho ou a propriedade ou perda de dados, ou lesões, se
+                      não for evitada.
+
+Atenção               Para uma informação importante a respeito do produto.
+
+Nota                  Para obter informações úteis sobre o produto
+
+Símbolos de aviso
+
+         Risco geral
+
+         Risco de explosão
+
+         Risco de corrosão
+
+        Corrente alternativa
+PT-2                   STARTER 3100
+
+     Corrente direta
+
+1.2 Precauções de segurança
+
+AVISO: Leia todos os avisos de segurança antes de instalar, fazer conexões ou manutenção
+deste equipamento. Não seguir estes avisos pode resultar em lesões pessoais ou danos à
+propriedade. Reter todas as instruções para futura referência.
+
+ Verifique que a faixa de tensão de entrada impressa na etiqueta de dados e o tipo de plugue
+     de tomada estão de acordo com os padrões locais de adaptação.
+
+ Certifique-se de que o cabo de alimentação não represente um obstáculo em potencial ou o
+     perigo de tropeçar.
+
+ Utilize o equipamento apenas em locais secos.
+ Seque qualquer líquido que derramar imediatamente. O instrumento não é à prova d'água.
+ Quando utilizar produtos químicos e solventes, siga as instruções do produtor químico e as
+
+     regras de segurança geral do laboratório.
+ Utilize somente acessórios aprovados.
+ Opere o equipamento somente em condições ambientais especificadas neste manual.
+ Desconecte o equipamento da fonte de alimentação para limpeza.
+ Não opere o equipamento em ambientes perigosos ou instáveis.
+ Serviço deve ser realizado apenas por pessoal autorizado.
+STARTER 3100                                                                  PT-3
+
+1.3 Display e controles
+
+Displays
+
+              1                   2        3 45
+
+          6
+
+                               7        8  9
+
+1 Condição do eletrodo                    Slope: 90-95%           Slope: menos que 90%
+                                                             ou offset: ±(35-60) mV
+            Slope: mais de 95% e     ou offset: ±(15-35) mV  Condição do eletrodo não é
+      offset: ±(0-15) mV             Condição do eletrodo é  boa e necessita limpeza
+      Condição do eletrodo é boa     aceitável
+
+2 Ícone de estabilidade de ponto final     ; ícone de ponto final automático
+
+3 Ícone de medição - ; calibração ou medição em andamento
+
+4 Ícone de calibração - ; calibração em andamento
+
+5 Ícone de configuração - ; instrumento está no modo de configuração, pode configurar
+      temperatura (MTC), grupo de buffer, etc.
+
+6 Leitura pH/mV ou slope em processo de calibração
+
+7 Ponto de calibração / Grupo de Buffer / Número de memória / Índice de erro
+
+8 Compensação automática de temperatura - ATC ; Compensação manual de temperatura -
+      MTC
+
+9 Temperatura durante medição ou offset (mV) em processo de calibração
+ PT-4                                                      STARTER 3100
+
+Controles                Pressione e solte                     Pressione e mantenha
+                                                           pressionado por 3 segundos
+               Botão  - Iniciar ou terminar a medição
+                      - Confirmar configuração,            - Ativar/desativar ponto final
+                                                            automático
+                       armazenar valor inserido                        ,
+
+                      - Iniciar a calibração               - Acessar os últimos dados de
+                                                            calibração: slope e offset
+
+                      - Ativar o medidor                   - Desativar o medidor
+
+                      - Sair e retornar à tela de medição
+
+                      - Armazenar leitura atual na         - Acessar dados armazenados
+                       memória                             - Imprimir dados da memória
+
+                      - Aumentar valor durante ajuste       atual
+                      - Rolar para cima na memória
+                                                           - Entrar no modo de
+                      - Alternar entre pH e mV              configuração
+                      - Diminuir valor durante ajuste
+                      - Rolar para baixo na memória
+
+                      - Iniciar autodiagnóstico
+
+                                                           Ativar/desativar a iluminação
+                                                           do LCD
+STARTER 3100                                                                  PT-5
+
+2 Instalação
+
+Com cuidado, abra a caixa.
+
+2.1 Conteúdo da embalagem
+
+O modelo ST3100-B (embalagem básica) possui os seguintes itens:
+
+ST3100-B                                                         Unidades
+
+STARTER 3100                                                     1
+
+Porta eletrodo independente                                      1 unidade
+
+Fonte de força 12V                                               1 unidade
+
+Além do conteúdo ST3100-B, a embalagem ST3100-F também incluiu o seguinte:
+
+Conjunto de Pó Buffer para pH (4.01, 7.00, 10.01)                1 unidade
+Eletrodo de pH recarregável 3 em 1 ST310                         1
+Cobertura de proteção                                            1
+
+Além do conteúdo ST3100-B, a embalagem ST3100-H também incluiu o seguinte:
+
+Conjunto de Pó Buffer para pH (4.01, 7.00, 10.01)                1 unidade
+Eletrodo de pH gel 3 em 1 ST320                                  1
+Cobertura de proteção                                            1
+
+Cada pó buffer de pH deverá ser dissolvido em 250ml de água pura ou água deionizada em um
+
+frasco volumétrico. Vocêtambém pode pedir da Ohaus solução buffer em frasco.
+
+Acessórios:
+
+Modelo        Descrição                                          Item NO
+
+ST310         Eletrodo de pH recarregável de plástico 3 em 1 83033965
+
+ST210         Eletrodo de pH recarregável de plástico 2 em 1 83033966
+
+              Eletrodo de pH com gel plástico 3 em 1 (sem
+
+ST320         necessidade de recarregar)                         83033967
+
+              Eletrodo de pH de amostra lamacenta de vidro 2
+
+ST230         em 1                                               83033968
+
+              Eletrodo de pH de amostra de água pura de
+
+STPURE vidro 2 em 1                                              83033969
+
+STTEMP30 Eletrodo de Temperatura                                 83033970
+
+STORP1 Eletrodo ORP de plástico gel                              30038555
+
+STORP2 Eletrodo ORP de vidro recarregável                        30038553
+
+STREF01 Eletrodo de referência Ag/AgCl                           30059253
+PT-6                                                            STARTER 3100
+
+Conjunto de pó de buffer (4.01; 7.00; 10.0)           83033971
+Buffer pH4.01 250ml
+Buffer pH7.00 250ml                                   30065083
+Buffer pH9.21 250ml                                   30065084
+Buffer pH10.00 250ml                                  30065085
+Eletrólito de Referência de eletrodo de pH            30065086
+Solução de proteção de eletrodo de pH                 30059255
+Frasco de proteção de sensor de pH (10 na embalagem)  30059256
+Suporte de eletrodo independente (3100/3100C)         30064800
+Impressora SF40A                                      30058733
+Cobertura de proteção                                 30045641
+                                                      30058734
+
+2.2 Instalando o suporte de eletrodo independente
+
+Instale o braço do eletrodo na base,
+
+                                                      Afrouxar
+
+                                                      Apertar
+
+Após a ajustar o botão de tensão em certa medida, você poderá levantar e abaixar
+diretamente o braço. Quando colocamos um eletrodo de pH no braço e executamos
+calibração ou medição, podemos colocar o frasco de armazenamento do eletrodo de pH no
+orifício da base.
+
+2.3 Instalando o adaptador de força
+
+Insira o clipe adaptador correto na ranhura do adaptador de força. A fonte de força da balança
+Ohaus também é 12V, podendo também ser utilizada para o medidor de pH.
+STARTER 3100  PT-7
+
+2.4 Conecte os eletrodos de pH
+
+Há 3 soquetes para o eletrodo. Soquete "pH" (BNC); Soquete “TEMP.” (Cinch) e Soquete “REF”
+(banana 2 mm).
+
+Para o eletrodo ST310, deve-se conectar o soquete BNC e Cinch. Para eletrodo pH 2 em 1
+(ST210), só é necessário conectar o BNC.
+
+Soquete REF para eletrodo de referência separado. (por exemplo, STREF01)
+
+2.5 Suporte do medidor para ajuste do ângulo de visão
+
+Um recurso exclusivo do STARTER 3100 é o suporte do medidor, que pode ser utilizado para
+ajustar o ângulo de visão do display caso trabalhe em uma mesa alta.
+
+2.6 Guia rápido incluso
+
+Um outro recurso exclusivo do STARTER 3100 é o guia rápido incluso, que está afixado no
+gabinete inferior do medidor, podendo utilizar o dedo para pressioná-lo para sair.
+PT-8                                         STARTER 3100
+
+3 Configuração
+
+3.1 Configurar a unidade de temperatura
+
+Por favor, note:
+Se for utilizado um eletrodo de temperatura, compensação automática de temperatura (ATC) e a
+temperatura da amostra são exibidos na tela. Em seguida, você pode optar por ignorar a
+configuração MTC (abaixo).
+
+Se o medidor não detecta um eletrodo de temperatura ou um não é usado, o medidor
+automaticamente alterna para o modo de compensação de temperatura Manual (MTC) e MTC
+aparece na tela.
+MTC pode ser definido como segue:
+ Ligar o medidor pressionando Exit.
+ Pressionar e manter o botão Mode/Setup pressionado até o ícone de setup aparecer
+
+      no display e a unidade de temperatura atual piscar.
+ Pressionar o botão up ou down para intercalar entre °C e °F .
+ Pressionar o botão Read para confirmar sua seleção.
+A seguir
+ Continue com a configuração da temperatura MTC ou
+ Pressione Read para confirmar a configuração
+ Pressione o botão Exit para retornar à tela de medição.
+
+3.2 Configure a compensação manual de temperatura
+
+Após confirmar a unidade de temperatura, aparecerá no display o valor de temperatura MTC
+(Compensação Manual de Temperatura). A seguir, utilize o botão up ou down para aumentar ou
+diminuir o valor até a temperatura de sua amostra. Pressione o botão Read para confirmar a
+configuração ou pressione o botão Exit para retornar à tela de medição.
+
+O valor padrão da temperatura MTC é 25 °C (77 °F).
+Nota: °C = 5/9 (°F -32)
+
+3.3 Selecionando um grupo predefinido de buffer
+
+Após confirmar o valor da temperatura de compensação MTC, acessa-se a seleção de grupo de
+buffer. Utilize botão up ou down para selecionar um grupo de buffer entre os quatro grupos
+existentes (3.1.1). Pressione o botão Read para confirmar a configuração ou o botão Exit para
+sair e retornar à tela de medição.
+
+O grupo-padrão de buffer é b1.
+
+b1    1.68  4.01                7.00  10.01
+STARTER 3100                      PT-9
+
+4 Funcionamento do STARTER 3100
+
+O procedimento de medição de pH é o seguinte; os pontos principais são o eletrodo de pH,
+enxágue, calibração, armazenamento.
+
+      a) preparação do eletrodo de pH
+      b) preparação do buffer e calibração do eletrodo de pH
+      c) preparação da amostra
+      d) preparação do pH
+      e) registro ou impressão do resultado da medição
+      f) enxágue e armazenamento do eletrodo de pH
+Preparação do eletrodo de pH: o eletrodo de pH deverá ser de enxaguado com água pura antes
+e após a utilização. Verifique se o eletrodo está fisicamente danificado (tome cuidado com o
+bulbo de vidro)
+O eletrodo de pH deverá ser armazenado no frasco de armazenamento; a solução no frasco é
+uma solução 3M KCl. Após o eletrodo de pH ser colocado na amostra ou solução buffer, o
+usuário deverá agitar vários segundos e, a seguir, aguardar 30 a 60 segundos para que o sinal
+se estabilize e, em seguida, pressionar o botão para funcionar (Calibração ou medição).
+
+4.1 Calibração
+
+4.1.1 Grupo de buffer
+
+STARTER 3100 O STARTER 3100 pode executar calibrações de 1, 2 ou 3 pontos.
+Há 3 grupos de buffer no medidor; você poderá selecionar o grupo de buffer que preferir (ver 4.3);
+o buffer padrão é b1 US standards; o valor de buffer será automaticamente reconhecido durante
+a calibração. Os 3 grupos de buffer predefinidos são (a 25 °C):
+
+b1     1.68 4.01 7.00 10.01
+
+b2     2.00 4.01 7.00 9.21 11.00
+
+b3     1.68 4.00 6.86 9.18 12.46
+
+O STARTER 3100 automaticamente corrige a dependência de temperatura dos valores de pH de
+buffer estabelecidos na seguinte tabela – grupo de buffer b1.
+
+5 °C   1.67 4.01 7.09 10.25
+10 °C  1.67 4.00 7.06 10.18
+15 °C  1.67 4.00 7.04 10.12
+20 °C  1.68 4.00 7.02 10.06
+25 °C  1.68 4.01 7.00 10.01
+30 °C  1.68 4.01 6.99 9.97
+35 °C  1.69 4.02 6.98 9.93
+40 °C  1.69 4.03 6.97 9.89
+45 °C  1.70 4.05 6.97 9.86
+50 °C  1.71 4.06 6.96 9.83
+PT-10                                                                   STARTER 3100
+
+Calibração: o eletrodo de pH precisa ser calibrado com solução buffer padrão de pH antes de
+uma medição correta de pH. A calibração exibirá o valor correto de pH quando o medidor
+receber o sinal do valor mV do eletrodo de pH.
+
+             Slope: coeficiente linear entre mV e pH de acordo com o valor teórico (por exemplo, -
+             59.16mV/pH @ 25 °C, que significa 100% slope);
+             Offset: o valor mV quando o valor de pH for 7.00. (Valor teórico é0 mV);
+
+4.1.2 Executando calibração de 1 ponto
+
+Ao realizar a calibração, Ohaus recomenda o uso do modo de ponto de extremidade do Auto. De
+
+pois de ligar otaxímetro, certifiquese o topo da tela mostra  para garantir que o medidor está
+
+no modo de ponto final de Auto.
+
+Modo Endpoint: Temos dois modos endpoint - auto endpoint e manual endpoint. Ao
+
+pressionar e manter pressionado o botão Read, você poderá alternar entre os 2 modos de ponto
+
+final.
+
+        o Para executar o ponto final manualmente de uma medição ou calibração,
+
+        pressione o botão Read: a leitura da amostra congela; o ícone de estabilidade de
+
+        ponto final  pisca 3 vezes e congela no display.
+
+        o Quando estiver no modo de ponto final automático, o medidor considerará se a
+
+        leitura está estável e, a seguir, executará automaticamente o ponto final; a leitura
+
+        congela e pisca 3 vezes e, em seguida, desaparece; os ícones de ponto final
+
+        automático               piscam 3 vezes e congelam no display.
+
+        o Critério de estabilidade: o sinal de entrada do sensor não pode mudar em mais
+
+        de 0.1mV em 6 segundos.
+
+Nota: Com a calibração de 1 ponto, somente o offset é ajustado. Se o sensor foi anteriormente
+calibrado com calibração multiponto, o slope anteriormente armazenado permanecerá. Caso
+contrário, será utilizado o slope 100 % teórico (-59.16 mV / pH).
+
+Quando o STARTER 3100 estiver no modo de medição de pH (ver 3.2), coloque o eletrodo de
+pH em um buffer de calibração e a seguir:
+
+ Pressione o botão –Cal; “Cal 1” é exibido na parte inferior esquerda da tela e “Cal ” pisca.
+
+      e aparecem na parte superior da tela, pisca durante a calibração.
+ O medidor alcança o ponto final de acordo com o modo endpoint, o valor de pH do ponto
+
+      de calibração (por exemplo, 7.00) com a exibição de temperatura na tela.
+
+A calibração de 1 ponto terminou; agora, temos 3 escolhas a seguir:
+ Pressionar o botão Cal para executar a calibração de 2 pontos.
+ Pressionar o botão Read para armazenar a calibração de 1 ponto e sair; o offset e o slope
+
+      são mostrados no display por 3 segundos; a seguir, retorna para a tela de medição.
+ Pressionar o botão Exit para rejeitar a calibração e voltar àtela de medição.
+STARTER 3100  PT-11
+
+4.1.3 Executando calibração de 2 pontos
+
+ Execute a calibração de 1 ponto conforme descrita acima.
+ Enxágue o eletrodo de pH com água pura e enxugue com o papel toalha.
+
+ Coloque o eletrodo no próximo buffer de calibração e pressione o botão Cal, “Cal 2” será
+
+      exibido no canto esquerdo inferior da tela e “Cal ” piscará na parte superior da tela. e
+      aparecerão, piscará durante a calibração.
+ O medidor alcança o ponto final de acordo com o modo de ponto final, o valor de pH do
+      ponto de calibração (por exemplo, 4.01) com a exibição da temperatura na tela.
+
+A calibração de 2 pontos estáfinalizada; agora temos 3 escolhas a seguir:
+ Pressionar o botão Cal para executar a calibração de 3 pontos.
+ Pressionar o botão Read para armazenar a calibração de 2 pontos e sair; são exibidos no
+
+      display o offset e o slope por 3 segundos e, a seguir, retorna àtela de medição.
+ Pressionar o botão Exit para rejeitar a calibração e retornar à tela de medição.
+
+Nota: A utilização de um eletrodo de temperatura ou um eletrodo com o sensor de temperatura
+integrado (eletrodo de pH 3 em 1) é recomendada. Se utilizar o modo MTC, deve inserir o valor
+correto da temperatura e manter todas as soluções de amostra e buffer na temperatura ajustada.
+(ver 4.2)
+
+4.2 Medição de amostra
+
+4.2.1 Medição de pH
+
+ Coloque o eletrodo de pH na amostra
+ Pressione o botão Read para iniciar a medição de pH; aparecerá no display. piscará
+
+      durante a medição.
+ Quando o medidor alcançar o ponto final, o valor de pH com a exibição de temperatura
+
+      serão mostrados na tela.
+
+4.2.2 Medição de mV
+
+ Pressione o botão Mode para intercalar entre o modo de medição de pH e o modo de
+      medição de mV.
+
+ Siga o mesmo procedimento para medição de pH para executar a medição de mV.
+
+4.3 Medição de temperatura
+
+Para melhor precisão, recomendamos utilizar um eletrodo de temperatura integrado ou um
+eletrodo de temperatura separado.
+ Se um eletrodo de temperatura for utilizado, ATC e a temperatura da amostra serão
+
+      exibidos.
+ Se o medidor não detectar um eletrodo temperatura, passará automaticamente para o modo
+
+      de compensação manual de temperatura e aparecerá MTC A temperatura MTC deverá ser
+      ajustada.
+PT-12  STARTER 3100
+
+Nota: O STARTER 3100 aceita sensor de temperatura NTC 30 kΩ. ATC (Compensação
+Automática de Temperatura) ou MTC (Compensação Manual de Temperatura), a Compensação
+de Temperatura somente corrige alteração na saída do eletrodo, não alteração na solução real.
+Isso significa que o medidor corrige o sinal (mV) dos eletrodos de pH para garantir um valor de
+pH mais preciso de acordo com a temperatura real.
+
+4.4 Utilizando a memória
+
+4.4.1 Armazenando uma leitura
+
+O STARTER 3100 pode armazenar até30 resultados de pontos finais.
+ Pressione o botão Store quando a medição alcançar o ponto final. M01 indica que um
+
+      resultado foi armazenado.
+Se pressionar o botão Store quando M99 for exibido, FUL será exibido, indicando que a memória
+está cheia. Para armazenar mais dados, você terá que liberar espaço na memória. (Ver 3.4.3)
+
+4.4.2 Acessando a memória
+
+ Pressione e mantenha o botão Recall pressionado para acessar os valores armazenados na
+      memória quando a medição atual alcançar o ponto final.
+
+ Pressione o botão up ou down para rolar pelos resultados armazenados. R01 a R30
+      indicam que o resultado está sendo exibido.
+
+ Pressione o botão Exit para sair.
+
+4.4.3 Apagando a memória
+
+ Pressione o botão up ou down para navegar pelos resultados armazenados até “MRCL”
+
+      aparecer.
+ Pressione o botão Read, CLr piscará;
+Agora, temos duas escolhas:
+ Pressione o botão Read para confirmar o apagamento de todos os dados armazenados.
+ Pressione o botão Exit para retornar ao modo de medição sem apagar a memória.
+STARTER 3100                                                      PT-13
+
+4.5 Impressão
+
+Se a impressora estiver conectada ao STARTER 3100 (por exemplo, SF-F40A, a luz verde
+significa sucesso da conexão), será gerada automaticamente uma impressão após cada
+calibração ou medição com ponto final.
+O formato da impressão após uma medição de pH será:
+Ponto Final, Valor, Temperatura, ATC/MTC
+Auto EP, 4.01pH, 25.0 °C, MTC
+
+Os detalhes da segunda linha são:
+
+Auto EP, 4.01pH, 25.0 °C , MTC
+
+|  |  |       |---- Compensação Manual de Temperatura
+
+|  |  |---------------- Valor de temperatura e unidade °C
+
+|  |------------------------- Valor de pH
+
+|---------------------------------------- Ponto Final Automático
+
+O formato da impressão após uma medição de mV é:
+Ponto Final, Valor, Temperatura, ATC/MTC
+Manual EP, 182mV, 23.2 °C, ATC
+
+A impressão em caso de erro de mensagem será:
+Ponto Final, Valor, Temperatura, ATC/MTC
+Error3
+
+A impressão para uma calibração de 2 pontos será:
+Buffer1: 4.01pH
+mV1: 178mV
+Temp.1: 25.0 °C
+Buffer2: 7.00pH
+mV2: 3mV
+Temp.2: 25.0 °C
+Slope: 99%
+Offset: 5mV
+ATC/MTC: MTC
+
+A impressão para uma calibração de 3 pontos será:
+Buffer1: 4.01pH
+mV1: 178mV
+Temp.1: 25.0 °C
+Buffer2: 7.00pH
+mV2: 0mV
+Temp.2: 25.0 °C
+Buffer3: 9.21pH
+mV3: -130mV
+Temp.3: 25.0 °C
+Slope: 100%
+Offset: 0mV
+ATC/MTC: ATC
+
+Quando navegar pela memória, você poderá imprimir a entrada atualmente exibida pressionando
+e mantendo pressionado (3 segundos) o botão Store. O formato da impressão seráo seguinte:
+Recall 01:
+Ponto Final, Valor, Temperatura, ATC/MTC
+Manual EP, 4.01pH, 35.6 °C, ATC
+PT-14                                    STARTER 3100
+
+5 Manutenção
+
+5.1 Mensagens de erro                    Volta para as configurações de fábrica
+
+  Error 0 Erro de acesso à memória
+
+Error 1   Falha de autodiagnóstico       Repita o procedimento de autodiagnóstico e
+Error 2   Valores medidos fora de faixa  verifique se terminou de pressionar todas as
+                                         cinco teclas dentro de 2 minutos.
+
+                                         Verifique se o eletrodo está adequadamente
+                                         conectado e colocado na solução de amostra.
+
+Error 3   Temperatura medida de          Mantenha a temperatura de buffer de pH dentro
+Error 4   buffer fora da faixa (<5 ou    da faixa de calibração
+          >40 °C)
+          Offset fora da faixa           Verifique se o buffer de pH está correto e é novo;
+          offset > 60mV ou < - 60 mV     Limpe ou substitua o eletrodo de pH.
+
+Error 5 Slope fora da faixa              Verifique se o buffer de pH está correto e é novo;
+                                         Limpe ou substitua o eletrodo de pH.
+
+Error 6   Medidor não reconhece o        Verifique se o buffer é correto e é novo; verifique
+          buffer                         se o buffer não foi utilizado mais do que uma vez.
+
+Error 9   Conjunto de dados atuais já    Uma leitura de ponto final somente pode ser
+Error 10  foi armazenado antes           armazenada uma vez. Execute uma nova
+                                         medição para armazenar.
+          Temperatura de amostra fora    Verifique a temperatura de amostra, o sensor de
+          da faixa                       temperatura.
+
+Se o erro ocorrer, o medidor também irábipar três vezes para alerta.
+Quaisquer outros problemas, contate o representante de vendas da OHAUS ou envie um email
+para pH@ohaus.com.
+
+5.2 Manutenção do medidor
+
+Jamais desparafuse as duas metades do gabinete!
+Os instrumentos da série STARTER 3100 não requerem nenhuma manutenção, exceto limpeza
+ocasional com tecido umedecido e a substituição das baterias esgotadas.
+O gabinete é feito de acrilonitrilo butadieno estireno (ABS). Esse material é atacado por alguns
+solventes orgânicos, por exemplo, tolueno, xileno e metiletilcetona (MEK). Qualquer respingo
+deverá ser imediatamente limpo.
+
+5.3 Manutenção do eletrodo
+
+Verifique se o eletrodo está cheio de solução de eletrólito. Sempre armazene o eletrodo de
+acordo com o seu manual de instrução e não deixe secar.
+STARTER 3100                                                    PT-15
+
+Se a resposta do eletrodo tornar-se lenta ou se o slope não for suficientemente bom, tente:
+      o Deixar o eletrodo em imerso 0.1M HCl por mais de 8 horas.
+      o Para contaminante óleo ou gordura, desengordure a membrana com algodão saturado
+             em acetona ou solução saponácea.
+
+Após o tratamento do eletrodo, deverá ser executada uma nova calibração. Se o slope do
+eletrodo ainda não for bom, pode ser necessário substituir o eletrodo.
+
+5.4 Autodiagnóstico
+
+ Quando o eletrodo estiver ativado, pressione e mantenha pressionado o botão Read e o
+      botão Cal simultaneamente até que o eletrodo exiba a tela cheia. Cada ícone piscará um
+      após o outro.
+
+Dessa forma, você poderá verificar se todos os ícones são corretamente exibidos. A próxima
+etapa éverificar se as teclas estão funcionando corretamente. Isso exige interação do usuário.
+
+Quando b piscar, cinco ícones serão exibidos.
+ Pressione as cinco teclas em qualquer ordem. Cada vez que pressionar uma tecla, um ícone
+
+      desaparecerá da tela; continue pressionando as outras teclas até que todos os ícones
+      tenham desaparecido.
+
+Quando terminar o autodiagnóstico com sucesso, aparecerá PAS. Se houver falha no
+autodiagnóstico, a mensagem de erro Err 1 será exibida.
+
+Nota: Você terá que terminar de pressionar todas as cinco teclas dentro de 2 minutos; caso
+contrário, apareceráa mensagem Err 1 e vocêteráque repetir o procedimento.
+
+5.5 Recuperando as configurações de fábrica
+
+ Quando o medidor estiver desligado, pressione e mantenha pressionados os botões Read,
+
+Cal e Exit em conjunto por 3 segundos; a tela exibirá  e piscará, significando “Reset”.
+
+A seguir, temos 2 escolhas:
+
+ Pressione o botão Read para voltar às configurações de fábrica (MTC, slope e offset,
+
+etc.), exibirá  ; a seguir, reinicie o medidor.
+
+ Ou pressione o botão Exit para sair da configuração; exibirá  ; a seguir, desligue
+      o medidor.
+PT-16                                                           STARTER 3100
+
+6 Especificações
+
+                                                  STARTER 3100
+
+Faixa de medição            -2.00…16.00 pH
+Resolução                   –1999…1999 mV
+Limites de erro             -5 °C…110 °C
+Calibração
+Memória                     0.01 pH
+Alimentação                 1 mV
+                            0.1 °C
+
+                            ± 0.01 pH
+                            ± 1 mV
+                            ± 0.5 °C
+
+                            3 pontos
+                            3 grupos predefinidos de buffer
+
+                            99 medições
+                            Últimos dados de calibração
+
+                            110-240V/50Hz, DC 12V
+
+Tamanho/peso                Aproximadamente 220 L x 175 D x 78 A mm / 0.75 kg
+
+Display                     Cristal líquido com iluminação
+Entrada                     BNC, impedância > 10e+12 Ω
+                            Cinch, NTC 30 kΩ
+Entrada de referência       Soquete banana de 2 mm
+Compensação de temperatura  ATC & MTC
+Gabinete                    ABS
+STARTER 3100                                       PT-17
+
+7 Grupo de buffers
+
+O STARTER 3100 corrige automaticamente a dependência de temperatura do valor de pH do
+grupo buffer estabelecido nas tabelas a seguir (b2, b3); você pode encontrar b1. (ver 3.1.1)
+
+Grupo de buffer b2 Padrão Europa
+
+Temp °C pH2.00 pH4.01 pH7.00      pH9.21  pH11.00
+                                  9.45    11.72
+5   2.02 4.01 7.09                9.38    11.54
+                                  9.32    11.36
+10  2.01 4.00 7.06                9.26    11.18
+                                  9.21    11.00
+15  2.00 4.00 7.04                9.16    10.82
+                                  9.11    10.64
+20  2.00 4.00 7.02                9.06    10.46
+                                  9.03    10.28
+25  2.00 4.01 7.00                8.99    10.10
+
+30  1.99 4.01 6.99
+
+35  1.99 4.02 6.98
+
+40  1.98 4.03 6.97
+
+45  1.98 4.04 6.97
+
+50  1.98 4.06 6.97
+
+Grupo de buffer b3 JJG119
+
+Temp °C pH1.68 pH4.00 pH6.86      pH9.18  pH12.46
+                                  9.39    13.21
+5   1.67 4.00 6.95                9.33    13.01
+                                  9.28    12.82
+10  1.67 4.00 6.92                9.23    12.64
+                                  9.18    12.46
+15  1.67 4.00 6.90                9.14    12.29
+                                  9.11    12.13
+20  1.68 4.00 6.88                9.07    11.98
+                                  9.04    11.83
+25  1.68 4.00 6.86                9.02    11.70
+
+30  1.68 4.01 6.85
+
+35  1.69 4.02 6.84
+
+40  1.69 4.03 6.84
+
+45  1.70 4.04 6.83
+
+50  1.71 4.06 6.83
+STARTER 3100 Bench pH Meter  EN-19
+
+Ohaus Corporation
+7 Campus Drive
+Suite 310
+Parsippany, NJ 07054 USA
+Tel: +1 (973) 377-9000
+Fax: +1 (973) 944-7177
+With offices worldwide/Con oficinas en todo el mundo/Avec des bureaux dans
+le monde entier/Com escritórios no mundo inteiro
+
+www.ohaus.com
+
+*30031621*
+
+PN 30031621 E © Ohaus Corporation 2016, all rights reserved/todos los
+derechos reservados/tous droits réservés/todos os direitos reservados
+

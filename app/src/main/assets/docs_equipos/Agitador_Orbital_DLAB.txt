@@ -1,0 +1,451 @@
+Linear Shaker & Orbital Shaker
+
+User Manual
+
+SK-L180-E SK-O180-E SK-L180-S SK-O180-S
+
+Analog Linear Shaker Analog Orbital Shaker LED Digital Linear Shaker LED Digital Orbital Shaker
+
+1MFBTF SFBE DBSFGVMMZ CFGPSF VTF BOE GPMMPX BMM PQFSBUJOHBOETBGFUZJOTUSVDUJPO T
+5IF EFTJHO BOE TQFDJGJDBUJPOT BSF TVCKFDU UP DIBOHFXJUIPVUQSJPSOPUJDF
+XXXEMBCTDJDPN
+
+Contents
+Preface................................................................................. 1 Service................................................................................. 1 Warranty.............................................................................. 1 1. Safety Instructions....................................................... 2 2. Proper Use................................................................... 3 3. Inspection .................................................................... 3
+3.1 Receiving Inspection ............................................. 3 3.2 Listing of Items ..................................................... 3 4. Control ........................................................................ 4 4.1 Analog Model........................................................ 4 4.2 LED Digital Model ............................................... 5 5. Operation..................................................................... 6 5.1 Analog Model........................................................ 6 5.2 LED Digital Model ............................................... 6 6. Faults ........................................................................... 7 7. Maintenance and Cleaning .......................................... 7 8. Associated standards and regulations.......................... 8 9. Specification................................................................ 9 10. Order Information ..................................................... 10
+
+Preface
+Welcome to the "Linear Shaker & Orbital Shaker User Manual". Users should read this manual carefully, follow the instructions and procedures, and beware of all the cautions when using this instrument.
+Service
+When help needed, you can always contact the service department of manufacturer for technical support in the following ways:
+%-"#4DJFOUJGJD*OTUSVNFOU*OD
+&-PDVTU$PVSU0OUBSJP$"6OJUFE4UBUFT 0GGJDF 'BY 4BMFTDPOUBDUJOGP!EMBCTDJDPN 4FSWJDFDPOUBDUTFSWJDF!EMBCTDJDPN XXXEMBCTDJDPN
+
+Please provide the customer care representative with the following information:
+c Serial number ( on the rear panel ) c Certification c Description of problem ( i.e., hardware or software ) c Methods and procedures adopted to resolve the
+problems
+c Your contact information
+Warranty
+This instrument is warranted to be free from defects in materials and workmanship under normal use and service, for a period of 24 months from the date of invoice. The warranty is extended only to the original purchaser. It shall not apply to any product or parts which have been damaged on account of improper installation, improper connections, misuse, accident or abnormal conditions of operation. For claims under the warranty please contact your local supplier. You may also send the instrument directly to manufacturer, enclosing the invoice copy and by giving reasons for the claim.
+
+1
+
+1. Safety Instructions
+
+·
+
+Warning!
+
+·
+
+· Read the operating instructions carefully
+
+before use.
+
+·
+
+· Ensure that only trained staff works with the
+
+instrument.
+
+Protective ground contact
+
+·
+
+· Ensure the socket must be grounded
+
+(protective ground contact) before use.
+
+· When working wear personal safety guards to avoid
+
+the risk of:
+
+·
+
+- Splashing liquids
+
+- Broken glass containers
+
+·
+
+· Follow the safety instructions, guidelines and accident
+
+prevention regulations.
+
+·
+
+· Do not touch the running parts, moving instrument
+
+care not rolling your fingers.
+
+· Set up the instrument in a spacious area on a stable, ·
+clean, non-slip, dry and fireproof surface. Do not
+
+operate the instrument in explosive atmospheres, with
+
+hazardous substances or under water.
+
+2
+
+If the instrument does not run smoothly, please decrease the motor speed. Firmly secure the accessories and vessels in place to avoid damage or risk. Preparation of samples may lead to dangerous flammable. Only process samples that will not react dangerous. Use the standard accessories listed in the "accessories" section, and follow the instructions to use accessories to ensure safety. Please switch off the power before assembly of accessories, confirm the instrument and accessories are intact before switch on each time. The instrument only be opened by expertplease switch off before use. The voltage stated on the nameplate must correspond to the mains voltage. Do not cover the instrument during running. Prevent the collision and extrusion to instrument and accessories. Keep away from high magnetic field.
+
+2. Proper Use
+
+3. Inspection
+
+The instrument is designed for mixing sticky substance in schools, laboratories or factories. It can be installed on a variety of impeller, for different viscosity of the medium. This instrument is not suitable for using in residential areas or other constraints mentioned in Chapter 1. Do not use the accessories recommended by the manufacturer, or failure to use the instructions, may be caused unsafe situation.
+
+3.1 Receiving Inspection
+Unpack the instrument carefully and check for any damages which may have arisen during transport. If it happens, please contact manufacturer/supplier for technical support.
+Note: If there is any apparent damage to the system, please do not connect to the power line.
+
+3.2 Listing of Items
+
+Items
+
+Qty
+
+Main unit
+
+1
+
+Power cable
+
+1
+
+User manual
+
+1
+
+3
+
+4. Control
+4.1 Analog Model
+Shaking table
+Speed control knob Power light
+
+Screws
+
+Power switch Power interface
+
+Items Speed control knob Power switch Power interface Power light Screw
+
+Descriptions Set target speed. Switch ON/OFF instrument.
+Connect the power cable Green LED display light
+Install the platform.
+
+4
+
+4.2 LED Digital Model
+
+Shaking table
+
+Screws
+
+Speed
+
+display
+
+Mode switch
+
+Time button
+
+Parameter
+
+display
+
+adjusting knob
+
+Power switch Power interface
+
+Items Mode switch button Mode
+Parameter adjusting knob
+Speed display Time display Power switch I/O Shaking table Screw
+
+Default settings
+Shift speed and time setup mode
+Set speed and time by rotating the knob. Push on/off to start/stop rotating function. Display the set speed values. Display the set time values. Switch ON or OFF the instrument. Shaking. Install the platform.
+
+5
+
+5. Operation
+
+· The instrument begins self-checking.
+
+5.1 Analog Model
+
+· When initialization is over, LED displays the last
+running values of speed and timer.
+
+· Place the instrument in safe and stable surface, ensure · Rotate the speed/timer control knob to set target speed.
+
+the required operating voltage and power supply
+
+a. Press the mode switch button to choose the speed
+
+voltage matched.
+
+or timer setup interface. When the character of LED
+
+· Connect the power cable.
+
+display is flashing, rotate the parameter adjusting knob
+
+· Install the platform.
+
+to set the target parameter. Press the knob to start the
+
+· Switch ON the instrument.
+
+motion.
+
+· Rotate the speed control knob clockwise to set target
+
+b. During operation, motion can be stopped at any
+
+speed, and the shaking function will be switched on.
+
+time by pressing the parameter adjusting knob. If the
+
+· Rotate the speed control knob to the left-most position
+
+knob is pressed again, motion will start again and the
+
+to switch off the shaking function.
+
+timer will continue to countdown. When the timer
+
+· Switch OFF the instrument.
+
+reaches zero, the unit will be automatically halted.
+
+5.2 LED Digital Model
+· Place the instrument in safe and stable surface, ensure
+the required operating voltage and power supply
+
+c. When the timer is set to be 00:00, start the continuous motion.
+· Switch OFF the instrument.
+
+voltage matched.
+· Connect the power cable. · Install the platform. · Switch ON the instrument.
+
+If these operations above are normal, the instrument is ready to operate. If not, the instrument may be damaged during transportation, please contact technical support of manufacturer/supplier.
+6
+
+Note: The speed value can be altered during shaking.
+
+6. Faults
+
+·
+
+· When switched ON, the instrument does not work
+ Check whether the power cable is connected
+· Motor speed cannot reach set value
+ Check whether it is overloaded
+
+7. Maintenance and Cleaning
+
+· Proper maintenance can keep instrument working
+
+properly and lengthen its lifetime.
+
+· Do not spray cleanser into the instrument when
+
+cleaning.
+
+· Do not remove the power line when cleaning. Only
+
+use recommended cleansers:
+
+Dyes
+
+Isopropyl alcohol
+
+Construction
+
+Water containing tenside /
+
+Materials
+
+Isopropyl alcohol
+
+Cosmetics
+
+Water containing tenside /
+
+7
+
+Isopropyl alcohol
+
+Foodstuffs
+
+Water containing tenside
+
+Fuels
+
+Water containing tenside
+
+Before using other method for cleaning or
+
+decontamination, the user must ascertain with the
+
+manufacturer that this method will not damage the
+
+instrument. Wear the proper protective gloves during
+
+cleaning of the instrument.
+
+Note: · Electronic device cannot clean with cleanser. · If you require maintenance service, must be
+cleaned the instrument in advance to avoid
+
+pollution of hazardous substances, and to
+
+send back into original packing.
+
+· If the instrument will not use for a long time,
+
+please switch off and place in a dry, clean,
+
+room temperature and stable location.
+
+8. Associated standards and regulations
+Construction in accordance with the following safety standards: EN 61010-1 UL 3101-1 CAN/CSA C22.2(1010-1) EN 61010-2-10 Construction in accordance with the following EMC standards: EN 61326-1
+
+cause harmful interference to radio communications. Operation of this equipment in a residential area is likely to cause harmful interference in which case the user will be required to correct the interference at his own expense.
+
+Changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment. NOTE: This equipment has been tested and found to comply with the limits for a Class A digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference when the equipment is operated in a commercial environment. This equipment generates, uses, and can radiate radio frequency energy and, if not installed and used in accordance with the instruction manual, may
+
+8
+
+9. Specification
+
+Items
+
+Specifications
+Analog Model
+
+Voltage [VAC]
+
+100-240
+
+Frequency [Hz]
+
+50/60
+
+Motor input[W] Motor output[W]
+
+rating 16
+rating 10
+
+Shaking motion
+
+Linear/Orbital
+
+Orbital 20
+diameter[mm]
+
+Max. load capacity
+
+with platform )
+
+3
+
+[Kg]
+
+LED Digital Model
+100-240 50/60 16
+10 Linear/Orbital 20
+3
+
+Items
+
+Specifications
+Analog Model
+
+Operation type
+
+Continuous
+
+Time setting range -
+
+Weight[kg]
+
+3.1
+
+Permissible ambient
+
+temperature[]
+
+5-40
+
+Permissible relative 80%
+humidity
+
+Protection class acc. IP21
+DIN EN60529
+
+Motor type
+
+DC motor
+
+DC motor
+
+Speed range[rpm] Dimensions[W×H×D mm]
+
+0-200 330 × 270 × 105
+
+70-200 330×270×105
+
+9
+
+LED Digital Model
+Continuous/timed 1min-19h59min 3.1 5-40
+80%
+IP21
+
+10.Order Information
+
+831112317777
+
+Cat. No. 832113017777 832113117777 832113217777 832113317777 831112017777 831112117777 831112217777
+
+Descriptions
+SK-O180-E, Orbital Analog Shaker, US plug, 100V-240V, 50Hz/60Hz SK-O180-E, Orbital Analog Shaker, CN plug, 100V-240V, 50Hz/60Hz SK-O180-E, Orbital Analog Shaker, Euro plug, 100V-240V, 50Hz/60Hz
+SK-O180-E, Orbital Analog Shaker, UK plug, 100V-240V, 50Hz/60Hz
+SK-L180-E, Linear Analog Shaker, US plug, 100V-240V, 50Hz/60Hz
+SK-L180-E, Linear Analog Shaker, CN plug, 100V-240V, 50Hz/60Hz
+SK-L180-E, Linear Analog Shaker, Euro plug, 100V-240V, 50Hz/60Hz
+
+832111017777 832111117777 832111217777 832111317777 831111017777 831111117777
+
+10
+
+SK-L180-E, Linear Analog Shaker, UK plug, 100V-240V, 50Hz/60Hz
+SK-O180-S, LED digital Orbital Shaker, US plug, 100V-240V, 50Hz/60Hz SK-O180-S, LED Digital Orbital Shaker, CN plug, 100V-240V, 50Hz/60Hz SK-O180-S, LED Digital Orbital Shaker, Euro plug, 100V-240V, 50Hz/60Hz SK-O180-S, LED Digital Orbital Shaker, UK plug, 100V-240V, 50Hz/60Hz SK-L180-S, LED Digital Linear Shaker, US plug, 100V-240V, 50Hz/60Hz SK-L180-S, LED Digital Linear Shaker, CN plug, 100V-240V, 50Hz/60Hz
+
+831111217777 831111317777
+
+SK-L180-S, LED Digital Linear Shaker, Euro plug, 100V-240V, 50Hz/60Hz SK-L180-S, LED Digital Linear Shaker, UK plug, 100V-240V, 50Hz/60Hz
+
+Accessories
+
+Cat. No.
+
+Descriptions
+
+SK 180.1 Universal 18900025
+attachment with 3 bars
+
+SK180.2 Fixing clip 18900026
+attachment SK180.3 Lengthways roller 18900038 attachment SK180.4 Dish Attachment 18900039 with non-slip mat
+
+11
+
+Fixing clip for flask volume 18900029
+25 ml Fixing clip for flask volume 18900030 50 ml Fixing clip for flask volume 18900031 100 ml Fixing clip for flask volume 18900032 200/250 ml Fixing clip for flask volume 18900033 500 ml Bar for SK180.1 Universal 18900037 attachmentblack
+
+%-"#4DJFOUJGJD*OTUSVNFOU*OD
+&-PDVTU$PVSU0OUBSJP$"6OJUFE4UBUFT 0GGJDF 'BY
+4BMFTDPOUBDUJOGP!EMBCTDJDPN 4FSWJDFDPOUBDUTFSWJDF!EMBCTDJDPN
+XXXEMBCTDJDPN
+

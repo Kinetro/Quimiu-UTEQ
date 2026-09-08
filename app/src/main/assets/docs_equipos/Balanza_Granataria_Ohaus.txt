@@ -1,0 +1,1100 @@
+Scout® Pro Balance
+Instruction Manual
+
+Balanza Scout® Pro
+Manual de instrucciones
+
+Balance Scout® Pro
+Manuel d’instruction
+                  This product conforms to the EMC Directive 89/336/EEC and the Low Voltage Directive 73/
+                  23/EEC.
+                  The complete Declaration of Conformity is available from Ohaus Corporation.
+
+                  Este producto está en conformidad con la Directriz EMC 89/336/EEC y con la Directriz
+                  para Bajo Voltaje 73/23/EEC.
+                  La Declaración de Conformidad completa está disponible a través de Ohaus Corporation.
+
+                  Ce produit est conforme à la directive EMC 89/336/EEC et à la directive de basse tension
+                  73/23/EEC.
+                  Vous pouvez obtenir une déclaration complète de la conformité auprès de Ohaus
+                  Corporation.
+
+FCC NOTE: This equipment has been tested and found to comply with the limits for a Class B digital
+
+device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable
+protection against harmful interference in a residential installation. This equipment generates, uses
+and can radiate radio frequency energy and, if not installed and used in accordance with the
+instructions, may cause harmful interference to radio communications. However, there is no
+guarantee that interference will not occur in a particular installation. If this equipment does cause
+harmful interference to radio or television reception, which can be determined by turning the equipment
+off and on, the user is encouraged to try to correct the interference by one or more of the following
+measures:
+
+   — Reorient or relocate the receiving antenna.
+   — Increase the separation between the equipment and receiver.
+   — Connect the equipment into an outlet on a circuit different from that to which the receiver is
+
+       connected.
+   — Consult the dealer or an experienced radio/TV technician for help.
+
+CANADIAN NOTE:
+This class B digital apparatus complies with Canadian ICES-003.
+
+Cet appariel numérique de la classe B est conforme à la norme NMB-003 du Canada.
+
+            AS/NZS4251.1 AS/NZS4252.1 Emission and Immunity
+     13123
+
+ISO 9001 Registration
+In 1994, Ohaus Corporation, USA, was awarded a certificate of registration to ISO 9001 by Bureau
+Veritus Quality International (BVQI), confirming that the Ohaus quality management system is
+compliant with the ISO 9001 standard’s requirements. On May 15, 2003, Ohaus Corporation, USA,
+was re-registered to the ISO 9001:2000 standard.
+
+Registro ISO 9001
+En 1994, Bureau Veritus Quality International (BVQI) le otorgó a Ohaus Corporation, EE.UU., un
+certificado de registro ISO 9001 el cual confirma que el sistema administrativo de calidad de Ohaus
+cumple con los requerimientos del estándar ISO 9001. En mayo 15 del 2003, Ohaus Corporation,
+EE.UU., fue registrada nuevamente al estándar ISO 9001:2000.
+
+Enregistrement ISO 9001
+En 1994, le Bureau Veritus Quality International (BVQI) a octroyé la certification d’enregistrement ISO
+9001 à Ohaus Corporation, États-Unis d’Amérique, confirmant que le système de gestion de la qualité
+Ohaus était conforme aux conditions normalisées de l’ISO 9001. Le 15 mai 2003, Ohaus Corporation,
+États-Unis d’Amérique, a été ré-enregistrée à la norme ISO 9001:2000.
+ Disposal
+ In conformance with the European Directive 2002/96 EC on Waste Electrical and
+ Electronic Equipment (WEEE) this device may not be disposed of in domestic waste.
+ This also applies to countries outside the EU, per their specific requirements.
+
+ Please dispose of this product in accordance with local regulations at the collecting
+ point specified for electrical and electronic equipment.
+
+ If you have any questions, please contact the responsible authority or the distributor
+ from which you purchased this device.
+
+ Should this device be passed on to other parties (for private or professional use), the
+ content of this regulation must also be related.
+
+ Thank you for your contribution to environmental protection.
+
+Eliminación de residuos
+De conformidad con las exigencias de la directiva europea 2002/96 CE sobre residuos
+de aparatos eléctricos y electrónicos (RAEE), este equipo no puede eliminarse como
+basura doméstica. Esta prohibición es asimismo válida para los países que no
+pertenecen a la UE cuyas normativas nacionales en vigor así lo reflejan.
+
+Elimine este producto, según las disposiciones locales, mediante el sistema de
+recogida selectiva de aparatos eléctricos y electrónicos.
+
+Si tiene alguna pregunta al respecto, diríjase a las autoridades responsables o al
+distribuidor que le proporcionó el equipo.
+
+Si transfiere este equipo (por ejemplo, para la continuación de su uso con fines
+privados, comerciales o industriales), deberá transferir con él esta disposición.
+Muchas gracias por su contribución a la conservación medioambiental.
+
+Elimination
+En conformité avec les exigences de la directive européenne 2002/96 CE relative aux
+déchets d‘équipements électriques et électroniques (DEEE), cet appareil ne doit pas être
+éliminé avec les déchets ménagers. Logiquement, ceci est aussi valable pour les pays en
+dehors de l’UE conformément aux règlementations nationales en vigueur.
+
+Veuillez éliminer cet appareil conformément aux prescriptions locales dans un conteneur
+séparé pour appareils électriques et électroniques.
+
+Pour toute question, adressez-vous aux autorités compétentes ou au revendeur chez qui
+vous avez acheté cet appareil.
+
+En cas de remise de cet appareil (p. ex. pour une utilisation privée ou artisanale/
+industrielle), cette prescription doit être transmise en substance.
+
+Merci pour votre contribution à la protection de l’environnement.
+SCOUT PRO  EN-1
+
+                        TABLE OF CONTENTS
+
+1. INTRODUCTION ................................................................................ EN-3
+    Safety Precautions ............................................................................ EN-3
+
+2. INSTALLATION .................................................................................. EN-3
+    Unpacking ...................................................................................... EN-3
+    Installing Components ...................................................................... EN-4
+        Releasing the Shipping Lock ......................................................... EN-4
+        Platform Installation ..................................................................... EN-4
+        Security Bracket ........................................................................... EN-4
+    Selecting the Location ....................................................................... EN-4
+      Balances with Level Adjustment ....................................................... EN-4
+    Connecting Power ............................................................................ EN-5
+        Battery Installation ....................................................................... EN-5
+        AC Adapter Installation .................................................................. EN-5
+
+3. OPERATION..................................................................................... EN-5
+    Overview of Controls and Display Functions ........................................ EN-5
+        Button Functions .......................................................................... EN-7
+        Symbols Used for Operation of the Balance ..................................... EN-8
+        Turning the Balance On ................................................................ EN-8
+        Turning the Balance OFF ............................................................... EN-8
+    Navigating the Menus ....................................................................... EN-9
+        Menu Structure ............................................................................ EN-9
+        Entering the Menus .................................................................... EN-10
+        Accepting/Bypassing an Individual Menu Item ............................... EN-10
+        Entering the .S.E.T.U.P. Menu ...................................................... EN-11
+        Turning Display Hold or Totalize Mode On ..................................... EN-11
+        Exiting the .S.E.T.U.P. Menu ........................................................ EN-12
+        Entering the .U.N.I.T. Menu .......................................................... EN-12
+        Parts Counting .......................................................................... EN-13
+EN-2                             SCOUT PRO
+
+      TABLE OF CONTENTS (Cont.)
+
+      Calibration .................................................................................... EN-13
+
+      Span Calibration ......................................................................... EN-13
+
+      Linearity Calibration .................................................................... EN-14
+
+      Applications .................................................................................. EN-15
+
+      Weighing ................................................................................... EN-15
+
+      Weighing with Tare .................................................................. EN-15
+
+      Parts Counting ........................................................................... EN-16
+
+      Percent Weighing ....................................................................... EN-17
+
+      Establishing a New Reference Weight ......................................... EN-18
+
+      Exiting Percent Weighing .......................................................... EN-18
+
+      Display Hold .............................................................................. EN-18
+
+      Exiting Display Hold .................................................................... EN-19
+
+      Totalize ..................................................................................... EN-19
+
+      Clear Exit Totalize .................................................................... EN-20
+
+      Additional Features ......................................................................... EN-20
+
+      Weigh Below .............................................................................. EN-20
+
+      LFT (Legal for Trade on certain balances) ..................................... EN-20
+
+      Lock Switch ............................................................................... EN-21
+
+      Sealing the Balance .................................................................... EN-21
+
+4. MAINTENANCE ................................................................................ EN-22
+
+      Cleaning ....................................................................................... EN-22
+
+      Troubleshooting ............................................................................. EN-22
+
+      Error Codes List ............................................................................. EN-23
+
+      Accessories ................................................................................... EN-24
+
+5. TECHNICAL DATA ............................................................................. EN-25
+    Specifications ................................................................................ EN-25
+    Warranty ...................................................................................... EN-27
+SCOUT PRO                                                            EN-3
+
+1. INTRODUCTION
+
+The Scout Pro offers parts counting with auto optimization, display hold, totalize
+and % weighing. Models are available with ranges from 200g to 6000g.
+
+Scout Pro standard features include:
+  • Battery or AC operation (AC adapter included)
+  • Integral security bracket
+  • Programmable auto shut-off
+  • Span calibration masses included on certain models
+  • Optional USB or RS232 interface available
+
+Safety Precautions
+
+Please follow the safety precautions as listed:
+                                        CAUTION:
+
+             • Do not operate the balance around corrosive fumes.
+             • Use only the adapter provided with the balance.
+             • Do not try to service the Scout Pro balance.
+             • Before plugging in the balance, make sure that the voltage rating of the
+
+                power adapter and the AC supply voltage match.
+
+2. INSTALLATION
+
+Unpacking
+
+Inform your Ohaus dealer if parts are missing.
+Your Scout Pro package contains:
+
+  • Scout Pro Balance • Warranty card • AC Power Adapter • Platform
+  • Instruction Manual • Calibration Masses ( on certain models)
+Store the packaging material for future transport.
+EN-4                                                         SCOUT PRO
+
+Installing Components                       Locked
+Releasing the Shipping Lock                 Position
+                                            Pointer
+On top of the balance, turn the pointer 90
+degrees counter-clockwise to unlock.        Unlocked
+                                            Position
+
+Platform Installation                       Releasing the Shipping lock.
+
+Balances with a rectangular platform are placed into the subplatform as shown and
+
+rotated counter-clockwise until it locks. Round platforms are placed straight down
+
+on subplatform.
+
+Security Bracket       Platform Installations.
+
+A security bracket is provided at the rear of the balance allowing the balance to be
+
+secured by an optional cable and lock accessory.
+
+Selecting the Location
+
+For best performance, the Scout Pro balance should be used in a clean, stable
+environment. Do not use the balance in environments with excessive drafts, with
+rapid temperature changes, near magnetic fields or near equipment that generates
+magnetic fields, or vibrations.
+
+Balances with Level Adjustment                    Incorrect  Correct
+
+Balances containing leveling feet and a
+bubble level must be leveled before using.
+See illustration for correct leveling.
+
+                                                  Bubble Level indicator
+SCOUT PRO                                                                      EN-5
+
+Connecting Power                                              AC Adapter Input Jack
+Battery Installation
+                                                                         Battery
+Install the Four “AA” batteries with polarity                            Compartment
+                                                                         Cover
+as shown in the battery compartment.
+
+AC Adapter Installation
+
+Plug the AC adapter into the jack at the
+
+rear of balance.                                  Battery and AC Power Connections
+
+3. OPERATION
+
+Overview of Controls and Display Functions
+
+                                               2
+
+Top of Balance 1
+
+                                                              3
+
+                     7                                                      4
+                                               65
+Rear of Balance
+                         8                     9 10           13 14 15 16
+ Display 11                                               12
+ 28
+ 27                                                                            17
+ 26                                                                            18
+ 25                                                                            19
+                                                                               20
+
+                                                  24          23 22 21
+EN-6                     SCOUT PRO
+
+ No. Designation                 Function
+
+ 1. Feet1                Provides leveling for certain models.
+ 2. Spirt Level1
+ 3. Platform             Provides level indication.
+ 4. PRINT Unit button    Weighing platform, either round or rectangular.
+                         Prints data, scrolls through units, steps through menu
+  5. Display             options.
+ 6. Lockswitch           LCD display with icons.
+  7. ON/ZERO Off button  Locks certain menu functions, located under balance.
+  8. USB or RS232 port   On/Off, Zero, enters menu, accepts menu settings.
+ 9. Security Bracket     Optional kit for either RS232 or USB operation.
+10. Power Input Jack     Part of balance for optional external cable and lock.
+11. 7-segment LCD        Connector for AC adapter.
+12. Brackets             Part of 6-digit LCD display.
+13. G                    Auxilliary indication.
+14. N                    (not used)
+15. %                    (not used)
+16. PC                   Indicates percent weighing.
+17. kg                   Indicates pieces during parts counting.
+18. dwt                  Indicates weight in kilograms. (certain models)
+19. g                    Indicates weight in pennyweights.
+20/22. oz t              Indicates weight in grams.
+20. t                    Indicates weight in troy ounces. (certain models)
+                         Indicates weight in totalize mode (or taels in certain
+21. ct                   models).
+22. oz                   (not used)
+23/22. lb:oz             Indicates weight in ounces.
+23. lb                   Indicates weight in pound:ounces. (certain models)
+24. •                    Indicates weight in pounds. (certain models)
+                         Decimal point.
+25 *                     Stability indicator, indicates stable weight and Display
+                         Hold when flashing.
+- 26.                    Negative sign.
+                         (not used)
+27.                      Battery indicator flashes when battery is down to
+28.                      approximately 20 minutes of power remaining.
+
+NOTES: 1. Certain models are provided with leveling feet and spirit level.
+          2. Unit measurement varies by model.
+SCOUT PRO  EN-7
+
+Button Functions
+
+Two switches provide the necessary functions to access a given menu, select a function
+and to turn it on or off. Functions are listed as follows:
+
+ON/ZERO Off Button
+Primary Function (ON/ZERO)- Turns on balance. If balance is on, zeros the
+display.
+
+Secondary Function (Off)- Turns balance off, OFF will be displayed after button is
+held for 3 seconds. In Display Hold or Totalize mode, a long press exits the mode
+without turning the balance off.
+
+Menu Function- An extended long press (>5 seconds) during power up will cause
+the balance to enter the Menu mode. A short press is used to accept a setting on a
+display.
+
+PRINT Unit Button
+Primary Function (PRINT)- Sends print command to interface port. If Display Hold
+or Totalize mode is active, a short press will enter that mode.
+
+Secondary Function (Unit)- Press and hold scrolls through units. Release on
+  desired unit.
+
+Menu Function- Will bypass setting shown on display.
+EN-8                                                         SCOUT PRO
+
+Symbols Used for Operation of the Balance
+
+Symbols are used to simplify the setup and operation of the balance. A description of
+each symbol follows:
+
+            Press
+
+                   The clock symbols adjacent to the finger symbol indicates the
+                   length of time to press a button.
+
+         1         1 second momentary press.
+
+      3            3 second extended press.
+
+      5            5 second extended press.
+
+                   Panel control buttons used to intiate actions.
+
+                                               Displays are shown as they actually appear on
+                                               the balance. A model with 200g capacity was
+                                               used for the displays shown in this manual.
+
+      • • •Indicates scrolling to a final display. The first and last displays are shown.
+
+          Indicates advances to next display.
+
+Turning the Balance On
+
+                1
+
+                                                        •••
+
+Turning the Balance Off
+
+              3
+SCOUT PRO                                                       EN-9
+
+Navigating the Menus
+Menu Structure
+
+           Cal       Setup    Units1                  End
+                                g                       Yes/No
+           Yes/No Auto-Off
+
+                      On/Off     On/Off
+
+                     Lin Cal  kg
+
+                      Yes/No     On/Off
+
+                     LFT2     oz
+
+                      On/Off     On/Off
+
+                     Mode     ozt
+
+                      Hold       On/Off
+
+                      Totalize dwt
+
+                      Off        On/Off
+
+                     End      lb
+
+                      Yes/No     On/Off
+
+                              lb:oz
+
+                                 On/Off
+
+                              t
+
+                                 taels - Hong Kong
+
+                                 taels - Singapore
+
+                                 taels - Taiwan
+
+                              PC
+
+                                 Count
+
+                                 Cnt. Enh
+
+                                 Off
+
+                              %
+
+                                 On/Off
+
+                              End
+
+NOTES:                           Yes/No
+
+1. Refer to specification table for available units.
+
+2. LFT models only.
+EN-10                                                      SCOUT PRO
+
+Entering the Menus
+
+There are four main menus in the balance: .C.A.L., .S.E.T.U.P., .U.N.I.T.S. and .E.N.D.
+Start with the balance off and the Lock Switch off (see page 21).
+The sequence is shown below.
+
+              5
+
+                     (Release button)
+
+N                                        N
+            1                                        1
+
+N                                        Y 1 (Weigh Mode)
+            1
+
+Accepting / Bypassing an Individual Menu Item
+
+Start with menu item displayed.
+
+Y1                           N                          N  (Short presses
+                                                           advances through
+                                1                          menu)
+
+               = YES Accept        = NO
+SCOUT PRO                                                              EN-11
+
+Entering the .S.E.T.U.P. Menu
+
+The .S.E.T.U.P. menu contains Auto-Off, LFT (in certain models), Linearity Calibration,
+Mode (Display Hold, Totalize) and END. Auto-Off and LFT can be turned on or off.
+Display Hold, and Totalize require entering the Mode submenu.
+Starting from the .C.A.L. menu.
+
+N                         Y  1                           (First menu)
+           1
+
+Y1                        N
+                                    1
+
+Y     (To exit and save)
+
+   1
+
+                          Select ON or OFF for Auto-Off or LFT. To
+                          enter Display Hold or Totalize, you must
+                          first enter the Mode sub-menu.
+
+Turning Display Hold or Totalize Mode On
+NOTE: Only one mode can be active at one time.
+Start at the .S.E.T.U.P. menu.
+
+N (Press repeatedly to)   Y
+
+N                         N
+           1
+                                      1
+
+              Press YES to desired mode, then continue.
+EN-12                                                                SCOUT PRO
+
+Exiting the .S.E.T.U.P. Menu
+
+Select ON/OFF or YES/NO to desired menu items, proceed to .E.N.D. menu.
+
+N (Short presses)         Y
+                                    1
+
+       •••
+
+N                         N
+                                      1
+            1
+
+   Y1
+
+Entering the .U.N.I.T. Menu
+
+The .U.N.I.T. menu contains units of measure, PC (parts counting), % weighing and
+END. Units vary with the model type. Determine which units are to be turned on or off.
+
+Start in the .U.N.I.T. menu. Select either ON or OFF for each unit.
+
+Y                         Y
+            1                         1
+
+N              (Turn ON)  Y              (To accept)
+                                      1
+            1
+
+N      1 (To advance)
+
+NOTE: Repeated presses of PRINT Unit button will go though all units, you then may
+select ON or OFF. Parts Counting is slightly different.
+SCOUT PRO                                                            EN-13
+
+Parts Counting
+
+Two types of counting modes are available, standard or enhanced.
+
+N              1                          Y
+                                                     1
+
+N                                         N
+            1                                          1
+
+N                            OR           Y
+                                                      1
+   1 (See page 16 for details)
+
+Exiting the .U.N.I.T. Menu
+
+Use the same procedure as Exiting the .S.E.T.U.P. Menu.
+
+Calibration
+Span Calibration
+
+Span calibration uses two calibration points, zero and a specified calibration weight.
+Before beginning calibration, make sure the Lock Switch is off. Clear the platform.
+NOTE: Value of calibration mass depends on capacity of balance. After calibration, the
+balance returns to the currently selected weigh mode.
+
+Start with the balance OFF.
+
+   5              (Release button)
+
+    •••
+
+   Y              (Acquiring zero value)  (Place mass value on platform)
+             1
+
+                                                          (Example)
+EN-14                                                      SCOUT PRO
+
+ Span Calibration (Cont.)
+
+     Y
+                   1
+
+              (Remove mass)
+
+Linearity Calibration
+
+Linearity calibration uses three calibration points; zero, mid-scale and full scale.
+Lin Cal must be selected and set to YES in the .S.E.T.U.P. Menu. Before beginning
+calibration, make sure the menu Lock Switch is off. Clear the platform.
+Start with the balance OFF.
+
+            5
+
+        •••                                   Y
+N1                                                     1
+
+N                                             Y
+           1                                            1
+
+              (Place mass value on platform) Y 1
+
+              (Place mass value on platform)  Y  1
+
+              (Remove mass)
+SCOUT PRO                                                           EN-15
+
+Applications
+
+Scout Pro applications include: Weighing, Parts Counting, Percent Weighing, Display
+Hold and Totalize.
+
+Weighing
+
+Start with the balance on.
+
+Y            (Rezero the display)     (Place sample on platform)
+          1
+
+                                   (Stable reading)  (Example 50g)
+
+Weighing with Tare
+
+Taring zeros the container weight. With the balance on, place an empty container on
+the platform. (Display example indicates a container weight of 23g.)
+
+(Container weight)                 1                 (Container weight tared)
+
+(Place material in container)
+
+         (50g sample)
+
+NOTE: Removing the container and material from the platform will cause the balance to
+display the container’s weight as a negative number. The tared weight remains until
+ON/ZERO Off button is pressed again or the balance is turned off.
+
+(Remove container with material)
+EN-16                                         SCOUT PRO
+
+Parts Counting
+
+Parts Counting is enabled only when PC is turned ON in the .U.N.I.T. menu. In parts
+counting mode, there are two modes of parts counting, normal and enhanced. In
+normal parts counting, the balance determines the quantity based on the average weight
+of the parts in the original reference quanitity. In the enhanced mode, additional parts
+can be added to the platform equal to or less than the original number. The additional
+reference quantity produces a more accurate average part weight.
+
+Standard Parts Counting                       (Clear average part weight)
+      (Press and hold until PC is displayed)
+
+Y                              N (Press repeatedly to
+         1                          change to 10, 20 or 50)
+
+Y            (Place 50 parts)                            (Add parts to be counted)
+          1
+                                              or
+
+Enhanced Parts Counting
+              (Add less than 50)
+
+                                                                   (Add parts to be counted)
+
+NOTE: The preceding procedure for enhanced counting can be repeated as many times
+as necessary providing the quantity added is less than the original entry.
+SCOUT PRO                         EN-17
+
+Parts Counting (Cont.)
+
+To count different parts, press and hold, until PC reappears, release Unit button.
+
+Percent Weighing
+
+Percent Weighing is enabled only when Percent is turned ON in the .U.N.I.T. menu.
+Percent weighing permits placing a reference weight on the balance, then viewing
+other loads as a percentage of the reference. The reference weight equals100%. Start
+in the weighing mode and zero the display.
+
+      (Press and hold until % is displayed)
+
+Y                                 Y
+      1 (Place reference weight)        1 (Stores reference weight 100g)
+
+Y                                           (Example)
+                                  (Remove reference weight)
+          1
+
+             (Place load on the platform, display indicates percentage of reference weight.)
+EN-18                                                           SCOUT PRO
+
+Establishing a New Reference Weight
+
+Press and hold until % on the display reappears, then release.
+
+Repeat above procedure for new a reference weight.
+
+Exiting Percent Weighing
+
+      Press and hold until desired unit is displayed.
+
+Display-Hold
+
+Display-Hold is enabled only when Hold is turned ON in the Mode submenu in the
+.S.E.T.U.P. menu. Display-Hold mode captures and stores the highest stable value.
+When displayed, the stable icon will blink. NOTE: Units cannot be changed when in
+Display-Hold mode.
+
+                                                                                            1
+
+             Place item(s) on platform.
+SCOUT PRO                                EN-19
+
+Exiting Display Hold
+
+             3
+
+             To return to display hold, repeat above procedure.
+
+Totalize
+
+Totalize is enabled only when Total is turned ON in the Mode submenu in the .S.E.T.U.P.
+menu. Totalize allows storage of a series of weight measurements. Totalize mode has
+been initiated when “t” and the current unit, i.e. (g) is displayed. When totalized
+weight is shown, the “t” indicator will blink. NOTE: Units cannot be changed when
+in Display-Hold mode.
+
+                                                                                              1
+
+   (Place 1st weight on platform)     1  (Remove weight)
+
+   (Example 10g)
+
+   (Place 2nd weight on platform)  1     (Total weight shown)
+
+   (Remove weight)                       (Place 3rd weight on platform)
+
+1  (Total weight shown)                  (Remove weight)
+
+Total weight will remain on the display until weight is removed. The total weight remains
+in memory. Total is limited to 999999.
+EN-20                                                          SCOUT PRO
+
+Clear/Exit Totalize
+
+Performing this next step will erase all totalized memory.
+
+               3
+
+Additional Features
+
+Weigh Below                                       Weigh
+                                                  Below
+Scout Pro permits below balance weighing          Hook
+for applications such as specific gravity/
+density determination. The balance is
+normally elevated, supported on all feet and
+leveled. A fine wire is attached to the built-in
+hook at the bottom of the balance (see
+illustration).
+
+LFT (Legal for Trade on certain balances)
+
+When LFT is activated, balance parameters such as Linearity Calibration, and various
+units of measure are turned off as required for local weights and measures approval.
+Review Lock Switch and Sealing the Balance procedures on page 21 before proceeding.
+To initiate LFT, start in the .S.E.T.U.P. menu.
+
+N             Press repeately to LFT              Y
+
+   1                                                        1
+
+N                                                 Y
+           1                                               1
+
+N      Press repeately to END
+
+   1
+SCOUT PRO                                      EN-21
+
+Lock Switch
+
+The Lock Switch is located under the balance and operates two different ways depending
+on the model. In LFT models, the Lock Switch locks the calibration settings and other
+parameters required for approval. In non-approved models, the Lock Switch is used to
+lock out the menu mode preventing unauthorized changes.
+
+To lock the menus, position the Lock Switch next to the tab on the bottom of the balance
+as shown.
+
+                     Unlocked Locked position
+
+                     Lock Switch
+
+Sealing the Balance
+
+After a weights and measures official has tested and approved the scale, it must be
+
+sealed.
+
+With the Lock Switch in the ON (locked) position, pass the sealing wire through the
+hole in the Lock Switch and the tab and secure with a lead seal or paper seal. See
+illustration.
+
+                       Lead Wire Seal
+
+                     SEAL
+
+                     Paper Seal   Lock Switch Locked and Sealed
+
+                     Sealing the Balance
+EN-22                                                           SCOUT PRO
+
+4. MAINTENANCE
+
+Cleaning
+
+To ensure proper balance operation, keep the housing and platform clean. If necessary,
+a cloth dampened with a mild detergent may be used. Check under the platform for
+debris and remove. Keep calibration masses in a safe dry place. Unplug the AC
+Adapter when not in use. For long term storage, remove the batteries.
+
+Troubleshooting
+
+SYMPTOM                         PROBABLE CAUSE         REMEDY
+No display.
+                                1. Power Adapter not   1. Connect AC Adapter.
+Battery Indicator is flashing.
+Incorrect weight reading.       connected.
+
+Calibration procedures do       2. Batteries are exhausted. 2. Replace batteries.
+not work.
+Unable to display weight in     Batteries are weak.    Replace batteries.
+a particular weighing unit.
+                                1. Balance out of calibration. 1. Calibrate the balance.
+Balance readings unstable.
+                                2. Balance was not     2. Press the ON/ZERO Off
+Error code is displayed.
+                                rezeroed before weighing. button with no weight on the
+
+                                                       platform, then weigh item.
+
+                                Incorrect calibration  1. Use correct masses.
+
+                                masses being used.     2. See error codes note ERR4.
+
+                                1. Weighing unit not   1. Use Units menu to set
+
+                                activated in menu.     desired units ON.
+
+                                2. Mode prevents unit  2. Exit Hold or Totalize mode.
+
+                                change.
+
+                                Balance location may   Either move or shield
+
+                                have drafts from air   the balance from external
+
+                                conditioning vents or  air currents or vibration.
+
+                                vibration from other
+
+                                appliances nearby
+
+                                affecting operation.
+
+                                Various internal and   Review error code table
+
+                                external problems      and take appropriate
+
+                                                       action.
+SCOUT PRO                                                        EN-23
+
+Error Codes List
+
+When internal and some external problems occur with the balance, the internal software
+will display messages as error codes. Explanations are given for possible problems.
+Try remedies in order indicated.
+
+Error Codes
+
+Err 1 chEct Invalid checksum data
+
+             a) Cycle balance ON/OFF,
+             b) Return balance for servicing
+
+Err 2 LoAd Overload (>cap+90d) or Underload
+                     a) Remove load,
+
+             b) Check shipping lock,
+
+                     c) Recalibrate.
+Err 4 WEIght Incorrect calibration weight
+
+             a) Use correct calibration weights,
+             b) Check environmental conditions.
+
+Err 5 999999 Displayed value >99999
+                     a) Exit application,
+                     b) Rezero balance.
+
+Err 6 count Parts counting error - balance exits parts counting
+                     a) Exit application,
+
+Err 8 FULL     b) Rezero balance.
+             RS232 buffer is full
+
+               a) Cycle ON/OFF,
+
+                     b) Check RS-232 settings in balance and computer.
+Err 9 dAtA Internal data error. The next button press or a 5 second time-out
+
+             causes the balance to turn off
+
+             a) Cycle ON/OFF,
+             b) Return balance for servicing
+EN-24                                              SCOUT PRO
+
+Accessories                                        Part No.
+
+RS232 Interface Kit (includes cable)               71147376
+USB Interface Kit (includes cable)                 71147377
+Security Device                                     76288-01
+Hard Shell Carrying Case                           77256-01
+Impact Printer
+Impact Printer Paper 5 pack                               SF42
+Cable for SF42 Printer                              78204-01
+Scoops: Aluminum,                                   AS017-06
+
+        3.62 x 4.50 x 1.0”/9.20 x 11.34 x 2.54 cm    4590-10
+        Black anodized, aluminum,
+        3.62 x 4.50 x 1.0”/9.20 x 11.34 x 2.54 cm    4590-30
+        Aluminum,
+        1.5 x 2.00 x 0.43”/3.81 x 5.08 x 1.11 cm     5076-00
+        Gold anodized aluminum,
+        2.25 x 3.00 x 0.75”/5.71 x 7.62 x 1.90 cm    5077-00
+Calibration Masses:
+See specification table for required masses.       51015-05
+        100g                                       51025-06
+        200g                                       51035-05
+        300g                                       51055-06
+        500g                                       51016-06
+        1000g                                      51026-02
+        2000g
+AC Adapters:                                       12102320
+        120V/60Hz USA                              12102321
+        230V/50Hz Europe                           12102323
+        230V/60Hz Australian                       12102322
+        230V/50Hz UK                               12102324
+        100V/50Hz Japan                            12104881
+        230V/60 Hz China
+SCOUT PRO                                                                                                           EN-25
+
+5. TECHNICAL DATA
+
+Specifications
+
+Item No.                     SPx202 SPx402 SPx602 SPx401 SPx601 SPx2001 SPx4001 SPx6001                             SPx6000
+                                                                                                                     6000
+Capacity (g)                 200    400          600    400  600                       2000 4000 6000                4000
+                                                                                                                      3000
+Span Calibration Mass (g)    200    200          300    200  300                       2000 4000            6000      6000
+                                                                                                                        1.0
+Linearity Calibration Mass (g) 100  200          300    200  300                       1000 2000            3000        1.0
+                                                                                                                      ±1.0
+                             200    400          600    400  600                       2000 4000 6000
+
+Readability (g)                            0.01                                        0.1
+
+Repeatability (Std. dev.(g)                0.01                                        0.1
+
+Linearity (g)                       ±0.01        ±0.02                                 ±0.1                 ±0.2
+
+Weighing modes                                   %, Parts Counting - Units, see capacity/readability table
+
+Tare range                                            To capacity by subtraction
+
+Over range capacity                                     Capacity +90d
+
+Stabilization time                                           3 seconds
+
+Operating temp. range                            50° - 104°F / 10° - 40°C
+
+Power requirements                  AC Adapter (supplied) or 4 AA batteries (not included)
+
+Calibration                                           digital calibration from keypad
+
+Display (in/mm)                                         LCD (0.6 / 15 high digits)
+
+Pan size (in/mm)                    4.7 / 120 diam.                                          6.5 x 5.6 / 165 x 142
+
+Dimensions WxHxD (in/mm)                              7.5 x 2.2 x 8.3 / 192 x 54 x 210
+
+Net Weight (lb/kg)                         1.5 / 0.7                                         1.8 / 0.8
+
+1 SPSxxx models contain 3 Taels - Hong Kong taels, Singapore taels, Taiwan taels.
+EN-26                                                      SCOUT PRO
+
+Capacity x Readability
+
+             SPx202 SPx402 SPx602 SPx401 SPx601 SPx2001 SPx4001 SPx6001 SPx6000
+
+gram g 200.00 400.00 600.00 400.0 600.0 2000.0 4000.0 6000.0 6000
+
+             x 0.01 x 0.01 x 0.01 x 0.1 x 0.1 x 0.1 x .1   x 0.1 x 1
+
+ounce oz 7.0550 14.1095 21.645 14.110 21.165 70.550 141.095 211.645 211.65
+
+avoirdupois x 0.0005 x 0.0005 x 0.0005 x 0.005 x0.005 x0.005 x0.005 x 0.005 x0.05
+
+ounce ozt 6.4300 12.8605 19.2905 12.860 19.290 64.300 128.605 192.905 192.90
+
+troy         x 0.0005 x 0.0005 x 0.0005 x 0.005 x 0.005 x 0.005 x 0.005 x 0.005 x 0.05
+
+penny- dwt 128.60 257.21 385.81 257.2 385.8 1286.0 2572.1 3858.1 3858
+
+weight       x 0.01 x 0.01 x 0.01 x 0.1 x 0.1 x 0.1 x 0.1  x 0.1 x 1
+
+pound lb                1.32280    1.3230 4.4090 8.8185 13.2280 13.230
+
+avoirdupois             x 0.00005  x 0.0005 x 0.0005 x 0.0005 x 0.0005 x 0.005
+
+kilogram kg                        2.0000 4.0000 6.0000 6.000
+
+                                   x 0.0001 x 0.0001 x 0.0001 x 0.001
+
+pound                   1lb        1lb: 4 lb: 8 lb: 13lb: 13 lb:
+
+ounces                  5.16       5.16 6.55 13.10         3.65 3.65
+
+lb:oz                   x 0.01     x 0.01 x 0.01 x 0.01 x 0.01 x 0.05
+
+taels HK 5.3435 10.6870 16.0305 10.685 16.030 53.435 106.870 160.305 160.30
+
+             x 0.0002 x 0.0002 x 0.0005 x 0.002 x 0.002 x 0.002 x 0.002 x 0.005 x 0.02
+
+taels   S 5.2910 10.5820 15.8735 10.580 15.875 52.910 105.820 158.735 158.75
+
+             x 0.0002 x 0.0002 x0.0005 x 0.002 x 0.002 x 0.002 x 0.002 x 0.005 x 0.02
+
+taels TAI 5.3335 10.6665 16.0000 10.665 16.000 53.335 106.665 160.000 160.00
+
+             x 0.0002 x 0.0002 x 0.0005 x 0.002 x 0.002 x 0.002 x 0.002 x 0.005 x 0.02
+SCOUT PRO  EN-27
+
+                    LIMITED WARRANTY
+
+Ohaus products are warranted against defects in materials and workmanship from
+the date of delivery through the duration of the warranty period. During the warranty
+period Ohaus will repair, or, at its option, replace any component(s) that proves to
+be defective at no charge, provided that the product is returned, freight prepaid, to
+Ohaus.
+
+This warranty does not apply if the product has been damaged by accident or misuse,
+exposed to radioactive or corrosive materials, has foreign material penetrating to the
+inside of the product, or as a result of service or modification by other than Ohaus. In
+lieu of a properly returned warranty registration card, the warranty period shall begin
+on the date of shipment to the authorized dealer. No other express or implied warranty
+is given by Ohaus Corporation. Ohaus Corporation shall not be liable for any
+consequential damages.
+
+As warranty legislation differs from state to state and country to country, please
+contact Ohaus or your local Ohaus dealer for further details.
+

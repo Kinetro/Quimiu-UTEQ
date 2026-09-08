@@ -1,0 +1,249 @@
+Labnet Vortex Mixer
+
+Instruction Manual
+
+Catalog Numbers:
+S0200
+S0200-100V
+S0200-230V-EU
+S0200-230V-UK
+S0200-230V-CH
+Table of Contents
+
+ 1.0 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+ 2.0 Symbols and Conventions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+ 3.0 Safety Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+ 4.0 Technical Specifications. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+ 5.0 Installation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .2
+
+      5.1 Unpacking. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+      5.2 Selecting the Location. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+ 6.0 Operating Instructions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+ 7.0 Maintenance. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+ 8.0 Accessories (sold separately). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+ 9.0 Limited Warranty. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+10.0 Equipment Disposal. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+1.0 Overview
+
+The Labnet Vortex Mixer is a general purpose laboratory vortex mixer. Mixing speed is adjustable up to 3,400 rpm (3,200 rpm for 100V
+units and 2,800 rpm for 230V units). A three position switch allows the mixer to be operated continuously or by Touch activation. The
+heavy metal base and rubber feet prevent the unit from moving across the bench, even at maximum speed.
+Read this manual thoroughly before attempting to operate the Vortex Mixer. All persons operating this piece of equipment should
+review the Safety Precautions section of this manual.
+
+2.0 Symbols and Conventions
+
+               The electrical warning indicates the presence of a potential hazard which could result in electrical shock.
+
+               CAUTION: This symbol refers you to important operating and maintenance (servicing) instructions within this Instruction
+               Manual. Failure to heed this information may present a risk of damage or injury to persons or equipment.
+               This symbol identifies a Protective Earth (PE) terminal, which is provided for connection of the supply system’s protective
+               earth (green or green/yellow) conductor.
+
+3.0 Safety Information
+
+The following precautions should be taken when operating or working near the Labnet Vortex Mixer:
+               CAUTION: A pinch point exists between the cup head and enclosure.
+                Always wear safety glasses and other appropriate protection when operating this equipment.
+                Never operate the unit without a shaking head securely attached.
+                Shake hazardous samples in appropriate containment vessels.
+                Do not stir volatile materials.
+                Do not immerse the unit for cleaning.
+                Do not modify or substitute the grounded power plug. Use only power cords supplied by the manufacturer. Use only
+                  properly grounded outlets to avoid shock hazard.
+                Do not modify the unit electrically or mechanically as personal injury or product damage may occur.
+                Do not use the device in a caustic or explosive atmosphere.
+                Not for industrial use. These units are designed for use in laboratory environments by persons knowledgeable in safe
+                  laboratory practices.
+                Do not use equipment in a manner other than stated in this manual since the protection provided by the equipment
+                  may be impaired.
+                Do not turn the speed knob counterclockwise from the “0” or Off position.
+                Repair should be performed only by qualified individuals.
+
+                                                                                                                                                              Instruction Manual | 1
+4.0 Technical Specifications
+
+Electrical Requirements  100-120V~, 60 Hz, 0.7A, 48W
+                         230V~, 50 Hz, 0.25A, 30W
+ 100V, 120V              Touch or continuous
+ 230V
+Operating Mode           200 to 3,200 rpm
+Speed Range              200 to 3,400 rpm
+                         200 to 2,800 rpm
+ 100V                    5.5 x 6.3 x 4.7 in. (14 x 16 x 12 cm)
+ 120V                    4.6 lbs. (2.1 kg)
+ 230V                    ± 150 rpm at maximum speed
+Dimensions (W x D x H)   4°C to 40°C
+Weight                   Ambient humidity of ≤80% at 31°C, decreasing linearly to 50% relative humidity at 40°C
+Accuracy                 IP21
+Ambient Temperature
+Operating Conditions
+Protection Class
+
+The Vortex Mixer is designed to be safe at least when operated under the following conditions:
+
+ Indoor use
+ Pollution Degree 2
+ Altitude up to 2,000 meters
+ Installation Category II
+
+Changes or modifications not expressly approved by the party responsible for compliance could void the user’s authority to operate
+the equipment.
+
+NOTE: This equipment has been tested and found to comply with the limits for a Class A digital device, pursuant to Part 15 of the FCC
+Rules. These limits are designed to provide reasonable protection against harmful interference when the equipment is operated in
+a commercial environment. The equipment generates, uses, and can radiate radio frequency energy and, if not installed and used in
+accordance with the user manual, may cause harmful interference to radio communications. Operation of equipment in a residential
+area is likely to cause harmful interference in which case the user will be required to correct the interference.
+
+CAUTION: This equipment is not intended for use in residential environments and may not provide adequate protection to radio
+reception in such environments.
+
+This ISM device complies with Canadian ICES-001.
+
+Cet appareil ISM est conforme à la norme NMB-001 du Canada.
+
+5.0 Installation
+
+5.1 Unpacking
+Upon receipt of the Labnet Vortex Mixer, examine the exterior carton for damages. In the event of shipping damage, a claim must be
+filed with the transportation carrier within 10 days of receipt. Save all packaging for inspection by the carrier.
+Carefully unpack the unit and check for completeness. Included in the carton should be the following:
+ Vortex mixer with cup head
+ Line cord
+ Instruction manual
+If any of these items are missing, contact Corning Customer Service.
+Save the original packaging until the unit has been shown to be operating properly.
+Verify that the unit is rated for the proper voltage by checking electrical/serial no. label on the bottom.
+
+2 | LABNET VORTEX MIXER
+5.2 Selecting the Location
+
+Locate the mixer on a level, stable surface near a grounded electrical outlet. The surface should be clean and free of dust to ensure
+that the feet grip the surface firmly. Allow sufficient clearance on all sides of the unit for proper ventilation. Position at least 30 cm
+from walls, 30 cm from ceilings, and 30 cm between mixers if using multiple units.
+With the power switch in the Off position, plug the power cord into a grounded receptacle.
+
+6.0 Operating Instructions
+
+All operating controls are located on the front panel. The power switch, located on the left side of the panel, has three positions: On,
+Off, and Touch. When set to the On position, the mixer will operate continuously until the switch is moved to either the Off or Touch
+position. When set to the Touch position, the mixer is activated by depressing the mixing head. When pressure is released from the
+mixing head, operation will stop.
+The Speed control, located on the right side of the panel, is continuously adjustable. Oscillating speed increases at a nonuniform rate
+to a maximum of 3,400 rpm (3,200 rpm for 100V units and 2,800 rpm for 230V units) as the knob is turned clockwise. Before turning
+on the mixer, set the speed control to the minimum.
+To begin operation, move the power switch to either the Touch or On position, and turn the Speed control to the desired setting. If
+the power switch is in the On position, the shaking head will begin moving immediately. If the power switch is in the Touch position,
+operation will begin when an object is placed on the shaking head and slight pressure is applied to depress the head. Shaking will
+cease when the object is removed and pressure released.
+
+7.0 Maintenance
+
+          WARNING: Disconnect the Vortex Mixer from the power source before attempting any cleaning or maintenance procedures.
+
+After each use, wipe down the mixer with a soft cloth. Do not immerse the unit or pour liquids over it as electrical shock may occur.
+Clean up any spills immediately taking the proper precautions. If required, the shaking head may be removed. First, disconnect the
+mixer from the power source and then slowly pull the shaking head straight up and off of the shaking post. The head may then be
+cleaned with a mild detergent. Be sure the head is thoroughly dry before replacing it on the unit.
+
+The motor and shaking mechanism in the Vortex Mixer requires no routine maintenance or lubrication. To ensure a long life for the
+mixer, it should be used in a dry, non-corrosive environment.
+
+8.0 Accessories (sold separately)
+
+Products may not be available in all markets.
+
+Cat. No.  Description
+S0200-20  Optional head, 3 inch, for processing larger numbers of tubes
+S0200-21  Optional head for 24 x 1.5/2.0 mL tubes, 24 x 0.5 mL tubes, and 32 x 0.2 mL tubes (or 4 tube strips)
+S0200-22  Optional head for 1 microplate or 64 x 0.2 mL tubes or 8 x 0.2 mL tube strips
+S0200-23  Optional head for 8 x 15 mL and 8 x 12/13 mm diameter tubes
+S0200-24  Optional head attachment for 6 x 50 mL tubes
+S0200-25  Optional head for 12 x 1.5/2.0 mL tubes, held horizontally
+S0200-26  Optional head for 4 x 15 mL tubes, held horizontally
+S0200-27  Optional head for 2 x 50 mL tubes, held horizontally
+
+Instructions for using accessories.
+
+1. Turn the power Off, and rotate the speed knob to the minimum.
+2. Hold the unit down, and lift the mixing head.
+3. Apply the desired optional accessory, and load it in a balanced manner.
+4. Turn on the unit.
+5. Slowly rotate the speed knob clockwise until the desired mixing level is achieved.
+
+  NOTE: If the unit starts to move across the bench, reduce speed accordingly.
+
+                                                                                       Instruction Manual | 3
+9.0 Limited Warranty
+
+Corning Incorporated (Corning) warrants that this product will be free from defects in material and workmanship for a period of
+two (2) years from date of purchase. CORNING DISCLAIMS ALL OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED, INCLUDING
+ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR OF FITNESS FOR A PARTICULAR PURPOSE. Corning’s sole obligation shall be to
+repair or replace, at its option, any product or part thereof that proves defective in material or workmanship within the warranty
+period, provided the purchaser notifies Corning of any such defect. Corning is not liable for any incidental or consequential damages,
+commercial loss or any other damages from the use of this product.
+
+This warranty is valid only if the product is used for its intended purpose and within the guidelines specified in the supplied instruction
+manual. This warranty does not cover damage caused by accident, neglect, misuse, improper service, natural forces or other causes not
+arising from defects in original material or workmanship. This warranty does not cover motor brushes, fuses, light bulbs, batteries or
+damage to paint or finish. Claims for transit damage should be filed with the transportation carrier.
+
+In the event this product fails within the specified period of time because of a defect in material or workmanship, contact Corning
+Customer Service at: USA/Canada 1.800.492.1110, outside the U.S. +1.978.442.2200, visit www.corning.com/lifesciences, or contact
+your local support office.
+
+Corning’s Customer Service team will help arrange local service where available or coordinate a return authorization number and
+shipping instructions. Products received without proper authorization will be returned. All items returned for service should be sent
+postage prepaid in the original packaging or other suitable carton, padded to avoid damage. Corning will not be responsible for
+damage incurred by improper packaging. Corning may elect for onsite service for larger equipment.
+
+Some states do not allow limitation on the length of implied warranties or the exclusion or limitation of incidental or consequential
+damages. This warranty gives you specific legal rights. You may have other rights which vary from state to state.
+
+No individual may accept for, or on behalf of Corning, any other obligation of liability, or extend the period of this warranty.
+
+For your reference, make a note of the serial and model number, date of purchase, and supplier here.
+
+Serial No. ___________________________________________  Date Purchased ________________________________________
+Model No. __________________________________________    Supplier______________________________________________
+
+10.0 Equipment Disposal
+
+               According to Directive 2012/19/EU of the European Parliament and of the Council of 4 July 2012 on waste electrical and
+               electronic equipment (WEEE), this product is marked with the crossed-out wheeled bin and must not be disposed of with
+               domestic waste.
+
+               Consequently, the buyer shall follow the instructions for reuse and recycling of waste electronic and electrical equipment
+               (WEEE) provided with the products and available at www.corning.com/weee.
+
+4 | LABNET VORTEX MIXER
+To request certificates, please contact us at www.labnetlink.com.
+
+Warranty/Disclaimer: Unless otherwise specified, all products are for research use or general laboratory use only.* Not intended for
+use in diagnostic or therapeutic procedures. Not for use in humans. These products are not intended to mitigate the presence of
+microorganisms on surfaces or in the environment, where such organisms can be deleterious to humans or the environment. Corning
+Life Sciences makes no claims regarding the performance of these products for clinical or diagnostic applications. *For a listing of US
+medical devices, regulatory classifications or specific information on claims, visit www.corning.com/resources.
+
+Corning’s products are not specifically designed and tested for diagnostic testing. Many Corning products, though not specific for
+diagnostic testing, can be used in the workflow and preparation of the test at the customers discretion. Customers may use these products
+to support their claims. We cannot make any claims or statements that our products are approved for diagnostic testing either directly
+or indirectly. The customer is responsible for any testing, validation, and/or regulatory submissions that may be required to support the
+safety and efficacy of their intended application.
+
+Corning Incorporated          NORTH AMERICA          India             Taiwan                                                        Brazil
+Life Sciences                 t 800.492.1110         t 91 124 4604000  t 886 2-2716-0338                                             t 55 (11) 3089-7400
+                              t 978.442.2200
+www.corning.com/lifesciences                         Japan             EUROPE                                                        Mexico
+                              ASIA/PACIFIC           t 81 3-3586 1996  CSEurope@corning.com                                          t (52-81) 8158-8400
+                              Australia/New Zealand
+                              t 61 427286832         Korea             LATIN AMERICA
+                              Chinese Mainland       t 82 2-796-9500   grupoLA@corning.com
+                              t 86 21 3338 4338
+                                                     Singapore
+                                                     t 65 6572-9740
+
+For a listing of trademarks, visit www.corning.com/clstrademarks. All other trademarks are the property of their respective owners.  www.labnetlink.com
+© 2024 Corning Incorporated. All rights reserved. 2/24 CLSLN-AN-1042DOC REV1
+

@@ -1,0 +1,1362 @@
+Thermo
+SCIENTIFIC
+Cimarec+ stirrers, hotplates, and stirring hotplates
+OPERATING MANUAL AND PARTS LIST
+CIC0000809 V17 02/22/17 1
+
+This manual covers the models shown below
+
+Model
+HP88854100 HP88854105 S88854100 S88854105 SP88854100 SP88854105 HP88857100 HP88857105 S88857100 S88857105 SP88857100 SP88857105 SP88857106 SP88857107 HP88857104 HP88857108 S88857104 S88857108 SP88857104 SP88857108 HP88850100 HP88850105 S88850100 S88850105 SP88850100 SP88850105 SP88850106 SP88850107
+
+Voltage
+100-120V 220-240V 100-120V 220-240V 100-120V 220-240V 100-120V 220-240V 100-120V 220-240V 100-120V 220-240V-EU 220-240V-AUS/CHN 220-240V-UK 100-120V 220-240V 100-120V 220-240V 100-120V 220-240V 100-120V 220-240V 100-120V 220-240V 100-120V 220-240V-EU 220-240V-AUS/CHN 220-240V-UK
+
+Description
+4x4 Ceramic Hot Plate 4x4 Ceramic Hot Plate 4x4 Ceramic Stirrer 4x4 Ceramic Stirrer 4x4 Ceramic Stirring Hotplate 4x4 Ceramic Stirring Hotplate 7x7 Ceramic Hot Plate 7x7 Ceramic Hot Plate 7x7 Ceramic Stirrer 7x7 Ceramic Stirrer 7x7 Ceramic Stirring Hotplate 7x7 Ceramic Stirring Hotplate 7x7 Ceramic Stirring Hotplate 7x7 Ceramic Stirring Hotplate 7x7 Aluminum Hot Plate 7x7 Aluminum Hot Plate 7x7 Aluminum Stirrer 7x7 Aluminum Stirrer 7x7 Aluminum Stirring Hotplate 7x7 Aluminum Stirring Hotplate 10x10 Ceramic Hot Plate 10x10 Ceramic Hot Plate 10x10 Ceramic Stirrer 10x10 Ceramic Stirrer 10x10 Ceramic Stirring Hotplate 10x10 Ceramic Stirring Hotplate 10x10 Ceramic Stirring Hotplate 10x10 Ceramic Stirring Hotplate
+
+2
+
+Do You Need Information or Assistance on Thermo Scientific Products
+If you do, please contact us 8:00 a.m. to 6:00 p.m. (Eastern Time) at:
+
+1-740-373-4763 1-800-438-4851 1-877-213-8051 http://www.thermoscientific.com service.led.marietta@thermofisher.com www.unitylabservices.com
+
+Direct Toll Free, U.S. and Canada FAX Internet Worldwide Web Home Page Tech Support Email Address Certified Service Web Page
+
+Our Sales Support staff can provide information on pricing and give you quotations. We can take your order and provide delivery information on major equipment items or make arrangements to have your local sales representative contact you. Our products are listed on the Internet and we can be contacted through our Internet home page.
+Our Service Support staff can supply technical information about proper setup, operation or troubleshooting of your equipment. We can fill your needs for spare or replacement parts or provide you with on-site service. We can also provide you with a quotation on our Extended Warranty for your Thermo Scientific products.
+Whatever Thermo Scientific products you need or use, we will be happy to discuss your applications. If you are experiencing technical problems, working together, we will help you locate the problem and, chances are, correct it yourself...over the telephone without a service call.
+When more extensive service is necessary, we will assist you with direct factory trained technicians or a qualified service organization for on-the-spot repair. If your service need is covered by the warranty, we will arrange for the unit to be repaired at our expense and to your satisfaction.
+Regardless of your needs, our professional telephone technicians are available to assist you Monday through Friday from 8:00 a.m. to 6:00 p.m. Eastern Time. Please contact us by telephone or fax. If you wish to write, our mailing address is:
+
+Thermo Fisher Scientific 401 Millcreek Road, Box 649
+Marietta, OH 45750
+International customers, please contact your local Thermo Scientific distributor.
+
+3
+
+Table of Contents
+Safety Information........................................................................................................................................................ 5 Alert Signals.............................................................................................................................................................. 5 Warnings.................................................................................................................................................................... 5
+Información de seguridad.. ......................................................................................................................................... 7 Señales de alerta....................................................................................................................................................... 7 Advertencias.............................................................................................................................................................. 8
+Sicherheitshinweise..................................................................................................................................................... 9 Gefahrensymbole...................................................................................................................................................... 9 Warnungen................................................................................................................................................................. 9
+Informations de sécurité.............................................................................................................................................. 11 Signaux d'alerte......................................................................................................................................................... 11 Avertissements.......................................................................................................................................................... 11
+Informação de Segurança........................................................................................................................................... 13 Sinais de Aviso.......................................................................................................................................................... 13 Avisos......................................................................................................................................................................... 13
+  ................................................................................................................................. 15  ...................................................................................................................................................... 15 ...................................................................................................................................................... 15
+Specifications............................................................................................................................................................... 17 Ceramic Hot Plate Specifications............................................................................................................................ 17 Ceramic Stirrer Specifications................................................................................................................................. 17 Ceramic Stirring Hotplate Specifications................................................................................................................ 18 Aluminum Top Unit Specifications.......................................................................................................................... 19 Heating Specifications*............................................................................................................................................ 20 Stirring Speed Specifications.................................................................................................................................. 20 Environmental Conditions........................................................................................................................................ 21 Declaration of Conformity........................................................................................................................................ 21
+Introduction................................................................................................................................................................... 22 General Usage........................................................................................................................................................... 22
+Principles of Operation................................................................................................................................................ 23 General Cleaning Instructions................................................................................................................................. 23
+Unpacking and Installation.......................................................................................................................................... 24 Unpacking.................................................................................................................................................................. 24 Installation................................................................................................................................................................. 24
+Operation.. ..................................................................................................................................................................... 25 Power Switch............................................................................................................................................................. 25 Setting the Stirring Speed........................................................................................................................................ 25 Setting the Temperature........................................................................................................................................... 26 Controlling Solution Temperature Using External Probe...................................................................................... 27 Heating Small Volumes............................................................................................................................................. 27 Heating Metal Vessels and Sand Baths................................................................................................................... 27
+Troubleshooting........................................................................................................................................................... 28 Error Codes................................................................................................................................................................ 28
+Accessories.................................................................................................................................................................. 29 THERMO FISHER SCIENTIFIC STANDARD PRODUCT WARRANTY....................................................................... 30
+4
+
+Safety Information
+
+Alert Signals
+Warning
+Warnings alert you to a possibility of personal injury.
+Caution
+Cautions alert you to a possibility of damage to the equipment.
+Note
+Notes alert you to pertinent facts and conditions.
+Hot Surface
+Hot surfaces alert you to a possibility of personal injury if you come in contact with a surface during use or for a period of time after use.
+
+Your Thermo Scientific Cimarec+ Hot Plate, Stirrer or Stirring Hot Plate has been designed with function, reliability, and safety in mind. It is your responsibility to install it in conformance with local electrical codes. For safe operation, please pay attention to the alert signals throughout the manual.
+Warning: These products should be used only under the operating conditions specified in the Operating Manual.
+· If the equipment is used in a manner not specified
+by the manufacturer, protection provided by the equipment may be impaired
+· Always use safe laboratory practices and do not
+leave the hotplate in operation while unattended as product functionality or laboratory practice failures could occur that might lead to uncontrolled or excessive heating of the top surface.
+· Safety procedures (including, but not limited to,
+unplugging when not in use) and emergency response plans should be put in place to address the worst case possibility.
+· If an over-temperature failure occurs, the top
+surface temperature could rise to the maximum temperature (300-540°C depending on your model's specification) and remain at that temperature indefinitely. Under these conditions, the material being heated on the surface of the hotplate could reach levels in excess of the maximum temperature.
+This manual contains important operating and safety information. The user must carefully read and understand the contents of this manual prior to the use of this equipment.
+
+Warnings
+
+To avoid electrical shock, always:
+
+1.Use a properly grounded electrical outlet of correct
+
+voltage and current handling capacity.
+
+5
+
+SAFETY INFORMATION
+
+2.Disconnect from the power supply prior to maintenance and servicing.
+To avoid personal injury:
+1.Do not use in the presence of flammable vapors outside of a fume hood or near combustible materials where heating could result in a fire or explosion. This device contains components which may ignite such materials. This device is not rated for use in designated hazardous locations where flammable vapors may reach the lower flammability limit.
+2.Use caution when heating volatile materials; top surface and element can reach the "Flash Point Temperature" of many chemicals. These hot plates are not explosion proof. Fire or explosion may result. Unit contains components which may ignite such materials.
+3.Keep top surface clean. Use a non-abrasive cleaner. Alkali spills, hydrofluoric acid spills or phosphoric acid spills may damage top and lead to thermal failure. Unplug unit and remove spills promptly. Do not immerse unit for cleaning.
+4.Replace the top immediately if damaged by etching, scratching or chipping. A damaged top can break in use.
+5.Do not use metal foil on hot plate which may block air flow. Overheating will result.
+6.Check and tighten the removable cord periodically making sure it is secure. If loosened, the cord could become hot and/or spark and be a potential fire hazard. If cord appears damaged, replace immediately. If cord is repeatedly loosened it is recommended to purchase the power cord.
+
+7.Do not remove or modify grounded power plug. Use only properly grounded outlets to avoid shock hazard.
+8.Use appropriate hand and eye protection when handling hazardous chemicals.
+9.Gross weight of items placed on top of hot plates should not exceed 35 lbs. (15.9 kg.) on the 10" x 10" models, 25 lbs. (11.3 kg) on the 7" x 7" models and 15 lbs. (6.8 kg) on the 4" x 4" models.
+10."Caution: Hot Top. Avoid Contact." The top plate of the unit can remain hot for some time after use. A "CAUTION - HOT TOP" light will remain on until top plate temperature cools to below 50°C.
+11.Do not leave an active probe out of the fluid. This may cause uncontrolled heating of the fluid on the hot plate and unintentional boiling or an explosion could occur.
+12.Do not heat flammable liquids outside of a fume hood. When heating flammable liquids, heater element temperature can be significantly higher than the temperature indicated on the display. If flammable vapors concentrations reach the internal heating element a fire or explosion may result.
+13.Note that the exterior housing will be hot during and for a period of time after use.
+14.Refer servicing to qualified personnel.
+
+6
+
+Información de seguridad
+
+Señales de alerta
+Advertencia
+Las advertencias le alertan de la posibilidad de lesiones personales.
+Precaución
+Precauciones le alerta de posibilidades de daños en el equipo.
+Nota
+Las notas le alertan sobre información y condiciones pertinentes.
+Superficie caliente
+Las superficies calientes le alertan de la posibilidad de lesiones personales si tiene contacto con la superficie durante su uso o después de un determinado periodo de tiempo.
+
+Su Plancha Caliente de Agitación Thermo Scientific Cimarec+ fue diseñada con la función, la fiabilidad y la seguridad en mente. Para su instalación es su responsabilidad hacerlo en conformidad con los códigos eléctricos locales. Para su seguro funcionamiento, por favor, preste atención a las señales de alerta especificados en el manual.
+
+Advertencia: Estos productos se deben utilizar
+
+exclusivamente bajo las condiciones de funcionamiento
+
+indicadas en el Manual de instrucciones.
+
+· Si el equipo se utiliza en una manera distinta a la
+indicada por el fabricante, la protección del equipo
+
+puede verse afectada.
+· Emplee, en todo momento, prácticas de laboratorio
+seguras y no deje la placa en funcionamiento sin
+
+supervisión ya que se podrían producir fallos en las
+
+prácticas de laboratorio o en la funcionalidad del
+
+producto que podrían dar lugar a un calentamiento
+
+excesivo o incontrolado de la superficie superior.
+· Se deben instaurar procedimientos de seguridad
+(incluido, sin carácter limitativo, desconectar el
+
+producto cuando no se esté utilizando) y planes
+
+de actuación en caso de emergencia de cara a
+
+poder hacer frente al peor escenario que pueda
+
+producirse.
+· Si se produce un fallo de exceso de temperatura,
+la superficie superior podría alcanzar su
+
+temperatura máxima (entre 300 y 540 °C, según
+
+las especificaciones técnicas de su modelo) y
+
+permanecer en dicha temperatura con carácter
+
+indefinido. En estas condiciones, el material
+
+calentado en la superficie de la placa podría
+
+alcanzar una temperatura bastante superior a la
+
+temperatura máxima.
+
+Este manual contiene información importante acerca del
+
+funcionamiento y seguridad. Antes de utilizar el equipo
+
+el usuario debe leer cuidadosamente y entender el
+
+contenido de este manual.
+
+7
+
+Información de Seguridad
+
+Advertencias
+Para evitar descarga eléctrica, siempre:
+1.Utilice una toma eléctrica con polo a tierra con la correcta tensión y la capacidad de manejo de corriente.
+2.Desconecte de la red eléctrica antes de hacer cualquier mantenimiento y/o reparación.
+Para evitar lesiones personales:
+1.No utilice el producto en entornos con vapores inflamables expulsados de una campana de evacuación de humos o cerca de materiales combustibles cuyo calentamiento podría dar lugar a un incendio o a una explosión. Este producto contiene componentes que podrían incendiar dichos materiales. Este producto no está concebido para su uso en zonas designadas como peligrosas donde los vapores inflamables pueden alcanzar el límite inferior de inflamabilidad.
+2.Tenga cuidado al calentar materiales volátiles; la superficie superior y el elemento puede alcanzar a una "Temperatura Punto de inflamación" de muchos productos químicos. Estas planchas no son a prueba de explosiones. Podría producirse un incendio o una explosión. La unidad contiene componentes que pueden encender estos materiales.
+3.Mantenga limpia la parte superior superficie. Use un limpiador no abrasivo. Los vertidos alcalinos, los derrames de ácido fluorhídrico o derrames de ácido fosfórico pueden dañar la parte superior y conllevar a una insuficiencia térmica. Desconecte la unidad y elimine los derrames de inmediato. No sumerja la unidad en líquidos para su limpieza.
+4.Remplace la tapa inmediatamente si está dañada por el efecto de los químicos, rayado o astillado. Una tapa dañada puede romperse durante su uso.
+5.No utilice papel de aluminio en la plancha caliente este puede bloquear el flujo de aire dando lugar a un sobrecalentamiento.
+8
+
+6.Se debe revisar y apretar el cable desmontable periódicamente para asegurarse de que es seguro. Si esta aflojado, el cable se podría calentar y/o provocar chispas siendo un peligro potencial de incendio. Sustituya el cable inmediatamente si el cable está dañado. Si el cable se afloja continuamente se recomienda comprar el cable de energía eléctrica.
+7.No retire o modifique el enchufe con polo a tierra. Utilice sólo enchufes con polo a tierra para evitar el riesgo de descarga eléctrica.
+8.Utilice la protección adecuada para manos y ojos al manipular productos químicos peligrosos.
+9.El peso bruto de los objetos que se pongan en la parte superior de las planchas calientes no debe exceder las 35 libras. (15,9 kg.) En los modelos10 "x 10", 25 libras. (11.3 kg) en los modelos 7 "x 7" y 15 libras. (6,8 kg) en los modelos 4 "x 4".
+10."Precaución: Hot Top. Evite el contacto. "La placa superior de la unidad puede permanecer caliente durante algún tiempo después de su uso. Una luz de "PRECAUCIÓN - HOT TOP" permanecerá encendida hasta que la temperatura plancha superior se enfríe por debajo de los 50 ° C.
+11.No deje una sonda activa fuera del fluido. Esto puede causar un calentamiento incontrolado del fluido en la plancha caliente y podría producirse una ebullición o una explosión.
+12.No caliente líquidos inflamables fuera de una campana de evacuación de humos. Cuando se calientan líquidos inflamables, la temperatura del elemento térmico puede ser muy superior a la indicada en la pantalla. Si las concentraciones de vapores inflamables alcanzan el elemento térmico interno, se podría producir un incendio o explosión.
+13.Debe tener en cuenta que la carcasa exterior permanecerá caliente durante su uso y por un periodo de tiempo después de su uso.
+14.Siempre solicite los servicios del personal cualificado.
+
+Sicherheitshinweise
+
+Gefahrensymbole
+Warnung
+Eine Warnung weist Sie auf die Möglichkeit einer Verletzung hin.
+Vorsicht
+Das Symbol Vorsicht weist Sie auf die mögliche Beschädigung der Ausrüstung hin.
+Hinweis
+Hinweise weisen Sie auf einschlägige Fakten und Bedingungen hin.
+Heiße Oberfläche
+Das Symbol heiße Oberfläche weist Sie auf das Risiko von Verletzungen hin, sollten Sie während des Betriebs oder für einen bestimmten Zeitraum danach in Kontakt mit einer Oberfläche kommen.
+
+Ihre Thermo Scientific Cimarec+ Rühr- Heizplatte wurde unter den Gesichtspunkten der Funktionalität, Zuverlässigkeit und Sicherheit entworfen. Es obliegt Ihrer Verantwortung diese in Übereinstimmung mit den örtlichen elektrischen Vorschriften zu installieren. Für einen sicheren Betrieb beachten Sie bitte die Gefahrensymbole in der gesamten Bedienungsanleitung.
+Warnung: Diese Produkte dürfen nur unter den Betriebsbedingungen, die im Betriebshandbuch beschrieben sind, benutzt werden.
+· Falls die Ausrüstung in einer vom Hersteller nicht
+angegebenen Weise benutzt wird, kann dadurch der Schutz den das Gerät bietet, beeinträchtigt werden.
+· Befolgen Sie immer sichere Laborpraktiken und
+lassen Sie die Heizplatte nicht unbeaufsichtigt arbeiten, denn es könnten sich Störungen der Produkt Funktionalität oder Laborpraktiken ergeben, welche zu einer unkontrollierten und übermäßigen Erhitzung der Oberfläche führen könnten.
+· Sicherheitsmaßnahmen (einschließlich, aber nicht
+beschränkt auf abziehen des Stecker, wenn es nicht benutzt wird) und Notfallpläne sollten eingeführt sein, um Extremfälle angehen zu können.
+· Falls eine Störung durch Übertemperatur erfolgt,
+kann sich die Temperatur der Oberflächenfläche auf die Maximum Temperatur(300- 540 °C vom Modell abhängig) erhöhen und auf dieser Temperatur langzeitig verbleiben. Unter diesen Bedingungen, kann das Material, welches auf der Heizplatte erhitzt wird, sich höher als die Temperatur aufheizen.
+Dieses Handbuch enthält wichtige Bedienungs- und Sicherheitshinweise. Der Benutzer muss dieses Handbuch sorgfältig durchlesen und die Inhalte vor der Verwendung dieses Geräts verstehen.
+
+Warnungen
+
+Zur Vermeidung von Stromschlag, immer:
+
+1.Eine ordnungsgemäß geerdete Steckdose
+
+verwenden, welche auf die korrekte Spannung und
+
+Strombelastbarkeit ausgelegt ist.
+
+9
+
+SICHERHEIT SHINWEISE
+
+2.Das Gerät vor der Wartung und Reparatur von der Stromversorgung abtrennen.
+Um Verletzungen zu vermeiden:
+1.In Gegenwart von brennbaren Dämpfen nicht ausserhalb eines Dunstabzuges oder in der Nähe von brennbarem Material benutzen, wo ein Aufheizen zu Brand oder Explosion führen könnte. Dieses Gerät enthält Bauteile, die solches Material anzünden könnten. Dieses Gerät ist nicht eingestuft für den Gebrauch an gekennzeichneten gefährlichen Orten an denen brennbare Dämpfe die untere Zündgrenze erreichen könnten.
+2.Vorsicht beim Erhitzen flüchtiger Materialien. Die Oberfläche und das Element können die Temperatur des "Entflammungspunkts" vieler Chemikalien erreichen. Die Heizplatten sind nicht explosionsgeschützt. Dies kann zu einem Brand oder einer Explosion führen. Dieses Gerät enthält Komponenten, die solche Materialien entzünden können.
+3.Halten Sie die Oberfläche sauber. Verwenden Sie ein nicht scheuerndes Reinigungsmittel. Leckagen von Alkali, Flußsäure oder Phosphorsäure können die Oberfläche beschädigen und zum Ausfall der Heizkomponenten führen. Ziehen Sie den Netzstecker der Einheit und entfernen Sie Leckagen unverzüglich. Nicht zur Reinigung in Flüssigkeiten eintauchen.
+4. Ersetzen Sie die Oberfläche sofort, falls es durch Verätzungen, Kratzer oder Absplitterungen beschädigt ist. Eine beschädigte Oberfläche kann während dem Gebrauch brechen.
+5. Verwenden Sie keine Metallfolie auf der Heizplatte, welches den Luftstrom blockieren kann. Das kann Überhitzung zur Folge haben.
+6. Überprüfen und ziehen Sie das abnehmbare Kabel regelmäßig an und gewährleisten, dass es sicher ist. Wenn gelockert, kann das Kabel heiß werden und/oder Funken schlagen und eine potentielle
+10
+
+Brandgefahr darstellen. Wenn das Kabel beschädigt erscheint, sofort ersetzen. Wenn das Kabel sich wiederholt lockert, wird es empfohlen, das Netzkabel zu kaufen.
+7. Den geerdeten Netzstecker nicht entfernen oder modifizieren. Verwenden Sie nur geerdete Steckdosen, um einen Stromschlag zu vermeiden.
+8. Benutzen Sie geeigneten Hand und Augenschutz beim Umgang mit gefährlichen Chemikalien.
+9. Das Bruttogewicht der Gegenstände, die auf die Heizplatten gegeben werden sollte 15,9 kg nicht überschreiten (35 lbs). Auf den 10 Zoll x 10 Zoll Modellen, 11,3 kg (25 lbs) auf den 7 Zoll x 7 Zoll Modellen und 6,8 kg (15 lbs) auf den 4 Zoll x 4 Zoll Modellen.
+10."Vorsicht: Heiße Oberfläche. Kontakt vermeiden." Die obere Heizplatte des Geräts kann für einige Zeit nach der Benutzung heiß bleiben. Eine Warnleuchte "ACHTUNG - HEISSE OBERFLÄCHE" wird aufleuchten bis die Temperatur der oberen Heizplatte auf unter 50°C abkühlt.
+11.Lassen Sie keine Flüssigkeit aus der aktiven Probe entweichen. Dies kann eine unkontrollierte Erwärmung der Flüssigkeit auf der Heizplatte zur Folge haben und ein unbeabsichtigtes Sieden oder eine Explosion verursachen.
+12.Erhitzen Sie keine brennbaren Flüssigkeiten ausserhalb des Dunstabzugs. Beim Erhitzen von brennbaren Flüssigkeiten, kann das Heizelement eine wesentlich höhere Temperatur erreichen, als die auf der Anzeige dargestellte Temperatur. Falls die Konzentration an brennbaren Dämpfen das innere Heizelement erreicht, kann es zu einem Brand oder Explosion führen.
+13.Beachten Sie, dass das Außengehäuse während dem Gebrauch und eine gewisse Zeit danach heiß ist.
+14.Kontaktieren Sie für alle Wartungsarbeiten qualifiziertes Servicepersonal.
+
+Informations de sécurité
+
+Signaux d'alerte
+Avertissement
+Les avertissements vous alertent de la possibilité de blessures corporelles.
+Mise en garde
+Les mises en garde vous avertissent de la possibilité d'endommagement de l'équipement.
+Remarque
+Les remarques vous alertent de conditions et de faits pertinents.
+Surface chaude
+Les surfaces chaudes vous avertissent de la possibilité de blessures corporelles, si vous entrer en contact avec une surface en cours d'utilisation ou pour une période de temps après l'utilisation.
+
+Votre Plaque Chauffante Agitatrice Cimarec+ ThermoScientifique a été conçue, tout en ayant à l'esprit: la fonction, la fiabilité et la sécurité. Il est de votre responsabilité de l'installer en conformité aux codes électriques locaux. Pour un fonctionnement en toute sécurité, veuillez prêter attention aux signaux d'alerte mentionnés à travers le manuel.
+Attention : ces produits ne doivent être utilisés que dans des conditions d'utilisation spécifiées dans le Manuel d'Utilisation.
+· Si l'équipement est utilisé d'une manière non-
+spécifiée par le fabricant, la protection fournie par l'équipement peut en être réduite.
+· Toujours suivre des pratiques de laboratoire
+sécurisées, et ne pas laisser les plaques de cuisson allumées sans les utiliser, car des défauts de fonctionnalités du produit ou les pratiques de laboratoire pourraient survenir, provoquant la perte de contrôle ou la surchauffe de la surface.
+· Les procédures de sécurité (dont le débranchement
+lorsque l'appareil n'est pas utilisé), et les actions en cas d'urgence doivent être mises en oeuvre pour éviter les pires cas d'urgences.
+· Si un défaut de surchauffe survient, la température
+de la surface peut augmenter jusqu'au maximum (300-540°C, en fonction des spécificités du modèle), et rester à cette température indéfiniment. Sous ces conditions, le matériel en chauffe sur la surface de la plaque de cuisson peut atteindre des niveaux excessifs de la température maximum.
+Ce manuel contient d'importantes informations relatives au fonctionnement et à la sécurité. L'utilisateur doit attentivement lire et comprendre le contenu de ce manuel avant d'utiliser cet équipement.
+
+Avertissements
+
+Pour éviter tout risque de choc électrique, toujours:
+
+1. Utiliser une prise électrique correctement mise à la
+
+terre avec une tension et capacité de gestion du
+
+courant correctes.
+
+11
+
+INFORMATION DE SÉCURITÉ
+
+2.Débrancher de la source d'alimentation, avant de procéder à l'entretien et la maintenance
+Pour éviter les blessures:
+1. Ne pas utiliser en la présence de vapeurs inflammables, en dehors d'une hotte, ou près de matériaux combustibles dont la montée en température pourrait entraîner un incendie ou une explosion. Cet appareil contient des composants pouvant mettre le feu à de tels matériaux. Cet appareil n'est pas conçu pour être utilisé dans des endroits désignés comme dangereux, où des vapeurs inflammables pourraient atteindre le seuil limite d'inflammabilité.
+2. Faire preuve de prudence lors du chauffage de matériaux volatils; la surface supérieure et l'élément.
+3. Garder propre la surface supérieure. Utiliser un produit de nettoyage non abrasif. Les déversements alcalis, les déversements d'acide fluorhydrique ou les déversements d'acide phosphorique peuvent endommager la partie supérieure et conduire à une défaillance thermique. Débrancher l'appareil et enlever rapidement les déversements. Ne pas plonger l'unité dans de l'eau pour le nettoyer.
+4. Remplacer immédiatement la partie supérieure, si elle est endommagée par une attaque chimique, une rayure ou un écaillage. Une partie supérieure endommagée peut tomber en passe en cours d'utilisation.
+5. Ne pas utiliser la feuille de métal sur la plaque chaude, cela peut bloquer la circulation d'air. Une surchauffe pourra se produire.
+6. Vérifiez et serrez périodiquement la corde amovible afin d'assurer sa sécurisé. Si la corde se desserre, elle va devenir chaude et/ou produire de l'étincelle et aussi devenir un risque d'incendie potentiel. S'il y a des endommagements, on doit remplacer la corde
+12
+
+immédiatement. Si la corde se desserre plusieurs fois, on vous recommende d'acheter la corde d'alimentation.
+7. Ne pas retirer ou modifier la fiche d'alimentation mise à la terre. Utiliser uniquement des prises mises à la terre correctement, afin d'éviter tout risque de choc électrique.
+8. Utiliser des lunettes et des gants de protection, lors de la manipulation de produits chimiques dangereux.
+9. Le poids brut des éléments placés sur la partie supérieure des plaques chauffantes ne doit pas dépasser 35 lbs. (15,9 Kg.) sur les modèles 10" x 10", 25 lbs. (11,3 Kg) sur les modèles 7" x 7" et 15 lbs. (6,8 Kg) sur les modèles 4" x 4".
+10."Mise en garde: Partie supérieure Chaude. Éviter tout contact." La partie supérieure de la plaque de l'unité peut rester chaude pendant un certain temps après utilisation. Un témoin "ATTENTION - PARTIE SUPÉRIEURE CHAUDE" restera allumé jusqu'à ce que la température de la partie supérieure de la plaque descende en-dessous de 50°C.
+11.Ne pas laisser de sonde active hors du liquide. Cela peut provoquer un réchauffement incontrôlé du liquide sur la plaque chaude et une ébullition involontaire ou une explosion pourraient se produire.
+12.Ne pas chauffer des liquides inflammables en dehors d'une hotte. En chauffant des liquides inflammables, la température de l'élément chauffant peut-être beaucoup plus élevée que la température indiquée sur l'écran. Si les concentrations de vapeurs inflammables atteignent l'élément chauffant interne, un incendie ou une explosion peuvent survenir.
+13.Notez que le boîtier extérieur sera chaud pendant et pour une période de temps après utilisation.
+14.S'adresser à un personnel qualifié pour la maintenance.
+
+Informação de Segurança
+
+Sinais de Aviso
+Aviso
+Os avisos alertam para a possibilidade de ferimentos pessoais.
+Cuidado
+Os sinais de cuidados alertam para a possibilidade de danos no equipamento.
+Nota
+As notas alertam para factos e condições pertinentes.
+Superfície Quente
+Os sinais de superfície quente alertam para a possibilidade de ferimentos pessoais se entrar em contacto com uma superfície durante a utilização ou por um período de tempo após a utilização.
+
+A sua Chapa Eléctrica Cimarec+ Térmica foi desenhada com funcionalidade, confiança e segurança em mente. É sua responsabilidade instalar de acordo com os regulamentos eléctricos locais. Para operação segura, preste atenção aos sinais de alerta presentes no manual.
+Aviso: Estes produtos devem ser utilizados unicamente sobre as condições de operação especificadas no Manual de Operação.
+· Se o equipamento for utilizado de forma não
+especificada pelo fabricante, a protecção fornecida pelo equipamento poderá ser anulada.
+· Utilize sempre práticas de laboratório seguras e não
+deixe a placa de aquecimento a funcionar enquanto o produto não tiver supervisão uma vez que podem ocorrer falhas de funcionamento e ou práticas de laboratório que podem conduzir a aquecimento não controlado ou excessivo na superfície superior.
+· Os procedimentos de segurança (inclundo mas
+não limitado a desligar a ficha quando não estiver em utilização) e planos de resposta de emergência devem ser postos em prática em situações de acidente.
+· Se ocorrer uma falha de excesso de temperatura, a
+temperatura da superfície superior pode subir até ao máximo (300-540ºC dependendo das especificações do modelo) e manter-se assim indefinitivamente. Nestas condições, o material a ser aquecido na superfície da placa de aquecimento pode alcançar níveis em excesso da temperatura máxima.
+Este manual contém informação de operação e segurança importante. O utilizador deve ler atentamente e compreender os conteúdos deste manual antes de utilizar o equipamento.
+
+Avisos
+Para evitar choque eléctrico:
+
+1. Utilize sempre uma tomada eléctrica aterrada com
+
+a voltagem e capacidade de manuseamento de
+
+corrente correctas.
+
+13
+
+INFORMAÇÃO DE SEGURANÇA
+
+2. Desligue sempre a alimentação antes da manutenção e assistência.
+Para evitar ferimentos pessoais:
+1.Não utilize na presença de vapores inflamáveis quando não estiver perto de um exaustor ou perto de materiais combustíveis onde o aquecimento possa resultar em incêndio ou explosão. Este dispositivo contém componentes que podem incendiar esses materiais. Este dispositivo não serve para ser utilizado em locais perigosos onde vapores inflamáveis possam alcançar o limite de inflamação mais baixo.
+2. Tenha cuidado quando aquecer materiais voláteis; a superfície e elemento superiores podem alcançar a "Temperatura de Ponto de Incêndio" de muitos químicos. Estas chapas eléctricas não são à prova de explosão. Poderá resultar em incêndio ou explosão. A unidade contém componentes que.
+3. Mantenha a superfície superior limpa. Utilize um detergente não abrasivo. Derramamentos de alcalinos, ácidos hidrofluóricos ou ácidos fósforos podem danificar a superfície e conduzir a falha termal. Desligue a unidade da tomada e limpe os derramamentos de imediato. Não mergulhe a unidade para limpeza.
+4. Substitua a superfície de imediato se danificada por cauterização, arranhões ou lascas. A superfície pode partir durante a utilização.
+5. Não utilize folha de metal na chapa, pois poderá bloquear o fluxo de ar. Poderá resultar em sobreaquecimento.
+6. Verifique e aperte o cabo removível periodiamente para ter certeza que está seguro. Caso esteja frouxo, o cabo poderá se aquecer e/ou soltar faíscas, gerando perigo de incêndio. Se o cabo parecer
+14
+
+danificado, substitua-o imediatamente. Se o cabo se afrouxar com frequência, é recomendada a aquisição do cabo de alimentação.
+7. Não retire nem modifique a ficha de alimentação aterrada. Utilize unicamente tomadas correctamente aterradas para evitar perigo de choque eléctrico.
+8. Utilize protecção de mãos e olhos quando manusear químicos perigosos.
+9. O peso bruto dos produtos colocados em cima da chapa não deve exceder os 35 lbs. (15.9 kg.) em modelos 10" x 10", 25 lbs. (11.3 kg.) em modelos 7" x 7", e 15 lbs. (6.8 kg.) em modelos 4" x 4".
+10."Cuidado: Topo Quente. Evite Contacto." A chapa superior da unidade pode permanecer quente durante algum tempo após a utilização. A luz "CUIDADO - TOPO QUENTE" irá permanecer ligada até a temperatura descer abaixo dos 50ºC.
+11.Não deixe um estilete activo fora do fluído. Isto poderá causar aquecimento descontrolado do fluído na chapa e poderá resultar em fervura ou explosão não intencional.
+12.Não aqueça líquidos inflamáveis fora do alcance de um exaustor. Ao aquecer líquidos inflamáveis, a temperatura do elemento do aquecedor pode ser significantemente mais alta que a temperatura indicada no ecrã. Se as concentrações de vapor inflamável alcançarem o elemento de aquecimento interno, poderá resultar em incêndio ou explosão.
+13.Note que o revestimento exterior estará quente durante a utilização e após a mesma.
+14.Refira a assistência ao pessoal qualificado.
+
+Os avisos alertam para a possibilidade de ferimentos pessoais.
+
+      .
+
+      .
+
+       ,                 .
+
+          .         .   , ,        .
+:             .
+·
+   ,      .
+·
+         ,           ,         .
+·
+ (, ,  ,        )     .
+·    ,
+     (300-540,     )        .   , ,    ,   ,   .
+         .              . 15
+
+    , :
+1.          .
+2.       .
+   :
+1.               ,        .    ,     .        ,        .
+2.      ;       " "   .     .       .   ,     .
+3.     .   .  ,                 .      .       .
+4.    ,      ,   .        .
+5.       ,
+16    .
+
+6.     ,    .    ,    \ ,     .   ,    .    ,     .
+7.       .     ,     .
+8.              .
+9.   ,   ,    35  (15,9 )  10"  10" , 25  (11,3 )  7" x 7" ,  15  (6,8 )  4" x 4" .
+10.":  .  ."          .  " ­  "     ,          50°C.
+11.       .               .
+12.      .           ,   .    ,         .
+13.   ,              .
+14.      .
+
+Specifications
+
+Ceramic Top Hot Plate Specifications
+
+Overall Dimensions HP88854100 HP88854105 HP88857100 HP88857105 HP88850100 HP88850105
+
+Width - in.(cm)
+
+5.1 (13)
+
+5.1 (13)
+
+8.2 (20.8)
+
+8.2 (20.8)
+
+11.3 (28.8) 11.3 (28.8)
+
+Height - in.(cm)
+
+3.9 (9.8)
+
+3.9 (9.8)
+
+4.1 (10.5)
+
+4.1 (10.5)
+
+4.1 (10.5)
+
+4.1 (10.5)
+
+Depth - in.(cm)
+
+10.2 (25.9) 10.2 (25.9)
+
+14.2(36)
+
+14.2(36)
+
+17.2(43.8)
+
+17.2(43.8)
+
+Weight - lbs.(kg)
+
+3.3 (1.5)
+
+3.3 (1.5)
+
+7.5 (3.4)
+
+7.5 (3.4)
+
+11.5 (5.2)
+
+11.5 (5.2)
+
+Top Plate Dimensions
+
+Width - in.(cm)
+
+4.25 (10.8) 4.25 (10.8) 7.25 (18.4) 7.25 (18.4) 10.5 (26.7) 10.5 (26.7)
+
+Height - in.(cm)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+Depth - in.(cm)
+
+4.25 (10.8) 4.25 (10.8) 7.25 (18.4) 7.25 (18.4) 10.5 (26.7) 10.5 (26.7)
+
+Volts
+
+100-120
+
+220-240
+
+100-120
+
+220-240
+
+100-120
+
+220-240
+
+Amps
+
+4.4
+
+1.6
+
+12
+
+4.4
+
+13
+
+6.0
+
+Watts
+
+540
+
+384
+
+1440
+
+1056
+
+1560
+
+1440
+
+Freq.
+
+50/60
+
+50/60
+
+50/60
+
+50/60
+
+50/60
+
+50/60
+
+Phase
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+Max. Temp °C (°F) 540°C(1004°F) 540°C(1004°F) 540°C(1004°F) 540°C(1004°F) 400°C(752°F) 400°C(752°F)
+
+Ceramic Top Stirrer Specifications
+
+Overall Dimensions S88854100
+
+Width - in. (cm)
+
+5.1 (13)
+
+Height - in. (cm)
+
+3.9 (9.8)
+
+Depth - in. (cm)
+
+10.2 (25.9)
+
+Weight - lbs. (kg)
+
+5.0 (2.2)
+
+Top Plate Dimensions
+
+Width - in. (cm)
+
+4.25 (10.8)
+
+Height - in. (cm)
+
+1.0 (2.5)
+
+Depth - in. (cm)
+
+4.25 (10.8)
+
+Volts
+
+100-120
+
+Amps
+
+0.2
+
+Watts
+
+24
+
+Freq.
+
+50/60
+
+Phase
+
+1
+
+S88854105 5.1 (13) 3.9 (9.8)
+10.2 (25.9) 5.0 (2.2)
+4.25 (10.8) 1.0 (2.5)
+4.25 (10.8) 220-240 0.1 24 50/60 1
+
+S88857100 8.2 (20.8) 4.1 (10.5) 14.2(36) 9.0 (4.1)
+7.25 (18.4) 1.0 (2.5)
+7.25 (18.4) 100-120 0.2 24 50/60 1
+
+S88857105 8.2 (20.8) 4.1 (10.5) 14.2(36) 9.0 (4.1)
+7.25 (18.4) 1.0 (2.5)
+7.25 (18.4) 220-240 0.1 24 50/60 1
+
+S88850100 5.1 (13) 4.1 (10.5)
+17.2(43.8) 13.0 (5.9)
+10.5 (26.7) 1.0 (2.5)
+10.5 (26.7) 100-120 0.2 24 50/60 1
+
+S88850105 5.1 (13) 4.1 (10.5)
+17.2(43.8) 13.0 (5.9)
+10.5 (26.7) 1.0 (2.5)
+10.5 (26.7) 220-240 0.1 24 50/60 1
+
+17
+
+SPECIFICATIONS
+
+Ceramic Top Stirring Hotplate Specifications
+
+Overall Dimensions SP88854100 SP88854105 SP88857100 SP88857105 SP88850100 SP88850105
+
+Width - in. (cm)
+
+5.1 (13)
+
+5.1 (13)
+
+8.2 (20.8) 8.2 (20.8) 11.3 (28.8) 11.3 (28.8)
+
+Height - in. (cm)
+
+3.9 (9.8)
+
+3.9 (9.8)
+
+4.1(10.5)
+
+4.1(10.5)
+
+4.1(10.5)
+
+4.1(10.5)
+
+Depth - in. (cm)
+
+10.2 (25.9) 10.2 (25.9) 14.2 (36)
+
+14.2 (36)
+
+17.2 (43.8) 17.2 (43.8)
+
+Weight - lbs. (kg)
+
+5.0 (2.2)
+
+5.0 (2.2)
+
+9.0 (4.1)
+
+9.0 (4.1)
+
+13.0 (5.9)
+
+13.0 (5.9)
+
+Top Plate Dimensions
+
+Width - in. (cm)
+
+4.25 (10.8) 4.25 (10.8) 7.25 (18.4) 7.25 (18.4) 10.5 (26.7) 10.5 (26.7)
+
+Height - in. (cm)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+Depth - in. (cm)
+
+4.25 (10.8) 4.25 (10.8) 7.25 (18.4) 7.25 (18.4) 10.5 (26.7) 10.5 (26.7)
+
+Volts
+
+100-120
+
+220-240
+
+100-120
+
+220-240
+
+100-120
+
+220-240
+
+Amps
+
+4.4
+
+1.6
+
+12
+
+4.4
+
+13
+
+6.0
+
+Watts
+
+540
+
+384
+
+1440
+
+1056
+
+1560
+
+1440
+
+Freq.
+
+50/60
+
+50/60
+
+50/60
+
+50/60
+
+50/60
+
+50/60
+
+Phase
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+Max. Temp °C (°F) 540°C(1004°F) 540°C(1004°F) 540°C(1004°F) 540°C(1004°F) 400°C(752°F) 400°C(752°F)
+
+Overall Dimensions SP88857106 SP88857107 SP88850106 SP88850107
+
+Width - in. (cm)
+
+8.2 (20.8)
+
+8.2 (20.8) 11.3 (28.8) 11.3 (28.8)
+
+Height - in. (cm)
+
+4.1(10.5)
+
+4.1(10.5)
+
+4.1(10.5)
+
+4.1(10.5)
+
+Depth - in. (cm)
+
+14.2 (36)
+
+14.2 (36)
+
+17.2 (43.8) 17.2 (43.8)
+
+Weight - lbs. (kg)
+
+9.0 (4.1)
+
+9.0 (4.1)
+
+13.0 (5.9)
+
+13.0 (5.9)
+
+Top Plate Dimensions
+
+Width - in. (cm)
+
+7.25 (18.4) 7.25 (18.4) 7.25 (18.4) 7.25 (18.4)
+
+Height - in. (cm)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+Depth - in. (cm)
+
+7.25 (18.4) 7.25 (18.4) 7.25 (18.4) 7.25 (18.4)
+
+Volts
+
+100-120
+
+220-240
+
+100-120
+
+220-240
+
+Amps
+
+12
+
+4.4
+
+13
+
+6.0
+
+Watts
+
+1440
+
+1056
+
+1560
+
+1440
+
+Freq.
+
+50/60
+
+50/60
+
+50/60
+
+50/60
+
+Phase
+
+1
+
+1
+
+1
+
+1
+
+Max. Temp °C (°F) 540°C(1004°F) 540°C(1004°F) 400°C(752°F) 400°C(752°F)
+
+18
+
+SPECIFICATIONS
+
+Aluminum Top Unit Specifications
+
+Overall Dimensions HP88857104 HP88857108 S88857104
+
+Width - in. (cm)
+
+8.2 (20.8)
+
+8.2 (20.8)
+
+8.2 (20.8)
+
+Height - in. (cm)
+
+4.1(10.5)
+
+4.1(10.5)
+
+4.1(10.5)
+
+Depth - in. (cm)
+
+14.2 (36)
+
+14.2 (36)
+
+14.2 (36)
+
+Weight - lbs. (kg)
+
+7.5 (3.4)
+
+7.5 (3.4)
+
+9.0 (4.1)
+
+Top Plate Dimensions
+
+Width - in. (cm)
+
+7.25 (18.4) 7.25 (18.4) 7.25 (18.4)
+
+Height - in. (cm)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+Depth - in. (cm)
+
+7.25 (18.4) 7.25 (18.4) 7.25 (18.4)
+
+Volts
+
+100-120
+
+220-240
+
+100-120
+
+Amps
+
+6.0
+
+2.6
+
+0.2
+
+Watts
+
+720
+
+624
+
+24
+
+Freq.
+
+50/60
+
+50/60
+
+50/60
+
+Phase
+
+1
+
+1
+
+1
+
+Max. Temp °C (°F) 300°C(572°F) 300° C(572° F)
+
+-
+
+S88857108 8.2 (20.8) 4.1(10.5) 14.2 (36) 9.0 (4.1)
+
+SP88857104 8.2 (20.8) 4.1(10.5) 14.2 (36) 9.0 (4.1)
+
+SP88857108 8.2 (20.8) 4.1(10.5) 14.2 (36) 9.0 (4.1)
+
+7.25 (18.4) 1.0 (2.5)
+7.25 (18.4) 220-240 0.1 24 50/60 1 -
+
+7.25 (18.4) 7.25 (18.4)
+
+1.0 (2.5)
+
+1.0 (2.5)
+
+7.25 (18.4) 7.25 (18.4)
+
+100-120
+
+220-240
+
+6.0
+
+2.6
+
+720
+
+624
+
+50/60
+
+50/60
+
+1
+
+1
+
+300°C(572°F) 300° C(572° F)
+
+19
+
+GENERAL SPECIFICATIONS
+
+Heating Specifications*
+
+Top Plate Surface - Solid Ceramic
+
+Models
+
+4" x 4"
+
+7" x 7"
+
+10" x 10"
+
+Temperature range
+
+30°C - 540°C (86°F - 1004°F)** 30°C - 400°C (86°F - 752°F)**
+
+Heat-up time to maximum temperature (unloaded top plate)
+
+8 minutes
+
+Accuracy of the temperature display vs. the actual
+
+average temperature of a 2" diameter of setting area at
+
+± 5.0°C
+
+the center of the top plate (setpoint 100°C unloaded) Temperature stability at the center of the top plate
+surface (@ 100°C unloaded) Typical accuracy of remote probe at user selected
+calibration temperature after calibration procedure
+
+± 2.0°C ±1.8°C
+
+Temperature stability using remote probe (500 ml of water in a 1000 ml flask at 70°C)
+
+±0.5°C
+
+Top Plate Surface - Solid Aluminum
+
+Models
+Temperature range Heat-up time to maximum temperature (unloaded top
+plate) Accuracy of the temperature display vs. the actual
+average temperature of a 2" diameter of setting area at
+the center of the top plate (setpoint 100°C unloaded). Temperature stability at the center of the top plate
+surface (@ 100°C unloaded) Typical accuracy of remote probe at user selected
+calibration temperature after calibration procedure Temperature stability using remote probe (500ml of
+water in a 1000 ml flask at 70°C)
+
+7" x 7"
+30°C - 300°C (86°F - 572°F)** 10 minutes
+± 10.0°C
+± 2.0°C ± 1.8°C ± 0.5°C
+
+Stirring Speed Specifications
+
+Speed Range 50 to 1500 RPM(Maximum speed is dependent on the viscosity of the solution). Stability of the stirring speed setpoint (600 ml of water in a 1000 ml glass flask) ± 5.0% at 1000 RPM
+
+Top Plate Size
+
+Max Recommended Flask Size
+
+Max Weight on Top Plate
+
+4" x 4"
+
+1 liter
+
+15 lbs
+
+7" x 7"
+
+4 liters
+
+25 lbs
+
+10" x 10"
+
+6 liters
+
+35 lbs
+
+* The specification defined in this section is derived from testing data statistics of Thermo Fisher Scientific lab. We
+
+reserve the right to make changes in design and specification without prior notice.
+
+** As the top plate becomes dirty, the maximum temperature will decrease. To return the unit to its maximum
+
+temperature performance, use a mild abrasive to remove stained areas.
+
+20
+
+SPECIFICATIONS
+
+Environmental Conditions
+
+Operating: Storage:
+
+5°C to 35°C; 20% to 80% relative humidity, non-condensing. Installation category II (overvoltage) in accordance with IEC 664. Pollution degree 2 in accordance with IEC 664. Altitude Limit: 2,000 meters.
+-25°C to 65°C 10% to 85% relative humidity
+
+Declaration of Conformity
+We hereby declare under our sole responsibility that this product conforms with the technical requirements of the following standards:
+
+EMC:
+
+EN 61000-3-2 EN 61000-3-3 EN 61326-1
+
+Limits for harmonic current emissions Limits for voltage fluctuations and flicker
+Electrical equipment for measurement, control, and laboratory use; Part I: General Requirements
+
+Safety:
+
+EN 61010-1
+
+EN 61010-2-010 EN 61010-2-051
+
+Safety requirements for electrical equipment for measurement, control, and laboratory use; Part I: General Requirements
+Part II: Particular requirements for laboratory equipment for the heating of materials
+Part II: Particular requirements for laboratory equipment formixing and stirring
+
+per the provisions of the Electromagnetic Compatibility Directive 2014/30/EU, and per the provisions of the Low Voltage Directive 2014/35/EU. Copies of the Declaration of Conformity are available upon request.
+
+21
+
+Introduction
+Cimarec+ Stirring Hotplate
+
+Please read all the information in this manual before operating the unit. Your Cimarec+ hot plate, stirrer or stirring hot plate is a heating and/or stirring plate designed for laboratory procedures requiring precise control of temperature and/or stirring speed. Each Cimarec+ model includes a digital temp display and/or a digital speed display for monitoring actual temperature and/or stirring speed.
+The hot plate is capable of producing accurately controlled top plate temperatures from 30°C through 300°C, 400°C or 540°C(depending on the model). The temperature is controlled at the plate surface by an internal sensor.
+The stirrer will accurately maintain stirring speeds from 50 rpm up to 1500 rpm. The top plate on the Cimarec+ unit is solid ceramic or solid aluminum, and is suitable for use with glass or metal vessels. Your Cimarec+ model may be used for general purpose heating applications and/or general laboratory mixing of solutions, including sample preparation, heating reagents, melting paraffin, warming resinous chemicals, content analysis, solvent evaporations, digestions, media preparation and sterilization, titrations, sand baths, and microscale chemistry application.
+General Usage
+Do not use this product for anything other than its intended usage.
+
+22
+
+Principles of Operation
+Each Cimarec+ unit utilizes the latest microprocessor technology to deliver a reliable, controlled, ceramic top stirring hot plate. Your Cimarec+ stirring hot plate has an electronic closedloop feedback control which will accurately maintain temperature setpoints from 30°C through 300°C, 400°C or 540°C, depending on the model. Top plate surface temperatures are tested using the latest infrared temperature measurement. The measurements are made with an infrared camera mounted approximately 26" above the top surface of the stirring hot plate. If the temperature measurement of the ceramic top is made with measurement devices other than infrared, the error of the measuring technique may be greater than the error of the unit. The electronic stirring speed control will maintain the speed setpoint when the unit is loaded. The motor in the Cimarec+ stirring hot plates produces maxi-mum stirring torque under normal laboratory load con-ditions, and is combined with a powerful magnet to provide exceptional magnetic coupling with a stir bar.
+General Cleaning Instructions
+Wipe exterior surfaces with lightly dampened cloth containing mild soap solution.
+23
+
+Unpacking and Installation
+
+Warning
+Use a properly grounded electrical outlet of correct voltage and current handling capacity.
+
+Unpacking
+Remove your Cimarec+ unit from the carton.Inspect to ensure that the unit has not been damaged during shipment. If the unit appears to have sustained shipping damage contact the distributor from whom you purchased this product or Customer Service at 800553- 0039. Check for stir bar and thumbscrew prior to discarding packaging. The following items are included in the shipment: Cimarec+ Unit Cord Stir Bar(Stirring models only) Knob Operating Manual
+If any of these items are missing from the carton, contact Customer Service.
+Installation
+Set the unit on a flat stable surface at least 12" away from combustible materials, and plug the cord set into a properly grounded electrical outlet of correct voltage and current handling capacity.
+
+24
+
+Operation
+
+Warning
+Do not heat volatile materials outside of a fume hood.The top surface and heating element can reach the autoignition temperature of some materials. A fire or explosion may result if this warning is ignored. This stirring hot plate is not explosion proof
+Use appropriate hand and eye protection when handling hazardous chemicals.
+"Caution: Hot Top. Avoid Contact." The top plate of the unit can remain hot for some time after use. A "CAUTION - HOT TOP" light will remain on until top plate temperature cools to below 50°C.
+Caution
+To avoid damage to the top plate or heating element, always keep a vessel filled with liquid on the top plate of a stirring hot plate when the unit is heating or cooling.
+
+Power Switch
+A power switch, located on the left side, is used to power the equipment on and off.
+When the power switch is turned on, the unit briefly displays the following according to this order: 1) type of unit "SP", "HP" or "S" *, 2) software version and 3) current temperature and RPM.
+It is recommended to unplug the unit when not in use for 24 hours or longer.
+Setting the Stirring Speed
+Your Cimarec+ stirring hot plate has an electronic feedback speed control which will maintain a speed set-point from 50 rpm through 1500 rpm at ±5.0%. (Maximum speed is dependent on viscosity of the solution.) To set the speed, turn the STIR knob to your desired setting. Turn the knob clockwise to increase the speed or counter-clockwise to decrease the speed with 10 rpm increments. To discontinue stirring, turn knob counterclockwise to OFF.
+
+Note
+
+* "SP" stands for Stirring Hotplate models.
+
+For 4" models - SP88854100 and SP88854105, the speed is indicated by the marker on the membrane.
+
+"HP" stands for Hot Plate models. "S" stands for Stirrer models.
+
+25
+
+OPERATION
+
+Note
+The solution temperature is approximately 25% cooler than the hot plate surface temperature.
+Note
+If you allow the top plate to reach the maximum temperature of 540°C while preheating and then turn the control down to a setpoint less than 200°C, the temperature of the top will drop rapidly to 200°C. Because of the natural cooling characteristics of ceramic, the temperature of the top will drop much more gradually after the top plate temperature reaches 200°C.
+Note
+Boiling times are dependent on solution volume and the surface area of the flask that is exposed to the hot plate. For example, when heating the same amount of solution in a 2L flask vs. a 1L flask, the solution will heat about 20% faster.
+
+Setting the Temperature
+Your Cimarec+ stirring hot plate has an electronic closed-loop feedback control which will accurately maintain temperature setpoints in 1° increments from 30°C through 300°C, 400°C or 540°C, depending on the model. An unloaded hot plate will heat to maximum temperature in just 8 minutes. The temperature is controlled at the top plate by the internal sensor. A "CAUTION - HOT TOP" light on the front panel will illuminate whenever the top surface temperature exceeds 50°C.
+Your Cimarec+ stirring hot plate will display the temperature in °C. When choosing a setpoint, the display will indicate the setpoint for 2 seconds, after which the display will flash until the desired setpoint is reached.
+When pluging in the remote probe , turn the temperature knob to "OFF", then adjust new temperature setpoint Value. The probe light will illuminate when the remote probe is plugged in. "CAUTION - HOT TOP" light will flash until the top surface has cooled to below 50°C.
+
+26
+
+OPERATION
+
+Controlling Solution Temperature Using External Probe
+To control the solution temperature plug a external probe into the probe receptacle located on the back side of the unit. When the probe is connected, the adjustable temperature range is 30-250 °C. Place the probe into the solution. The display will indicate the actual temperature of the solution as measured by the probe. When the probe is connected, the adjustable temperature range is 30-250 °C.
+The external probe offers more exact temperature control than regulating the top plate by the internal sensor. If you need to maintain a precise setpoint it is recommend to use a probe to control the solution temperature instead of controlling by the top plate temperature.
+When using a probe with the Cimarec+ unit it is recommended that a clamp on a support rod be used to hold the probe in the solution.
+To ensure accurate probe readings, as much of the probe sheath as possible should be immersed in the solution. Make sure the probe is immersed in the liquid and is not located in air or outside of the solution. If the probe is plugged into the hot plate, but is not in solution while the heat control is operating, the temperature display will continue to indicate an ambient temperature, and a probe out of solution error will occur. Because the set point cannot be reached the heating element will continue to supply heat to the top plate, and the maximum top plate temperature(300°C, 400°C or 540°C) may be reached. If the remote probe does not
+
+sense a temperature change in three minutes the unit will display E03 and shut down.
+Heating Small Volumes
+Preheating small volumes is not necessary as it may cause the temperature to overshoot the desired setpoint.
+Heating Metal Vessels and Sand Baths
+Cimarec+ is capable of precisely regulating the top plate temperature, metal vessels and sand baths may be heated safely without the danger of the ceramic top breaking. Use the lowest temperature setting possible for applications to limit thermal stress to the ceramic top. Using a metal vessel or sand bath may reduce the life of the stirring hot plate.
+Note
+It is not allowed to plug in the external probe while the temperature knob is ON. Please turn the temperature knob to OFF state while plugging in the external knob. Otherwise, the display will blink and the heating element will be turned off until reset.
+27
+
+Troubleshooting
+
+Error Codes
+Errors E01 through E04 are heating errors. Error Handler will lock out heating functions if heating error is detected. Stirring functionality is unaffected. Error E05 is stirring error. Error Handler will lock out stirring functions if stirring error is detected. Heating functionality is unaffected. Error E08 is failure of temperature of speed knob, Error Handler will lock out both heating and stirring functions if it is detected. If the condition that caused the error is no longer present, for E01, E03 (out of range) and E05, the unit will clear the errors automatically, for E03 (out of solution), rotating temperature knob to OFF position or turning off the switch on the left side of the unit will clear the error, and for E02, E04 and E08, only unplugging the unit will clear the errors.
+
+Displayed Message Intended to Detect
+
+Cause
+
+E01
+
+Internal thermocouple out Internal thermocouple not
+
+of range.
+
+connected.
+
+Thermocouple open.
+
+Solution Call technical service
+
+Thermocouple connected backwards (reversed polarity).
+
+E02
+
+Excessive top heat-up Internal thermocouple short circuit. Call technical service
+
+time.
+
+Failure in internal thermocouple.
+
+Failure in heating element.
+
+E03 E04 E05
+E08 28
+
+Failure in optocoupler/triac circuit.
+
+External probe left out of External probe left out of solution. Place external probe into
+
+solution or out of range.
+
+solution.
+
+Failure in external probe.
+
+Replace external probe.
+
+Over temperature condition detected by electronic circuit.
+Motor system failure.
+
+Internal thermocouple temperature is above the Over Temperature Protection triggering value .
+Locked rotor condition.
+
+Call technical service Free locked rotor.
+
+Failure in motor.
+
+Failure in motor circuit.
+
+Knob failure
+
+Failure in motor sensor. Failure in temperature knob or speed knob.
+
+Call technical service
+
+Accessories
+
+Order No
+CIC0001444 CIC0001445 CIC0001446 CIC0001447 CIC0001448
+CIC0001449
+CIC0001830 CIC0001831 CIC0001468 CIC0001469 CIC0001470 CIC0001471
+
+Description
+Splash guard protection shield 4'', for 4'' x 4'' Stirrers
+Splash guard protection shield 7'', for 7'' x 7'' Stirrers
+Splash guard protection shield 10'', for 10'' x 10'' Stirrers
+PT100 External probe, Stainless steel, for all sizes of Hotplates and Hotplate Stirrers PT1000 External probe, Stainless steel, for all sizes of Hotplates and Hotplate Stirrers Hastelloy PT1000 External probe, Hastelloy, for all sizes of Hotplates and Hotplate Stirrers Supporting rod, Aluminum Alloy, for Hotplates and Hotplate Stirrers Clamp holder, Stainless steel, for Hotplates and Hotplate Stirrers Power cord assembly China plug 10A 250V Power cord assembly EURO plug 10A 250V Power cord assembly British BS 1363 plug 10A 250V Power cord assembly US&JP plug 16A 125V
+
+29
+
+THERMO FISHER SCIENTIFIC STANDARD PRODUCT WARRANTY
+The Warranty Period starts two weeks from the date your equipment is shipped from our facility. This allows for shipping time so the warranty will go into effect at approximately the same time your equipment is delivered. The warranty protection extends to any subsequent owner during the first year warranty period. During the first three (3) years, component parts proven to be non-conforming in materials or workmanship will be repaired or replaced at Thermo's expense, labor included. Installation and calibration are not covered by this warranty agreement. The Technical Services Department must be contacted for warranty determination and direction prior to performance of any repairs. Expendable items, glass, filters and gaskets are excluded from this warranty. Replacement or repair of components parts or equipment under this warranty shall not extend the warranty to either the equipment or to the component part beyond the original warranty period. The Technical Services Department must
+give prior approval for return of any components or equipment. At Thermo's option, all non-conforming parts must be returned to Thermo Fisher Scientific postage paid and replacement parts are shipped FOB destination.
+THIS WARRANTY IS EXCLUSIVE AND IN LIEU OF ALL OTHER WARRANTIES, WHETHER WRITTEN, ORAL OR IMPLIED. NO WARRANTIESOF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE SHALL APPLY. Thermo shall not be liable for any indirect or consequential damages including, without limitation, damages relating to lost profits or loss of products. Your local Thermo Sales Office is ready to help with comprehensive site preparation information before your equipment arrives. Printed instruction manuals carefully detail equipment installation, operation and preventive maintenance. If equipment service is required, please call your Technical Services Department at 1-800-438-4851 or 1-740-373-4763. We're ready to answer your questions on equipment warranty, operation, maintenance, service and special application. Outside the USA, contact your local distributor for warranty information.
+30
+
+WEEE Compliance
+
+WEEE Compliance. This product is required to comply with the European Union's Waste Electrical & Electronic Equipment (WEEE) Directive 2002/96EC. It is marked with the following symbol. Thermo Fisher Scientific has contracted with one or more recycling/disposal companies in each EU Member State, and this product should be disposed of or recycled through them. Further information on our compliance with these Directives, the recyclers in your country, and information on Thermo Scientific products which may assist the detection of substances subject to the RoHS Directive are available at www.thermo.com/
+WEEE Konformittät. Dieses Produkt muss die EU Waste Electrical & Electronic Equipment (WEEE) Richtlinie 2002/96EC erfüllen. Das Produkt ist durch folgendes Symbol gekennzeichnet. Thermo Fisher Scientific hat Vereinbarungen getroffen mit Verwertungs-/Entsorgungsanlagen in allen EU-Mitgliederstaaten und dieses Produkt muss durch diese Firmen widerverwetet oder entsorgt werden. Mehr Informationen über die Einhaltung dieser Anweisungen durch Thermo Scientific, dieVerwerter und Hinweise die Ihnen nützlich sein können, die Thermo Fisher Scientific Produkte zu identizfizieren, die unter diese RoHS. Anweisungfallen, finden Sie unter www.thermo.com/
+Conformità WEEE. Questo prodotto deve rispondere alla direttiva dell' Unione Europea 2002/96EC in merito ai Rifiuti degli Apparecchi Elettrici ed Elettronici (WEEE).  È marcato col seguente simbolo.Thermo Fischer Scientific ha stipulato contratti con una o diverse società di riciclaggio/smaltimento in ognuno degli Stati Membri Europei. Questo prodotto verrà smaltito o riciclato tramite queste medesime. Ulteriori informazioni sulla conformità di Thermo Fisher Scientific con queste Direttive, l'elenco delle ditte di riciclaggio nel Vostro paese e informazioni sui prodotti Thermo Scientific che possono essere utili alla rilevazione di sostanze soggette alla Direttiva RoHS sono disponibili sul sito www.thermo.com/
+Conformité WEEE. Ce produit doit être conforme à la directive euro-péenne (2002/96EC) des Déchets d'Equipements Electriques et Electroniques (DEEE). Il est marqué par le symbole suivant. Thermo Fisher Scientific s'est associé avec une ou plusieurs compagnies de recyclage dans chaque état membre de l'union européenne et ce produit devraitêtre collecté ou recyclé par cellesci. Davantage d'informations sur laconformité de Thermo Fisher Scientific à ces directives, les recycleurs dans votre pays et les informations sur les produits Thermo Fisher Scientific qui peuvent aider le détection des substances sujettes à la directive RoHS sont disponibles sur www.thermo. com/
+
+Great Britain Deutschland
+Italia France
+
+31
+

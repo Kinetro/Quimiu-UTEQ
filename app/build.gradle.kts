@@ -6,14 +6,16 @@ plugins {
     alias(libs.plugins.android.application)
 }
 
-// Lee local.properties para exponer valores sensibles (API key de OpenAI, vector store id)
-// como campos de BuildConfig, evitando hardcodearlos en el código fuente.
+// La API key de Gemini en la nube (Google AI SDK) se lee de local.properties, que NO se
+// sube a VCS (ver ai/GeminiCloudService.kt). Si falta, queda vacía y GeminiCloudService
+// falla en tiempo de ejecución (cayendo al fallback por palabras clave).
 val localProperties = Properties().apply {
     val localPropertiesFile = rootProject.file("local.properties")
     if (localPropertiesFile.exists()) {
         localPropertiesFile.inputStream().use { load(it) }
     }
 }
+val geminiApiKey: String = localProperties.getProperty("GEMINI_API_KEY", "")
 
 android {
     namespace = "com.example.quibio_detation"
@@ -25,29 +27,19 @@ android {
 
     defaultConfig {
         applicationId = "com.example.quibio_detation"
-        minSdk = 24
+        // minSdk 26 porque com.google.mlkit:genai-prompt (Gemini Nano on-device)
+        // requiere API 26+. Gemini Nano en sí solo corre de verdad en Android 14+ (API 34)
+        // con hardware compatible (AICore); en dispositivos 26-33 o sin AICore la app cae
+        // automáticamente al fallback de búsqueda por palabras clave / info local
+        // (ver GeminiNanoService.checkAvailability() y EquipmentQaRepository).
+        minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        // ==========================================================================
-        // CONFIGURACIÓN DE OPENAI (RAG)
-        // Definir estas claves en local.properties (NO se sube a git):
-        //   OPENAI_API_KEY=sk-xxxxxxxx
-        //   OPENAI_VECTOR_STORE_ID=vs_xxxxxxxx   <- TODO: reemplazar por el vector store real
-        // ==========================================================================
-        buildConfigField(
-            "String",
-            "OPENAI_API_KEY",
-            "\"${localProperties.getProperty("OPENAI_API_KEY", "")}\""
-        )
-        buildConfigField(
-            "String",
-            "OPENAI_VECTOR_STORE_ID",
-            "\"${localProperties.getProperty("OPENAI_VECTOR_STORE_ID", "")}\""
-        )
+        buildConfigField("String", "GEMINI_API_KEY", "\"$geminiApiKey\"")
     }
 
     buildTypes {
@@ -92,11 +84,14 @@ dependencies {
     // de TensorFlow, no del proyecto.
     implementation(libs.tensorflow.lite.support)
 
-    // Retrofit / OkHttp (llamadas HTTP a la API de OpenAI)
-    implementation(libs.retrofit)
-    implementation(libs.retrofit.gson)
-    implementation(libs.okhttp)
-    implementation(libs.okhttp.logging)
+    // ML Kit GenAI Prompt API (Gemini Nano 100% on-device, ver ai/GeminiNanoService.kt)
+    implementation(libs.mlkit.genai.prompt)
+
+    // Google AI SDK (Gemini en la nube, fallback con API key, ver ai/GeminiCloudService.kt)
+    implementation(libs.google.genai)
+
+    // Gson (parseo de assets/info_equipos.json, fallback local sin IA)
+    implementation(libs.gson)
 
     // Corrutinas (llamadas de red y análisis de frames sin bloquear el hilo principal)
     implementation(libs.kotlinx.coroutines.android)

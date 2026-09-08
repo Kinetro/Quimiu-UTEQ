@@ -191,23 +191,6 @@
                 android:orientation="horizontal" />
         </HorizontalScrollView>
 
-        <!-- Botón de consulta inteligente rápida -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnAskEquipment"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginTop="12dp"
-            android:enabled="false"
-            android:text="@string/ask_about_equipment"
-            android:textColor="@color/white"
-            android:textSize="14sp"
-            android:textStyle="bold"
-            app:cornerRadius="14dp"
-            app:icon="@drawable/ic_sparkles"
-            app:iconGravity="textStart"
-            app:iconSize="18dp"
-            app:iconTint="@color/white" />
-
         <!-- Contenedor del chat con soporte para estado vacío -->
         <FrameLayout
             android:layout_width="match_parent"
@@ -272,6 +255,19 @@
                 android:layout_gravity="center"
                 android:visibility="gone" />
         </FrameLayout>
+
+        <!-- Progreso de descarga de Gemini Nano (solo la primera vez que se usa en el dispositivo) -->
+        <TextView
+            android:id="@+id/tvModelStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="@color/text_muted"
+            android:textSize="11sp"
+            android:visibility="gone"
+            tools:text="Descargando IA on-device… 42%"
+            tools:visibility="visible" />
 
         <!-- Barra de entrada de texto moderna estilo cápsula -->
         <LinearLayout

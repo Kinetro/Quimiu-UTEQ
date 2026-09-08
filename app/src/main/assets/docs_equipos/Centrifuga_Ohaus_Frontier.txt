@@ -1,0 +1,1592 @@
+Frontier TM 5000 Series
+
+EN
+
+Multi Centrifuges
+
+FC5707 & FC5706P
+
+Instruction Manual
+
+Change History
+
+#
+
+Date
+
+Version
+
+1
+
+09.05.2025 A
+
+New release
+
+Descriptions
+
+TABLE OF CONTENTS
+
+1
+
+INTRODUCTION .......................................................................................................................................1
+
+1.1 Brief Product Family Description ..................................................................................................1
+
+1.2 Intended Use ...................................................................................................................................1
+
+1.3 Safety Sings and Warnings ...........................................................................................................1
+
+1.4 Marking on the packaging .............................................................................................................2
+
+1.5 Product Label ..................................................................................................................................3
+
+1.6 Safety Precautions..........................................................................................................................3
+
+1.6.1 Rotors and Accessories.................................................................................................................3
+
+1.6.2 Measures For Your Protection ......................................................................................................4
+
+1.6.3 Exclude The Following Environmental Influences ......................................................................4
+
+1.6.4 Measures Of Operational Safety ...................................................................................................4
+
+1.6.5 Danger and Precautions ................................................................................................................5
+
+1.6.6 Abbreviations Used In This Instruction Manual ..........................................................................5
+
+2
+
+INSTALLATION .........................................................................................................................................6
+
+2.1 Delivery Package ............................................................................................................................6
+
+2.2 Unpacking the Centrifuge ..............................................................................................................6
+
+2.3 Space Requirements ......................................................................................................................6
+
+2.4 Installation .......................................................................................................................................7
+
+2.5 Safety Precautions During Operation...........................................................................................7
+
+2.6 Warranty ..........................................................................................................................................7
+
+3
+
+OPERATION .............................................................................................................................................. 8
+
+3.1 3.2 3.3 3.4 3.4.1 3.4.2 3.4.3 3.4.4 3.4.5 3.4.6 3.4.7 3.5 3.6 3.6.1 3.6.2 3.7 3.7.1 3.7.2 3.7.3
+
+Operating and Display Elements...................................................................................................8 LCD Display.....................................................................................................................................9 LED light (only FC5706P) .............................................................................................................10 Rotors ............................................................................................................................................11 Overview ........................................................................................................................................11 Installation Of Rotors ...................................................................................................................11 Change rotor ID / type of rotor (only FC5706P) .........................................................................12 Loading Angle Rotors ..................................................................................................................13 Loading Swing Out Rotors ..........................................................................................................13 Loading and Overloading of The Rotors ....................................................................................14 Removing The Rotor.....................................................................................................................14 Power switch .................................................................................................................................15 Lid Control .....................................................................................................................................15 Lid Open ........................................................................................................................................15 Lid lock ..........................................................................................................................................16 Preselection ................................................................................................................................... 16 Preselection of Speed / RCF-value .............................................................................................16 Preselection of running time .......................................................................................................16 Preselection of acceleration and brake intensity (deceleration) .............................................17
+
+3.8 Radius correction .........................................................................................................................18
+
+3.9 Program .........................................................................................................................................18
+
+3.9.1 Program storage ...........................................................................................................................18
+
+3.9.2 Recall of stored programs ...........................................................................................................19
+
+3.9.3 Leaving program mode ................................................................................................................20
+
+3.10 Starting and Stopping the Centrifuge.........................................................................................20
+
+3.10.1 Starting the centrifuge..................................................................................................................20
+
+3.10.2 Stopping the centrifuge................................................................................................................21
+
+3.11 Imbalance Detection .....................................................................................................................21
+
+4
+
+SETTING .................................................................................................................................................22
+
+4.1 Basic Adjustments........................................................................................................................22
+
+4.1.1 Access to mode "Operating Data"..............................................................................................22
+
+4.1.2 Acoustic signal turn on /off .........................................................................................................23
+
+4.1.3 Keyboard sound turn on /off .......................................................................................................23
+
+4.1.4 Standby mode settings (only FC5706P) .....................................................................................24
+
+4.1.5 Call up operating data ..................................................................................................................25
+
+5
+
+MAINTENANCE ....................................................................................................................................... 26
+
+5.1 Maintenance and cleaning ...........................................................................................................26
+
+5.1.1 General Care..................................................................................................................................26
+
+5.1.2 Cleaning ­ centrifuges, rotors, accessories ..............................................................................26
+
+5.1.3 Centrifuge cleaning and disinfection..........................................................................................26
+
+5.1.4 Cleaning and disinfection of the rotors......................................................................................27
+
+5.1.5 Disinfection of rotors....................................................................................................................27
+
+5.1.6 Glass breakage .............................................................................................................................27
+
+5.2 Service life of rotors, buckets, accessories...............................................................................28
+
+6
+
+TROUBLESHOOTING ............................................................................................................................. 29
+
+6.1 Error messages: Cause / Solution ..............................................................................................29
+
+6.2 Survey of possible failures and their solutions.........................................................................29
+
+6.2.1 Lid release during power failure (Emergency Lid Release) .....................................................29
+
+6.2.2 Description of the error message system ..................................................................................29
+
+6.2.3 Procedure while error 14..............................................................................................................30
+
+7
+
+RECEIPT OF CENTRIFUGES TO REPAIR............................................................................................31
+
+8
+
+TRANSPORT and STORAGE .................................................................................................................32
+
+8.1 Transport .......................................................................................................................................32
+
+8.2 Storage...........................................................................................................................................32
+
+9
+
+TECHNICAL DATA..................................................................................................................................33
+
+9.1 Specifications................................................................................................................................33 9.1.1 Centrifuge FC5706P......................................................................................................................33 9.1.2 Centrifuge FC5707 ........................................................................................................................34 9.2 Drawings and dimension .............................................................................................................35 10 COMPLIANCE .........................................................................................................................................36
+
+11 APPENDIX...............................................................................................................................................38
+11.1 Table 1: Permissible net weight .......................................................................................................39 11.2 Table 2 : Max. speed and RCF-values for permissible rotors ..................................................40 11.3 Table 3: Acceleration and deceleration times ...........................................................................41 11.4 Table 4: Error messages ..............................................................................................................42 11.5 Table 5: Radius correction and adapter specifications ............................................................43 11.6 Table 6: Table of the service life of the rotors ...........................................................................44 11.7 Redemption form / Decontamination certificate........................................................................45
+
+EN-1
+
+FrontierTM 5000 Series Multi
+
+1 INTRODUCTION
+Thank you for choosing this OHAUS product.
+All symbols indicate safety instructions and points to potentially dangerous situations. Please read the manual completely before using the FrontierTM Multi Centrifuges to avoid incorrect operation.
+1.1 Brief Product Family Description
+FrontierTM Multi Centrifuges are suitable for small laboratories, offering g-force up to 4,445 x g and covers sample capacity from 0.2ml to 50ml. Thanks to excellent performance and safety features like imbalance switch off, Multi Centrifuges are perfectly suited in a variety of routine application in biochemistry, molecular biology, biotechnology, biopharmaceuticals, material sciences, clinical and others.
+
+1.2 Intended Use
+These centrifuges are general purpose devices and were designed for the separation of liquid materials or mixtures with different densities. They are to be used only for this purpose.
+These centrifuges are intended exclusively for use in closed rooms under supervision and for operation by trained specialist personnel!
+Only the rotors and other accessories specified in the instructions for use may be used. Any other use or use beyond this is considered improper use. We are not liable for any resulting damage. The contents of the operating instructions must be observed.
+
+1.3 Safety Sings and Warnings
+Safety notes are marked with signal words and warning symbols. These show safety issues and warnings. Ignoring the safety notes may lead to personal injury, damage to the instrument, malfunctions, and false results.
+The degree of danger is a part of a safety note and distinguishes the possible results of non-observance from each other.
+
+Warning Symbols
+
+DANGER Will lead to severe injuries or death if not avoided.
+
+WARNING CAUTION
+
+For a hazardous situation with medium risk, possibly resulting in severe injuries or death if not avoided.
+For a hazardous situation with low risk, resulting in damage to the device or the property or in loss of data, or minor or medium injuries if not avoided.
+
+ATTENTION For important information about the product. May lead to equipment damage if not avoided.
+
+NOTE
+
+For useful information about the product.
+
+Warning and information signs on the surface of centrifuge
+
+General hazard
+
+Electric shock hazard
+
+Biohazard
+
+All buckets must be used at all times on all places of the swing out rotors or damage will occur to the centrifuge. Such damage will not be covered under the product warranty.
+
+FrontierTM 5000 Series Multi Attention! Check the fastening of the rotor nut before each run.
+
+EN-2
+
+Take off mains plug before opening the housing or the emergency release. Direction of rotation ­ clockwise rotation for the rotor drive
+
+1.4 Marking on the packaging
+Keep the packaging dry. The box must be kept out of the rain and away from moisture.
+
+This way up. Indication of upright position of the transport package.
+
+Indication that the package contains fragile good.
+Temperature limitation. The packaging must be transported and stored within the specified range of -25 °C to +60 °C.
+Humidity limitation. The packaging must be transported and stored within the specified range of 10% to 75%.
+Pressure limitation. The packaging must be transported and stored within the specified range of 30 kPa to 106 kPa
+
+EN-3
+1.5 Product Label
+1 2 3 4 5 6 16
+7
+
+FrontierTM 5000 Series Multi
+
+15 14 13
+
+12 11 10
+
+9
+
+8
+
+1 Legal Manufacturer 2 Date of Production 3 Rated Voltage 4 Rated Current 5 Frequency 6 Rated Power 7 Country of Manufacture
+8 CE mark
+
+9 Model-specific marks and symbols
+
+10 Max. permissible Density
+
+11 Max. kinetic Energy
+
+12 Max. Speed
+
+13 Serial Number
+
+14 Product Number
+
+15 Product Name
+
+16
+
+Coolant Information (only refrigerated models)
+
+1.6 Safety Precautions
+1.6.1 Rotors and Accessories
+Only OHAUS original rotors and accessories shall be used. Any other use or intended use is considered improper. OHAUS is not liable for damage resulting from improper use.
+CAUTION! Read all safety warnings before installing, making connections, or servicing this equipment. Failure to comply with these warnings could result in personal injury and/or property damage. Retain instructions for future reference.
+
+FrontierTM 5000 Series Multi
+
+EN-4
+
+1.6.2 Measures For Your Protection
+WARNING!
+Never work in an environment subject to explosion hazards! The housing of the instrument is not gas tight. (Explosion hazard due to spark formation, corrosion caused by the ingress of gases)
+WARNING!
+When using chemicals and solvents, comply with the instructions of the producer and the general lab safety rules.
+WARNING!
+The centrifuge is not sealed. Use suitable protection measures when using the centrifuge for infectious and pathogenic samples. Follow appropriate safety precautions when handling these samples.
+
+1.6.3 Exclude The Following Environmental Influences
+· Powerful vibrations · Direct sunlight · Atmospheric humidity greater than 80% · Corrosive gases present · Temperatures below 5 °C and above 35 °C · Powerful electric or magnetic fields
+WARNING! Electrical shock hazards exist within the housing. The housing should only be opened by authorized and qualified personnel. Remove all power connections to the unit before opening.
+
+1.6.4 Measures Of Operational Safety · Do not unscrew the two halves of the housing. · Dry off any liquid spills immediately! The instrument is not watertight. · Verify that the equipment's input voltage range and plug type are compatible with the local power supply. · Only connect the power cord to a properly grounded power receptacle. · Only use a power cord with a rating that exceeds the specifications on the equipment label. · Do not position the equipment such that it is difficult to disconnect the power cord from the power receptacle. · Make sure that the power cord does not pose a potential obstacle or tripping hazard. · The equipment is for indoor use only. Use the equipment only in dry locations. · Use only approved accessories. · Operate the equipment only under ambient conditions specified in these instructions. · Disconnect the equipment from the power supply when cleaning. · Do not operate the equipment in hazardous or unstable environments. · Service should only be performed by authorized personnel.
+
+EN-5
+
+FrontierTM 5000 Series Multi
+
+1.6.5 Danger and Precautions
+CAUTION!
+This device may only be operated by a trained professional. Carefully, read the operating manual and be familiar with the functions of the device.
+To protect people and the environment, the following precautions must be taken:
+· During centrifugation, the presences of people and the setting up of hazardous materials are prohibited within 30 cm around the centrifuge according to the regulations of EN 61010-2-020.
+· FC5706P and FC5707 are not explosion-proof and must therefore not be operated in explosion-endangered areas or locations. Centrifugation of flammable, explosive, radioactive, or such substances, which chemically react with high energy, is strictly prohibited. The final decision on the risks associated with the use of such substances is the responsibility of the user of the centrifuge.
+· Never spin toxic or pathogenic material without adequate safety precautions, i.e. centrifugation of buckets / tubes with missing or defective hermetic sealing is strictly prohibited. The user is obliged to perform appropriate disinfection procedures in case dangerous substances have contaminated the centrifuge and or its accessories.When centrifuging infectious substances, always pay attention to the general laboratory precautions. If necessary, contact your safety officer!
+· It is prohibited to run the centrifuge with rotors other than listed for this unit.
+· Under no circumstances open the lid of the centrifuge while the rotor is still running or rotating with a speed of >2m/s.
+
+1.6.6 Abbreviations Used In This Instruction Manual
+
+Symbol/Abbreviations Unit
+
+Description
+
+RPM
+RCF PCR PP PC Accel Decel Prog
+
+[min-1] rpm [x g]
+-
+
+revolutions per minute
+relative centrifugal force Polymerase chain reaction Polypropylene Polycarbonate acceleration deceleration program
+
+FrontierTM 5000 Series Multi
+2 INSTALLATION
+2.1 Delivery Package
+· Centrifuge · Power cable · Warranty Card · Fixing Nut/Screw · Download Guide Please note: The centrifuge and the accessories non-sterile.
+
+EN-6
+
+2.2 Unpacking the Centrifuge
+Carefully remove your centrifuge and each of its components from the package. The included components vary depending on the centrifuge model. Save the packaging to ensure safe storage and transport.
+Rotor(s) / Accessories will be packed separately.
+WARNING!
+Lifting Hazard. Single person lift could cause injury. Use a mechanical lifting device or team lifting procedures when lifting or moving the equipment. Always lift the centrifuge on both sides.
+
+ATTENTION! Do not lift the centrifuge from under the lid or by the front panel! See correct lifting in the Figure 1.
+
+Figure 1 With the help of the download guide and the included QR-code, you can download the user manual in different languages. The download guide must always be kept with the centrifuge. On our website www.ohaus.com you have access to the latest version of the user manual.
+2.3 Space Requirements
+NOTE! Avoid excessive vibrations, heat sources, air current, or rapid temperature changes.
+· The centrifuge should be installed on an even, solid and level surface, if possible, on a laboratory cabinet, table, or some other solid vibration free surface.
+· During centrifugation, the centrifuge must be placed in a way, that there is a minimum space of 30 cm on each side of the unit according to the standards EN 61010-2-020.
+· Do not place the centrifuge next to a window or a heater, where it could be exposed to excessive heat, as the performance of the unit is based on an ambient temperature of 23°C.
+
+EN-7
+2.4 Installation
+Follow these steps:
+
+FrontierTM 5000 Series Multi
+
+· Check whether the power supply corresponds with the one specified on the manufacturer's rating label, which is located on the rear panel.
+· The power line should be protected by a 10 A rating circuit breaker (type K).
+· In case of emergency, there must be an emergency switch off installed outside the room in order to disconnect the power supply from the unit.
+· Connect the centrifuge to a grounded power receptacle.
+· Connect the centrifuge with the mains. (The socket for the power cord must be easy to reach for disconnection)
+· Switch on the centrifuge by using the mains power switch.
+· Open the lid by using the Door Open button.
+· Remove the transport securing device of the motor.
+
+2.5 Safety Precautions During Operation
+· Do not operate the centrifuge in case it is not installed correctly. · Do not lean on the centrifuge during operation. · Do not stay within the 30 cm clearance envelope longer than necessary for operational reasons. · Do not place any potentially hazardous materials within the 30 cm clearance envelope. · Do not operate the centrifuge when disassembled (e.g. without housing). · Do not run the centrifuge when mechanical or electrical components have been tampered with. · Do not use accessories such as rotors and buckets, which are not exclusively approved by OHAUS
+Corporation, except commercially available centrifuge tubes made of glass or plastic. · Do not spin extremely corrosive substances, as they may damage or weaken the materials. · Do not operate the centrifuge with rotors or buckets, which show any signs of corrosion or mechanical
+damage. · The manufacturer is responsible for safety and reliability of the centrifuge, only if:
+1. The unit is operated in accordance with this instruction manual. 2. Modifications, repairs, or other adjustments are performed by OHAUS authorized personnel, and
+theelectrical installation complies with the relevant electrical code.
+
+2.6 Warranty
+The centrifuge has been subjected to thorough testing and quality control. In the unlikely case of any manufacturing faults occurring, the centrifuge and rotors are covered by warranty. The warranty depends on the region and is valid from date of delivery. This warranty becomes invalid in any case of mishandling, damage and/or negligence and further in any case of usage of inappropriate spare parts and / or accessories or unauthorized modification of the unit.
+Technical modification rights are reserved, by the manufacturer, in regard to technical improvement!
+
+FrontierTM 5000 Series Multi
+3 OPERATION
+3.1 Operating and Display Elements
+
+FC5707
+
+2
+
+10 9
+
+1
+
+8
+
+EN-8
+
+FC5706P
+
+3
+
+4
+
+2
+
+5
+
+6
+
+10 9
+
+7
+
+1
+
+8
+
+34
+
+5
+
+6
+
+7
+
+1
+
+Touch wheel
+
+Run Parameters
+
+2
+
+LCD
+
+Control Panel Display
+
+3
+
+RPM/RCF
+
+Speed/ g-Force
+
+4
+
+Acc/Decc
+
+Acceleration / Deceleration Intensity
+
+5
+
+Time
+
+Centrifugation Time
+
+6
+
+Quick Spin
+
+Short Running
+
+7
+
+Stop/Lid
+
+Stop Centrifugation/Lid Release
+
+8
+
+Start
+
+Start Centrifugation
+
+9
+
+Prog/Setup
+
+Retrieving Stored Programs
+
+10
+
+Store
+
+Program Store
+
+EN-9
+3.2 LCD Display
+
+M2 M3
+
+M1 M12
+
+M4
+M5 M6
+
+M7
+
+M8
+
+A-1
+
+A-2
+
+FrontierTM 5000 Series Multi
+M13
+M9 M11 M10
+A-3
+
+Display Fields:
+
+A1
+
+Display Field ­ "RPM/RCF"
+
+A2
+
+Display Field ­ "Acc/Dec"
+
+A3
+
+Display Field ­ "Time/Prog"
+
+Messages on the Display Fields: M1 "close" M2 "open" M3 "rotor" M4 Rotor-No. M5 "rpm" M6 "rcf" M7 "accel" M8 "decel"
+
+M9 "radius" M10 "program" M11 "error" M12 "service" M13 h:m:s
+
+FrontierTM 5000 Series Multi
+3.3 LED light (only FC5706P)
+The FC5706P is equipped with an LED status light, which is placed bellow the operating panel, see below.
+
+EN-10
+
+The LED light indicates the current operation state of the centrifuge. The following table shows all operating status.
+
+Color of LED light Green Yellow Red flashing fast Red flashing slow Yellow flashing slow Red ­ Blue flashing slow No light
+
+Operating status Run complete, lid is closed Lid opened, no standby mode Error message Centrifuge runs Lid opened, standby mode Standard settings menu Lid closed before the run
+
+EN-11
+3.4 Rotors
+3.4.1 Overview
+
+Rotor Order
+
+ID
+
+No.
+
+Description
+
+FrontierTM 5000 Series Multi
+Compatible with
+
+FC5706 P FC5707+R05 FC5707+R09
+
+77 30130877 Angle Rotor 12 x 15ml
+
+78 30130878 Angle Rotor 6 x 50ml
+
+80 30130880 Swing out rotor for 6 x 5ml
+
+97 31013397 Swing out Rotor 4x10ml
+
+99 83041499 Angle Rotor 18x1.5/2.0ml
+
+05 30472305 Angle Rotor 8 x 15ml RB or 4 x 15 ml FA
+
+09 83041009 Angle Rotor 4 x 50 ml or 15 ml RB/FA
+
+3.4.2 Installation Of Rotors FC5706P Clean the drive shaft with a clean, grease-free piece of cloth (see Figure 4). Place the rotor onto the drive shaft. Make sure that the rotor shaft is completely plugged into the rotor slot (see Figure 5). Hold the rotor with one hand and tighten the fixing screw by hand (see Figure 6).
+
+Motor shaft and chamber Figure 4
+
+Installation of the rotor Figure 5
+
+Fixing screw Figure 6
+
+FrontierTM 5000 Series Multi
+
+EN-12
+
+FC5707
+
+Clean the drive shaft with a clean, grease-free piece of cloth (see Figure 4).
+
+Place the rotor onto the drive shaft and hold the rotor with one hand and tighten the fixing nut by hand (see Figure 8).
+
+Motor shaft and chamber Figure 7
+
+Fixing nut Figure 8
+
+ATTENTION! Check that the fixing screw and fixing nut is properly installed before each run (see figures 6 and 8). Do not operate the centrifuge with rotors or buckets which show any signs of corrosion or mechanical damage. Do not operate with extremely corrosive substances, which could damage the rotor, buckets, and materials. In case of any questions, please contact the manufacturer!
+3.4.3 Change rotor ID / type of rotor (only FC5706P) Before the first operation and after each rotor change, you have to set the rotor ID. You find each rotor type in the printed order number on the rotor. Example: Angle rotor order number: 30130877 Rotor Type on the display = 77
+Turn on the centrifuge and open the lid. Now simultaneously press the keys "Quick Spin"(6) and "Stop/Lid"(7). In the display "RPM/RCF" the current rotor ID appears as well as the word "CHOSE". With the touch wheel (1) you can now set the needed rotor ID. To store the new setting please press the "Store"(10) or "Start" (8) key. Inside the display, "Store" appears as confirmation. With that, all rotor specific data, like max. speed, acceleration etc., are adopted.
+
+EN-13
+
+FrontierTM 5000 Series Multi ATTENTION: The set rotor type must always be the same as the actual rotor type used; otherwise, the equipment might be damaged. The rotor type can be checked during the run by pressing the key "Quick Spin"(6).
+
+10
+8
+A-1
+1 7
+6 Figure 9
+3.4.4 Loading Angle Rotors Rotors must be loaded symmetrically and with equal weight (see Figure 11). The adapter may only be loaded with the appropriate vessels. The weight differences between the filled vessels should be kept as low as possible. Therefore, we recommend weighing them with a balance. This reduces the wear of the drive and the acoustic operating noise. The maximum load per hole is stated on each rotor.
+
+Figure 10 ­ WRONG
+
+Figure 11 ­ CORRECT
+
+3.4.5 Loading Swing Out Rotors
+Loading of the buckets or racks must be made in accordance with the Figure 13.
+It is allowed to operate e.g. a 4-place-rotor with 2 loaded racks only (loaded with tubes). But the loaded racks must be opposite to each other. Make sure that the unloaded buckets are placed inside the rotor (see Figure 13).
+The sample tubes have to be filled evenly by eye and put into the bucket or adapter. The weight difference of the loaded buckets should not exceed approx.1.0 g.
+
+FrontierTM 5000 Series Multi
+
+EN-14
+
+ATTENTION!
+
+Swing out rotors may only be operated if all positions are occupied by buckets of the same weight!
+
+ATTENTION!
+
+Do not operate the centrifuge with rotors or buckets which show any signs of corrosion or mechanical damage.
+
+Do not operate with extremely corrosive substances, which could damage the rotor and buckets. In case of any questions, please contact the manufacturer!
+
+Figure 12 ­ WRONG
+
+Figure 13 ­ CORRECT
+
+3.4.6 Loading and Overloading of The Rotors
+All approved rotors are listed with their maximum speed and maximum filling weight in "Table 1: Permissible net weight" (See APPENDIX).
+The maximum load permitted for a rotor, which is determined by the manufacturer, as well as the maximum speed allowed for this rotor (see label on rotor), must not be exceeded. The liquids the rotors are loaded with should have a maximum homogeneous density of 1.2 g/ml or less when the rotor is running at maximum speed.
+In order to spin liquids with a higher density, the speed has to be reduced according to the following formula:
+
+Reduced speed nred = 1 ,2 x max. speed (nmax) of the rotor
+
+Example:
+
+nred =
+
+1,2 1,7
+
+x 4.000 = 3.360 rpm
+
+To determine the relative centrifugal force (RCF/g-force) for a specific adapter, you can calculate using the attached formula: RCF = 1.117862*105*n2*rmax
+n: revolutions per minute (RPM) rmax: max centrifuging radius in cm by using the bottom of tubes In case of any questions, please contact the manufacturer!
+
+3.4.7 Removing The Rotor
+Untighten the rotor fixing nut or fixing screw completely counterclockwise and lift the rotor vertically out of the centrifuge.
+
+EN-15
+3.5 Power switch
+The power switch is located on the back side of the unit (see Figure 14 and 15) Fuse Drawer
+
+FrontierTM 5000 Series Multi
+
+Figure 14 ­ FC5707
+
+Figure 15 ­ FC5706P
+
+Fuse FC5707: 2 AT Fuse FC5706P: 2 x 10 AT
+
+3.6 Lid Control
+3.6.1 Lid Open
+After the run, when the lid of the centrifuge remains closed, the word "close" (M1) will continued to appear in the display "RPM | RCF" (A-1). At the same time the actual rotor ID, e.g. "nr 80", is shown in the display (M4). As soon as the lid is released by pressing the key "Stop | Lid" (7), the word "open" (M2) appears. Now you can open the lid of the centrifuge. Please refer to Figure 16 below for reference.
+
+M2
+
+M4 M3 M1
+
+A-1
+7
+Figure 16
+
+FrontierTM 5000 Series Multi
+
+EN-16
+
+3.6.2 Lid lock
+
+The lid should only be pushed down slightly. When the lid is locked, the word "open" (M2) is no longer displayed. As a sign that the centrifuge is ready for starting, in the display "RPM | RCF" (A-1) the word "close" (M1) appears. Simultaneously the word "rotor" (M3) is displayed, as well as the rotor ID, which is set in the centrifuge system, e.g. "nr 80" (M4).
+
+Please refer to Figure 16 below for reference.
+
+ATTENTION Don't grip your fingers between lid and device or locking mechanism when closing the lid! Before closing the lid please check if the rotor is tighten.
+
+3.7 Preselection
+3.7.1 Preselection of Speed / RCF-value
+The pre-selection is activated through the key "RPM | RCF" (3) (refer to Figure 17). By pressing the key once the word "rpm" (M5) flashes. By pressing the key twice, the pre-selection of the centrifugal forces can be selected. Then the flashing word "rcf" (M6) appears. You can set the desired values with the touch wheel (1). In the display (A-1) the regulated value is shown permanently, before, during and after the run.
+As long as no rotor is inserted, the speed is adjustable between 200 rpm and maximum revolution of the centrifuge. If there is a rotor in the centrifuge the speed can only be pre-selected until the maximum permissible revolution of that rotor. It is the same with the pre-selection of the RCF-value. The setting range is between the minimum and maximum relative centrifugal force of the rotor.
+See "Table 2: max. speed and RCF-values for permissible rotor" (APPENDIX). All important values are listed there.
+
+M5 M6
+
+A-1
+1
+
+3 Figure 17
+ATTENTION Please also check the maximum permissible revolutions of your test tubes with the manufacturer.
+3.7.2 Preselection of running time The running time can be pre-selected in three different ranges from 10 seconds up to 99 hours 59 minutes.
+· Range from: 10 seconds up to 59 minutes 50 seconds in steps of 10 seconds · Range from: 1 hour up to 99 hours 59 minutes in steps of 1 minute. · Range: Continuous run "cont", which can be interrupted by the key "Stop"(9).
+
+EN-17
+
+FrontierTM 5000 Series Multi
+
+The running time can be pre-selected with the lid open or closed.
+
+To activate the setting of the running time, press the key "Time" (5).
+
+In the display "Time/Prog" (A-3) flashes the indication "m : s" or "h : m", depending on the previous setting.
+
+To set the desired value, use the touch wheel (1). After exceeding 59 min 50 sec the indication changes automatically into "h : m". After exceeding 99 hours 59 min the word "cont" appears in the display "Time/Prog" (A-3). That continuous run can only be interrupted by pressing the key "Stop | Lid" (7). The time countdown starts as soon as the set speed is reached.
+
+The display always shows the remaining running time (see Figure 18).
+
+A-3
+
+1
+7
+5
+Figure 18
+3.7.3 Preselection of acceleration and brake intensity (deceleration) This function is activated through the key "Accel/Decel" (4) (refer to Figure 19). By pressing the key once the word "accel" (M7) flashes in the display "Acc/Dec" (A-2). The desired acceleration can be pre-selected by the touch wheel (1). The value 0 is equivalent to the lowest and the value 9 to the highest acceleration. By pressing the key "Accel/Decel" (4) twice, the display "Acc/Dec" (A-2) indicates the word "decel"(M8). Now the desired brake intensity can be pre-selected by the touch wheel (1). The value 9 is equivalent to the shortest and the value 0 to longest possible brake time. A value of 0 corresponds to a free run-out without an active brake. See "Table 2: acceleration and deceleration times" (APPENDIX). In this table the acceleration and deceleration times for the acceleration and deceleration stages 0 to 9 for permissible rotors are shown.
+
+M7
+
+M8
+
+A-2
+
+1 4
+Figure 19
+
+FrontierTM 5000 Series Multi
+
+EN-18
+
+3.8 Radius correction
+
+If you use adapters or reducers, it could change the centrifugal radius of the respective rotor. In that case you can correct the radius manually. Please proceed as follows:
+
+First, close the centrifuge lid, then press the key "Time" (5) and the key "Prog/Setup" (9) at the same time and hold them (see Figure 20).
+
+In the display "Time/Prog" (A-3) the word "radius" (M9) appears. By the touch wheel (1) you can preselect the respective radius correction, see "Table 5: Radius correction" (APPENDIX) in steps of 0.1 cm. As soon as you have set a radius correction the word "radius" (M9) appears. This word will be visible until you put the radius correction back to 0 again.
+
+M9
+
+A-3
+
+9
+
+1
+5
+Figure 20
+3.9 Program
+3.9.1 Program storage You can store up to 99 runs with all relevant parameters, including the used rotors. You can use any free program number and call it up again. Put the needed rotor into the centrifuge and set the correct rotor ID according to chapter 3.4.3. By pressing the key "Prog/Setup" (9) in the display "Time/Prog" (A-3) the word "program--" (M10) appears. By the touch wheel (1) you can chose the desired program number. If a program number is already occupied, in the display "RPM | RCF" (A-1), the words "rotor" (M3) and "xx" (M4) will appear ­ the "xx" stands for the rotor ID. In case of free program numbers, 0 appears instead of rotor ID (see Figure 21).
+M3 M4
+
+M10
+
+A-3
+
+9
+A-1
+1
+10
+Figure 21
+
+EN-19
+
+FrontierTM 5000 Series Multi
+
+Close the lid of the centrifuge. Now proceed as described previously to set all important run parameters. If the lid isn't closed when storing the program, in the display "RPM/RCF" (A-1), the words "FirSt" and "CLOSE Lid" (see Figure 22) flashes alternately. If you want to start the run without storing the program, in the display "RPM/RCF" (A-1), the words "First" and "PrESS StoreE" (see Figure 23) flashes alternately.
+
+Figure 22
+
+Figure 23
+For adaption of data press the key "Store" (10) for approx. 1 second. If the program is stored correctly, the word "StorE" appears in the display "RPM/RCF" (A-1). If all program numbers are occupied, you can take an old number that is not necessary anymore and just put in the new parameters.
+3.9.2 Recall of stored programs To recall stored programs, press the key "Prog/Setup" (9) (see Figure 24) while the lid is already closed. Inside the display "Time/Prog" (A-3), "program--" (M10) appears. The desired program number can be pre-selected with the touch wheel (1). In the respective displays the stored values for that program will appear. If according to chapter 3.4.3, the wrong rotor is set for the pre-selected program, in the display "RPM | RCF" (A-1), the word "rotor" (M3) flashes. At the same time the word "FALSE" and the stored rotor ID "xx" (M4) will be flashing by turns.
+
+FrontierTM 5000 Series Multi
+
+M3 M4
+
+A-1
+
+EN-20
+
+M10
+
+A-3
+
+9 1
+
+Figure. 24
+3.9.3 Leaving program mode To leave the program mode just press the key "Prog/Setup" (9) (see Figure 24). Then inside the display "Time/Prog" (A-1) the word "programm" (M10) appears. Set the display to "programm--" (M10) with the touch wheel (1).
+3.10 Starting and Stopping the Centrifuge
+3.10.1 Starting the centrifuge You can start the centrifuge either with the "Start" key (8) (see Figure 25) or the "Quick Spin" key (6). By the "Start" key (8) you can start stored runs or runs with manually pre-selected parameters. When the respective pre-selected running time has ended the centrifuge will stop automatically. By the "Quick Spin" key (6) you can start runs, which will last just a few seconds. By pressing the "Quick Spin" key (6) the centrifuge accelerates up to the pre-selected revolution. In the display "Time/Prog" (A-3) the passed running time is indicated from the date of pressing the "Quick Spin" key (6). By releasing the "Quick Spin" key (6) the centrifuge stops and the running time is indicated until the opening of the lid.
+A-3
+8
+6
+Figure 25
+
+EN-21
+
+FrontierTM 5000 Series Multi
+
+3.10.2 Stopping the centrifuge
+
+By the "Stop/Lid" key (7) (see Figure 26) you can interrupt the run at any time. After pressing the key, the centrifuge decelerates with the respective pre-selected intensity down to stand still.
+
+7
+
+Figure 26
+3.11 Imbalance Detection
+In case of the rotor not being equally loaded, the drive will turn off during acceleration. The rotor decelerates to stand still. When in the display "Time/Prog" (A-3) the word "error" (M11) together with the number "01" appear, the weight difference of the samples is too large. Distribute the weight evenly (See picture 27). Load the rotor as described in chapter 3.4.4 and 3.4.5.
+
+M11
+
+A-3
+
+Figure 27
+
+FrontierTM 5000 Series Multi
+4 SETTING
+4.1 Basic Adjustments
+4.1.1 Access to mode "Operating Data" When using the centrifuge, the following parameters can be set:
+· Acoustic signal turns on/off · Keyboard sound turn on/off · Standby mode settings (only FC5706P) The following operating data can be retrieved in this menu: · Number of starts · Operating hours of centrifuge · Operating hours of motor · Software version centrifuge · Error list · Function of the imbalance sensor · Intermediate Circuit Voltage in Volt · Operation of keyboard · Hardware version
+
+EN-22
+
+Open the centrifuge lid and shut off the main switch. Now switch on again the main switch. For approximately 3 seconds "5706P" will be shown in the display as well as the current software version. Press during this time the keys "Time" (5) and "Stop/Lid" (7) simultaneously. As a result, a display test is executed for approx. 3 seconds. All indicators will appear at the same time (see Figure 28).
+
+7 5
+Figure 28
+ATTENTION All changed settings must be confirmed by the key "Start"(8) or "Store" (10). The word "Store" appears in the display "RPM | RCF" (A-1) ­ Only then the pre-selections are valid (see Figure 29). After you have stored the settings, you can change to normal program mode again by switching off the centrifuge for a short while.
+
+EN-23
+
+FrontierTM 5000 Series Multi
+
+8
+A-1
+10
+Figure 29
+4.1.2 Acoustic signal turn on /off Proceed as described under point 4.1.1 to enter this program mode and then press the key "Accel/Decel" (4). In the display "Acc/Dec" (A-2) the word "Service" (M12) flashes. Now select the letter "L" with the touch wheel (1). As a result, the words "On Sound" appears in the display "RPM | RCF" (A-1). If you press the key "RPM | RCF" (3) now, the word "On" flashes and you can switch off the sound with the touch wheel (1) (see Figure 30). After you have stored the settings (see 4.1.1) you change back to the normal program mode again by switching off the centrifuge for a short while.
+M12
+A-2
+A-1
+1 3 4
+Figure 30
+4.1.3 Keyboard sound turn on /off Proceed as described under point 4.1.1 to enter this program mode and then press the key "Accel/Decel" (4). In the display "Acc/Dec" (A-2) the word "Service" (M12) flashes. Now select the letter "b". with the touch wheel (1). As a result, in the display "RPM | RCF" (A-1), the word "ON/BEEP " appears. After pressing the key "RPM | RCF" (3), you can turn the keyboard sound (On) or (Off) with the touch wheel (1) (see figure 31). After you have stored the settings (see 4.1.1) you can change back to the normal program mode again by switchoff the centrifuge for a short while.
+
+FrontierTM 5000 Series Multi
+M12
+A-2
+
+EN-24
+
+A-1
+1 3 4
+Figure 31
+4.1.4 Standby mode settings (only FC5706P) If the centrifuge lid is opened and after not using it for 5 minutes, the centrifuge automatically falls into the standby mode. The display is switching off and the LED light is flashing slowly with yellow color. By pressing any key, the centrifuge will be reactivated. The standby mode can be deactivated or set in the range between 1 ­ 60 minutes. Proceed as described under point 4.1.1 to enter this program mode and then press the key "Accel/Decel" (4). In the display "Acc/Dec" (A-2) the word "Service" (M12) flashes. Now select the letter "I". with the touch wheel (1). As a result, in the display "RPM | RCF" (A-1), the word "STBY " appears. After pressing the key "RPM | RCF" (3), the standby mode can be turned off or pre-set to the needed value by turning the touch wheel (1). After you have stored the settings (see 4.1.1) you can change back to the normal program mode again by switchoff the centrifuge for a short while.
+M12
+A-2
+
+A-1
+1 3 4
+Figure 32
+
+EN-25
+
+FrontierTM 5000 Series Multi
+
+4.1.5 Call up operating data
+
+In the mode "Basic Adjustments" you can call up the operating data of the centrifuge. Please proceed as described under point 4.1.1 to enter this program mode. Press the key "Accel/Decel" (4). In the display "Acc/Dec" (A-2) the word "Service" (M12) flashes.
+
+With the touch wheel (1) the different information can be accessed: A = previous starts of the centrifuge H = previous operating hours h = running time of the motor S = software version E = list of previous error messages F = Function of the Imbalance Sensor U = Intermediate Circuit Voltage in Volt P = Operation of keyboard d = Hardware Version
+
+The list of the last 99 error messages can be looked over by pressing the key "RPM | RCF" (3) and scroll through it by the touch wheel (1). The respective error codes appear in the display "RPM | RCF" (A-1). Please refer to "Table 4: error messages" (see APPENDIX).
+
+To change back to normal program mode again, switch off the centrifuge for a short period.
+
+M12
+A-2
+
+A-1
+1 3 4
+Figure 33
+
+FrontierTM 5000 Series Multi
+
+EN-26
+
+5 MAINTENANCE
+5.1 Maintenance and cleaning
+5.1.1 General Care Maintenance of the centrifuge is confined to keeping the rotor, the rotor chamber, and the rotor accessories clean as well as to regularly lubricating the rotor insert bolts of a swing out rotor (if available).
+
+Suitable lubricant can be order under this order number: 30314586
+
+Own lubricants containing molycote and graphite are not allowed.
+
+Please pay special attention to anodized aluminum parts (if available). Breakage of rotors can be caused even by slight damage. In case of rotors, buckets or tube racks getting in touch with corrosive substances the concerned spots have to be cleaned carefully.
+
+Corrosive substances are for instance: alkalis, alkaline soap solutions, alkaline amines, concentrated acids, solutions containing heavy metals, water-free chlorinated solvents, and saline solutions. e.g. salt water, phenol, halogenated hydrocarbons.
+
+5.1.2 · · · ·
+· ·
+
+Cleaning ­ centrifuges, rotors, accessories
+Turn the device off and disconnect it from the power supply before you begin any cleaning or disinfecting. Do pour liquids into the housing interior.
+Do not spray disinfectant on the device.
+Thorough cleaning not only has its purpose in hygiene but also in avoiding corrosion due to pollution.
+In order to avoid damaging anodized parts such as rotors, reduction plates etc., only pH-neutral detergents with a pH-value of 6-8 may be used for cleaning. Alkaline cleaning agents (pH-value > 8) must not be used. After cleaning, please ensure all parts are dried thoroughly, either by hand or in a hot-air cabinet (max. temperature + 50°C).
+It is necessary to coat anodized aluminum parts with anti-corrosion oil regularly in order to increase their life- spans and reduce corrosion predisposition.
+Due to humidity or not hermetically sealed samples, condensate may be formed. The condensate has to be removed from the rotor chamber with a soft cloth regularly.
+NOTE!
+The maintenance procedure must be repeated every 10 to 15 runs, or at least once a week.
+
+· Connect the unit to the power supply, after the equipment is completely dry. · Do not carry out disinfection with UV-, beta- and gamma-rays or other high energy radiation.
+
+5.1.3 Centrifuge cleaning and disinfection · Open the lid before you turn off the unit. Disconnect it from the power supply. · Remove the rotor screw or nut by turning counterclockwise. · Remove the rotor. · For cleaning and disinfection of the unit and the rotor chamber use the above-mentioned cleaner. · Clean all accessible areas of the device and its accessories, including the power cord with a damp cloth. · Wash the rubber seals and rotor chamber thoroughly with water. · Rub the dry rubber seals with glycerol or talc to prevent these to becoming brittle. Other components of the unit, e.g. motor shaft and rotor cone must not be greased. · Dry the motor shaft with a soft, dry, and lint-free cloth. · Control the unit and accessories for damage.
+
+EN-27
+
+FrontierTM 5000 Series Multi
+
+5.1.4 Cleaning and disinfection of the rotors
+
+· Clean and disinfect the rotors and adapters with the cleaner, previously mentioned above.
+
+· Use a bottle brush to clean and disinfect the rotor bores.
+
+· Rinse the rotor and adapter, with clear water. Particularly, the drillings of the angle rotors.
+
+· When drying the rotor and adapter, set on a towel. Place the angle rotor, with bores down, to dry.
+
+· Dry the rotor cone with a soft, dry, and lint-free cloth, check for damage. Do not grease the rotor cone.
+
+· Put the dry rotor back on the motor shaft.
+
+· Fix the rotor by turning the rotor screw or nut clockwise.
+
+5.1.5 Disinfection of rotors In case of infectious material spilling into the rotor, it must be disinfected directly after the run.
+
+Autoclaving The recommended time for autoclaving: 15-20 min at 121°C (2,15 bar)
+ATTENTION! The sterilization time of 20 min. must not be exceeded. Repeated sterilization will cause reduction of the mechanical resistance of the plastic material.
+
+Before autoclaving the PP-rotor and adapter must be thoroughly cleaned to avoid the burning in of dirty residues. You can disregard the consequences of some chemical residues to plastic materials at ambient temperatures. But at the high temperatures during autoclaving those residues may corrode and destroy the plastic. The objects must be thoroughly rinsed with distilled water after the cleaning but before the autoclaving. Residues of any cleaning liquids may cause fissures, whitening and stains.
+Gas sterilization
+Adapters, bottles, and rotors may be gas sterilized with Ethylenoxyd. Make sure to air out the items after the sterilization and before using them again.
+ATTENTION!
+Because the temperature may rise during the sterilization, rotors, adapters, and bottles must not be closed and must be totally unscrewed
+
+Chemical sterilization Bottles, adapters, and rotors may be treated with the usual liquid disinfectants.
+ATTENTION! Before applying any other cleaning or decontamination method than recommended by the manufacturer, contact the manufacturer to ensure that it will not damage the unit or the rotor.
+
+5.1.6 Glass breakage
+With high g-values, the rate of glass tube breakage increases. Glass splinters have to be removed immediately from rotor, buckets, adapters, and the rotor chamber itself. Fine glass splinters will scratch and therefore damage the protective surface coating of a rotor. If glass splinters remain in the rotor chamber, fine metal dust will build up due to air circulation. This very fine, black metal dust will significantly pollute the rotor chamber, the rotor, the buckets, and the samples.
+If necessary, replace the adapters, tubes, and accessories to avoid further damage. Check the rotor bores regularly for residues and damage.
+ATTENTION!
+Please check the relevant specifications of the tube's centrifuges with the manufacturer.
+
+FrontierTM 5000 Series Multi
+
+EN-28
+
+5.2 Service life of rotors, buckets, accessories
+
+Rotors and rotor lids made of metal have a maximum operating time service life of 7 years from first use. Transparent rotor lids and caps made of PC or PP, as well as rotors, tube racks, and adapters of PP, have a maximum operating time service life of up to 3 years from first use. The condition for the operating time is proper use, damage-free condition, recommended care, and no sign of corrosion or cracks.
+
+· Before each run, please check if the accessories are damaged. Replace any and all damaged accessories. · Rotors, rotor lids, buckets, adapters or caps, which are showing any signs of corrosion or mechanical
+damage, are not longer functional. · Do not use any accessories which are past their operating life. · Be aware when inserting buckets and rotors, ensure that they do not become scratched. · Protect the equipment from damage.
+
+EN-29
+
+FrontierTM 5000 Series Multi
+
+6 TROUBLESHOOTING
+6.1 Error messages: Cause / Solution
+The error messages are listed to help localize possible errors faster.
+The diagnosing referred to in this chapter may not always be the case, as they are only theoretically occurring errors and solutions.
+6.2 Survey of possible failures and their solutions
+6.2.1 Lid release during power failure (Emergency Lid Release) In case of power failure or malfunction, the lid of the centrifuge can be opened manually in order to retrieve your samples.
+Please proceed as follows (see Figure 34):
+ATTENTION!
+· Switch the centrifuge off unplug the power cord, wait until the rotor stands still (this may take several minutes).
+· At the right side of the centrifuge (FC5706P) there is a plastic stopper. At the FC5707 the stopper is at the left side (see Figure 34). Remove this stopper, which is connected to the lid lock, horizontally from the housing until the centrifuge lid opens.
+· Pull the string to open centrifuge lid.
+
+Emergency Lid Release
+
+Figure 34
+
+6.2.2 Description of the error message system
+The error message "error" (M11) is shown in the "Time/Prog" (A-3) display (see Figure 35). Detailed information about possible error messages is in Table: "Table 4: error messages" See APPENDIX.
+
+M11
+
+A-3
+
+Figure 35
+
+FrontierTM 5000 Series Multi
+
+EN-30
+
+6.2.3 Procedure while error 14
+
+If Error 14 occurs, there is a problem with the speed sensor. The centrifuge lid is closed for undefined period of time and in the "RPM | RCF" (A-1) display shows the lettering "USEr GuidE"
+
+A-1
+Figure 36 To reopen the centrifuge lid, switch off the device and wait until the rotor has come to a standstill. Take from "Table 3: acceleration and deceleration times" the maximum deceleration time of the respective rotor. Level 0 corresponds to unbreaked rundown, which occurs at error 14. If the centrifuge lid is opened before standstill of the rotor, a following error can occur. Once the rotor has come to a standstill, open the centrifuge lid with the emergency release. Proceed as described in chapter 6.2.1. After opening the centrifuge lid, switch on the device again. Error 14 and the lettering "USEr GuidE" should be eliminated.
+
+EN-31
+7 RECEIPT OF CENTRIFUGES TO REPAIR
+ATTENTION! Health risk from contaminated equipment, rotors, and accessories.
+
+FrontierTM 5000 Series Multi
+
+In case of returning the Centrifuge for repair, please take note of the following:
+· The centrifuge must be decontaminated and cleaned before the shipment for the protection of persons, environment, and material.
+· Decontamination certificate at goods return delivery (See APPENDIX). We reserve the right to not accept contaminated centrifuges.
+· Further on all costs occurred for the cleaning and disinfection of the units will go to the debit of the customer's account.
+
+FrontierTM 5000 Series Multi
+
+EN-32
+
+8 TRANSPORT and STORAGE
+8.1 Transport
+· Before transporting, take out the rotor. · Only transport the unit in the original packaging. · Install the transport protection material to secure the motor shaft, when transporting over longer distances.
+
+Air temperature General transportation -25 to 60 °C
+
+Rel. humidity 10 to 75 %
+
+Air pressure 30 to 106 kPa
+
+8.2 Storage
+During storage of the centrifuge the following environmental conditions must be observed:
+
+In transportation packaging
+
+Air temperature -25 to 60 °C
+
+Rel. humidity 10 to 75 %
+
+Air pressure 30 to 106 kPa
+
+EN-33
+9 TECHNICAL DATA
+9.1 Specifications
+9.1.1 Centrifuge FC5706P Model Speed Range Maximum RCF Maximum Capacity (Rotor) Temperature range (N/A) Running Time Noise level (depending on the rotor) Allowable density at maximum speed Allowable kinetic energy Rated voltage Voltage fluctuation Rated current Power continues
+Dimensions (W × D × H)
+Net Weight (without rotor)
+Shipping Dimensions (W × D × H)
+Shipping Weight (without rotor)
+Environment Altitude Ambient temperature
+Max. relative humidity
+Overvoltage category (IEC 60364-4-443) Degree of contamination Class of protection Not suitable for use in hazardous environments. EMC
+
+FrontierTM 5000 Series Multi
+FC5706P 200 rpm - 6000 rpm;10 rpm/set
+4427 x g;10 x g/set 6 x 50 ml Air cool
+10 sec to 99 hr 59 min 59 sec or continuous  56 ± 2 dB(A) 1.2 g/ml 2427 Nm
+100-240 V ~ 50/60 Hz ± 10 % 1.5 A 70 W
+323 x 427 x 271 mm 12.7 x 16.8 x 10.7 in
+14.2 kg 31.3 lb 370 x 540 x 365 mm 15.6 x 21.3 x 14.4 in 17.6 kg 38.8 lb For indoor use only Use up to an altitude of 2000 m 5°C up to 35 °C Max. relative humidity 80 % for temperatures up to 31°C,decreasing linearly to 50 % relative humidity up to 35°C.
+II 2 I
+EN/IEC 61326-1 Class B emissions, Basic immunity FCC Class B emissions
+
+FrontierTM 5000 Series Multi
+
+EN-34
+
+9.1.2 Centrifuge FC5707
+
+Model Speed Range Maximum RCF
+
+FC5707+R05
+
+FC5707+R09
+
+200 rpm - 6800 rpm;10 rpm/set
+
+4445 x g;10 x g/set
+
+Maximum Capacity (Rotor)
+Running Time Noise level (depending on the rotor) Allowable density at maximum speed Allowable kinetic energy
+
+8 x 15 ml RB / 4 x 15 ml FA
+
+4x50ml RB/FA or 15ml RB/FA
+
+10 sec to 99 hr 59 min 59 sec or continuous
+
+ 58 ± 2 dB(A)
+
+845 Nm
+
+1.2 g/ml
+
+1341 Nm
+
+Mains power connection AC
+
+100-230 V ~ 50/60 Hz
+
+Voltage fluctuation
+
+± 10 %
+
+Current consumption
+
+0.8A/100V - 0.4A/230V
+
+Power consumption
+
+50 W
+
+Dimensions (W × D × H)
+
+277 x 356 x 236 mm 10.9 x 14.0 x 9.3 in
+
+Net Weight (without rotor)
+
+11 kg 24.3 lb
+
+Shipping Dimensions (W × D × H)
+
+370 x 460 x 360 mm 14.6 x 18.1 x 14.7 in
+
+Shipping Weight (without rotor)
+
+13.5 kg 29.8 lb
+
+Environment
+
+for indoor use only
+
+Altitude
+
+Use up to an altitude of 2000 m
+
+Ambient temperature
+Max. relative humidity
+Overvoltage category (IEC 60364-4443) Degree of contamination
+
+5°C up to 35 °C Max. relative humidity 80 % for temperatures up to 31°C, decreasing linearly to 50 % relative humidity
+up to 35°C.
+II
+2
+
+Class of protection
+
+I
+
+Not suitable for use in hazardous environments.
+
+EMC
+
+EN/IEC 61326-1 Class B emissions, Basic immunity FCC Class B emissions
+
+EN-35
+9.2 Drawings and dimension
+Dimensions for FC5706P
+
+FrontierTM 5000 Series Multi
+
+Dimensions for FC5707
+
+FrontierTM 5000 Series Multi
+10 COMPLIANCE
+Compliance to the following standards is indicated by the corresponding mark on the product. The EU Declaration of Conformity is available online at www.ohaus.com/ce.
+
+EN-36
+
+Disposal In conformance with the European Directive 2012/19/EU on Waste Electrical and Electronic Equipment (WEEE) this device may not be disposed of in domestic waste. This also applies to countries outside the EU, per their specific requirements.
+Please dispose of this product in accordance with local regulations at thecollecting point specified for electrical and electronic equipment.
+If you have any questions, please contact the responsible authority or thedistributor from which you purchased this device.
+Should this device be passed on to other parties (for private or professional use),the content of this regulation must also be related.
+For disposal instructions in Europe, refer to www.ohaus.com/weee.Thank you for
+your contribution to environmental protection.
+
+EN-37 FCC Supplier Declaration of Conformity Unintentional Radiator per 47CFR Part B
+
+FrontierTM 5000 Series Multi
+
+Trade Name: OHAUS CORPORATION Model: FC5706P, FC5707
+Party issuing Supplier's Declaration of Conformity:
+Ohaus Corporation 8 Campus Drive, Suite 105 Parsippany, NJ 07054 United States Phone: +1 973 377 9000 Web: www.ohaus.com
+
+Responsible Party
+Ohaus Corporation 8 Campus Drive, Suite 105 Parsippany, NJ 07054 United States Phone: +1 973 377 9000 Web: www.ohaus.com
+FCC Compliance Statement:
+Note: This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to try to correct the interference by one or more of the following measures:
+
+--Reorient or relocate the receiving antenna. --Increase the separation between the equipment and receiver. --Connect the equipment into an outlet on a circuit different from that to which the receiver is connected. --Consult the dealer or an experienced radio/TV technician for help. Changes or modifications not expressly approved by the party responsible for compliance could void the user'sauthority to operate the equipment.
+
+FrontierTM 5000 Series Multi
+11 APPENDIX
+TABLE 1: PERMISSIBLE NET WEIGHT TABLE 2: MAX. SPEED AND RCF-VALUES FOR PERMISSIBLE ROTORS TABLE 3: ACCELERATION AND DECELERATION TIMES TABLE 4: ERROR MESSAGES TABLE 5: RADIUS CORRECTION TABLE 6: TABLE OF THESERVICE LIFE OF ROTORS REDEMPTION FORM / DECONTAMINATION CERTIFICATE
+
+EN-38
+
+EN-39
+11.1 Table 1: Permissible net weight
+
+Rotor ID Order No. Description
+
+77
+
+30130877 Angle Rotor 12 x 15ml
+
+78
+
+30130878 Angle Rotor 6 x 50ml
+
+80
+
+30130880 Swing out rotor for 6 x 5ml
+
+97
+
+31013397 Swing out Rotor 4x10ml
+
+99
+
+83041499 Angle Rotor 18x1.5/2.0ml
+
+05
+
+30472305 Angle Rotor 8 x 15ml RB or 4 x 15 ml FA
+
+09
+
+83041009 Angle Rotor 4 x 50 ml or 15 ml RB/FA
+
+FrontierTM 5000 Series Multi
+
+Max. speed
+6,000 rpm 6,000 rpm 4,000 rpm 4,200 rpm 4,000 rpm 6,800 rpm 6,800 rpm
+
+Permissible weight
+300 g 300 g 240 g 148 g 61 g 200 g 288 g
+
+FrontierTM 5000 Series Multi
+
+11.2 Table 2 : Max. speed and RCF-values for permissible rotors
+
+Rotor ID Order No. Description
+
+Used in model
+
+77
+
+30130877 Angle Rotor 12 x 15ml
+
+FC5706P
+
+78
+
+30130878 Angle Rotor 6 x 50ml
+
+FC5706P
+
+80
+
+30130880 Swing out rotor for 6 x 5ml
+
+FC5706P
+
+97
+
+31013397 Swing out Rotor 4x10ml
+
+FC5706P
+
+99
+
+83041499 Angle Rotor 18x1.5/2.0ml
+
+FC5706P
+
+05
+
+30472305 Angle Rotor 8 x 15ml RB or 4 x 15 ml FA
+
+FC5707
+
+09
+
+83041009 Angle Rotor 4 x 50 ml or 15 ml RB/FA
+
+FC5707
+
+EN-40
+
+Max Speed Max RCF
+
+6,000 rpm 6,000 rpm 4,000 rpm 4,200 rpm 6,000 rpm 6,800 rpm 6,800 rpm
+
+4,427 x g 4,427 x g 1,878 x g 2,406 x g 2,938 x g 4,445 x g 4,445 x g
+
+EN-41
+11.3 Table 3: Acceleration and deceleration times
+
+FrontierTM 5000 Series Multi
+
+Rotor ID Order No. Rotor type
+
+77
+
+30130877 Angle Rotor 12 x 15ml
+
+Acceleration
+
+Deceleration
+
+Time in seconds Time in seconds
+
+Used in model
+
+level 0
+
+level 9
+
+level 0
+
+level 9
+
+FC5706P 301
+
+41
+
+199
+
+44
+
+78
+
+30130878 Angle Rotor 6 x 50ml
+
+FC5706P 452
+
+41
+
+211
+
+47
+
+80
+
+30130880 Swing out rotor for 6 x 5ml
+
+FC5706P 43
+
+8
+
+22
+
+8
+
+97
+
+31013397 Swing out Rotor 4x10ml
+
+FC5706P 57
+
+12
+
+18
+
+12
+
+99
+
+83041499 Angle Rotor 18x1.5/2.0ml
+
+FC5706P 104
+
+12
+
+27
+
+12
+
+05
+
+30472305
+
+Angle Rotor 8 x 15ml RB or 4 x 15 ml FA
+
+FC5707
+
+227
+
+31
+
+224
+
+29
+
+09
+
+83041009
+
+Angle Rotor 4 x 50 ml or 15 ml RB/FA
+
+FC5707
+
+679
+
+54
+
+680
+
+49
+
+FrontierTM 5000 Series Multi
+11.4 Table 4: Error messages
+Error No. Description
+
+EN-42
+
+1 2 14 CLOSE lid 15 33 34 43 44 47 55 80
+
+Imbalance arose Imbalance sensor is defective
+Leap of speed is too big between two measurements. Centrifuge lid is closed for undefined period of time. Use
+Standstill detection defective Open lid while motor is running Lid contact defective Undervoltage intermediate circuit Overcurrent intermediate circuit Error current detection Overspeed Memory Error intern EEPROM
+
+EN-43
+11.5 Table 5: Radius correction and adapter specifications
+
+Rotor Order No.
+30130877
+
+Description Angle Rotor 12 x 15ml
+
+Adapter Order No.
+None
+30130889 30130890 30130886 30211180
+
+None
+
+30130878
+
+Angle Rotor 6 x 50ml
+
+30130891 83041032 30130892 30130893 30130894 30130889 30130890 30130886
+
+30130880
+
+Swing out rotor for 6 x 5ml
+
+None
+
+31013397
+
+Swing out Rotor 4x10ml
+
+None
+
+83041499 30472305 83041009
+
+Angle Rotor 18x1.5/2.0ml
+
+None
+30130884 30130885
+
+None
+
+Angle Rotor 8 x 15ml RB or 4 x 15 ml FA
+
+30130889 30130890 30130886 83041036
+
+Angle Rotor 4 x 50 ml or 15 ml RB/FA
+
+None
+
+FrontierTM 5000 Series Multi
+
+Radius (cm)
+11 10.6 9.1 7.7 10.7
+11
+10.7 8.7 10.3 10.6 10.7 9.9 8.3 6.7
+10.6
+
+Correction (cm)
+0.0 -0.4 -1.9 -3.4 -0.3
+0.0
+-0.3 -2.3 -0.7 -0.4 -0.3 -1.1 -2.7 -4.3
+0.0
+
+12.2
+
+0.0
+
+7.3
+
+0.0
+
+7.0
+
+-0.3
+
+6.3
+
+-1.0
+
+8.6
+
+0.0
+
+8.3
+
+-0.3
+
+7.0
+
+-1.6
+
+5.6
+
+-3.0
+
+7.8
+
+-0.8
+
+8.6
+
+0
+
+FrontierTM 5000 Series Multi
+11.6 Table 6: Table of the service life of the rotors
+
+Rotor ID
+77 78 80 97 99 05 09
+
+Order No. Description
+
+30130877 30130878 30130880 31013397 83041499 30472305 83041009
+
+Angle Rotor 12 x 15ml Angle Rotor 6 x 50ml Swing out rotor for 6 x 5ml
+Swing out Rotor 4x10ml Angle Rotor 18x1.5/2.0ml Angle Rotor 8 x 15ml RB or 4 x 15 ml FA Angle Rotor 4 x 50 ml or 15 ml RB/FA
+
+Service life, years 3 3 3 3 3 3 3
+
+EN-44
+
+EN-45
+
+FrontierTM 5000 Series Multi
+
+11.7 Redemption form / Decontamination certificate
+
+Enclose this form with all returns of equipment and assemblies!
+
+The completed declaration about the decontamination is a prerequisite for the assumption and further processing of the return. If no corresponding explanation is enclosed, we carry out decontamination with costs at your expense.
+
+Surname:
+
+First name:
+
+Organization / company: Street: Zip code:
+
+Telephone:
+
+fax:
+
+E-Mail:
+
+Pos.
+1 2 3
+
+Crowd Decontaminated object
+
+4
+
+Serial number
+
+Description /Comment
+
+Are the parts listed above in contact with the following substances?
+
+1. Health endangering watery solutions, buffers, acids, alkalis 2. Potentially infectious agents 3. Organic reagents and solvent 4. Radioactive substances 5. Health endangering proteins 6. DNA 7. These substances have reached the equipment/assembly?
+Which one, if yes:
+
+Please fill out in block capitals!
+
+Yes No Yes No Yes No  Yes No Yes No Yes No Yes No
+
+Description of the measures for the decontamination of the listed parts:
+
+I confirm the proper decontamination: Company/Department: Place and Date: Signature of responsible person:
+
+Ohaus Corporation
+8 Campus Drive Suite 105 Parsippany, NJ 07054 USA Tel: +1 973 377 9000 Fax: +1 973 944 7177 With offices worldwide www.ohaus.com
+* 83042066A*
+P/N 83042066A © 2025 Ohaus Corporation, all rights reserved
+

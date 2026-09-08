@@ -7,9 +7,9 @@ import com.google.gson.reflect.TypeToken
 import java.io.IOException
 
 /**
- * Lee app/src/main/assets/info_equipos.json (mapa nombre_equipo -> texto informativo)
- * para usarlo como respaldo cuando la API de OpenAI no está disponible (sin conexión,
- * sin créditos, error 429/500, etc.). Ver OpenAIRepository.
+ * Lee app/src/main/assets/info_equipos.json (mapa nombre_equipo -> texto informativo) para
+ * usarlo como contexto de respaldo cuando el equipo todavía no tiene su ficha/manual completo
+ * en app/src/main/assets/docs_equipos/ (ver EquipmentDocumentProvider y EquipmentQaRepository).
  */
 class LocalEquipmentInfoProvider(context: Context) {
 

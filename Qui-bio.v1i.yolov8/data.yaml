@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 19
+names: ['Agitador_Orbital_DLAB', 'Autoclave', 'Balanza_Analitica_Ohaus', 'Balanza_Granataria_Ohaus', 'Camara_Extractora_Biobase', 'Centrifuga_Ohaus_Frontier', 'Contador_Colonias_CC1', 'Destilador_agua', 'Estufa_Memmert', 'Horno_Secado_Biobase', 'Incubadora', 'Memmert_Unidad2', 'Microscopio_Binocular', 'Microscopio_camara', 'Microscopio_estereo', 'Phmetro_Ohaus', 'Plancha_Agitacion_Cimarec', 'Sistema_Rotaevaporacion', 'Vortex_Mixer_LabNet']
+
+roboflow:
+  workspace: azambranoy-uteq-edu-ec
+  project: qui-bio
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/azambranoy-uteq-edu-ec/qui-bio/dataset/1

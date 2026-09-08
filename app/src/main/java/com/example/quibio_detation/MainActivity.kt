@@ -30,8 +30,11 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import com.example.quibio_detation.ai.GeminiCloudService
+import com.example.quibio_detation.ai.GeminiNanoService
+import com.example.quibio_detation.data.EquipmentDocumentProvider
+import com.example.quibio_detation.data.EquipmentQaRepository
 import com.example.quibio_detation.data.LocalEquipmentInfoProvider
-import com.example.quibio_detation.data.OpenAIRepository
 import com.example.quibio_detation.databinding.ActivityMainBinding
 import com.example.quibio_detation.databinding.ItemEquipmentChipBinding
 import com.example.quibio_detation.ml.DetectorProvider
@@ -47,6 +50,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var viewModel: MainViewModel
     private lateinit var cameraExecutor: ExecutorService
+    private lateinit var geminiNanoService: GeminiNanoService
 
     private var lastAnalysisTimestamp = 0L
 
@@ -74,17 +78,19 @@ class MainActivity : AppCompatActivity() {
         // El detector usa el modelo YOLO real si existe en assets/,
         // o el detector de prueba (Mock) si todavía no fue agregado.
         val detector = DetectorProvider.create(applicationContext)
-        val repository = OpenAIRepository(LocalEquipmentInfoProvider(applicationContext))
+        geminiNanoService = GeminiNanoService()
+        val repository = EquipmentQaRepository(
+            documentProvider = EquipmentDocumentProvider(applicationContext),
+            localInfoProvider = LocalEquipmentInfoProvider(applicationContext),
+            geminiNano = geminiNanoService,
+            geminiCloud = GeminiCloudService()
+        )
         viewModel = ViewModelProvider(
             this,
             MainViewModel.Factory(detector, repository)
         )[MainViewModel::class.java]
 
         cameraExecutor = Executors.newSingleThreadExecutor()
-
-        binding.btnAskEquipment.setOnClickListener {
-            viewModel.askAboutDetectedEquipment()
-        }
 
         binding.overlayView.onDetectionTapped = { detection ->
             viewModel.selectDetection(detection)
@@ -204,6 +210,7 @@ class MainActivity : AppCompatActivity() {
                 launch { observeSelectedDetection() }
                 launch { observeChatMessages() }
                 launch { observeIsSending() }
+                launch { observeDownloadProgress() }
             }
         }
     }
@@ -241,8 +248,6 @@ class MainActivity : AppCompatActivity() {
             tintChips(selected?.label)
 
             val isSelected = selected != null
-            binding.btnAskEquipment.isEnabled = isSelected
-            binding.btnAskEquipment.alpha = if (isSelected) 1.0f else 0.5f
             binding.etQuestion.isEnabled = isSelected
             binding.btnSend.isEnabled = isSelected
             binding.btnSend.alpha = if (isSelected) 1.0f else 0.4f
@@ -371,11 +376,22 @@ class MainActivity : AppCompatActivity() {
             val hasSelection = viewModel.selectedDetection.value != null
             binding.btnSend.isEnabled = !sending && hasSelection
             binding.btnSend.alpha = if (binding.btnSend.isEnabled) 1.0f else 0.4f
-            binding.btnAskEquipment.isEnabled = !sending && hasSelection
-            binding.btnAskEquipment.alpha = if (binding.btnAskEquipment.isEnabled) 1.0f else 0.5f
         }
     }
 
+    /** Muestra el progreso de la descarga de Gemini Nano (única vez, primer uso en el dispositivo). */
+    private suspend fun observeDownloadProgress() {
+        viewModel.downloadProgress.collect { percent ->
+            if (percent == null) {
+                binding.tvModelStatus.visibility = View.GONE
+            } else {
+                binding.tvModelStatus.visibility = View.VISIBLE
+                binding.tvModelStatus.text = getString(R.string.downloading_model_format, percent)
+            }
+        }
+    }
+
+    /** Muestra la ficha técnica (manual/documento completo, sin pasar por el LLM) del equipo seleccionado. */
     private fun dpToPx(dp: Int): Int = (dp * resources.displayMetrics.density).toInt()
 
     private fun formatEquipmentLabel(rawLabel: String): String {
@@ -406,6 +422,7 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         cameraExecutor.shutdown()
+        geminiNanoService.close()
     }
 
     companion object {
