@@ -18,6 +18,9 @@
     <color name="accent_amber_light">#FEF3C7</color>
     <color name="accent_cyan">#06B6D4</color>
 
+    <!-- Estado "grabando voz" del botón de micrófono -->
+    <color name="recording_red">#EF4444</color>
+
     <!-- Detection HUD -->
     <color name="hud_box_default">#10B981</color>
     <color name="hud_box_selected">#F59E0B</color>

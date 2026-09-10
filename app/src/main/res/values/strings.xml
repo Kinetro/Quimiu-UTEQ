@@ -16,4 +16,14 @@
     <string name="send">Enviar</string>
     <string name="select_equipment_prompt">Selecciona un equipo para preguntar</string>
     <string name="downloading_model_format">Descargando IA on-device (Gemini Nano)… %1$d%%</string>
+
+    <!-- Preguntas por voz -->
+    <string name="voice_input">Preguntar por voz</string>
+    <string name="voice_listening">Escuchando…</string>
+    <string name="voice_not_available">El reconocimiento de voz no está disponible en este dispositivo</string>
+    <string name="mic_permission_denied">Se necesita permiso de micrófono para preguntar por voz</string>
+    <string name="voice_not_understood">No se entendió lo que dijiste. Intenta de nuevo.</string>
+    <string name="voice_error">No se pudo usar el micrófono. Intenta de nuevo.</string>
+    <string name="speak_answers_on">Silenciar respuestas habladas</string>
+    <string name="speak_answers_off">Activar respuestas habladas</string>
 </resources>

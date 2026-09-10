@@ -61,11 +61,9 @@ class MainViewModel(
 
         _frameDetections.value = FrameDetections(bitmap.width, bitmap.height, detections)
 
-        // Si la detección seleccionada ya no aparece en este frame, se limpia la selección.
-        val current = _selectedDetection.value
-        if (current != null && detections.none { it.label == current.label }) {
-            _selectedDetection.value = null
-        }
+        // La selección NO se borra aunque el equipo deje de detectarse en un frame (movimiento,
+        // desenfoque, se sale del cuadro): una vez que el usuario elige un equipo, sigue
+        // seleccionado -y se puede seguir preguntando, incluso por voz- hasta que elija otro.
     }
 
     /** Se llama al tocar una caja del overlay o un chip de la lista de equipos detectados. */
@@ -86,6 +84,7 @@ class MainViewModel(
     }
 
     private fun send(equipmentLabel: String, question: String) {
+        if (_isSending.value) return // evita disparar 2 consultas si se toca/enviar dos veces seguidas
         _chatMessages.value = _chatMessages.value + ChatMessage(isUser = true, text = question)
 
         viewModelScope.launch {
